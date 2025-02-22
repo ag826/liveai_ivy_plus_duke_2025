@@ -9,6 +9,7 @@ load_dotenv()
 
 def get_events(
     user_location,
+    event_date,  # THIS HAS TO BE A STRING
 ):  # mention this as either 'current' or the actual custom location needed
     # Fetch user's location automatically based on IP
     if user_location == "current":
@@ -24,7 +25,7 @@ def get_events(
     # Define search parameters with auto-detected location
     params = {
         "engine": "google_events",
-        "q": f"Events in {user_location}",
+        "q": f"Events in {user_location} on {event_date}",  # ONLY TOP 10 RESULTS GET POPULATED WITH OFFSET OPTION AVAILABLE
         "hl": "en",
         "gl": "us",
         "api_key": os.environ["SEARCH_API_KEY"],
@@ -43,3 +44,8 @@ def get_events(
         json.dump(events_results, json_file, indent=4, ensure_ascii=False)
 
     print(f"Results saved to {output_file}")
+    print(events_results)
+
+
+if __name__ == "__main__":
+    print(get_events("current", "March 15 2025"))

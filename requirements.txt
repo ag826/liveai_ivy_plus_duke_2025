@@ -1,0 +1,14 @@
+#for get_events.py
+serpapi
+google-serp-api
+google-search-results
+
+# for geministuff.py
+google
+google.generativeai
+geocoder
+json
+sqlite3
+shutil
+pandas
+datetime

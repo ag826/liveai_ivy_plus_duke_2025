@@ -1,169 +1,83 @@
 [
     {
-        "title": "Winter Food Truck Rodeo!",
+        "title": "Durham True Crime Tour",
         "date": {
-            "start_date": "Feb 23",
-            "when": "Sun, Feb 23, 12 – 4 PM"
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 6 – 7 PM"
         },
         "address": [
-            "Durham Central Park, 501 Foster St",
+            "Lucky Strike Tower, 334 Blackwell St",
             "Durham, NC"
         ],
-        "link": "https://www.glass-jug.com/events/foodtruckrodeofeb25",
+        "link": "https://www.eventbrite.com/e/downtown-durham-true-crime-tour-tickets-693388141597",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=S2F0GwuQT89Cc282wKn7dxlALdnonFMEKMu5bGWUbaNuv8nNdkUggbbwu8peLZBioIp4PHBAkHiNllib-r9-F3s7-snd1HfSjNv52pLNWSr25_STppY",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c2a1928d:0x2b3f3f4dc8b7cf39?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIARAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c2a1928d%3A0x2b3f3f4dc8b7cf39&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
+            "image": "https://www.google.com/maps/vt/data=OJ5VdntqanK2H0cgKQGIyz-djRYXyrv_Az8M-2zzyHqf4zy2-qVcfrSET_AbLBN18moAKPR3U-fUEDqCNW5fjJ9DYJsld4OJH9pgu_fFkgeaPKV5Bus",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5cd3d608833:0xd18a6e17f033762d?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIARAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5cd3d608833%3A0xd18a6e17f033762d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
         },
-        "description": "Join us downtown for over 50+ food trucks, cuisine from all over the world, and family fun - making it the ultimate Sunday Funday in Durham Central Park! The famous rodeos feature trucks and drink...",
+        "description": "Explore the dark side of the Bull City with this guided true crime tour",
         "ticket_info": [
             {
                 "source": "Eventbrite.com",
-                "link": "https://www.eventbrite.com/e/winter-food-truck-rodeo-at-durham-central-park-registration-1233894404379",
+                "link": "https://www.eventbrite.com/e/downtown-durham-true-crime-tour-tickets-693387279017",
                 "link_type": "tickets"
             },
             {
-                "source": "The Glass Jug Beer Lab",
-                "link": "https://www.glass-jug.com/events/foodtruckrodeofeb25",
+                "source": "Durham True Crime Tour - The Triangle Weekender",
+                "link": "https://thetriangleweekender.com/event/durham-true-crime-tour-2/2025-03-15/",
                 "link_type": "more info"
             },
             {
-                "source": "Durham Central Park",
-                "link": "https://durhamcentralpark.org/organizer/durham-central-park/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Downtown Durham Inc",
-                "link": "https://downtowndurham.com/event/durham-central-parks-food-truck-rodeo-2/",
-                "link_type": "more info"
-            },
-            {
-                "source": "The Triangle Weekender",
-                "link": "https://thetriangleweekender.com/event/food-truck-rodeo/2025-02-23/",
+                "source": "AllEvents.in",
+                "link": "https://allevents.in/durham/downtown-durham-historian-guided-tour/80001434433097?slot=2025-03-15",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Durham Central Park",
-            "rating": 4.6,
-            "reviews": 1566,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Durham+Central+Park&ludocid=3116279070476193593&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9D2N2OydVj_-OwI2M6VCOL3lt8bJ9IX6-XmneEsgdqC5aVWYMehtbNVw&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_pceanpSf0B9WdzbkGQu8nwFxmavZd8BG3aTyiEf1g0qBJTGRceZtTS7Eg&s"
-    },
-    {
-        "title": "Durham Farmers’ Market",
-        "date": {
-            "start_date": "Feb 22",
-            "when": "Sat, Feb 22, 9 AM – 12 PM"
-        },
-        "address": [
-            "Durham Central Park, 501 Foster St",
-            "Durham, NC"
-        ],
-        "link": "https://durhamcentralpark.org/upcoming-event/durham-farmers-market-6/2025-02-22/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=S2F0GwuQT89Cc282wKn7dxlALdnonFMEKMu5bGWUbaNuv8nNdkUggbbwu8peLZBioIp4PHBAkHiNllib-r9-F3s7-snd1HfSjNv52pLNWSr25_STppY",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c2a1928d:0x2b3f3f4dc8b7cf39?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQICRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c2a1928d%3A0x2b3f3f4dc8b7cf39&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
-        },
-        "description": "The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the people selling it, and...",
-        "ticket_info": [
-            {
-                "source": "Durham Central Park",
-                "link": "https://durhamcentralpark.org/upcoming-event/durham-farmers-market-6/2025-02-22/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Patch",
-                "link": "https://patch.com/north-carolina/durham-nc/calendar/event/20250222/627fa65b-1eeb-49a5-ac8d-d62d1605a81f/durham-farmers-market",
-                "link_type": "more info"
-            },
-            {
-                "source": "Meetup",
-                "link": "https://www.meetup.com/oakcitycameraclub/",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Durham Central Park",
-            "rating": 4.6,
-            "reviews": 1566,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Durham+Central+Park&ludocid=3116279070476193593&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrtfrqCkPay7NJks7pfybv8FjrP5UszL74LocqDer6vyv3czWYeUs1y5Y&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReP-GfEmOd9F7cv6eWWLNoy0JawsxfZqhiBTRFXb10QQ&s=10"
-    },
-    {
-        "title": "Trae Crowder",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sun, Feb 23, 1 AM"
-        },
-        "address": [
-            "The Carolina Theatre, 309 W Morgan St",
-            "Durham, NC"
-        ],
-        "link": "https://gametime.co/comedy/trae-crowder-tickets/2-22-2025-durham-nc-carolina-theatre/events/66d9bf84ff8b5fcf5903aaed",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=STlerM6zl-85JBKpuWnDxn6BNdDXae0CTTDfILB-3iofUU_JsCMtnJzLmCeWf7A7fGNoePEHuoA3pSE64RcofvSbSA6lLb6ZqHoWp6qvdiAgnqKFVlQ",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4725cefabbd:0xef73a72afcc70843?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIERAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4725cefabbd%3A0xef73a72afcc70843&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
-        },
-        "description": "Gametime is offering last-minute theater tickets to Trae Crowder at Carolina Theatre in Durham, NC",
-        "ticket_info": [
-            {
-                "source": "Gametime.co",
-                "link": "https://gametime.co/comedy/trae-crowder-tickets/2-22-2025-durham-nc-carolina-theatre/events/66d9bf84ff8b5fcf5903aaed",
-                "link_type": "tickets"
-            }
-        ],
-        "venue": {
-            "name": "The Carolina Theatre",
+            "name": "Lucky Strike Tower",
             "rating": 4.7,
-            "reviews": 2594,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=The+Carolina+Theatre&ludocid=17254318400457869379&ibp=gwp%3B0,7"
+            "reviews": 60,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Lucky+Strike+Tower&ludocid=15099001749806216749&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLkFGMoE1lEFxzFMyJpJ9zjlrA5a4X5QJmzUm9XmJhUHeRO1vJInV9nfA&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxpDJCNAFA8_5MWcodR00UVObgCTvmEtU8poiKPpTNzchFkC0g1O_PfQn-8A&s=10"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BVQkFRH1HDVTYz2qjeTH48S5x4erFUJvh2C_HCJToSzeII9o76ELcCQ&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVZYOWiqr2yaB57mmQxK6fxksBaBgch4VoYQPdPWlIw&s=10"
     },
     {
-        "title": "Dinner Detective Raleigh – Durham, NC - February 22, 2025 @ 6:00 PM",
+        "title": "Dinner Detective Raleigh – Durham, NC - March 15, 2025 @ 6:00 PM",
         "date": {
-            "start_date": "Feb 22",
-            "when": "Sat, Feb 22, 6:00 – 8:30 PM"
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 6:00 – 8:30 PM"
         },
         "address": [
             "Embassy Suites by Hilton Raleigh Crabtree, 4700 Creedmoor Rd",
             "Raleigh, NC"
         ],
-        "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-february-22nd-2025-raleigh-nc/",
+        "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-march-15th-2025-raleigh-nc/",
         "event_location_map": {
             "image": "https://www.google.com/maps/vt/data=4HO04HpGRFhtzXd_Y_BIvJePF3PAnltLEPwdYwT6LlN8dH_Sg-k-jJr31hSg0XAgljBuu6LdN3ExPjKoUztqqp0noCGK0n299qYlkB5aNmyYz2aZMgQ",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf638747fa06b:0x1686a5eed107627d?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIGRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf638747fa06b%3A0x1686a5eed107627d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf638747fa06b:0x1686a5eed107627d?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQICRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf638747fa06b%3A0x1686a5eed107627d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
         },
         "description": "The Dinner Detective is America's largest murder mystery dinner show! Now playing in Raleigh – Durham, NC. Witness a hilarious mystery while you feast on a fantastic dinner.",
         "ticket_info": [
             {
                 "source": "Thedinnerdetective.com",
-                "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-february-22nd-2025-raleigh-nc/",
+                "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-march-15th-2025-raleigh-nc/",
                 "link_type": "tickets"
             },
             {
+                "source": "Visit Raleigh",
+                "link": "https://www.visitraleigh.com/event/the-dinner-detective-comedy-mystery-dinner-show/95746/",
+                "link_type": "more info"
+            },
+            {
                 "source": "WNCT",
-                "link": "https://www.wnct.com/calendar/1000/#!/details/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/14755818/2025-02-22T18",
+                "link": "https://www.wnct.com/calendar/?nxsparam=7#!/details/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/14968599/2025-03-15T18",
                 "link_type": "more info"
             },
             {
-                "source": "The Triangle Weekender",
-                "link": "https://thetriangleweekender.com/event/the-dinner-detective-comedy-mystery-dinner-show/2025-02-22/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Raleigh Magazine",
-                "link": "https://raleighmag.com/event/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc-2/2025-02-22/",
+                "source": "The Dinner Detective Comedy Mystery Dinner Show - Raleigh – Durham, NC - Raleigh Magazine",
+                "link": "https://raleighmag.com/event/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/2025-03-15/",
                 "link_type": "more info"
             }
         ],
@@ -171,243 +85,286 @@
             "name": "Embassy Suites by Hilton Raleigh Crabtree",
             "rating": 4.3,
             "reviews": 1790,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Embassy+Suites+by+Hilton+Raleigh+Crabtree&ludocid=1623167160841364093&ibp=gwp%3B0,7"
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Embassy+Suites+by+Hilton+Raleigh+Crabtree&ludocid=1623167160841364093&ibp=gwp%3B0,7"
         },
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LEb5FLhBXEsQlI-5qq8pSpBuOca8ZVTNrXXO6Tg&s",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjNg4euhF-e3lVCXrVglzrz-EStJYraSmvyHzcHQ6kQ&s=10"
     },
     {
-        "title": "Open Mic Event",
+        "title": "Durham Creek Week 2025 — Keep Durham Beautiful",
         "date": {
-            "start_date": "Feb 22",
-            "when": "Feb 2, 6 PM – Mar 4, 4 PM"
+            "start_date": "Mar 15",
+            "when": "Mar 15, 8 AM – Mar 23, 5 PM"
         },
         "address": [
-            "Gizmo Brew Works - Brewery & Taproom, 5907 Triangle Dr",
-            "Raleigh, NC"
+            "Keep Durham Beautiful, 2011 Fay St",
+            "Durham, NC"
         ],
-        "link": "https://www.openmiccarolina.com/MoreInfo/NzA5OCMjIyNURVhU",
+        "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=qDZPfoMHRMj-7vfWxvHHfGc2rs_UoR15hcqX2rzSKtVQw1PmaNlecgWi8YwDaWij554IelYQmvX701hfjQ4wUjGKAv1XZdvMqDogNzrJZheyn9pCEYY",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf75266049179:0x8f00d9596883a27a?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIIRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf75266049179%3A0x8f00d9596883a27a&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
+            "image": "https://www.google.com/maps/vt/data=_Grp99KbAke82Bkkkxtn8EZjEUbdWABIevaYRYghL_8dVtirZhtmBF_TvdnL9aRaI4KvvyrQ9bcs-fnJ7M98etvIBqitJZitLuV5CKXiIhVQ7xYwTyM",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace37d9164cfa7:0xf332cfb430bf448b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIERAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace37d9164cfa7%3A0xf332cfb430bf448b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
         },
-        "description": "Welcome to the vibrant and lively Open Mic at Gizmo Brew Works, nestled in the heart of Raleigh, NC. This gathering is a celebration of local talent, community spirit, and the love for both great...",
+        "description": "Creek Week is a time to discover and clean up our local streams. It has been celebrated in Durham since 2009. To date, we have collected 210,989 pounds of litter with 4,808 volunteers. Want to...",
         "ticket_info": [
             {
-                "source": "Open Mic Carolina",
-                "link": "https://www.openmiccarolina.com/MoreInfo/NzA5OCMjIyNURVhU",
+                "source": "Keep Durham Beautiful",
+                "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Gizmo Brew Works - Brewery & Taproom",
+            "name": "Keep Durham Beautiful",
+            "rating": 4.8,
+            "reviews": 6,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Keep+Durham+Beautiful&ludocid=17524297472870925451&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODTd9uV3ChnKn6FF6Ed4HeoUfbPguITEmj4skXiCeqLy0Nxvb5V-urLE&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZPEn6Sq-Mo-mPdfc55_xoICj9i0rccW0CnvviUMAUQ&s=10"
+    },
+    {
+        "title": "South Durham Farmers' Market",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9 AM – 12 PM"
+        },
+        "address": [
+            "South Durham Farmers' Market, 500 Park Offices Dr",
+            "Durham, NC"
+        ],
+        "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acef105d6347c5:0xe538f1e310e4b732?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIGRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acef105d6347c5%3A0xe538f1e310e4b732&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+        },
+        "description": "Season: Fall Market Hours: November, 2024 - March, 2025Saturdays, 9am - 12pm Location: Greenwood Commons Shopping Center - 5410 NC Highway 55",
+        "ticket_info": [
+            {
+                "source": "AARP Local",
+                "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "South Durham Farmers' Market",
             "rating": 4.7,
-            "reviews": 395,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Gizmo+Brew+Works+-+Brewery+%26+Taproom&ludocid=10304474925452468858&ibp=gwp%3B0,7"
+            "reviews": 123,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=South+Durham+Farmers%27+Market&ludocid=16517217590924588850&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://www.google.com/maps/vt/data=qDZPfoMHRMj-7vfWxvHHfGc2rs_UoR15hcqX2rzSKtVQw1PmaNlecgWi8YwDaWij554IelYQmvX701hfjQ4wUjGKAv1XZdvMqDogNzrJZheyn9pCEYY"
+        "thumbnail": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho"
     },
     {
-        "title": "🎸 Steve Martin",
+        "title": "Durham African American History Tour",
         "date": {
-            "start_date": "Feb 23",
-            "when": "Sun, Feb 23, 1 AM"
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 4 – 5 PM"
         },
         "address": [
-            "Durham Performing Arts Center, 123 Vivian Street",
+            "\"Major\" – Durham Bull Bronze Sculpture, 211 W Parrish St",
             "Durham, NC"
         ],
-        "link": "https://gametime.co/concert/steve-martin-tickets/2-22-2025-durham-nc-durham-performing-arts-center/events/66e9917cfbfb2c41a05a8731",
+        "link": "https://downtowndurham.com/event/durham-african-american-history-tour-2/2025-03-15/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=prVhRpZctv_efErW4PNLv4jjpZySuzMiV5Cs8pDmpJRvGVADnsA9aZndV3vJ7wHwRYFOX590zFDqC48MVVhbrauVC1K0Iw_QEYRSzJ6NNdoAS8pYj3U",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46c494ce6bb:0xc266ae4a60dc2ee7?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIKRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46c494ce6bb%3A0xc266ae4a60dc2ee7&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
+            "image": "https://www.google.com/maps/vt/data=JxIH5lXOMuKu2kAzSWoQVcNERdoMwyIX9t7bAtRvMyenP5jwHpnpZahkBGwhjy5uNXICPxFFUqoH815RvkaRBpW6AnW9z6MPJIK9IueOqBRMfRsGcvo",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4720a495839:0xa7b16e2f737c579b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIIRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4720a495839%3A0xa7b16e2f737c579b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
         },
-        "description": "Gametime is offering last-minute theater tickets to Steve Martin at Durham Performing Arts Center in Durham, NC",
+        "description": "Durham is the home of a litany of African American historic sites. Once the site of America’s largest black-owned business, the community known as Black Wall Street was a refuge […]",
         "ticket_info": [
             {
-                "source": "Gametime.co",
-                "link": "https://gametime.co/concert/steve-martin-tickets/2-22-2025-durham-nc-durham-performing-arts-center/events/66e9917cfbfb2c41a05a8731",
+                "source": "Downtowndurham.com",
+                "link": "https://downtowndurham.com/event/durham-african-american-history-tour-2/2025-03-15/",
                 "link_type": "tickets"
             }
         ],
         "venue": {
-            "name": "Durham Performing Arts Center",
-            "rating": 4.8,
-            "reviews": 7408,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Durham+Performing+Arts+Center&ludocid=14008075325458362087&ibp=gwp%3B0,7"
+            "name": "\"Major\" – Durham Bull Bronze Sculpture",
+            "rating": 4.7,
+            "reviews": 82,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=%22Major%22+%E2%80%93+Durham+Bull+Bronze+Sculpture&ludocid=12083560425291798427&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRke9CxAHaILRKeeRF9sHP3Xu0sTPIWAwociVvWLgcWe1K1r9XOtgi81ss&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGyu2BSejk6v4LV_gQA3L6tw2Htom-QX6cMoJku5_-HJHPkh1gMrrBiXIuXg&s=10"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr2sU-9eg_7n8wP3LnlVGTP5QeNwS4iqoQINWz9P0V0-C1dquUVJv0OKM&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlsHKjYM7LPYbP6ECbtsYOL7ZwWX9iuuYSl5dJb07VtGx_TsqBDplHq6bZ3Q&s=10"
     },
     {
-        "title": "The Dinner Detective Comedy Mystery Dinner Show - Raleigh-Durham, NC",
+        "title": "St. Patrick's Celebration Weekend",
         "date": {
-            "start_date": "Feb 22",
-            "when": "Feb 8, 7:00 PM – Feb 22, 9:30 PM"
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 1 PM – Sun, Mar 16, 9 PM"
         },
         "address": [
-            "Embassy Suites by Hilton Raleigh Crabtree, 4700 Creedmoor Rd",
+            "Steel String Brewery at Pluck Farm, 6901 NC-54",
+            "Mebane, NC"
+        ],
+        "link": "https://local.aarp.org/event/st-patricks-celebration-weekend-2025-03-15-mebane-nc.html",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=zUkJIn_MXWhNN4Wy1sLO12HFj1vzkC3Tid_d-aN0GLy5Ycvhshm3v9o0_KmgtaW86GCeLSh1Jh90ditu1Rp8NDasM0R-ynaFJTnYhGqlcbVX7jlHka8",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89accfb487b11a1f:0x4dc81fc97da3276b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIKRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89accfb487b11a1f%3A0x4dc81fc97da3276b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+        },
+        "description": "Save the date Saturday and Sunday March 15-16 for Pluck Farm and Steel String Brewery’s St Patrick’s Celebration Weekend! Get your best green outfit on and celebrate with live music, food trucks...",
+        "ticket_info": [
+            {
+                "source": "Visit Chapel Hill",
+                "link": "https://www.visitchapelhill.org/event/st-patricks-celebration-weekend/31464/",
+                "link_type": "more info"
+            },
+            {
+                "source": "Steel String Brewery",
+                "link": "https://steelstringbrewery.com/events/st-patricks-celebration-weekend/",
+                "link_type": "more info"
+            },
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/st-patricks-celebration-weekend-2025-03-15-mebane-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Steel String Brewery at Pluck Farm",
+            "rating": 4.7,
+            "reviews": 57,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Steel+String+Brewery+at+Pluck+Farm&ludocid=5604764686519314283&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpVKQuE8FkcBIaCBRIUoEhKdOf6Sm4_2Vh7rVCiCJ2bTJMb56fL21cgnQ&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq4-qaFtwOtTvyNvoVMPAj9FsGIwHjH1av52VUHz_Yjw&s"
+    },
+    {
+        "title": "Durham Singles Event | Ages 45-65",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 4 PM"
+        },
+        "address": [
+            "Weldon Mills Distillery Durham, 300 E Main St suite 001",
+            "Durham, NC"
+        ],
+        "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=JkLGE_NK4Ebh5raK8BXMDx9CpFD_zQWMqpswghrSbobYyw-M0zGnxS_dB0xdJOktBBfYafJ0MgbTLmFnHyN8KxT7WzHH0ALZ4R58a444nahDRjSPQqE",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46e57900001:0x5c5889b452e1bf0b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIMRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46e57900001%3A0x5c5889b452e1bf0b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+        },
+        "description": "Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!",
+        "ticket_info": [
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+                "link_type": "tickets"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/durham/durham-singles-event-%7C-ages-45-65/100001238122761509",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Weldon Mills Distillery Durham",
+            "rating": 4.9,
+            "reviews": 101,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Weldon+Mills+Distillery+Durham&ludocid=6654219857017552651&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSwqvPgYYk1oLyXvXu8o5Eq4U4RwQl_Dp5n10a1gYilBtm1MGrSetzI8&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_aRKpk4nuRze-23iN_a8oUMn3HitDl3riIiI8WK3CJlupNhezsEUSVcGPA&s"
+    },
+    {
+        "title": "Durham Farmers’ Market",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 8 AM – 12 PM"
+        },
+        "address": [
+            "Durham Farmers' Market, 501 Foster St",
+            "Durham, NC"
+        ],
+        "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=yuYsQ9-A2ztgQI5uul8-GFQDDvKZz05XWm119WSbNxhGUTDY1uNop2zWaCxHX1hPEkUuEixCFzkOeqj6cDF4F2NFueOfnLR3dVl958y4fXWzWrSKHeo",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c32184fb:0x84d02a5097ba9ad8?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIORAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c32184fb%3A0x84d02a5097ba9ad8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+        },
+        "description": "The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the […]",
+        "ticket_info": [
+            {
+                "source": "Durham Farmers' Market - Downtown Durham Inc",
+                "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Durham Farmers' Market",
+            "rating": 4.8,
+            "reviews": 677,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Durham+Farmers%27+Market&ludocid=9570195733793643224&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvlOD3VoNUgstan8tsDCcko5_A5QGL6wI8ie-QxDYbiFsPskMEA1gg_w&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zR9G1Fr58mo3vzkQhMDwCjoGN79hvo08xBm1dzh33xAzXfz-NZDa1mv9Gw&s=10"
+    },
+    {
+        "title": "Wonderstruck Festival — Sheep in a Tree",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 10 AM – 3 PM"
+        },
+        "address": [
+            "Mordecai Historic Park, 1 Mimosa St",
             "Raleigh, NC"
         ],
-        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/90687v-the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc",
+        "link": "https://www.sheepinatree.com/upcoming-events/wyz20o6u5ryac80b6ckcq4qi9883gq",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=4HO04HpGRFhtzXd_Y_BIvJePF3PAnltLEPwdYwT6LlN8dH_Sg-k-jJr31hSg0XAgljBuu6LdN3ExPjKoUztqqp0noCGK0n299qYlkB5aNmyYz2aZMgQ",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf638747fa06b:0x1686a5eed107627d?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIMRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf638747fa06b%3A0x1686a5eed107627d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
+            "image": "https://www.google.com/maps/vt/data=7XgteyL4hDP2AYVOmzXMKhfha4gKSswbsc3lFWmADCk--Q53L2eFxZQSomwd9qEQMrjVplnRtUJR7eTe9VxsvM69_7B48ygtIYwR8DawEExRvA0XHkk",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5f3f4f53b47f:0xbe1ece09ca749f78?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIQRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5f3f4f53b47f%3A0xbe1ece09ca749f78&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
         },
-        "description": "Occurring on: Feb 8 at 7:00 PM Feb 14 at 8:00 PM Feb 15 at 7:00 PM Feb 16 at 7:00 PM Feb 22 at 7:00 PM America’s largest interactive comedy murder dinner theatre show is now playing! Solve a...",
         "ticket_info": [
             {
-                "source": "Eventvesta.com",
-                "link": "https://eventvesta.com/events/90687/t/tickets",
-                "link_type": "tickets"
-            },
-            {
-                "source": "Raleighmag.com",
-                "link": "https://raleighmag.com/event/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/2025-02-08/",
-                "link_type": "tickets"
-            },
-            {
-                "source": "Times Virginian",
-                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/90687v-the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc",
-                "link_type": "more info"
-            },
-            {
-                "source": "Visit Raleigh",
-                "link": "https://www.visitraleigh.com/event/the-dinner-detective-comedy-mystery-dinner-show/95096/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Sussex Surry Dispatch",
-                "link": "https://www.thesussexsurrydispatch.com/local-events/?_evDiscoveryPath=/event/90687v-the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc",
+                "source": "Sheep in a Tree",
+                "link": "https://www.sheepinatree.com/upcoming-events/wyz20o6u5ryac80b6ckcq4qi9883gq",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Embassy Suites by Hilton Raleigh Crabtree",
-            "rating": 4.3,
-            "reviews": 1790,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Embassy+Suites+by+Hilton+Raleigh+Crabtree&ludocid=1623167160841364093&ibp=gwp%3B0,7"
+            "name": "Mordecai Historic Park",
+            "rating": 4.7,
+            "reviews": 530,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Mordecai+Historic+Park&ludocid=13699613657954295672&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Um_tSetihDr1FgYxVa8RfUBKrx3me_awCqOuhczhUZuphTEoI_tiUp0&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKt-WuWiEJFXWU2wFMH6N9cWxncFMAffKFsYd_E9hiUA&s=10"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiZ-wZ0XT--tJsuQ2xiU9p0olAVyZFe0xCbpQ6YzRei2s7AHBWU5kpXik&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGfyWE8wdyfXNmYlIZmuetXZCI5KEnQ3eO1DZjHjZJuw&s=10"
     },
     {
-        "title": "Private Event",
+        "title": "St. Patrick's Day Party & Shamrockin' Market — Mystic Farm & Distillery",
         "date": {
-            "start_date": "Feb 22",
-            "when": "Sat, Feb 22, 5:15 – 7:15 PM"
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 12 – 5 PM"
         },
         "address": [
-            "Hope Valley Country Club, 3803 Dover Rd",
+            "Mystic Farm & Distilling Company, 1413 Stallings Rd",
             "Durham, NC"
         ],
-        "link": "https://citylightsjazz.com/event/5904586/708097270/private-event",
+        "link": "https://www.whatismystic.com/events-2/st-patricks-day-party-shamrockin-market",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=dBQLdFVO16taaFfZFaQZNkikdDypnpc63gYBfPYolJx2AxveJQSMB7orr86Y13WEQMlcLnOLkoaX5Oo130NVW2wBKix4wm6O88-aBLL_wfujP-M6Qmw",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace614d15ace97:0x6718bac90decf192?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIORAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace614d15ace97%3A0x6718bac90decf192&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
+            "image": "https://www.google.com/maps/vt/data=oJPaFw7g9z0KyVGOgMXROEIl2ATHS65h-939nl4_Eur8IWadGzAPulUdBmZ1PTjyhcooBtXpQsH_7JHmW19P1yVcy0dpfCnLUjrDh6arpo7wmnPTXyk",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acfc82b0da25e9:0x335478fbc7bee348?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQISRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acfc82b0da25e9%3A0x335478fbc7bee348&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
         },
+        "description": "Join us on Saturday, March 15th, 2025 for a very special St. Patrick's Day celebration at Mystic Farm & Distillery. Come dressed up for the celebration! All day, guests who wear St. Patrick’s Day...",
         "ticket_info": [
             {
-                "source": "City Lights Jazz",
-                "link": "https://citylightsjazz.com/event/5904586/708097270/private-event",
+                "source": "Mystic Farm & Distillery",
+                "link": "https://www.whatismystic.com/events-2/st-patricks-day-party-shamrockin-market",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Hope Valley Country Club",
-            "rating": 4.5,
-            "reviews": 187,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Hope+Valley+Country+Club&ludocid=7428892958032458130&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://www.google.com/maps/vt/data=dBQLdFVO16taaFfZFaQZNkikdDypnpc63gYBfPYolJx2AxveJQSMB7orr86Y13WEQMlcLnOLkoaX5Oo130NVW2wBKix4wm6O88-aBLL_wfujP-M6Qmw"
-    },
-    {
-        "title": "Dancing with the Stars",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sun, Feb 23, 4 – 8 PM"
-        },
-        "address": [
-            "Durham Performing Arts Center, 123 Vivian Street",
-            "Durham, NC"
-        ],
-        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/718393s-dancing-with-the-stars",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=prVhRpZctv_efErW4PNLv4jjpZySuzMiV5Cs8pDmpJRvGVADnsA9aZndV3vJ7wHwRYFOX590zFDqC48MVVhbrauVC1K0Iw_QEYRSzJ6NNdoAS8pYj3U",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46c494ce6bb:0xc266ae4a60dc2ee7?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQIQRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46c494ce6bb%3A0xc266ae4a60dc2ee7&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
-        },
-        "description": "Dancing with the Stars is back on tour this to heat up this winter with a dazzling, sexy, high energy, brand-new live production! This year’s all-new stage show will feature your favorite...",
-        "ticket_info": [
-            {
-                "source": "Evvnt.com",
-                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/36227869t-dancing-with-the-stars-live-2025-tour",
-                "link_type": "tickets"
-            },
-            {
-                "source": "Times Virginian",
-                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/718393s-dancing-with-the-stars",
-                "link_type": "more info"
-            },
-            {
-                "source": "WWAYTV3",
-                "link": "https://www.wwaytv3.com/local-events/?_evDiscoveryPath=/event/718393s-dancing-with-the-stars",
-                "link_type": "more info"
-            },
-            {
-                "source": "Downtown Durham Inc",
-                "link": "https://downtowndurham.com/event/dancing-with-the-stars-live-2025/",
-                "link_type": "more info"
-            },
-            {
-                "source": "The Warren Record",
-                "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/36227869t-dancing-with-the-stars-live-2025-tour",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Durham Performing Arts Center",
+            "name": "Mystic Farm & Distilling Company",
             "rating": 4.8,
-            "reviews": 7408,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Durham+Performing+Arts+Center&ludocid=14008075325458362087&ibp=gwp%3B0,7"
+            "reviews": 163,
+            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Mystic+Farm+%26+Distilling+Company&ludocid=3698714216761320264&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVFztbnvXA17tUoI6AhrEvbZZlsuOSgKr8UskM__FNCGCLVFpsAih1ImM&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS62i2oaYAQxf10nZevZ1pIPAgen0VAeSzLLJs4sQGmA&s=10"
-    },
-    {
-        "title": "Open Mic Event",
-        "date": {
-            "start_date": "Feb 22",
-            "when": "Feb 4, 7:00 PM – Mar 6, 10:01 AM"
-        },
-        "address": [
-            "Carolina Ale House - Brier Creek, 7981 Skyland Ridge Pkwy",
-            "Raleigh, NC"
-        ],
-        "link": "https://www.openmiccarolina.com/MoreInfo/NzA5MiMjIyNURVhU",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=rRbzGiGAW9hFSePOipc7XpAOpqjKUXbSpe69SBOzqGwcPRcqbCiVhiVnafdfSJopIy236NeRNE9dtGB3D2W5XQncBUYVY28APn7Z33rF6paiwtrVHAo",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acfa79ec5cd247:0x72b0846a1f7455fc?sa=X&ved=2ahUKEwixqav0xtaLAxXIF2IAHUk6OBUQ9eIBegQISRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acfa79ec5cd247%3A0x72b0846a1f7455fc&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina&type=place"
-        },
-        "description": "Calling all rockstars and singer songwriters! Come show off your musical talents at Open Mic Night at Carolina Ale House. Grab a pint and take the stage every Thursday night from 7pm to 9pm. See...",
-        "ticket_info": [
-            {
-                "source": "Open Mic Carolina",
-                "link": "https://www.openmiccarolina.com/MoreInfo/NzA5MiMjIyNURVhU",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Carolina Ale House - Brier Creek",
-            "rating": 4.2,
-            "reviews": 4329,
-            "link": "https://www.google.com/search?sca_esv=9a8b494ebc885c97&hl=en&gl=us&q=Carolina+Ale+House+-+Brier+Creek&ludocid=8264250907553977852&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://www.google.com/maps/vt/data=rRbzGiGAW9hFSePOipc7XpAOpqjKUXbSpe69SBOzqGwcPRcqbCiVhiVnafdfSJopIy236NeRNE9dtGB3D2W5XQncBUYVY28APn7Z33rF6paiwtrVHAo"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzoo1T0Rsqke-J677tqu4L3TjyG1rELge439IOhNZGinuxhELDBJrh_o&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcNItxp5MFvskWoTJmG8tchuEVhlljWaT8zDqG22WQjdb2XMj9EiQ2U2WWnA&s"
     }
 ]

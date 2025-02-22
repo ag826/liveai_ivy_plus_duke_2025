@@ -24,6 +24,7 @@ gemini_client = genai.GenerativeModel(
 
 def generate_itenary(
     time,
+    start_time,
     current_location,  # mention this as either 'current' or the actual custom location needed
     date,  # mention this as either 'today' or the actual custom date (in mm/dd/yyyy format)
     cost,
@@ -48,7 +49,7 @@ def generate_itenary(
     # Construct the content string
     query = (
         f"Based on all the events that are happening around my location which is {current_location}, create a comprehensive itinerary about things I can do in a defined time period. "
-        f"You should ensure that the entire trip (including transport and event duration) should be exactly equal to {time} hours and the total budget of the trip should be exactly equal to {cost} dollars. "
+        f"You should ensure that the entire trip (including transport and event duration) should be exactly equal to {time} hours and the total budget of the trip should be exactly equal to {cost} dollars. The itenary should start at {start_time}"
         f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. The events are: {json.dumps(events)}. "
         "Generate most of the itenary from events which wasy uploaded in the file above."
         f"Try to choose events which the user will be interested in, their interests are listed here: {json.dumps(features)} "
@@ -180,8 +181,9 @@ def user_browser_history():
 if __name__ == "__main__":
     test = generate_itenary(
         "5",
+        "4 pm",
         "current",
-        "today",
+        "march 15 2025",
         "200",
         "private",
     )
