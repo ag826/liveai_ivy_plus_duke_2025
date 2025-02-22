@@ -14,6 +14,8 @@ gemini_client = genai.GenerativeModel(
     system_instruction="You are a local travel planner who will create an itenary based on a list of events that are happening around and your own knowledge of things to do",
 )
 
+#######################################################################################################################
+
 
 def generate_itenary(
     time,
@@ -27,12 +29,12 @@ def generate_itenary(
         g = geocoder.ip("me")
         current_location = g.latlng
 
-    json_file_path = "events_results.json"
+    json_file_path = "json_output/events_results.json"
     # Load the JSON file into a Python dictionary
     with open(json_file_path, "r", encoding="utf-8") as file:
         events = json.load(file)
 
-    json_file_path = "user_preference.json"
+    json_file_path = "json_output/user_preference.json"
     # Load the JSON file into a Python dictionary
     with open(json_file_path, "r", encoding="utf-8") as file:
         features = json.load(file)
@@ -54,10 +56,18 @@ def generate_itenary(
 
     # Assuming response is a dictionary and contains the generated text in 'text' key
     itenary = response.text
+
+    output_file = "json_output/final_itenary.json"
+    with open(output_file, "w", encoding="utf-8") as json_file:
+        json.dump(itenary, json_file, indent=4, ensure_ascii=False)
+
     return itenary
 
 
-def features(model=genai.GenerativeModel("gemini-2.0-flash")):
+#######################################################################################################################
+
+
+def features_images(model=genai.GenerativeModel("gemini-2.0-flash")):
     images = [
         "images/download (1).jpeg",
         "images/download (2).jpeg",
@@ -71,12 +81,17 @@ def features(model=genai.GenerativeModel("gemini-2.0-flash")):
     response = model.generate_content(query)
     profile_features = response.text
 
-    output_file = "user_preference.json"
+    output_file = "json_output/user_preference.json"
     with open(output_file, "w", encoding="utf-8") as json_file:
         json.dump(profile_features, json_file, indent=4, ensure_ascii=False)
 
     return profile_features
 
+
+#######################################################################################################################
+
+
+#######################################################################################################################
 
 if __name__ == "__main__":
     test = generate_itenary(
@@ -87,4 +102,3 @@ if __name__ == "__main__":
     )
 
     print(f"OUTPUT:{test}")
-    # print(features())
