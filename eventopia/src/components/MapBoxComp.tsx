@@ -14,6 +14,8 @@ const MapBoxComp: React.FC = () => {
   });
   // Create a ref to access the Map instance
   const mapRef = useRef<any>(null);
+  // Use a ref for our one-time click flag
+  const hasSimulatedClick = useRef(false);
 
   useEffect(() => {
     let watchId: number;
@@ -34,10 +36,32 @@ const MapBoxComp: React.FC = () => {
           setUserLocation(coords);
           setCenter(coords);
           console.log('Updated Location:', coords.latitude, coords.longitude);
+          // Simulate the click only once using our ref
+          console.log(hasSimulatedClick)
+          const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
+            if (geoControlButton) {
+                if (!hasSimulatedClick.current) {
+                    hasSimulatedClick.current = true;
+            
+                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                    /*try {
+                        const response = fetch('localhost:5173/get-curlocation-events')
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Event data:', data);
+                            // Update your component state or props with the data
+                        })
+                        .catch(error => console.error('Error fetching events:', error));;
+                  
+                        console.log("Events JSON Response:", response);
+                      } catch (error) {
+                        console.error("Error fetching events:", error);
+                      }*/
+            }
+          }
         },
         (error) => {
           console.error('Geolocation error:', error.message);
-          setError(error.message);
           const fallback = { latitude: 37.8, longitude: -122.4 };
           setUserLocation(fallback);
           setCenter(fallback);
@@ -48,20 +72,94 @@ const MapBoxComp: React.FC = () => {
 
     if ('permissions' in navigator) {
       navigator.permissions.query({ name: 'geolocation' }).then((permissionStatus) => {
-        // Trigger location if permission is granted or in prompt state
-        if (permissionStatus.state === 'granted' || permissionStatus.state === 'prompt') {
+        // On initial query, if granted, track location and simulate click if not already done
+        if (permissionStatus.state === 'granted') {
+          setError(null);
+          trackLocation();
+          const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
+            if (geoControlButton) {
+                if (!hasSimulatedClick.current) {
+                    hasSimulatedClick.current = true;
+            
+                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                    /*try {
+                        const response = fetch('localhost:5173/get-curlocation-events')
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Event data:', data);
+                            // Update your component state or props with the data
+                        })
+                        .catch(error => console.error('Error fetching events:', error));;
+                  
+                        console.log("Events JSON Response:", response);
+                      } catch (error) {
+                        console.error("Error fetching events:", error);
+                      }*/
+            }
+          }
+        } else if (permissionStatus.state === 'prompt') {
+          setError(null);
           trackLocation();
         } else if (permissionStatus.state === 'denied') {
           setError('Geolocation permission denied.');
         }
         permissionStatus.onchange = () => {
-          if (permissionStatus.state === 'granted' || permissionStatus.state === 'prompt') {
+          if (permissionStatus.state === 'granted') {
+            setError(null);
             trackLocation();
+            const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
+            if (geoControlButton) {
+                if (!hasSimulatedClick.current) {
+                    hasSimulatedClick.current = true;
+            
+                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                    /*try {
+                        const response = fetch('localhost:5173/get-curlocation-events')
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Event data:', data);
+                            // Update your component state or props with the data
+                        })
+                        .catch(error => console.error('Error fetching events:', error));;
+                  
+                        console.log("Events JSON Response:", response);
+                      } catch (error) {
+                        console.error("Error fetching events:", error);
+                      }*/
+                    
+            }
+          }
+          } else if (permissionStatus.state === 'prompt') {
+            setError(null);
+            trackLocation();
+          } else if (permissionStatus.state === 'denied') {
+            setError('Geolocation permission denied.');
           }
         };
       });
     } else {
       trackLocation();
+      const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
+            if (geoControlButton) {
+                if (!hasSimulatedClick.current) {
+                    hasSimulatedClick.current = true;
+            
+                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                    /*try {
+                        const response = fetch('localhost:5173/get-curlocation-events')
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('Event data:', data);
+                            // Update your component state or props with the data
+                        })
+                        .catch(error => console.error('Error fetching events:', error));;
+                  
+                        console.log("Events JSON Response:", response);
+                      } catch (error) {
+                        console.error("Error fetching events:", error);
+                      }*/
+            }
+          }
     }
 
     return () => {
@@ -69,27 +167,14 @@ const MapBoxComp: React.FC = () => {
     };
   }, []);
 
-  // When userLocation changes, fly the map to that location
+  // This useEffect simulates a click after the control is rendered.
   useEffect(() => {
-    if (mapRef.current && userLocation) {
-      const map = mapRef.current.getMap();
-      map.flyTo({
-        center: [userLocation.longitude, userLocation.latitude],
-        zoom: 14,
-        speed: 1.5,  // Adjust speed as needed
-        curve: 1,
-        easing: (t: number) => t,
-      });
-    }
-  }, [userLocation]);
-
-  // Automatically simulate a click on the GeolocateControl button after map loads
-  useEffect(() => {
-    // Give the control some time to render
     setTimeout(() => {
       const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-      if (geoControlButton) {
+      if (geoControlButton && !hasSimulatedClick.current) {
+        hasSimulatedClick.current = true;
         geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+        
       }
     }, 1000);
   }, []);
@@ -115,14 +200,7 @@ const MapBoxComp: React.FC = () => {
           trackUserLocation={true}
         />
         <NavigationControl position="top-right" />
-        
-        {/* Marker that reflects the geographic center of the map */}
         <Marker latitude={center.latitude} longitude={center.longitude} anchor="center">
-          <img
-            src="/path-to-your-marker-icon.png"
-            alt="Center Marker"
-            style={{ width: '30px', height: '30px' }}
-          />
         </Marker>
       </Map>
     </div>

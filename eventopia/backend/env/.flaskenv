@@ -1,0 +1,2 @@
+FLASK_APP=functions.py
+FLASK_ENV=development

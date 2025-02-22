@@ -13,7 +13,7 @@ function App() {
   const fetchEvents = async (query: string) => {
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:5000/search?query=${encodeURIComponent(query)}`);
+      const response = await fetch(`http://localhost:5173/search?query=${encodeURIComponent(query)}`);
       const data = await response.json();
 
       console.log("Events JSON Response:", data);
