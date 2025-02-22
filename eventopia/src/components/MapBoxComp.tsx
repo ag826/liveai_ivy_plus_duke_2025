@@ -14,6 +14,10 @@ const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const MapBoxComp: React.FC = () => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [eventData, setEventData] = useState<any[]>([]);
+  const [pinsToShow, setPinsToShow] =  useState<any[]>([]); // 
+
+
   // State for the map's center (used for the geographic marker)
   const [center, setCenter] = useState({
     latitude: 37.8,
@@ -51,8 +55,8 @@ const MapBoxComp: React.FC = () => {
                     hasSimulatedClick.current = true;
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    /*try {
-                        const response = fetch('localhost:5173/get-curlocation-events')
+                    try {
+                        const response = fetch('localhost:5000/get-curlocation-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -63,7 +67,7 @@ const MapBoxComp: React.FC = () => {
                         console.log("Events JSON Response:", response);
                       } catch (error) {
                         console.error("Error fetching events:", error);
-                      }*/
+                      }
             }
           }
         },
@@ -89,8 +93,8 @@ const MapBoxComp: React.FC = () => {
                     hasSimulatedClick.current = true;
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    /*try {
-                        const response = fetch('localhost:5173/get-curlocation-events')
+                    try {
+                        const response = fetch('localhost:5000/get-curlocation-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -101,7 +105,7 @@ const MapBoxComp: React.FC = () => {
                         console.log("Events JSON Response:", response);
                       } catch (error) {
                         console.error("Error fetching events:", error);
-                      }*/
+                      }
             }
           }
         } else if (permissionStatus.state === 'prompt') {
@@ -120,8 +124,8 @@ const MapBoxComp: React.FC = () => {
                     hasSimulatedClick.current = true;
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    /*try {
-                        const response = fetch('localhost:5173/get-curlocation-events')
+                    try {
+                        const response = fetch('localhost:5000/get-curlocation-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -132,7 +136,7 @@ const MapBoxComp: React.FC = () => {
                         console.log("Events JSON Response:", response);
                       } catch (error) {
                         console.error("Error fetching events:", error);
-                      }*/
+                      }
                     
             }
           }
@@ -152,8 +156,8 @@ const MapBoxComp: React.FC = () => {
                     hasSimulatedClick.current = true;
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    /*try {
-                        const response = fetch('localhost:5173/get-curlocation-events')
+                    try {
+                        const response = fetch('localhost:5000/get-curlocation-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -164,7 +168,7 @@ const MapBoxComp: React.FC = () => {
                         console.log("Events JSON Response:", response);
                       } catch (error) {
                         console.error("Error fetching events:", error);
-                      }*/
+                      }
             }
           }
     }
@@ -181,12 +185,43 @@ const MapBoxComp: React.FC = () => {
       if (geoControlButton && !hasSimulatedClick.current) {
         hasSimulatedClick.current = true;
         geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-        
+        try {
+            const response = fetch('http://localhost:5000/get-curlocation-events')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Event data:', data);
+                // Update your component state or props with the data
+                setEventData(data)
+            })
+            .catch(error => console.error('Error fetching events:', error));;
+      
+            console.log("Events JSON Response:", response);
+          } catch (error) {
+            console.error("Error fetching events:", error);
+          }
       }
     }, 1000);
   }, []);
 
 
+  useEffect(() => {
+    if (eventData.length > 0) {
+      const newPins: { latitude: number; longitude: number; title: string; link: string }[] = eventData.map(
+        (event) => ({
+          latitude: event.latitude,
+          longitude: event.longitude,
+          img: event.thumbnail || event.image || MusicPin, 
+          title: event.title || "Untitled Event",
+          link: event.link || "#",
+        })
+      );
+  
+      setPinsToShow(newPins); // 
+      console.log("New Pins from eventData:", newPins);
+    }
+  }, [eventData]);
+  
+  
 
   // Possible types: music, TBA...
   const typeToImgConverter = (type: string) => {
@@ -200,9 +235,9 @@ const MapBoxComp: React.FC = () => {
   }
 
   // The batch of pins of events/activities to show on the map
-  const pinsToShow = [
+  const centerToShow = [
     {
-      latitute: center.latitude,
+      latitude: center.latitude,
       longitude: center.longitude,
       img: typeToImgConverter('music')
     },
@@ -248,8 +283,8 @@ const MapBoxComp: React.FC = () => {
         <ScaleControl position="top-right" />
 
         {/* Marker that reflects the geographic center of the map */}
-        {pinsToShow.map((pin, index) => (
-          <Marker key={index} latitude={pin.latitute} longitude={pin.longitude} anchor="bottom">
+        {centerToShow.map((pin, index) => (
+          <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
             <img
               src={pin.img}
               alt="Center Marker"
@@ -257,6 +292,25 @@ const MapBoxComp: React.FC = () => {
             />
           </Marker>
         ))}
+        {pinsToShow.length > 0 ? (
+  pinsToShow.map((pin, index) => {
+    console.log("Rendering Marker:", pin);
+    return (
+      <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
+        <div style={{ textAlign: "center" }}>
+          <img
+            src={pin.img}
+            alt={pin.title}
+            style={{ width: "30px", height: "30px", cursor: "pointer" }}
+            onClick={() => window.open(pin.link, "_blank")}
+          />
+          <p style={{ fontSize: "12px", margin: "5px 0" }}>{pin.title}</p>
+        </div>
+      </Marker>
+    );
+  })
+) : (null)}
+
       </Map>
 
       {/* Functionality Icons */}
