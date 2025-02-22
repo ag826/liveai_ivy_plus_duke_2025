@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl/mapbox';
 import AIButton from '../assets/AI_Button.svg';
 import ControlButton from '../assets/Control_Button.svg';
+import MusicPin from '../assets/pins/music.svg'
 import styled from 'styled-components';
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
-// const MAPBOX_TOKEN = "pk.eyJ1Ijoic2VsaW5hemhhbiIsImEiOiJjbTdmbDh0dTEwMHB2MmxweWlqbXZveHNkIn0.SFEkajm_FXf7CXJaYpM7AQ";
 
 const MapBoxComp: React.FC = () => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
@@ -97,6 +97,29 @@ const MapBoxComp: React.FC = () => {
     }, 1000);
   }, []);
 
+
+  
+  // Possible types: music, TBA...
+  const typeToImgConverter = (type: string) => {
+    switch (type) {
+      case 'music':
+        return MusicPin;
+      // More Event Types and their respective pin images go here
+      default:
+        return MusicPin;
+    }
+  }
+
+  // The batch of pins of events/activities to show on the map
+  const pinsToShow = [
+    {
+      latitute: center.latitude,
+      longitude: center.longitude,
+      img: typeToImgConverter('music')
+    },
+    //  other pins
+  ]
+
   return (
     <div>
       {error && <p style={{ color: 'red' }}>{error}</p>}
@@ -127,13 +150,15 @@ const MapBoxComp: React.FC = () => {
         <ScaleControl position="top-right" />
 
         {/* Marker that reflects the geographic center of the map */}
-        {/* <Marker latitude={center.latitude} longitude={center.longitude} anchor="center">
-          <img
-            src="/path-to-your-marker-icon.png"
-            alt="Center Marker"
-            style={{ width: '30px', height: '30px' }}
-          />
-        </Marker> */}
+        {pinsToShow.map((pin, index) => (
+          <Marker key={index} latitude={pin.latitute} longitude={pin.longitude} anchor="bottom">
+            <img
+              src={pin.img}
+              alt="Center Marker"
+              style={{ width: '30px', height: '30px' }}
+            />
+          </Marker>
+        ))}
       </Map>
 
       {/* Functionality Icons */}
