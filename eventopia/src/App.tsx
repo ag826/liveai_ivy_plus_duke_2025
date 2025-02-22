@@ -3,9 +3,13 @@ import Map from 'react-map-gl/mapbox';
 // If using with mapbox-gl v1:
 // import Map from 'react-map-gl/mapbox-legacy';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import MapBoxComp from './components/MapBoxComp';
 
 function App() {
-  return (
+  return(
+    <MapBoxComp></MapBoxComp>
+  )
+  /*return (
       <Map
         mapboxAccessToken="pk.eyJ1Ijoic2VsaW5hemhhbiIsImEiOiJjbTdmbDh0dTEwMHB2MmxweWlqbXZveHNkIn0.SFEkajm_FXf7CXJaYpM7AQ"
         initialViewState={{
@@ -16,7 +20,7 @@ function App() {
         style={{ width: window.innerWidth, height: window.innerHeight, }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
       />
-  );
+  );*/
 }
 
 export default App
