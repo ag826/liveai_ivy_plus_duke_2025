@@ -8,6 +8,21 @@ import ControlButtonUnselected from '../assets/control_button_unselected.svg';
 import ControlButtonSelected from '../assets/control_button_selected.svg';
 
 import MusicPin from '../assets/pins/music.svg'
+import TheatrePin from '../assets/pins/theatre.svg'
+import MoviePin from '../assets/pins/movie.svg'
+import ThemeParkPin from '../assets/pins/theme_park.svg'
+import SportsPin from '../assets/pins/sports.svg'
+import FoodDrinkPin from '../assets/pins/food&drink.svg'
+import SocialPin from '../assets/pins/social.svg'
+import TechPin from '../assets/pins/technology.svg'
+import EducationPin from '../assets/pins/education.svg'
+import ArtsPin from '../assets/pins/arts.svg'
+import MountainPin from '../assets/pins/mountain.svg'
+import WaterPin from '../assets/pins/water.svg'
+import FamilyPin from '../assets/pins/family.svg'
+import PartyPin from '../assets/pins/party.svg'
+import DefaultPin from '../assets/pins/default.svg'
+
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -106,11 +121,36 @@ const MapBoxComp: React.FC = () => {
   // Possible types: music, TBA...
   const typeToImgConverter = (type: string) => {
     switch (type) {
-      case 'music':
+      case 'Concerts & Live Music':
         return MusicPin;
-      // More Event Types and their respective pin images go here
+      case 'Theater & Performing Arts':
+        return TheatrePin;
+      case 'Movie Screenings':
+        return MoviePin;
+      case 'Theme Park Events':
+        return ThemeParkPin;
+      case 'Sports & Fitness':
+        return SportsPin;
+      case 'Food & Drink':
+        return FoodDrinkPin;
+      case 'Social & Networking':
+        return SocialPin;
+      case 'Technology & Innovation':
+        return TechPin;
+      case 'Education & Learning':
+        return EducationPin;
+      case 'Arts & Creativity':
+        return ArtsPin;
+      case 'Outdoor Hiking & Camping':
+        return MountainPin;
+      case 'Outdoor Water Sports Activities':
+        return WaterPin;
+      case 'Family & Kids':
+        return FamilyPin;
+      case 'Nightlife & Parties':
+        return PartyPin;
       default:
-        return MusicPin;
+        return DefaultPin;
     }
   }
 
