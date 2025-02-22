@@ -1,6 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Map, { Marker, GeolocateControl, NavigationControl } from 'react-map-gl/mapbox';
-import 'mapbox-gl/dist/mapbox-gl.css';
+import styled from 'styled-components';
+import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl/mapbox';
+
+import AIButtonUnselected from '../assets/ai_button_unselected.svg';
+import AIButtonSelected from '../assets/ai_button_selected.svg';
+import ControlButtonUnselected from '../assets/control_button_unselected.svg';
+import ControlButtonSelected from '../assets/control_button_selected.svg';
+
+import MusicPin from '../assets/pins/music.svg'
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -179,9 +186,42 @@ const MapBoxComp: React.FC = () => {
     }, 1000);
   }, []);
 
+
+
+  // Possible types: music, TBA...
+  const typeToImgConverter = (type: string) => {
+    switch (type) {
+      case 'music':
+        return MusicPin;
+      // More Event Types and their respective pin images go here
+      default:
+        return MusicPin;
+    }
+  }
+
+  // The batch of pins of events/activities to show on the map
+  const pinsToShow = [
+    {
+      latitute: center.latitude,
+      longitude: center.longitude,
+      img: typeToImgConverter('music')
+    },
+    //  other pins
+  ]
+
+  const [aiButtonSelected, setAiButtonSelected] = useState(false);
+  const [controlButtonSelected, setControlButtonSelected] = useState(true);
+  const handleAIButtonClick = () => {
+    setAiButtonSelected(!aiButtonSelected);
+  }
+  const handleControlButtonClick = () => {
+    setControlButtonSelected(!controlButtonSelected);
+  }
+
   return (
     <div>
       {error && <p style={{ color: 'red' }}>{error}</p>}
+
       <Map
         ref={mapRef}
         mapboxAccessToken={MAPBOX_TOKEN}
@@ -194,17 +234,60 @@ const MapBoxComp: React.FC = () => {
         mapStyle="mapbox://styles/mapbox/streets-v9"
         onMove={(evt) => setCenter(evt.viewState)}
       >
-        <GeolocateControl
-          position="top-left"
-          showUserLocation={true}
-          trackUserLocation={true}
-        />
+        {/* -------------- Mapbox Configs -------------- */}
+        {/* Geolocation Control */}
+        <GeolocateControl position="top-left" showUserLocation={true} trackUserLocation={true} />
+
+        {/* Navigation Controls */}
         <NavigationControl position="top-right" />
-        <Marker latitude={center.latitude} longitude={center.longitude} anchor="center">
-        </Marker>
+
+        {/* Fullscreen Controls */}
+        <FullscreenControl position="top-right" />
+
+        {/* Scale Controls */}
+        <ScaleControl position="top-right" />
+
+        {/* Marker that reflects the geographic center of the map */}
+        {pinsToShow.map((pin, index) => (
+          <Marker key={index} latitude={pin.latitute} longitude={pin.longitude} anchor="bottom">
+            <img
+              src={pin.img}
+              alt="Center Marker"
+              style={{ width: '30px', height: '30px' }}
+            />
+          </Marker>
+        ))}
       </Map>
+
+      {/* Functionality Icons */}
+      <IconGroup>
+        <UserButton onClick={handleControlButtonClick}>
+          <img src={controlButtonSelected ? ControlButtonSelected : ControlButtonUnselected} alt="control Button" style={{ width: '70px', height: '70px' }} />
+        </UserButton>
+        <UserButton onClick={handleAIButtonClick}>
+          <img src={aiButtonSelected ? AIButtonSelected : AIButtonUnselected} alt="AI Button" style={{ width: '70px', height: '70px' }} />
+        </UserButton>
+      </IconGroup>
     </div>
   );
 };
+
+const IconGroup = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  bottom: 50px;
+  right: ${(window.innerWidth - 160) / 2}px;
+  z-index: 5;
+`
+
+const UserButton = styled.div`
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 
 export default MapBoxComp;
