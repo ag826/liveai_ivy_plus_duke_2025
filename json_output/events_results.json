@@ -1,9 +1,424 @@
 [
     {
+        "title": "Durham NC Parkrun",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 8 AM"
+        },
+        "address": [
+            "Southern Boundaries Park, 100 3rd Fork Rd",
+            "Durham, NC"
+        ],
+        "link": "https://local.aarp.org/event/durham-nc-parkrun-2025-03-15-durham-nc.html",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d0922a64c5:0x4c38b56c2c6b569c?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIARAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d0922a64c5%3A0x4c38b56c2c6b569c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "A free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate – it's up to you! We all take part for our own enjoyment. Please come along and join in whatever your...",
+        "ticket_info": [
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/durham-nc-parkrun-2025-03-15-durham-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Southern Boundaries Park",
+            "rating": 4.5,
+            "reviews": 282,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Southern+Boundaries+Park&ludocid=5492339221784647324&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U"
+    },
+    {
+        "title": "Durham Creek Week 2025 — Keep Durham Beautiful",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Mar 15, 8 AM – Mar 23, 5 PM"
+        },
+        "address": [
+            "Keep Durham Beautiful, 2011 Fay St",
+            "Durham, NC"
+        ],
+        "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=_Grp99KbAke82Bkkkxtn8EZjEUbdWABIevaYRYghL_8dVtirZhtmBF_TvdnL9aRaI4KvvyrQ9bcs-fnJ7M98etvIBqitJZitLuV5CKXiIhVQ7xYwTyM",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace37d9164cfa7:0xf332cfb430bf448b?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQICRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace37d9164cfa7%3A0xf332cfb430bf448b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Creek Week is a time to discover and clean up our local streams. It has been celebrated in Durham since 2009. To date, we have collected 210,989 pounds of litter with 4,808 volunteers. Want to...",
+        "ticket_info": [
+            {
+                "source": "Keep Durham Beautiful",
+                "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Keep Durham Beautiful",
+            "rating": 4.8,
+            "reviews": 6,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Keep+Durham+Beautiful&ludocid=17524297472870925451&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODTd9uV3ChnKn6FF6Ed4HeoUfbPguITEmj4skXiCeqLy0Nxvb5V-urLE&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZPEn6Sq-Mo-mPdfc55_xoICj9i0rccW0CnvviUMAUQ&s=10"
+    },
+    {
+        "title": "Durham Singles Event | Ages 45-65",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 4 PM"
+        },
+        "address": [
+            "Weldon Mills Distillery Durham, 300 E Main St suite 001",
+            "Durham, NC"
+        ],
+        "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=JkLGE_NK4Ebh5raK8BXMDx9CpFD_zQWMqpswghrSbobYyw-M0zGnxS_dB0xdJOktBBfYafJ0MgbTLmFnHyN8KxT7WzHH0ALZ4R58a444nahDRjSPQqE",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46e57900001:0x5c5889b452e1bf0b?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIERAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46e57900001%3A0x5c5889b452e1bf0b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!",
+        "ticket_info": [
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+                "link_type": "tickets"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/durham/durham-singles-event-%7C-ages-45-65/100001238122761509",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Weldon Mills Distillery Durham",
+            "rating": 4.9,
+            "reviews": 101,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Weldon+Mills+Distillery+Durham&ludocid=6654219857017552651&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSwqvPgYYk1oLyXvXu8o5Eq4U4RwQl_Dp5n10a1gYilBtm1MGrSetzI8&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_aRKpk4nuRze-23iN_a8oUMn3HitDl3riIiI8WK3CJlupNhezsEUSVcGPA&s"
+    },
+    {
+        "title": "Durham Farmers’ Market",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 8 AM – 12 PM"
+        },
+        "address": [
+            "Durham Farmers' Market, 501 Foster St",
+            "Durham, NC"
+        ],
+        "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=yuYsQ9-A2ztgQI5uul8-GFQDDvKZz05XWm119WSbNxhGUTDY1uNop2zWaCxHX1hPEkUuEixCFzkOeqj6cDF4F2NFueOfnLR3dVl958y4fXWzWrSKHeo",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c32184fb:0x84d02a5097ba9ad8?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIGRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c32184fb%3A0x84d02a5097ba9ad8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the […]",
+        "ticket_info": [
+            {
+                "source": "Durham Farmers' Market - Downtown Durham Inc",
+                "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Durham Farmers' Market",
+            "rating": 4.8,
+            "reviews": 677,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Durham+Farmers%27+Market&ludocid=9570195733793643224&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvlOD3VoNUgstan8tsDCcko5_A5QGL6wI8ie-QxDYbiFsPskMEA1gg_w&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zR9G1Fr58mo3vzkQhMDwCjoGN79hvo08xBm1dzh33xAzXfz-NZDa1mv9Gw&s=10"
+    },
+    {
+        "title": "TOUR: A Closer Look at the Collection",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 1:00 – 1:30 PM"
+        },
+        "address": [
+            "Ackland Art Museum, 101 S Columbia St",
+            "Chapel Hill, NC"
+        ],
+        "link": "https://calendar.unc.edu/calendar/day/2025/3/15",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=tUkYltR8KDcgRhusA_r7NLtNkhAXZ-AhGQRpc46AYvuT1yHFFVE16KOurrch9hvqoEwzPW98TBWPphfdRtVVm2B2-KDsCMGesdAyetJh4yQUbvSUKmY",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2e7b6f847df:0xd5afb8f628bbbe26?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIIRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2e7b6f847df%3A0xd5afb8f628bbbe26&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Join Ackland educators for a lively half-hour look at small handful of artworks. These engaging conversational tours offer a closer look at and new perspectives on works on view at the Museum.",
+        "ticket_info": [
+            {
+                "source": "The University of North Carolina at Chapel Hill Events Calendar",
+                "link": "https://calendar.unc.edu/calendar/day/2025/3/15",
+                "link_type": "more info"
+            },
+            {
+                "source": "The Triangle Weekender",
+                "link": "https://thetriangleweekender.com/event/ackland-art-museum-tour-a-closer-look-at-the-collection/2025-03-15/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Ackland Art Museum",
+            "rating": 4.7,
+            "reviews": 424,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Ackland+Art+Museum&ludocid=15397729018387873318&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PueQalIjHA4rbd3-6sykqdLVCJgCBq0QWr9_tH9j4l1tITzXG0pV_K4&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8mMIL9wWYXSIRJMVkXgGfvwyGo47YT2Gd1D_7WV-64A&s=10"
+    },
+    {
+        "title": "Taxicab Preacher",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 4 – 8 PM"
+        },
+        "address": [
+            "Durty Bull Brewing Company, 206 Broadway St #104",
+            "Durham, NC"
+        ],
+        "link": "https://open.spotify.com/concert/0Al7Z8n3OankastEoMtUgV",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=GTChuYUH5_OTA8nyiQ5FXVU9AfSl5jJmhDhFyGG3S_KzZ1PCCQK0ve7-HN45VA5Hc7F0COZTrG5HYRzgDRvGskEfF1ilKQOo2uyC8o85-1pbMcrUVR0",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4712da49f5b:0xf1daa19134acd7fb?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIKRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4712da49f5b%3A0xf1daa19134acd7fb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Find tickets for Taxicab Preacher at Durty Bull Brewing Company in Durham on 3/15/2025 at 4:00 PM",
+        "ticket_info": [
+            {
+                "source": "Spotify.com",
+                "link": "https://open.spotify.com/concert/0Al7Z8n3OankastEoMtUgV",
+                "link_type": "tickets"
+            },
+            {
+                "source": "The Warren Record",
+                "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106388687n-taxicab-preacher-durty-bull",
+                "link_type": "more info"
+            },
+            {
+                "source": "Chatham Star-Tribune",
+                "link": "https://www.chathamstartribune.com/local-events/?_evDiscoveryPath=/event/106388687n-taxicab-preacher-durty-bull",
+                "link_type": "more info"
+            },
+            {
+                "source": "technicianonline",
+                "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/106388687n-taxicab-preacher-durty-bull",
+                "link_type": "more info"
+            },
+            {
+                "source": "Shazam",
+                "link": "https://www.shazam.com/event/012d2d3e-e8f1-4571-ae41-f273c599e898",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Durty Bull Brewing Company",
+            "rating": 4.6,
+            "reviews": 317,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Durty+Bull+Brewing+Company&ludocid=17427419353089628155&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTskx4mEVSoZ4WBr1uebjmuAxswjp1TSB4Z7SwZ1ORAIV0WVow_uEHguEA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4DebiNG__sn7hyUR9F-FrsJVI4SoiJjfSxKmnVUOmwuXTseO66oTwlCZNdw&s=10"
+    },
+    {
+        "title": "Ben Schwartz & Friends",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 3 – 10 AM"
+        },
+        "address": [
+            "Durham Performing Arts Center, 123 Vivian Street",
+            "Durham, NC"
+        ],
+        "link": "https://www.ticombo.com/en/theatre-tickets/theatre%20&%20comedy-tickets/ben-schwartz-and-friends?p=1",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=prVhRpZctv_efErW4PNLv4jjpZySuzMiV5Cs8pDmpJRvGVADnsA9aZndV3vJ7wHwRYFOX590zFDqC48MVVhbrauVC1K0Iw_QEYRSzJ6NNdoAS8pYj3U",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46c494ce6bb:0xc266ae4a60dc2ee7?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIMRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46c494ce6bb%3A0xc266ae4a60dc2ee7&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Ben Schwartz & Friends theatre & comedy tickets on sale now - Ticombo - the world's biggest marketplace for Ben Schwartz & Friends theatre & comedy Tickets in the world.",
+        "ticket_info": [
+            {
+                "source": "Gametime.co",
+                "link": "https://gametime.co/comedy/ben-schwartz-tickets/3-14-2025-durham-nc-durham-performing-arts-center/events/66e057f46f221a535df20f3b",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Ticombo",
+                "link": "https://www.ticombo.com/en/theatre-tickets/theatre%20&%20comedy-tickets/ben-schwartz-and-friends?p=1",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Durham Performing Arts Center",
+            "rating": 4.8,
+            "reviews": 7410,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Durham+Performing+Arts+Center&ludocid=14008075325458362087&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-S18qbg3KjAyXbGItGpEL1fXbelWLB1xx70JVes&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCGu5lzgQn7xOu0O9d64zTrKz1lqpVumUR7FYrdRgeqg&s=10"
+    },
+    {
+        "title": "Bikers & Smokes",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 6 PM"
+        },
+        "address": [
+            "Congress Social Bar, 471 S Driver St",
+            "Durham, NC"
+        ],
+        "link": "https://www.eventbrite.com/e/bikers-smokes-tickets-1215628009099",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=K5SGRF9HfTh9av_U_L-stMPsqP3lFhDiE4yUDbOzEj8_hVuiyWKWqFSm7LnQ9-vcx-vo3RPvrEqMtqC4Fv30tKOhc5jRpMzXfmDoGHoZYwj6mw11TLY",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d6e77959cb:0x2942670b9793631f?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIORAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d6e77959cb%3A0x2942670b9793631f&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Let’s Get Social Raleigh & Oak City Entertainment invite you to join us as we take over The Triangle Area with Bikers & Smokes Day Party. Get ready for a fun-filled Saturday at Congress Social Bar...",
+        "ticket_info": [
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/bikers-smokes-tickets-1215628009099",
+                "link_type": "tickets"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/durham/bikers-and-smokes/200027785346000",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Congress Social Bar",
+            "rating": 4.7,
+            "reviews": 43,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Congress+Social+Bar&ludocid=2973052003503268639&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfUXjXxOq1EkSvwuBwVfiSdlBABXELNU-TCxPS18k&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wbqjvGxiCw3oIdWdZTJlRyGl6z-Z1mX9o1njzk3FpA&s=10"
+    },
+    {
+        "title": "South Durham Farmers' Market",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9 AM – 12 PM"
+        },
+        "address": [
+            "South Durham Farmers' Market, 500 Park Offices Dr",
+            "Durham, NC"
+        ],
+        "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acef105d6347c5:0xe538f1e310e4b732?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQIQRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acef105d6347c5%3A0xe538f1e310e4b732&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Season: Fall Market Hours: November, 2024 - March, 2025Saturdays, 9am - 12pm Location: Greenwood Commons Shopping Center - 5410 NC Highway 55",
+        "ticket_info": [
+            {
+                "source": "AARP Local",
+                "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "South Durham Farmers' Market",
+            "rating": 4.7,
+            "reviews": 123,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=South+Durham+Farmers%27+Market&ludocid=16517217590924588850&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho"
+    },
+    {
+        "title": "Battle of 147 \"Clash of the Lines\" Drumline Competition",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 8 PM"
+        },
+        "address": [
+            "117 Tom Wilkinson Rd",
+            "Durham, NC"
+        ],
+        "link": "https://ticketstripe.com/BattleOf147ClashOfTheLines",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=0XOzJSOYzY_fgBO8qlVgUWsY58ZWBRa3tkNr0zmZzMy4pl87EIAFQewRzAxuuHGvJ6ej2XeShMea_KOmRlCtZgLECPqyEhbZj2cWdyfr5vjh0-dxN2s",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ad1df61f79b289:0x6d1b82948f38eca?sa=X&ved=2ahUKEwjwkKnWq9iLAxWBQjABHZJvPXEQ9eIBegQISRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ad1df61f79b289%3A0x6d1b82948f38eca&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+        },
+        "description": "Join us for the First Annual Battle of 147: Clash of the Lines Drumline Competition on Saturday, March 15th, at Old Northern High School! Experience the pulse-pounding excitement as 10 top-tier...",
+        "ticket_info": [
+            {
+                "source": "Ticketstripe",
+                "link": "https://ticketstripe.com/BattleOf147ClashOfTheLines",
+                "link_type": "more info"
+            }
+        ],
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPFnGAGaIDFEBadurIAo5m1OLCp75kaQzYtBHhTF2ow2BOuXHQ1IacRNU&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkVDUebGxG1mk5NfLD9JGtrzzjZn1Q8s3DyzrF-sWq5R5lI0fyh1j0tthN9A&s=10"
+    },
+    {
+        "title": "Fabio Rojas",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 7:30 – 11:30 PM EDT"
+        },
+        "address": [
+            "Sharp 9 Gallery, 4608 Industry Ln",
+            "Durham, NC"
+        ],
+        "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106473454n-david-bixler-trio-incognito",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=pvqKX-swxM00OpKOF7ALERDKnCy2XZoItCBMTP4GEhaewocyeliLbZt9AWwNWf3vRwxS4SGTH9Z1XF_ECQlZwV3oZBCOVWt6nN_-az3GYG1DtmiI9ks",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace595eaad686f:0x400681aef5792bcf?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAgBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace595eaad686f%3A0x400681aef5792bcf&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "description": "SPRING TRAINING TOUR 2025! After moving to NYC thirty years ago, saxophonist, composer, and educator David Bixler cut his teeth touring the world with the big bands of Lionel Hampton and Toshiko...",
+        "ticket_info": [
+            {
+                "source": "The Warren Record",
+                "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106473454n-david-bixler-trio-incognito",
+                "link_type": "more info"
+            },
+            {
+                "source": "Chatham Star-Tribune",
+                "link": "https://www.chathamstartribune.com/local-events/?_evDiscoveryPath=/event/106414918n-fabio-rojas-david-bixler-s-trio-incognito",
+                "link_type": "more info"
+            },
+            {
+                "source": "Shazam",
+                "link": "https://www.shazam.com/event/64cbfcba-8fba-451f-8b02-4bbfd87dae41",
+                "link_type": "more info"
+            },
+            {
+                "source": "Lake Gaston Gazette",
+                "link": "https://www.lakegastongazette-observer.com/local-events/?_evDiscoveryPath=/event/106414918n-fabio-rojas-david-bixler-s-trio-incognito",
+                "link_type": "more info"
+            },
+            {
+                "source": "Dan River Sports",
+                "link": "https://www.danriversports.com/local-events/?_evDiscoveryPath=/event/106414918n-fabio-rojas-david-bixler-s-trio-incognito",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Sharp 9 Gallery",
+            "rating": 4.9,
+            "reviews": 181,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Sharp+9+Gallery&ludocid=4613517456730303439&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AMyzBC0J3E2l4NE0t0WWCW58qZ2th8rUNg_ALF0&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZcSziccxfe3R2fXhVWfs7oZdS0N1PMJYhvpa0a1ldqw&s=10"
+    },
+    {
         "title": "Durham True Crime Tour",
         "date": {
             "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 6 – 7 PM"
+            "when": "Sat, Mar 15, 6 – 7 PM EDT"
         },
         "address": [
             "Lucky Strike Tower, 334 Blackwell St",
@@ -12,8 +427,8 @@
         "link": "https://www.eventbrite.com/e/downtown-durham-true-crime-tour-tickets-693388141597",
         "event_location_map": {
             "image": "https://www.google.com/maps/vt/data=OJ5VdntqanK2H0cgKQGIyz-djRYXyrv_Az8M-2zzyHqf4zy2-qVcfrSET_AbLBN18moAKPR3U-fUEDqCNW5fjJ9DYJsld4OJH9pgu_fFkgeaPKV5Bus",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5cd3d608833:0xd18a6e17f033762d?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIARAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5cd3d608833%3A0xd18a6e17f033762d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5cd3d608833:0xd18a6e17f033762d?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAgJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5cd3d608833%3A0xd18a6e17f033762d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
         },
         "description": "Explore the dark side of the Bull City with this guided true crime tour",
         "ticket_info": [
@@ -37,7 +452,7 @@
             "name": "Lucky Strike Tower",
             "rating": 4.7,
             "reviews": 60,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Lucky+Strike+Tower&ludocid=15099001749806216749&ibp=gwp%3B0,7"
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Lucky+Strike+Tower&ludocid=15099001749806216749&ibp=gwp%3B0,7"
         },
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BVQkFRH1HDVTYz2qjeTH48S5x4erFUJvh2C_HCJToSzeII9o76ELcCQ&s",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVZYOWiqr2yaB57mmQxK6fxksBaBgch4VoYQPdPWlIw&s=10"
@@ -46,7 +461,7 @@
         "title": "Dinner Detective Raleigh – Durham, NC - March 15, 2025 @ 6:00 PM",
         "date": {
             "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 6:00 – 8:30 PM"
+            "when": "Sat, Mar 15, 6:00 – 8:30 PM EDT"
         },
         "address": [
             "Embassy Suites by Hilton Raleigh Crabtree, 4700 Creedmoor Rd",
@@ -55,8 +470,8 @@
         "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-march-15th-2025-raleigh-nc/",
         "event_location_map": {
             "image": "https://www.google.com/maps/vt/data=4HO04HpGRFhtzXd_Y_BIvJePF3PAnltLEPwdYwT6LlN8dH_Sg-k-jJr31hSg0XAgljBuu6LdN3ExPjKoUztqqp0noCGK0n299qYlkB5aNmyYz2aZMgQ",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf638747fa06b:0x1686a5eed107627d?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQICRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf638747fa06b%3A0x1686a5eed107627d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf638747fa06b:0x1686a5eed107627d?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAgREAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf638747fa06b%3A0x1686a5eed107627d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
         },
         "description": "The Dinner Detective is America's largest murder mystery dinner show! Now playing in Raleigh – Durham, NC. Witness a hilarious mystery while you feast on a fantastic dinner.",
         "ticket_info": [
@@ -66,305 +481,1446 @@
                 "link_type": "tickets"
             },
             {
-                "source": "Visit Raleigh",
-                "link": "https://www.visitraleigh.com/event/the-dinner-detective-comedy-mystery-dinner-show/95746/",
-                "link_type": "more info"
-            },
-            {
-                "source": "WNCT",
-                "link": "https://www.wnct.com/calendar/?nxsparam=7#!/details/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/14968599/2025-03-15T18",
-                "link_type": "more info"
-            },
-            {
-                "source": "The Dinner Detective Comedy Mystery Dinner Show - Raleigh – Durham, NC - Raleigh Magazine",
+                "source": "Raleighmag.com",
                 "link": "https://raleighmag.com/event/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/2025-03-15/",
-                "link_type": "more info"
+                "link_type": "tickets"
             }
         ],
         "venue": {
             "name": "Embassy Suites by Hilton Raleigh Crabtree",
             "rating": 4.3,
             "reviews": 1790,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Embassy+Suites+by+Hilton+Raleigh+Crabtree&ludocid=1623167160841364093&ibp=gwp%3B0,7"
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Embassy+Suites+by+Hilton+Raleigh+Crabtree&ludocid=1623167160841364093&ibp=gwp%3B0,7"
         },
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LEb5FLhBXEsQlI-5qq8pSpBuOca8ZVTNrXXO6Tg&s",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjNg4euhF-e3lVCXrVglzrz-EStJYraSmvyHzcHQ6kQ&s=10"
     },
     {
-        "title": "Durham Creek Week 2025 — Keep Durham Beautiful",
+        "title": "Mean Habit / American Motors / Pretty Baby",
         "date": {
             "start_date": "Mar 15",
-            "when": "Mar 15, 8 AM – Mar 23, 5 PM"
+            "when": "Sat, Mar 15, 6:30 PM EDT"
         },
         "address": [
-            "Keep Durham Beautiful, 2011 Fay St",
+            "Pinhook, 117 W Main St",
             "Durham, NC"
         ],
-        "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
+        "link": "https://thepinhook.com/event/mean-habit-american-motors-pretty-baby/the-pinhook/durham-north-carolina/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=_Grp99KbAke82Bkkkxtn8EZjEUbdWABIevaYRYghL_8dVtirZhtmBF_TvdnL9aRaI4KvvyrQ9bcs-fnJ7M98etvIBqitJZitLuV5CKXiIhVQ7xYwTyM",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace37d9164cfa7:0xf332cfb430bf448b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIERAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace37d9164cfa7%3A0xf332cfb430bf448b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "image": "https://www.google.com/maps/vt/data=IxAa0UZYkEy28QBiscoV85IekrK2AdzuRXn_o0Wk6cCGNrfipsklbwwD6JxlKMg7hy89NE0tK9S9SdXuHaZ6Zb-XfVmVbs8IdrbLg3e5fbgbOfETWiU",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46de947c4a5:0x14c186cff109ad3b?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAgZEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46de947c4a5%3A0x14c186cff109ad3b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
         },
-        "description": "Creek Week is a time to discover and clean up our local streams. It has been celebrated in Durham since 2009. To date, we have collected 210,989 pounds of litter with 4,808 volunteers. Want to...",
         "ticket_info": [
             {
-                "source": "Keep Durham Beautiful",
-                "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
+                "source": "Etix.com",
+                "link": "http://www.etix.com/ticket/p/37182616/mean-habit-american-motors-pretty-baby-durham-the-pinhook",
+                "link_type": "tickets"
+            },
+            {
+                "source": "The Pinhook",
+                "link": "https://thepinhook.com/event/mean-habit-american-motors-pretty-baby/the-pinhook/durham-north-carolina/",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Keep Durham Beautiful",
-            "rating": 4.8,
-            "reviews": 6,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Keep+Durham+Beautiful&ludocid=17524297472870925451&ibp=gwp%3B0,7"
+            "name": "Pinhook",
+            "rating": 4.5,
+            "reviews": 536,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Pinhook&ludocid=1495624778924010811&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODTd9uV3ChnKn6FF6Ed4HeoUfbPguITEmj4skXiCeqLy0Nxvb5V-urLE&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZPEn6Sq-Mo-mPdfc55_xoICj9i0rccW0CnvviUMAUQ&s=10"
+        "thumbnail": "https://www.google.com/maps/vt/data=IxAa0UZYkEy28QBiscoV85IekrK2AdzuRXn_o0Wk6cCGNrfipsklbwwD6JxlKMg7hy89NE0tK9S9SdXuHaZ6Zb-XfVmVbs8IdrbLg3e5fbgbOfETWiU"
     },
     {
-        "title": "South Durham Farmers' Market",
+        "title": "Miss Tess",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 7 PM – Sun, Mar 16, 1 AM EDT"
+        },
+        "address": [
+            "Magnetic Sound Studios, 2020 Chapel Hill Rd Suite #27",
+            "Durham, NC"
+        ],
+        "link": "https://open.spotify.com/concert/1QtzDu2ZVYLuUfShsazSJZ",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=U9dxSIGfT8YW5XCWdf7NKA7pJ_iMINIzlDUNiDjs6KMW97iy97GodPOyIQl4K72kajYPN28ivS1rSXcDyyUTYQgViRayleJni-7qH9toqe3f9lee_lc",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5e9fdc2f319:0xa526487ea1c0150b?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAghEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5e9fdc2f319%3A0xa526487ea1c0150b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "description": "Find tickets for Miss Tess at Magnetic Sound Studios in Durham on 3/15/2025 at 7:00 PM",
+        "ticket_info": [
+            {
+                "source": "Spotify.com",
+                "link": "https://open.spotify.com/concert/1QtzDu2ZVYLuUfShsazSJZ",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Bandsintown.com",
+                "link": "https://www.bandsintown.com/e/106392584?app_id=ggl_feed&came_from=289&utm_medium=web&utm_source=ggl_feed&utm_campaign=event",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Eventbrite",
+                "link": "https://www.eventbrite.com/e/allume-miss-tess-kc-jones-thomas-bryan-eaton-tickets-1249125180039",
+                "link_type": "more info"
+            },
+            {
+                "source": "Shazam",
+                "link": "https://www.shazam.com/event/3a0b7a50-3850-4873-ba04-fe8d59527cba",
+                "link_type": "more info"
+            },
+            {
+                "source": "Lake Gaston Gazette",
+                "link": "https://www.lakegastongazette-observer.com/local-events/?_evDiscoveryPath=/event/106392584n-miss-tess",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Magnetic Sound Studios",
+            "rating": 5.0,
+            "reviews": 2,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Magnetic+Sound+Studios&ludocid=11900278774089913611&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrPNxOzru0bEB-lrPnuADeCPaaQZGsVguTSlhu3XwjseCOL6hEIXCXMYA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrmqk0bcjCwGKM-C6SudxAOBE0Zls_2sTNGra-vVAHTAXYMJl7juxd2_WOSg&s=10"
+    },
+    {
+        "title": "The Shoaldiggers: DIG THE BLUE NOTE",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 7 – 11 PM EDT"
+        },
+        "address": [
+            "The Blue Note Grill, 709 Washington St",
+            "Durham, NC"
+        ],
+        "link": "https://www.etix.com/ticket/p/77945802/the-shoaldiggers-durham-the-blue-note-grill",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=EdVZdR7vGivRgCTKCGFXJz4VDnPvWNY4UDNcBRjWVWvX6GaA-SARTQ0OSVLuR_mG11bBCj7f7Kypu4ezh82vON5cLl12hu-aht6uP5Cy4xN0IVtkdwI",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace658636008f3:0x69c111798400947f?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAgpEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace658636008f3%3A0x69c111798400947f&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "description": "$10 online & at the door Acousti-lectric bomb squad! Serving up 9-piece folk bangers with beat roots and sonic mash! The Shoaldiggers cook up the kitchen sink! Combining ingredients from blues...",
+        "ticket_info": [
+            {
+                "source": "Etix.com",
+                "link": "http://www.etix.com/ticket/p/77945802/the-shoaldiggers-durham-the-blue-note-grill",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Times Virginian",
+                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/106314930n-the-shoaldiggers-dig-the-blue-note",
+                "link_type": "more info"
+            },
+            {
+                "source": "The Warren Record",
+                "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106314930n-the-shoaldiggers",
+                "link_type": "more info"
+            },
+            {
+                "source": "Chatham Star-Tribune",
+                "link": "https://www.chathamstartribune.com/local-events/?_evDiscoveryPath=/event/106314930n-the-shoaldiggers-dig-the-blue-note",
+                "link_type": "more info"
+            },
+            {
+                "source": "technicianonline",
+                "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/106314930n-the-shoaldiggers",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "The Blue Note Grill",
+            "rating": 4.5,
+            "reviews": 1648,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=The+Blue+Note+Grill&ludocid=7620391258090935423&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN0n8nV6-HneDCkFdDTUONmYUJFDvRxk4lvp_UtNQ&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkjLbzYNZdRZUy2Iy5RSm4uBfpdX5CUK1OWJhZYhNf1g&s"
+    },
+    {
+        "title": "Saturday Volunteer Day — Urban Community AgriNomics (UCAN)",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9 AM – 12 PM EDT"
+        },
+        "address": [
+            "Urban Community AgriNomics (UCAN), 2080 Sawmill Creek Pkwy",
+            "Durham, NC"
+        ],
+        "link": "https://www.ucan.today/ucan-calendar-of-events/zpk4e9bd7t7jkat-eflzp-g7b5m-ckxfz-k4ltp-52b5s-4st2c-pef54-gwgs9-5t68k-jarcn-sn2zd-bnhbp-cetbx-h2g5w-dk5ey-jckc6",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=o0mrIP0epy122tLLIj0RAjEPAb3wL_ADTGz5j-h0c77ZHSzaQluLusD7Q5BFjbGng3qKgLuWG9go1WxgjOAUioGyfVmMbHdYhgBSJsVpinhqHCOcMPg",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ad1dd985c05557:0x13b696b3e1df9b39?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAgxEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ad1dd985c05557%3A0x13b696b3e1df9b39&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "description": "Join us every Saturday, (*weather permitting) except the first Saturday of each month, from 9am to 12pm (Fall and Winter) or 8am to 11am (Spring and Summer) for a diversity of farm related...",
+        "ticket_info": [
+            {
+                "source": "Saturday Volunteer Day — Urban Community AgriNomics (UCAN)",
+                "link": "https://www.ucan.today/ucan-calendar-of-events/zpk4e9bd7t7jkat-eflzp-g7b5m-ckxfz-k4ltp-52b5s-4st2c-pef54-gwgs9-5t68k-jarcn-sn2zd-bnhbp-cetbx-h2g5w-dk5ey-jckc6",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Urban Community AgriNomics (UCAN)",
+            "rating": 5.0,
+            "reviews": 7,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Urban+Community+AgriNomics+(UCAN)&ludocid=1420488431814810425&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5dto6Rx_xEfOOLkkDevVPuUzCvBa8n7CThjQOgQ&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5ntaDP5Mz_AuWR-bvQ7H38Fcd4sXtHvc0uNvnxAAbA&s=10"
+    },
+    {
+        "title": "Social Good & Networking Event: Dress for Success Durham Donation Day",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9:30 AM – 12:30 PM EDT"
+        },
+        "address": [
+            "Dress for Success Triangle, 701 William Vickers Ave",
+            "Durham, NC"
+        ],
+        "link": "https://ncpmi.org/events/events-calendar/membership/social-good-networking-event-dress-for-success-durham-donation-day",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=U01YaA_7__4S92hhNrYJwF-pbWaaVEJ8FhY8Hr6erZrunxTlOKpLRmcgk3uQh_unfnsySzhZYfFMEINDi60qdeD_nbQVMPEOdTsBKkQVWD4VwvcgBQ4",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace57c73ad6ba3:0xded30e5daf68d746?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAg5EAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace57c73ad6ba3%3A0xded30e5daf68d746&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "description": "NCPMI is working with the Dress For Success Durham team in their mission to empower women to achieve economic independence by providing a network of support, professional attire and the...",
+        "ticket_info": [
+            {
+                "source": "PMI North Carolina Chapter",
+                "link": "https://ncpmi.org/events/events-calendar/membership/social-good-networking-event-dress-for-success-durham-donation-day",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Dress for Success Triangle",
+            "rating": 5.0,
+            "reviews": 4,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Dress+for+Success+Triangle&ludocid=16056192892043581254&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=U01YaA_7__4S92hhNrYJwF-pbWaaVEJ8FhY8Hr6erZrunxTlOKpLRmcgk3uQh_unfnsySzhZYfFMEINDi60qdeD_nbQVMPEOdTsBKkQVWD4VwvcgBQ4"
+    },
+    {
+        "title": "2025 Crosse Out Cancer (4th Annual)",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9 AM – 9 PM EDT"
+        },
+        "address": [
+            "Durham County Memorial Stadium, 750 Stadium Dr",
+            "Durham, NC"
+        ],
+        "link": "https://gofan.co/event/2980046",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=q4UBWvBW-3yU2K_XVOf_S8L3n_zEgiLsvUadZGlELaaP8QgCS_DFudsOejyxIrX1BCeOHbEReKYK9WKvhpCmnz1awLUbPtI1aSk5jHCEd70HSSvjZEE",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace22e3a1f5e3b:0x7947291a9683b52a?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAhBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace22e3a1f5e3b%3A0x7947291a9683b52a&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "GoFan",
+                "link": "https://gofan.co/event/2980046",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Durham County Memorial Stadium",
+            "rating": 4.4,
+            "reviews": 348,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Durham+County+Memorial+Stadium&ludocid=8738998796106839338&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7i8t5mIraBnItZ-r2etDe8KMR0RJVvaWt6j2THIt_7kc922-xB-_NEnY&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQva5Q_UevDzpA92xhHxR3LRyvrlXQTnD4pec5g6Sr80FDOJCZEIycmVYs9qg&s=10"
+    },
+    {
+        "title": "2025 Official Raleigh St Patricks Day Bar Crawl 2 Dates By Bar Crawl LIVE",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 9 PM EDT"
+        },
+        "address": [
+            "Whiskey Rose Raleigh, 401 N West St",
+            "Raleigh, NC"
+        ],
+        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=Q7EMVX1pgwbtEmK54hMbeHIzpQWz_J4bhYdNI_d2ui0Sg2NXAg9AR-OZK-9pf12s__QsqR_-XmHwbJ2rk0P6DlcFwzLG74HmUfvC1Z8IaIvDTb7iLxc",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5f3f925f0bc7:0x52fd3a67f03af09e?sa=X&ved=2ahUKEwjd3-bWq9iLAxU6FlkFHdocKEU4ChD14gF6BAhJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5f3f925f0bc7%3A0x52fd3a67f03af09e&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=10&type=place"
+        },
+        "description": "Raleigh's #1 St Pats Pub Crawl: The Raleigh St Patrick's Day Pub Crawl returns March 2025! Secure your spot for the best Raleigh Pub Crawl!",
+        "ticket_info": [
+            {
+                "source": "Evvnt.com",
+                "link": "https://go.evvnt.com/2581509-0?pid=8899",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/951501595887",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Times Virginian",
+                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+                "link_type": "more info"
+            },
+            {
+                "source": "Dinwiddie Monitor",
+                "link": "https://www.thedinwiddiemonitor.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+                "link_type": "more info"
+            },
+            {
+                "source": "technicianonline",
+                "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Whiskey Rose Raleigh",
+            "rating": 4.0,
+            "reviews": 75,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Whiskey+Rose+Raleigh&ludocid=5980000098304323742&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24imTo6ylSlWBQDuR2BX1mT-CF0TUsXa0HMYimvL69Gyb-0OmwYqfjNM&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZifHHazYQmzh4Ur7TffgJVYeY9vTn1Ro3AnOm4GB1Aw&s=10"
+    },
+    {
+        "title": "2025 Official Raleigh St Patricks Day Bar Crawl 2 Dates By Bar Crawl LIVE",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 9 PM"
+        },
+        "address": [
+            "Whiskey Rose Raleigh, 401 N West St",
+            "Raleigh, NC"
+        ],
+        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=Q7EMVX1pgwbtEmK54hMbeHIzpQWz_J4bhYdNI_d2ui0Sg2NXAg9AR-OZK-9pf12s__QsqR_-XmHwbJ2rk0P6DlcFwzLG74HmUfvC1Z8IaIvDTb7iLxc",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5f3f925f0bc7:0x52fd3a67f03af09e?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAgBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5f3f925f0bc7%3A0x52fd3a67f03af09e&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
+        },
+        "description": "Raleigh's #1 St Pats Pub Crawl: The Raleigh St Patrick's Day Pub Crawl returns March 2025! Secure your spot for the best Raleigh Pub Crawl!",
+        "ticket_info": [
+            {
+                "source": "Evvnt.com",
+                "link": "https://go.evvnt.com/2581509-0?pid=8899",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/951501595887",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Times Virginian",
+                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+                "link_type": "more info"
+            },
+            {
+                "source": "Dinwiddie Monitor",
+                "link": "https://www.thedinwiddiemonitor.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+                "link_type": "more info"
+            },
+            {
+                "source": "technicianonline",
+                "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Whiskey Rose Raleigh",
+            "rating": 4.0,
+            "reviews": 75,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Whiskey+Rose+Raleigh&ludocid=5980000098304323742&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24imTo6ylSlWBQDuR2BX1mT-CF0TUsXa0HMYimvL69Gyb-0OmwYqfjNM&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZifHHazYQmzh4Ur7TffgJVYeY9vTn1Ro3AnOm4GB1Aw&s=10"
+    },
+    {
+        "title": "Syracuse Orange at Duke Blue Devils Softball",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 1 – 5 PM"
+        },
+        "address": [
+            "Duke Softball Stadium, 4 Brodie Gym Dr",
+            "Durham, NC"
+        ],
+        "link": "https://local.aarp.org/event/duke-blue-devils-softball-vs-syracuse-university-softball-2025-03-15-tm-durham-nc.html",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=tQYzC-erHVq_QZZcXEYywOAhfXBNl6Yg3eD2BSfBbKcorvNom95uOxFWZgJB8wwLk6tuqKDINwTDIadyTbl_H3L8EE-LLNMrhN2g0TlnCMuyPNddtzU",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace3f809a46f9b:0xd4daae2bc36afb0a?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAgJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace3f809a46f9b%3A0xd4daae2bc36afb0a&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
+        },
+        "description": "Attend the Duke Blue Devils Softball vs. Syracuse University Softball event in Durham, NC at the Duke Softball Stadium, in Durham located at 4 Brodie Gym Dr. The event starts at 1:00 P.M. on...",
+        "ticket_info": [
+            {
+                "source": "Axs.com",
+                "link": "https://www.axs.com/events/853538/syracuse-orange-at-duke-blue-devils-softball-tickets",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Chatham Star-Tribune",
+                "link": "https://www.chathamstartribune.com/local-events/?_evDiscoveryPath=/event/37358785t-duke-blue-devils-softball-vs-syracuse-university-softball",
+                "link_type": "more info"
+            },
+            {
+                "source": "Evvnt",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/37358785t-duke-blue-devils-softball-vs-syracuse-university-softball",
+                "link_type": "more info"
+            },
+            {
+                "source": "Burlington Times-News",
+                "link": "https://www.thetimesnews.com/local-events/?_evDiscoveryPath=/event/37358785t-duke-blue-devils-softball-vs-syracuse-university-softball",
+                "link_type": "more info"
+            },
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/duke-blue-devils-softball-vs-syracuse-university-softball-2025-03-15-tm-durham-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Duke Softball Stadium",
+            "rating": 4.8,
+            "reviews": 47,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Duke+Softball+Stadium&ludocid=15337762983949040394&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLPrY3yjBNTyOBb-RQPyLkZ2WpboqUaIl1VlktJWA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ7AjL3ypSjQrCziycXT_9krWFbPtM-fIvb1j1VPZoQA&s=10"
+    },
+    {
+        "title": "Holidaze",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2:00 – 10:30 PM"
+        },
+        "address": [
+            "The Glass Jug Beer Lab - Downtown Durham, 545 Foster St Suite 10",
+            "Durham, NC"
+        ],
+        "link": "https://thetriangleweekender.com/event/holidaze/2025-03-15/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=zjyswwY49F712X1-BaF7MOXi-iIzq_D-jq3h5kF5N6fvO3wXuHRBed8fB08OiVdqlaqUlnBO4kCgIJiIvtHJb6n6Iww8kKJq-HketYU0lsRbSqYatmk",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace584cb4f25d5:0xd30bde825ef62ccf?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAgREAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace584cb4f25d5%3A0xd30bde825ef62ccf&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
+        },
+        "description": "The time between holidays feels like a daze. Between parties, meals, desserts and irregular work schedules it’s hard to know what to do with yourself! Come hang with us! Need […]",
+        "ticket_info": [
+            {
+                "source": "Holidaze - The Triangle Weekender",
+                "link": "https://thetriangleweekender.com/event/holidaze/2025-03-15/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "The Glass Jug Beer Lab - Downtown Durham",
+            "rating": 4.9,
+            "reviews": 83,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=The+Glass+Jug+Beer+Lab+-+Downtown+Durham&ludocid=15207493218266918095&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrO69y4u96vKRnbHeJJjHYxCXXCLC6F-lGlF-aF5QK2nezq9SmH0Qwmw&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54-LutVrPcMlixJ3oUsI4W1qTHzS0i5ECc0HZNKzLIPb_AOCAfwkT2g1Idg&s=10"
+    },
+    {
+        "title": "North Carolina State Championship- Durham, NC; USAJPA-sanctioned event; hosted by SpeedPuzzling.com — USA Jigsaw Puzzle Association",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 11:45 AM – 7:30 PM"
+        },
+        "address": [
+            "Irwin R. Holmes Sr. Recreation Center at Campus Hills, 2000 S Alston Ave",
+            "Durham, NC"
+        ],
+        "link": "https://www.usajigsaw.org/usajpa-events/gebmnkk1xrjhhhqj0f4h4fv714ltnq-57r7t-nf98m-px5px-s94t9-3l5jf",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=fIP41FKGiNEiDRmypFySCviKxuDxtuB1A0bdaEVyqIj1mhvDKVpySNMrTnqklmMl7fZZuYY73fgTWT5Ut4t5wcQI5I1d2anZtZ7x83biKucMVpxgcSg",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace50d658f631b:0xd71a350de454e9b5?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAgZEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace50d658f631b%3A0xd71a350de454e9b5&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
+        },
+        "description": "NC2025 --North Carolina Speed Puzzling Championship--is coming soon! You'll be able to test out your puzzling skills --solo, with a partner, and on a team of 4. We're also adding our Pairs Relay...",
+        "ticket_info": [
+            {
+                "source": "USA Jigsaw Puzzle Association",
+                "link": "https://www.usajigsaw.org/usajpa-events/gebmnkk1xrjhhhqj0f4h4fv714ltnq-57r7t-nf98m-px5px-s94t9-3l5jf",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Irwin R. Holmes Sr. Recreation Center at Campus Hills",
+            "rating": 4.8,
+            "reviews": 12,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Irwin+R.+Holmes+Sr.+Recreation+Center+at+Campus+Hills&ludocid=15499759401330600373&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=fIP41FKGiNEiDRmypFySCviKxuDxtuB1A0bdaEVyqIj1mhvDKVpySNMrTnqklmMl7fZZuYY73fgTWT5Ut4t5wcQI5I1d2anZtZ7x83biKucMVpxgcSg"
+    },
+    {
+        "title": "Riverside Pirates vs NCSSM",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 5:30 – 9:30 PM"
+        },
+        "address": [
+            "Riverside High School, 3218 Rose of Sharon Rd",
+            "Durham, NC"
+        ],
+        "link": "https://gofan.co/event/3261765",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=34yITScQM-nqCGefx3LXBe2su8i-QLavCyuZGlzioZoYRE3ifPDVOOHBuLJwVlg5u3BfdkEj6HoBZlqoGaChEwN8huUHSxvF5RlNJaL2Llcq8S4Fm7s",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace19088e7348f:0xcfd0ee2da3e0baac?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAghEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace19088e7348f%3A0xcfd0ee2da3e0baac&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "GoFan",
+                "link": "https://gofan.co/event/3261765",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Riverside High School",
+            "rating": 3.0,
+            "reviews": 29,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Riverside+High+School&ludocid=14974730640797252268&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=34yITScQM-nqCGefx3LXBe2su8i-QLavCyuZGlzioZoYRE3ifPDVOOHBuLJwVlg5u3BfdkEj6HoBZlqoGaChEwN8huUHSxvF5RlNJaL2Llcq8S4Fm7s"
+    },
+    {
+        "title": "Pauli Murray Dog Walk: a Pawsitive Impact Walk",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 10:30 AM – 12:30 PM"
+        },
+        "address": [
+            "Pauli Murray Center for History and Social Justice, 906 Carroll St",
+            "Durham, NC"
+        ],
+        "link": "https://stphilipsdurham.org/calendar/pauli-murray-dog-walk-a-pawsitive-impact-walk/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=C3Bi6DSROt5fJQ8PxT6nR_l3Url7QHNFE_SqYmfT6qYMXWwwMlpQ3HiIBBdk_dEdv-QUH5GEsBCsybEh-84g8jWrRJVoXR2BpVEvevyBzTENZ7Zn64M",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace410b65a756d:0x1c3f1b9defe9b025?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAgpEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace410b65a756d%3A0x1c3f1b9defe9b025&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
+        },
+        "description": "Pauli Murray Dog Walk: a Pawsitive Impact Walk 🐶 Saturday, March 15 Pauli Murray Center…\\n",
+        "ticket_info": [
+            {
+                "source": "St. Philip's Episcopal Church",
+                "link": "https://stphilipsdurham.org/calendar/pauli-murray-dog-walk-a-pawsitive-impact-walk/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Pauli Murray Center for History and Social Justice",
+            "rating": 4.9,
+            "reviews": 37,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Pauli+Murray+Center+for+History+and+Social+Justice&ludocid=2035375921743638565&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=C3Bi6DSROt5fJQ8PxT6nR_l3Url7QHNFE_SqYmfT6qYMXWwwMlpQ3HiIBBdk_dEdv-QUH5GEsBCsybEh-84g8jWrRJVoXR2BpVEvevyBzTENZ7Zn64M"
+    },
+    {
+        "title": "Chapel Hill Farmers' Market",
         "date": {
             "start_date": "Mar 15",
             "when": "Sat, Mar 15, 9 AM – 12 PM"
         },
         "address": [
-            "South Durham Farmers' Market, 500 Park Offices Dr",
-            "Durham, NC"
+            "University Place, 201 S Estes Dr",
+            "Chapel Hill, NC"
         ],
-        "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+        "link": "https://myfox8.com/calendar/?_escaped_fragment_=/show/?start=2023-06-25#!/details/chapel-hill-farmers-market/14748807/2025-03-15T09",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acef105d6347c5:0xe538f1e310e4b732?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIGRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acef105d6347c5%3A0xe538f1e310e4b732&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "image": "https://www.google.com/maps/vt/data=ziraNUjgGX0DiQMTNxC6g0UhMxU9QZ6oipkD11OPc-xfWYSprmQVDU9dkFBrZ-rUC1NBIb3CysQ56jLOe_rF6XU7ljfWkiNNRci85jWiDvO6eHr7Vxw",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2ae639ba29d:0x5e88df568378471b?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAgxEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2ae639ba29d%3A0x5e88df568378471b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
         },
-        "description": "Season: Fall Market Hours: November, 2024 - March, 2025Saturdays, 9am - 12pm Location: Greenwood Commons Shopping Center - 5410 NC Highway 55",
+        "description": "Chapel Hill Farmers’ Market was started in April 2008 by Farmers of Orange, a state non-profit organization created for local farmers by local farmers. All of our farmers and artisans live within...",
         "ticket_info": [
             {
-                "source": "AARP Local",
-                "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "South Durham Farmers' Market",
-            "rating": 4.7,
-            "reviews": 123,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=South+Durham+Farmers%27+Market&ludocid=16517217590924588850&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho"
-    },
-    {
-        "title": "Durham African American History Tour",
-        "date": {
-            "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 4 – 5 PM"
-        },
-        "address": [
-            "\"Major\" – Durham Bull Bronze Sculpture, 211 W Parrish St",
-            "Durham, NC"
-        ],
-        "link": "https://downtowndurham.com/event/durham-african-american-history-tour-2/2025-03-15/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=JxIH5lXOMuKu2kAzSWoQVcNERdoMwyIX9t7bAtRvMyenP5jwHpnpZahkBGwhjy5uNXICPxFFUqoH815RvkaRBpW6AnW9z6MPJIK9IueOqBRMfRsGcvo",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4720a495839:0xa7b16e2f737c579b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIIRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4720a495839%3A0xa7b16e2f737c579b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
-        },
-        "description": "Durham is the home of a litany of African American historic sites. Once the site of America’s largest black-owned business, the community known as Black Wall Street was a refuge […]",
-        "ticket_info": [
-            {
-                "source": "Downtowndurham.com",
-                "link": "https://downtowndurham.com/event/durham-african-american-history-tour-2/2025-03-15/",
-                "link_type": "tickets"
-            }
-        ],
-        "venue": {
-            "name": "\"Major\" – Durham Bull Bronze Sculpture",
-            "rating": 4.7,
-            "reviews": 82,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=%22Major%22+%E2%80%93+Durham+Bull+Bronze+Sculpture&ludocid=12083560425291798427&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr2sU-9eg_7n8wP3LnlVGTP5QeNwS4iqoQINWz9P0V0-C1dquUVJv0OKM&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlsHKjYM7LPYbP6ECbtsYOL7ZwWX9iuuYSl5dJb07VtGx_TsqBDplHq6bZ3Q&s=10"
-    },
-    {
-        "title": "St. Patrick's Celebration Weekend",
-        "date": {
-            "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 1 PM – Sun, Mar 16, 9 PM"
-        },
-        "address": [
-            "Steel String Brewery at Pluck Farm, 6901 NC-54",
-            "Mebane, NC"
-        ],
-        "link": "https://local.aarp.org/event/st-patricks-celebration-weekend-2025-03-15-mebane-nc.html",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=zUkJIn_MXWhNN4Wy1sLO12HFj1vzkC3Tid_d-aN0GLy5Ycvhshm3v9o0_KmgtaW86GCeLSh1Jh90ditu1Rp8NDasM0R-ynaFJTnYhGqlcbVX7jlHka8",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89accfb487b11a1f:0x4dc81fc97da3276b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIKRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89accfb487b11a1f%3A0x4dc81fc97da3276b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
-        },
-        "description": "Save the date Saturday and Sunday March 15-16 for Pluck Farm and Steel String Brewery’s St Patrick’s Celebration Weekend! Get your best green outfit on and celebrate with live music, food trucks...",
-        "ticket_info": [
-            {
-                "source": "Visit Chapel Hill",
-                "link": "https://www.visitchapelhill.org/event/st-patricks-celebration-weekend/31464/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Steel String Brewery",
-                "link": "https://steelstringbrewery.com/events/st-patricks-celebration-weekend/",
+                "source": "FOX8 WGHP",
+                "link": "https://myfox8.com/calendar/?nxsparam=3#!/details/chapel-hill-farmers-market/14748807/2025-03-15T09",
                 "link_type": "more info"
             },
             {
                 "source": "AARP Local",
-                "link": "https://local.aarp.org/event/st-patricks-celebration-weekend-2025-03-15-mebane-nc.html",
+                "link": "https://local.aarp.org/event/chapel-hill-farmers-market-2025-03-15-chapel-hill-nc.html",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Steel String Brewery at Pluck Farm",
-            "rating": 4.7,
-            "reviews": 57,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Steel+String+Brewery+at+Pluck+Farm&ludocid=5604764686519314283&ibp=gwp%3B0,7"
+            "name": "University Place",
+            "rating": 4.1,
+            "reviews": 1584,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=University+Place&ludocid=6811939999063754523&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpVKQuE8FkcBIaCBRIUoEhKdOf6Sm4_2Vh7rVCiCJ2bTJMb56fL21cgnQ&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq4-qaFtwOtTvyNvoVMPAj9FsGIwHjH1av52VUHz_Yjw&s"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiVoUwwWa_JHECyjU19GM9tf-EaRM7CW8tzUdI-dkp5oBOAFb6H0ewqmA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfnDw2AAAZWV9lQz1U62PjrIf0dV6EIPpZKEdPcXC9RZqEFFp7g5hZtMYHgQ&s=10"
     },
     {
-        "title": "Durham Singles Event | Ages 45-65",
+        "title": "DAG Artist Critique & Conversation",
         "date": {
             "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 2 – 4 PM"
+            "when": "Sat, Mar 15, 11 AM – 1 PM"
         },
         "address": [
-            "Weldon Mills Distillery Durham, 300 E Main St suite 001",
+            "Durham Art Guild, 120 Morris St",
             "Durham, NC"
         ],
-        "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+        "link": "https://www.eventbrite.com/e/dag-artist-critique-conversation-tickets-1216947054399",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=JkLGE_NK4Ebh5raK8BXMDx9CpFD_zQWMqpswghrSbobYyw-M0zGnxS_dB0xdJOktBBfYafJ0MgbTLmFnHyN8KxT7WzHH0ALZ4R58a444nahDRjSPQqE",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46e57900001:0x5c5889b452e1bf0b?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIMRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46e57900001%3A0x5c5889b452e1bf0b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "image": "https://www.google.com/maps/vt/data=DEma6sT0D8lW8kdmnVXwKvMgfiYT2FgtCMX8j5GMxATqHgZn6ZK2COx1BfGxjBfmH0mS7KV_Pfz2rsXj_rA1mwY5kzp0-asKOYwtEvpcbVo0oLWTOn4",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4728ac00001:0x52ab44aee6371e3c?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAg5EAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4728ac00001%3A0x52ab44aee6371e3c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
         },
-        "description": "Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!",
+        "description": "A friendly artist critique, exclusively for DAG Members",
         "ticket_info": [
             {
                 "source": "Eventbrite.com",
-                "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+                "link": "https://www.eventbrite.com/e/dag-artist-critique-conversation-tickets-1216947054399",
                 "link_type": "tickets"
             },
             {
                 "source": "AllEvents",
-                "link": "https://allevents.in/durham/durham-singles-event-%7C-ages-45-65/100001238122761509",
+                "link": "https://allevents.in/durham/dag-artist-critique-and-conversation/100001216947054399",
                 "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Weldon Mills Distillery Durham",
-            "rating": 4.9,
-            "reviews": 101,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Weldon+Mills+Distillery+Durham&ludocid=6654219857017552651&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSwqvPgYYk1oLyXvXu8o5Eq4U4RwQl_Dp5n10a1gYilBtm1MGrSetzI8&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_aRKpk4nuRze-23iN_a8oUMn3HitDl3riIiI8WK3CJlupNhezsEUSVcGPA&s"
-    },
-    {
-        "title": "Durham Farmers’ Market",
-        "date": {
-            "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 8 AM – 12 PM"
-        },
-        "address": [
-            "Durham Farmers' Market, 501 Foster St",
-            "Durham, NC"
-        ],
-        "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=yuYsQ9-A2ztgQI5uul8-GFQDDvKZz05XWm119WSbNxhGUTDY1uNop2zWaCxHX1hPEkUuEixCFzkOeqj6cDF4F2NFueOfnLR3dVl958y4fXWzWrSKHeo",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c32184fb:0x84d02a5097ba9ad8?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIORAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c32184fb%3A0x84d02a5097ba9ad8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
-        },
-        "description": "The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the […]",
-        "ticket_info": [
+            },
             {
-                "source": "Durham Farmers' Market - Downtown Durham Inc",
-                "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+                "source": "eventseeker",
+                "link": "https://eventseeker.com/browns-summit-nc/arts-museums",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Durham Farmers' Market",
-            "rating": 4.8,
-            "reviews": 677,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Durham+Farmers%27+Market&ludocid=9570195733793643224&ibp=gwp%3B0,7"
+            "name": "Durham Art Guild",
+            "rating": 5.0,
+            "reviews": 6,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Durham+Art+Guild&ludocid=5956930450104983100&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvlOD3VoNUgstan8tsDCcko5_A5QGL6wI8ie-QxDYbiFsPskMEA1gg_w&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zR9G1Fr58mo3vzkQhMDwCjoGN79hvo08xBm1dzh33xAzXfz-NZDa1mv9Gw&s=10"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReyAsMUWOyk_m-Pm2Ea428a2nQBiPlTQE3LG2lobB87igROKM1fyJx-ww&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcVFHZS19MQ_m5PaE9s0Oh_tD3WOoEdDU5_PKDUldvYA&s"
     },
     {
-        "title": "Wonderstruck Festival — Sheep in a Tree",
+        "title": "Carolina Ballet Presents Alice In Wonderland",
         "date": {
             "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 10 AM – 3 PM"
+            "when": "Sat, Mar 15, 2 – 6 PM"
         },
         "address": [
-            "Mordecai Historic Park, 1 Mimosa St",
+            "Martin Marietta Center for the Performing Arts, 2 E South St",
             "Raleigh, NC"
         ],
-        "link": "https://www.sheepinatree.com/upcoming-events/wyz20o6u5ryac80b6ckcq4qi9883gq",
+        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/35229209t-carolina-ballet-presents-alice-in-wonderland",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=7XgteyL4hDP2AYVOmzXMKhfha4gKSswbsc3lFWmADCk--Q53L2eFxZQSomwd9qEQMrjVplnRtUJR7eTe9VxsvM69_7B48ygtIYwR8DawEExRvA0XHkk",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5f3f4f53b47f:0xbe1ece09ca749f78?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQIQRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5f3f4f53b47f%3A0xbe1ece09ca749f78&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "image": "https://www.google.com/maps/vt/data=_UFEgOrXtXQl1Br-bapX22x2JDdqVvhxa8hM-pFjHe2h3bGiM4zUtF_ifrn88uWouyaIv-6dITsMcwKQHy-eJP9d30sQQ14P-aw9PClp5JMY2gn3tZM",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5890c9355d63:0xbad5e93da1a22112?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAhBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5890c9355d63%3A0xbad5e93da1a22112&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
         },
+        "description": "Why, sometimes Ive believed as many as six impossible things before breakfast. - The White Queen, speaking to Alice in Through the Looking-Glass by Lewis Carroll. Welcome the impossible - go down...",
         "ticket_info": [
             {
-                "source": "Sheep in a Tree",
-                "link": "https://www.sheepinatree.com/upcoming-events/wyz20o6u5ryac80b6ckcq4qi9883gq",
+                "source": "Evvnt.com",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/35229209t-carolina-ballet-presents-alice-in-wonderland",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Times Virginian",
+                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/35229209t-carolina-ballet-presents-alice-in-wonderland",
+                "link_type": "more info"
+            },
+            {
+                "source": "WNCT",
+                "link": "https://www.wnct.com/calendar/#!/details/carolina-ballet-presents-alice-in-wonderland/13908506/2025-03-15T19",
+                "link_type": "more info"
+            },
+            {
+                "source": "Technician",
+                "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/35229857t-carolina-ballet-presents-alice-in-wonderland",
+                "link_type": "more info"
+            },
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/carolina-ballet-presents-alice-in-wonderland-2025-03-15-tm-raleigh-nc.html",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Mordecai Historic Park",
+            "name": "Martin Marietta Center for the Performing Arts",
             "rating": 4.7,
-            "reviews": 530,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Mordecai+Historic+Park&ludocid=13699613657954295672&ibp=gwp%3B0,7"
+            "reviews": 2436,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Martin+Marietta+Center+for+the+Performing+Arts&ludocid=13462923112007999762&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiZ-wZ0XT--tJsuQ2xiU9p0olAVyZFe0xCbpQ6YzRei2s7AHBWU5kpXik&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGfyWE8wdyfXNmYlIZmuetXZCI5KEnQ3eO1DZjHjZJuw&s=10"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_IQPQmfN2KXECpUwTFFsnjt8j4D_BRZ79IkrBtFfgBIiqJzFe6Dg32E&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXRA2xTaAQ2W4k_S5-NHz8tUXuJJ8YCNna9ANU4Zalyw&s=10"
     },
     {
-        "title": "St. Patrick's Day Party & Shamrockin' Market — Mystic Farm & Distillery",
+        "title": "Magic Pants — Ann Tilley Handmade",
         "date": {
             "start_date": "Mar 15",
-            "when": "Sat, Mar 15, 12 – 5 PM"
+            "when": "Sat, Mar 15, 12:00 PM – Sun, Mar 16, 5:30 PM"
         },
         "address": [
-            "Mystic Farm & Distilling Company, 1413 Stallings Rd",
+            "Freeman's Creative, 2020 Chapel Hill Rd #25",
             "Durham, NC"
         ],
-        "link": "https://www.whatismystic.com/events-2/st-patricks-day-party-shamrockin-market",
+        "link": "https://www.anntilleyhandmade.com/classes/magic-pants-1",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=oJPaFw7g9z0KyVGOgMXROEIl2ATHS65h-939nl4_Eur8IWadGzAPulUdBmZ1PTjyhcooBtXpQsH_7JHmW19P1yVcy0dpfCnLUjrDh6arpo7wmnPTXyk",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acfc82b0da25e9:0x335478fbc7bee348?sa=X&ved=2ahUKEwjPormbkNiLAxUNKlkFHTGaJl4Q9eIBegQISRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acfc82b0da25e9%3A0x335478fbc7bee348&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+on+March+15+2025&type=place"
+            "image": "https://www.google.com/maps/vt/data=zDpxIkrdsH_eKsqOaBpBrA16by__jY8hL1yG3kFidWg7MAvgPCVJI5XJRYitOnuP5-aXNASPDq6N1sMmoQn_VEqLo296cyrE_6yitOFRBb3SfDATylQ",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace42073aa8269:0x5977cbcb8c1c28bb?sa=X&ved=2ahUKEwi218bXq9iLAxVSSDABHQlrKiI4FBD14gF6BAhJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace42073aa8269%3A0x5977cbcb8c1c28bb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=20&type=place"
         },
-        "description": "Join us on Saturday, March 15th, 2025 for a very special St. Patrick's Day celebration at Mystic Farm & Distillery. Come dressed up for the celebration! All day, guests who wear St. Patrick’s Day...",
         "ticket_info": [
             {
-                "source": "Mystic Farm & Distillery",
-                "link": "https://www.whatismystic.com/events-2/st-patricks-day-party-shamrockin-market",
+                "source": "Ann Tilley Handmade",
+                "link": "https://www.anntilleyhandmade.com/classes/magic-pants-1",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Mystic Farm & Distilling Company",
-            "rating": 4.8,
-            "reviews": 163,
-            "link": "https://www.google.com/search?sca_esv=b3202a6c776f9b4f&gl=us&hl=en&q=Mystic+Farm+%26+Distilling+Company&ludocid=3698714216761320264&ibp=gwp%3B0,7"
+            "name": "Freeman's Creative",
+            "rating": 4.9,
+            "reviews": 111,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Freeman%27s+Creative&ludocid=6446845466693609659&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzoo1T0Rsqke-J677tqu4L3TjyG1rELge439IOhNZGinuxhELDBJrh_o&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcNItxp5MFvskWoTJmG8tchuEVhlljWaT8zDqG22WQjdb2XMj9EiQ2U2WWnA&s"
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAKnTL3KQ2Zrp_js19M-L_U-yi9EUoP5-izoYxplA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLkD_wUwEbkURe4wgZMAz5CogrYauvfzjdy6b7t3xyhw&s=10"
+    },
+    {
+        "title": "North Carolina Symphony - The Music Of Queen",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 8:00 – 9:30 PM"
+        },
+        "address": [
+            "Martin Marietta Center for the Performing Arts, 2 E South St",
+            "Raleigh, NC"
+        ],
+        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/35547916t-north-carolina-symphony-the-music-of-queen",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=_UFEgOrXtXQl1Br-bapX22x2JDdqVvhxa8hM-pFjHe2h3bGiM4zUtF_ifrn88uWouyaIv-6dITsMcwKQHy-eJP9d30sQQ14P-aw9PClp5JMY2gn3tZM",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5890c9355d63:0xbad5e93da1a22112?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAgBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5890c9355d63%3A0xbad5e93da1a22112&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "We will rock you! Relive the mastery of Freddie Mercury with a full rock band and your North Carolina Symphony as they perform the hits from the legendary rock band Queen including ?Somebody to...",
+        "ticket_info": [
+            {
+                "source": "Evvnt.com",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/35547916t-north-carolina-symphony-the-music-of-queen",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Vividseats.com",
+                "link": "https://www.vividseats.com/north-carolina-symphony-tickets-raleigh-martin-marietta-center-for-the-performing-arts---meymandi-concert-hall-3-15-2025--concerts-classical/production/5149094",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Stubhub.com",
+                "link": "https://www.stubhub.com/_C-11405?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-41027&ps_ev=155132890&ps=cy-5706",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Viagogo.com",
+                "link": "https://www.viagogo.com/_C-11405?pcid=PSUSAEVECONALLEF426C5CF9E&ps_p=8&ps_placement=eventfeed&ps=vn-41027&ps_ev=155132890&ps=cy-5706",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Ticketmaster.com",
+                "link": "https://www.ticketmaster.com/north-carolina-symphony-the-music-of-raleigh-north-carolina-03-15-2025/event/2D006107DD6C4A30",
+                "link_type": "tickets"
+            }
+        ],
+        "venue": {
+            "name": "Martin Marietta Center for the Performing Arts",
+            "rating": 4.7,
+            "reviews": 2436,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Martin+Marietta+Center+for+the+Performing+Arts&ludocid=13462923112007999762&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQqddPRU8h6wzj0qBjyfFvs94uDS7W_U9yRlQmAiUOkYbzp3SHPLno4ds&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeirPa0T96SOsZgy4wTAlGwoRcGk2sk3VLVx3PSOp_UA&s=10"
+    },
+    {
+        "title": "Holidaze",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2:00 – 10:30 PM"
+        },
+        "address": [
+            "The Glass Jug Beer Lab - Downtown Durham, 545 Foster St Suite 10",
+            "Durham, NC"
+        ],
+        "link": "https://thetriangleweekender.com/event/holidaze/2025-03-15/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=zjyswwY49F712X1-BaF7MOXi-iIzq_D-jq3h5kF5N6fvO3wXuHRBed8fB08OiVdqlaqUlnBO4kCgIJiIvtHJb6n6Iww8kKJq-HketYU0lsRbSqYatmk",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace584cb4f25d5:0xd30bde825ef62ccf?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAgJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace584cb4f25d5%3A0xd30bde825ef62ccf&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "The time between holidays feels like a daze. Between parties, meals, desserts and irregular work schedules it’s hard to know what to do with yourself! Come hang with us! Need […]",
+        "ticket_info": [
+            {
+                "source": "Holidaze - The Triangle Weekender",
+                "link": "https://thetriangleweekender.com/event/holidaze/2025-03-15/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "The Glass Jug Beer Lab - Downtown Durham",
+            "rating": 4.9,
+            "reviews": 83,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=The+Glass+Jug+Beer+Lab+-+Downtown+Durham&ludocid=15207493218266918095&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrO69y4u96vKRnbHeJJjHYxCXXCLC6F-lGlF-aF5QK2nezq9SmH0Qwmw&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54-LutVrPcMlixJ3oUsI4W1qTHzS0i5ECc0HZNKzLIPb_AOCAfwkT2g1Idg&s=10"
+    },
+    {
+        "title": "Pauli Murray Dog Walk: a Pawsitive Impact Walk",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 10:30 AM – 12:30 PM"
+        },
+        "address": [
+            "Pauli Murray Center for History and Social Justice, 906 Carroll St",
+            "Durham, NC"
+        ],
+        "link": "https://stphilipsdurham.org/calendar/pauli-murray-dog-walk-a-pawsitive-impact-walk/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=C3Bi6DSROt5fJQ8PxT6nR_l3Url7QHNFE_SqYmfT6qYMXWwwMlpQ3HiIBBdk_dEdv-QUH5GEsBCsybEh-84g8jWrRJVoXR2BpVEvevyBzTENZ7Zn64M",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace410b65a756d:0x1c3f1b9defe9b025?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAgREAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace410b65a756d%3A0x1c3f1b9defe9b025&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "Pauli Murray Dog Walk: a Pawsitive Impact Walk 🐶 Saturday, March 15 Pauli Murray Center…\\n",
+        "ticket_info": [
+            {
+                "source": "St. Philip's Episcopal Church",
+                "link": "https://stphilipsdurham.org/calendar/pauli-murray-dog-walk-a-pawsitive-impact-walk/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Pauli Murray Center for History and Social Justice",
+            "rating": 4.9,
+            "reviews": 37,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Pauli+Murray+Center+for+History+and+Social+Justice&ludocid=2035375921743638565&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=C3Bi6DSROt5fJQ8PxT6nR_l3Url7QHNFE_SqYmfT6qYMXWwwMlpQ3HiIBBdk_dEdv-QUH5GEsBCsybEh-84g8jWrRJVoXR2BpVEvevyBzTENZ7Zn64M"
+    },
+    {
+        "title": "Cooking Class",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15"
+        },
+        "address": [
+            "Convivio Restaurant, 104 City Hall Plaza STE 100",
+            "Durham, NC"
+        ],
+        "link": "https://www.exploretock.com/convivio/event/527768",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=xwAZ0xb_7PeLvb4Mv50YIrEt7aOP31_vqVsml-f0I6cp2gJp91L7lfhN-sLo7ZzxzF1KEarwYD8OwFrrrx2hpnJ0pGiUmMaKTgPF99HPw5TYU8jU8zM",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d707b78847:0x68d95efc7cc15582?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAgZEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d707b78847%3A0x68d95efc7cc15582&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "Risotto ai Funghi Misti Carnaroli Rice mix mushroom",
+        "ticket_info": [
+            {
+                "source": "Exploretock.com",
+                "link": "https://www.exploretock.com/convivio/event/527768?utm_source=search",
+                "link_type": "tickets"
+            }
+        ],
+        "venue": {
+            "name": "Convivio Restaurant",
+            "rating": 4.4,
+            "reviews": 229,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Convivio+Restaurant&ludocid=7555174288408532354&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBQiGNBZJhNTtXBURXxotT7ksQdoCkajCAz3SP34tXKfGbsg3q6jc2Vss&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJsS-z4hprsCLtJiCL1MrW6S4wZF5T_KnXyerEc72Rw&s=10"
+    },
+    {
+        "title": "Chapel Hill Farmers' Market",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9 AM – 12 PM"
+        },
+        "address": [
+            "University Place, 201 S Estes Dr",
+            "Chapel Hill, NC"
+        ],
+        "link": "https://myfox8.com/calendar/?_escaped_fragment_=/show/?start=2023-06-25#!/details/chapel-hill-farmers-market/14748807/2025-03-15T09",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=ziraNUjgGX0DiQMTNxC6g0UhMxU9QZ6oipkD11OPc-xfWYSprmQVDU9dkFBrZ-rUC1NBIb3CysQ56jLOe_rF6XU7ljfWkiNNRci85jWiDvO6eHr7Vxw",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2ae639ba29d:0x5e88df568378471b?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAghEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2ae639ba29d%3A0x5e88df568378471b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "Chapel Hill Farmers’ Market was started in April 2008 by Farmers of Orange, a state non-profit organization created for local farmers by local farmers. All of our farmers and artisans live within...",
+        "ticket_info": [
+            {
+                "source": "FOX8 WGHP",
+                "link": "https://myfox8.com/calendar/?nxsparam=3#!/details/chapel-hill-farmers-market/14748807/2025-03-15T09",
+                "link_type": "more info"
+            },
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/chapel-hill-farmers-market-2025-03-15-chapel-hill-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "University Place",
+            "rating": 4.1,
+            "reviews": 1584,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=University+Place&ludocid=6811939999063754523&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiVoUwwWa_JHECyjU19GM9tf-EaRM7CW8tzUdI-dkp5oBOAFb6H0ewqmA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfnDw2AAAZWV9lQz1U62PjrIf0dV6EIPpZKEdPcXC9RZqEFFp7g5hZtMYHgQ&s=10"
+    },
+    {
+        "title": "DAG Artist Critique & Conversation",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 11 AM – 1 PM"
+        },
+        "address": [
+            "Durham Art Guild, 120 Morris St",
+            "Durham, NC"
+        ],
+        "link": "https://www.eventbrite.com/e/dag-artist-critique-conversation-tickets-1216947054399",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=DEma6sT0D8lW8kdmnVXwKvMgfiYT2FgtCMX8j5GMxATqHgZn6ZK2COx1BfGxjBfmH0mS7KV_Pfz2rsXj_rA1mwY5kzp0-asKOYwtEvpcbVo0oLWTOn4",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4728ac00001:0x52ab44aee6371e3c?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAgpEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4728ac00001%3A0x52ab44aee6371e3c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "A friendly artist critique, exclusively for DAG Members",
+        "ticket_info": [
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/dag-artist-critique-conversation-tickets-1216947054399",
+                "link_type": "tickets"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/durham/dag-artist-critique-and-conversation/100001216947054399",
+                "link_type": "more info"
+            },
+            {
+                "source": "eventseeker",
+                "link": "https://eventseeker.com/browns-summit-nc/arts-museums",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Durham Art Guild",
+            "rating": 5.0,
+            "reviews": 6,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Durham+Art+Guild&ludocid=5956930450104983100&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReyAsMUWOyk_m-Pm2Ea428a2nQBiPlTQE3LG2lobB87igROKM1fyJx-ww&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcVFHZS19MQ_m5PaE9s0Oh_tD3WOoEdDU5_PKDUldvYA&s"
+    },
+    {
+        "title": "Quan Wiggins: Play Cousins",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15"
+        },
+        "address": [
+            "The Fruit, 305 S Dillard St",
+            "Durham, NC"
+        ],
+        "link": "https://app.opendate.io/e/quan-wiggins-play-cousins-march-15-2025-570072",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=XaPo15lg6j3aLXfqYIULxydTTw7hHWoT7MTGvq8ADQqqFJtMGeQOV9N_oogxv195EK5GSyOMsBG-T0mdMy3uclywS69D3i20TjjK5n2sLlF1qPu_4Q4",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46f3381f42d:0x42006ab88a52e967?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAgxEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46f3381f42d%3A0x42006ab88a52e967&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "The Fruit Welcomes Comedian Quan Wiggins! Get ready for an unforgettable night of laugh-out-loud laughter as The Fruit proudly presents Play Cousins—a can't-miss comedy event and recording of Quan...",
+        "ticket_info": [
+            {
+                "source": "Opendate.io",
+                "link": "https://app.opendate.io/e/quan-wiggins-play-cousins-march-15-2025-570072",
+                "link_type": "tickets"
+            }
+        ],
+        "venue": {
+            "name": "The Fruit",
+            "rating": 4.7,
+            "reviews": 367,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=The+Fruit&ludocid=4755918547330460007&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdznfvULf_fZaGwUWfTFOCIYDxul6Ime57re8aWfPAhPFoC_hZnX3zC4k&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZL7dy_iMmrUdxN74aTBskxuZLLESx1lysYSX2IvqL4w&s=10"
+    },
+    {
+        "title": "Carolina Ballet Presents Alice In Wonderland",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 6 PM"
+        },
+        "address": [
+            "Martin Marietta Center for the Performing Arts, 2 E South St",
+            "Raleigh, NC"
+        ],
+        "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/35229209t-carolina-ballet-presents-alice-in-wonderland",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=_UFEgOrXtXQl1Br-bapX22x2JDdqVvhxa8hM-pFjHe2h3bGiM4zUtF_ifrn88uWouyaIv-6dITsMcwKQHy-eJP9d30sQQ14P-aw9PClp5JMY2gn3tZM",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5890c9355d63:0xbad5e93da1a22112?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAg5EAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5890c9355d63%3A0xbad5e93da1a22112&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "description": "Why, sometimes Ive believed as many as six impossible things before breakfast. - The White Queen, speaking to Alice in Through the Looking-Glass by Lewis Carroll. Welcome the impossible - go down...",
+        "ticket_info": [
+            {
+                "source": "Evvnt.com",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/35229209t-carolina-ballet-presents-alice-in-wonderland",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Times Virginian",
+                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/35229209t-carolina-ballet-presents-alice-in-wonderland",
+                "link_type": "more info"
+            },
+            {
+                "source": "WNCT",
+                "link": "https://www.wnct.com/calendar/#!/details/carolina-ballet-presents-alice-in-wonderland/13908506/2025-03-15T19",
+                "link_type": "more info"
+            },
+            {
+                "source": "Technician",
+                "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/35229857t-carolina-ballet-presents-alice-in-wonderland",
+                "link_type": "more info"
+            },
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/carolina-ballet-presents-alice-in-wonderland-2025-03-15-tm-raleigh-nc.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Martin Marietta Center for the Performing Arts",
+            "rating": 4.7,
+            "reviews": 2436,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Martin+Marietta+Center+for+the+Performing+Arts&ludocid=13462923112007999762&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_IQPQmfN2KXECpUwTFFsnjt8j4D_BRZ79IkrBtFfgBIiqJzFe6Dg32E&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXRA2xTaAQ2W4k_S5-NHz8tUXuJJ8YCNna9ANU4Zalyw&s=10"
+    },
+    {
+        "title": "Live Music",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15"
+        },
+        "address": [
+            "Growler Grlz, 4810 Hope Valley Rd Ste 110",
+            "Durham, NC"
+        ],
+        "link": "https://myfox8.com/calendar/?_escaped_fragment_=/show/?start=2023-10-31#!/details/live-music/14601679/2025-03-15T00",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=8OyGD0Wonr8DPMqmfPt8VFUr73MCzM35ARTeVucfbpbfLjDAGw5fjCBRvDHGLQ_bkJBRJUVoFh9peEPG6eDSLry9jGmxjdoY-rGtf-0ryrdWHWMaTa8",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace89c6d647213:0x56a1a44e97917b5a?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAhBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace89c6d647213%3A0x56a1a44e97917b5a&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "FOX8 WGHP",
+                "link": "https://myfox8.com/calendar/?_escaped_fragment_=/show/?start=2023-10-31#!/details/live-music/14601679/2025-03-15T00",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Growler Grlz",
+            "rating": 4.8,
+            "reviews": 352,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Growler+Grlz&ludocid=6242451215969516378&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnyrSwt6R6icIAmNjPWpiurAHv82B-znKYyyY3Sy4shIf3HN8Y2VrNPug&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL1KYftMnoadEwq-CC6QyPBGVwzW4rk_-JAYUAhRBaw&s=10"
+    },
+    {
+        "title": "Magic Pants — Ann Tilley Handmade",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 12:00 PM – Sun, Mar 16, 5:30 PM"
+        },
+        "address": [
+            "Freeman's Creative, 2020 Chapel Hill Rd #25",
+            "Durham, NC"
+        ],
+        "link": "https://www.anntilleyhandmade.com/classes/magic-pants-1",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=zDpxIkrdsH_eKsqOaBpBrA16by__jY8hL1yG3kFidWg7MAvgPCVJI5XJRYitOnuP5-aXNASPDq6N1sMmoQn_VEqLo296cyrE_6yitOFRBb3SfDATylQ",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace42073aa8269:0x5977cbcb8c1c28bb?sa=X&ved=2ahUKEwjhmJ7Yq9iLAxVcsVYBHR_YAiE4HhD14gF6BAhJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace42073aa8269%3A0x5977cbcb8c1c28bb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=30&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "Ann Tilley Handmade",
+                "link": "https://www.anntilleyhandmade.com/classes/magic-pants-1",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Freeman's Creative",
+            "rating": 4.9,
+            "reviews": 111,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&gl=us&hl=en&q=Freeman%27s+Creative&ludocid=6446845466693609659&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAKnTL3KQ2Zrp_js19M-L_U-yi9EUoP5-izoYxplA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLkD_wUwEbkURe4wgZMAz5CogrYauvfzjdy6b7t3xyhw&s=10"
+    },
+    {
+        "title": "Local News Legend",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 7 – 11 PM"
+        },
+        "address": [
+            "Moon Dog Meadery and Bottle Shop, 1104 Broad St Suite C",
+            "Durham, NC"
+        ],
+        "link": "https://open.spotify.com/concert/2lSkMhVp6Jn3YRbebsyOjP",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=05FWzxRik1QdrZsxk5gwILyEd5ecHz8woiikgC8X83qr6GFxzIzYhqW0UlvJWSEefyLI3AQAaijEiHwVINSiqtzI3d411aTbo7PatwNbtWZraWkX-3k",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace3b2941584b7:0xc01378f6f4820925?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAgBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace3b2941584b7%3A0xc01378f6f4820925&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "Find tickets for Apes of the State with Local News Legend at Moon Dog Meadery and Bottle Shop in Durham on 3/15/2025 at 7:00 PM",
+        "ticket_info": [
+            {
+                "source": "Spotify.com",
+                "link": "https://open.spotify.com/concert/2lSkMhVp6Jn3YRbebsyOjP",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Brownpapertickets.com",
+                "link": "https://www.brownpapertickets.com/event/6564917",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Shazam",
+                "link": "https://www.shazam.com/event/7c5f7259-ab56-4611-b7b8-2be3b7f74983",
+                "link_type": "more info"
+            },
+            {
+                "source": "Lake Gaston Gazette",
+                "link": "https://www.lakegastongazette-observer.com/local-events/?_evDiscoveryPath=/event/106472821n-apes-of-the-state",
+                "link_type": "more info"
+            },
+            {
+                "source": "Do Life LIVE!",
+                "link": "https://www.dolifelive.com/mexico-live-events?_evDiscoveryPath=/event/106472821n-apes-of-the-state",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Moon Dog Meadery and Bottle Shop",
+            "rating": 4.9,
+            "reviews": 87,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Moon+Dog+Meadery+and+Bottle+Shop&ludocid=13840539081899116837&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1jxQ62DK6B2tXfl9qy5LlX-9_n56Kw03ZT3B9kACjt18dDMjD6yevwg&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC610COK5rcocdzOlUAwmWesBSjczdP76FAedf-KJXShzSN_VqES0lokIrWQ&s=10"
+    },
+    {
+        "title": "Friday Tap Takeover",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 5 – 8 PM"
+        },
+        "address": [
+            "Growler Grlz, 4810 Hope Valley Rd Ste 110",
+            "Durham, NC"
+        ],
+        "link": "https://thetriangleweekender.com/event/__trashed-22/2025-03-15/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=8OyGD0Wonr8DPMqmfPt8VFUr73MCzM35ARTeVucfbpbfLjDAGw5fjCBRvDHGLQ_bkJBRJUVoFh9peEPG6eDSLry9jGmxjdoY-rGtf-0ryrdWHWMaTa8",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace89c6d647213:0x56a1a44e97917b5a?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAgJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace89c6d647213%3A0x56a1a44e97917b5a&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "Every Friday from 5-8pm, Growler Grlz highlights a different craft brewery. There will be a nice selection of draft craft beer from that week’s brewery AND there will be a […]",
+        "ticket_info": [
+            {
+                "source": "Friday Tap Takeover - The Triangle Weekender",
+                "link": "https://thetriangleweekender.com/event/__trashed-22/2025-03-15/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Growler Grlz",
+            "rating": 4.8,
+            "reviews": 352,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Growler+Grlz&ludocid=6242451215969516378&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_GE23V0mRTPZKmykWq6DrfgQRo33UpSZnshdUA9s5a3iB4bZmEHULdH0&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lICAfTDBjd09mXxy-CidyRbXwKKouW1TGAariwzGBw&s=10"
+    },
+    {
+        "title": "Blue Note Grill: Mary Jane Tribute Band",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2 – 5 PM"
+        },
+        "address": [
+            "The Blue Note Grill, 709 Washington St",
+            "Durham, NC"
+        ],
+        "link": "https://triangleblues.com/event/blue-note-grill-mary-jane-tribute-band/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=EdVZdR7vGivRgCTKCGFXJz4VDnPvWNY4UDNcBRjWVWvX6GaA-SARTQ0OSVLuR_mG11bBCj7f7Kypu4ezh82vON5cLl12hu-aht6uP5Cy4xN0IVtkdwI",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace658636008f3:0x69c111798400947f?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAgREAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace658636008f3%3A0x69c111798400947f&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "Triangle Blues Society",
+                "link": "https://triangleblues.com/event/blue-note-grill-mary-jane-tribute-band/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "The Blue Note Grill",
+            "rating": 4.5,
+            "reviews": 1648,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=The+Blue+Note+Grill&ludocid=7620391258090935423&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=EdVZdR7vGivRgCTKCGFXJz4VDnPvWNY4UDNcBRjWVWvX6GaA-SARTQ0OSVLuR_mG11bBCj7f7Kypu4ezh82vON5cLl12hu-aht6uP5Cy4xN0IVtkdwI"
+    },
+    {
+        "title": "Hillsborough Workshop • March 15 — Repair Café North Carolina",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 1 – 5 PM"
+        },
+        "address": [
+            "Whitted Building, 300 W Tryon St",
+            "Hillsborough, NC"
+        ],
+        "link": "https://www.repaircafenc.org/events/hillsborough-mar-15",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=JbLaAI2jhDXWHsDEmdqjcV8rAwWxQYeSmK78xxv5uwc-pYaicuIK4jNiYeMSG0EPi60V7J7B-6TlnyHloFBtOLM9wOOwRxTHhUcWiuqHOgVb5VFFe0I",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acdf2c356f84f9:0xda19504c03ec794a?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAgZEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acdf2c356f84f9%3A0xda19504c03ec794a&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "Repair Café is free. We will have tools and experienced people who can work with you to find the best way to repair your item. We can assist with electrical and non-electrical appliances...",
+        "ticket_info": [
+            {
+                "source": "Repair Cafe NC",
+                "link": "https://www.repaircafenc.org/events/hillsborough-mar-15",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Whitted Building",
+            "rating": 3.0,
+            "reviews": 1,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Whitted+Building&ludocid=15715680662099622218&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDX1XmUULJpvIgkVGBUDRM7HbUIocfVtzE4gYQ00rhd3bxa1n4MB0kQ5A&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbl8GSjT_YKucKTwNvmBs942bGSePSJl8U6DC4qDYTYw&s=10"
+    },
+    {
+        "title": "Women’s Adventure Film Tour 2025",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 5 PM"
+        },
+        "address": [
+            "The Cary Theater, 122 E Chatham St",
+            "Cary, NC"
+        ],
+        "link": "https://thecarytheater.com/event/womens-adventure-film-tour-2025-2/the-cary/cary/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=78pRDgDT5e0x0oE5gjToYzAbPqdDw3yxxdUkSVXFNOET-KZId3TZN63XY_PJIx4Nkdn4nK7T9VCxXGjxFhdVy1mnPNfVufkd_gyEU406eA1kCsM_nww",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf3a59517de9d:0xbbac73d2788cc2ba?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAghEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf3a59517de9d%3A0xbbac73d2788cc2ba&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "2024 90 minutes Documentary, Action / Adventure, Short films, Sports Not Rated English, Not Subtitled The Women’s Adventure Film Tour presents thrilling selections of films that span extreme...",
+        "ticket_info": [
+            {
+                "source": "Cary Theater",
+                "link": "https://thecarytheater.com/event/womens-adventure-film-tour-2025-2/the-cary/cary/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "The Cary Theater",
+            "rating": 4.7,
+            "reviews": 375,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=The+Cary+Theater&ludocid=13523311128889574074&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDt6zP0m1k-6_jB5uqysjP46dnxOEH0kDat5r0PuHW7vg-u71DJXwMopc&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBjsTcqL61iPpzYOVZ5sJhRnaZk1bpPo2VRBK4d6oLJ95b5ArepSa4XT9iZQ&s=10"
+    },
+    {
+        "title": "March Adoptathon at Rosecomb Beer Garden",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 7 – 9 AM"
+        },
+        "address": [
+            "Rosecomb Beer Garden, 1143 Parkside Main St",
+            "Cary, NC"
+        ],
+        "link": "https://www.tribeagles.org/event/march-adoptathon-at-rosecomb-beer-garden/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=Hn153XMH1C1wIro6hfBVNBrQZkHdTf4yBPb9VLjGVsqXjQXTlIDaZT-XBqpHcMqfua9fwGmI7za9W1nvm1ItbHd8HwKhKhMVfB252BxFrAVlsLa8-HA",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acefd3825946e1:0xf10ea9ad375accc2?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAgpEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acefd3825946e1%3A0xf10ea9ad375accc2&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "Triangle Beagle Rescue",
+                "link": "https://www.tribeagles.org/event/march-adoptathon-at-rosecomb-beer-garden/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Rosecomb Beer Garden",
+            "rating": 4.3,
+            "reviews": 125,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Rosecomb+Beer+Garden&ludocid=17370007374237715650&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://www.google.com/maps/vt/data=Hn153XMH1C1wIro6hfBVNBrQZkHdTf4yBPb9VLjGVsqXjQXTlIDaZT-XBqpHcMqfua9fwGmI7za9W1nvm1ItbHd8HwKhKhMVfB252BxFrAVlsLa8-HA"
+    },
+    {
+        "title": "SHE EVOLVED - Womens’ Career and Leadership Development Conference",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 9 AM – 4 PM"
+        },
+        "address": [
+            "The Woman’s Club of Raleigh, 3300 Woman's Club Dr",
+            "Raleigh, NC"
+        ],
+        "link": "https://www.eventbrite.com/e/she-evolved-womens-career-and-leadership-development-conference-tickets-1141981470319",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=j07qqg6s-isMMDy813xu_t0VvEnRpTNFriNFcyr8DX-V1WywaqXMJtyl2Oj6rLm0XCmjXwUxzaUwWk2hD01fllKVIknKJpsyq4scacqEYMtATc4HEGo",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf6190fcaf999:0xd1b234d88ff70e01?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAgxEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf6190fcaf999%3A0xd1b234d88ff70e01&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "Welcome to SHE EVOLVED - Women’s Career and Leadership Development Conference! Come join us on Sat, Mar 15, 2025, at The Woman's Club of Raleigh for Women's History Month on Woman's Club Dr, in...",
+        "ticket_info": [
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/she-evolved-womens-career-and-leadership-development-conference-tickets-1141981470319",
+                "link_type": "tickets"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/raleigh/leadership",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "The Woman’s Club of Raleigh",
+            "rating": 4.4,
+            "reviews": 18,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=The+Woman%E2%80%99s+Club+of+Raleigh&ludocid=15110197804514348545&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-lw_gSyN0i_m2iND3KeaORq08Cs1rGqF57Dsgis&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleuKwV23jUfiIiBq_VcXWYgwTgBBDJUlebu-hB2zerg&s=10"
+    },
+    {
+        "title": "A Different Thread",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 11 PM – Sun, Mar 16, 3 AM"
+        },
+        "address": [
+            "419 Revere Rd",
+            "Hillsborough, NC"
+        ],
+        "link": "https://www.shazam.com/event/16d587dc-a02f-478e-b1fe-5fc0f9ad27a5",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=cYR7rdgS_8yQs9xCtwppZe7_Ew_wkGcgPjWbMmWbtGc0kIIxpLIAL9RGj_Ljd2Wpb7baBqjTr4HIyJ9e1Ri0aedlxyAF0mQ40de9Fwx2SQdc6kynD_g",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acdf334cebc3ad:0x4c2406b22e189109?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAg5EAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acdf334cebc3ad%3A0x4c2406b22e189109&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "ticket_info": [
+            {
+                "source": "Shazam",
+                "link": "https://www.shazam.com/event/16d587dc-a02f-478e-b1fe-5fc0f9ad27a5",
+                "link_type": "more info"
+            }
+        ],
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStFKDvGjpflAM0HDZ9KYCLtwlMNNHgOIUNoKHsvIg&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82yhcsnhNlpX8QJoU045Ywohj9ekhND3cwr5s6ghk9Q&s=10"
+    },
+    {
+        "title": "Irish Salmon Tasting! St. Patrick's Day Weekend!",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 2:00 – 3:30 PM"
+        },
+        "address": [
+            "Federal, 914 W Main St",
+            "Durham, NC"
+        ],
+        "link": "https://www.eventbrite.com/e/irish-salmon-tasting-st-patricks-day-weekend-tickets-1230312761589",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=VTADY73qR_onMTtGZfs-cic2gvzyGlLYIQxgC_2CtlOr_hajou38zlUl-KJfL6MiTesbbtwn-teK2TvdqEQP0BpnlApfWgsGBuFk_f5LkJY0miViylE",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace40c469fd7bf:0xed5d86f8efa14262?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAhBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace40c469fd7bf%3A0xed5d86f8efa14262&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "Join us for a delicious evening of trying out different Irish salmon dishes and discovering your new favorite!",
+        "ticket_info": [
+            {
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/irish-salmon-tasting-st-patricks-day-weekend-tickets-1230312761589",
+                "link_type": "tickets"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/durham/irish-salmon-tasting-st-patricks-day-weekend/100001230312761589",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Federal",
+            "rating": 4.3,
+            "reviews": 570,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Federal&ludocid=17103975363553346146&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJbcrsrxwfldYbhH8CSTpJPQHcKyPEtFxIyXO77AjUhsOuTAnztL7lpO0&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4HJcaBV_d3NhRmKw9nNU9GV645qndgGS9JdXJmSGn2g&s=10"
+    },
+    {
+        "title": "North Carolina Women's Lacrosse vs Clemson",
+        "date": {
+            "start_date": "Mar 15",
+            "when": "Sat, Mar 15, 12 – 3 PM"
+        },
+        "address": [
+            "Dorrance Field",
+            ""
+        ],
+        "link": "https://myfox8.com/calendar/#!/details/north-carolina-women-s-lacrosse-vs-clemson/14930258/2025-03-15T12",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=bAidjBnUshRiXZiJymWvo-rRI0BijX_5C-_81GL1qiyX4xB2wOwK5eZRwzQZnEaBFYSHU7Wc5uSGXPRWK-ktSfu3LlEfjeGkVPNlK1-8lflLpfNyYds",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2eb74edfdab:0x3d425c87f2b2da35?sa=X&ved=2ahUKEwjTz5fZq9iLAxXSRTABHf3TB1U4KBD14gF6BAhJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2eb74edfdab%3A0x3d425c87f2b2da35&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=40&type=place"
+        },
+        "description": "North Carolina Women's Lacrosse vs Clemson Tickets...",
+        "ticket_info": [
+            {
+                "source": "Ticketsqueeze.com",
+                "link": "https://www.ticketsqueeze.com/tickets/6867932/north-carolina-tar-heels-lacrosse-vs-jacksonville-dolphins-2025-03-16-03-30-00-dorrance-field",
+                "link_type": "tickets"
+            },
+            {
+                "source": "FOX8 WGHP",
+                "link": "https://myfox8.com/calendar/#!/details/north-carolina-women-s-lacrosse-vs-clemson/14930258/2025-03-15T12",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Dorrance Field",
+            "rating": 4.6,
+            "reviews": 92,
+            "link": "https://www.google.com/search?sca_esv=a576ccb47457794e&hl=en&gl=us&q=Dorrance+Field&ludocid=4414192323738655285&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZGQMwkf3R6NJBBab4g9dWYsWtaxdqwoUFNxTfYHyW9M_2KXeMMVEnks8&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmDbZizodDY1piNdtBsYOUNy7hLdqlrKjaJqC89NsP72P9srnwptqyzg-QA&s=10"
     }
 ]
