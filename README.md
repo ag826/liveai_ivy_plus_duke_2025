@@ -1,8 +1,17 @@
 # Steps to Run
+```
 cd eventopia
 npm install
 npm run dev
+```
 
+# Links
+Figma: https://www.figma.com/design/G6tce7lOO85AtAWaGxJaSd/Eventopia?node-id=0-1&t=ZoQzRhDi63pl8rHm-1
+
+# Dev Notes
+```
+
+```
 
 # React + TypeScript + Vite
 
