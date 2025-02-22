@@ -25,6 +25,7 @@ gemini_client = genai.GenerativeModel(
 def generate_itenary(
     time,
     current_location,  # mention this as either 'current' or the actual custom location needed
+    date,  # mention this as either 'today' or the actual custom date (in mm/dd/yyyy format)
     cost,
     mode_of_transport,  # mention this as either public/private
     model=genai.GenerativeModel("gemini-1.5-flash"),
@@ -50,11 +51,11 @@ def generate_itenary(
         f"You should ensure that the entire trip (including transport and event duration) should be exactly equal to {time} hours and the total budget of the trip should be exactly equal to {cost} dollars. "
         f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. The events are: {json.dumps(events)}. "
         "Generate most of the itenary from events which wasy uploaded in the file above."
-        f"Try to choose events which the user will be interested in, his interests are listed here: {json.dumps(features)} "
+        f"Try to choose events which the user will be interested in, their interests are listed here: {json.dumps(features)} "
         f"Ensure that you also design the entire itinerary using {mode_of_transport} transport and include that in your output. "
-        f"The start and end location should be {current_location}. "
-        "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thr events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
-        "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost and time of the entire journey in the output geojson."
+        f"The start and end location should be {current_location}. Create this itenary for {date}"
+        "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thw events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
+        "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost (in rounded US dollars) and time of the entire journey (in hours) in the output geojson."
     )
 
     # Pass the content as a single string to the model
@@ -180,6 +181,7 @@ if __name__ == "__main__":
     test = generate_itenary(
         "5",
         "current",
+        "today",
         "200",
         "private",
     )
