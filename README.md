@@ -9,7 +9,49 @@ npm run dev
 Figma: https://www.figma.com/design/G6tce7lOO85AtAWaGxJaSd/Eventopia?node-id=0-1&t=ZoQzRhDi63pl8rHm-1
 
 # Dev Notes
-```
+```ts
+    // Souce has to use together with Layer (the documentation eliminates the Layer which is wrong)
+
+    // Example 1: self-defined geojson data
+    import Map, { Source, Layer } from 'react-map-gl';
+
+    // define data to be plotted
+    const geojson = {
+      type: 'FeatureCollection',
+      features: [
+        {
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [-122.4, 37.8] },
+          properties: { name: 'San Francisco' },
+        },
+      ],
+    };
+
+    // how the data is styled
+    const circleLayer = {
+      id: 'my-circle-layer',
+      type: 'circle',
+      source: 'my-data',
+      paint: {
+        'circle-radius': 10,
+        'circle-color': 'red',
+      },
+    };
+
+    <Map
+          initialViewState={{
+            longitude: -122.4,
+            latitude: 37.8,
+            zoom: 10,
+          }}
+          style={{ width: '100%', height: '400px' }}
+          mapStyle="mapbox://styles/mapbox/streets-v11"
+          mapboxAccessToken={mapboxAccessToken}
+        >
+          <Source id="my-data" type="geojson" data={geojson}>
+            <Layer {...circleLayer} />
+          </Source>
+    </Map>
 
 ```
 

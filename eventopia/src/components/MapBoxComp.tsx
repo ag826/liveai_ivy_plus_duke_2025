@@ -4,8 +4,8 @@ import AIButton from '../assets/AI_Button.svg';
 import ControlButton from '../assets/Control_Button.svg';
 import styled from 'styled-components';
 
-// const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
-const MAPBOX_TOKEN = "pk.eyJ1Ijoic2VsaW5hemhhbiIsImEiOiJjbTdmbDh0dTEwMHB2MmxweWlqbXZveHNkIn0.SFEkajm_FXf7CXJaYpM7AQ";
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
+// const MAPBOX_TOKEN = "pk.eyJ1Ijoic2VsaW5hemhhbiIsImEiOiJjbTdmbDh0dTEwMHB2MmxweWlqbXZveHNkIn0.SFEkajm_FXf7CXJaYpM7AQ";
 
 const MapBoxComp: React.FC = () => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
