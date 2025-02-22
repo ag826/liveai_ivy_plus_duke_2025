@@ -1,0 +1,602 @@
+[
+    {
+        "URL":"https:\/\/chatgpt.com\/",
+        "Title":"ChatGPT",
+        "Visit Count":75,
+        "Last Visit Time":1740204376645
+    },
+    {
+        "URL":"https:\/\/chatgpt.com\/c\/67b968d8-8d98-800e-8b11-836fb54b3bcb",
+        "Title":"User Personalization APIs",
+        "Visit Count":1,
+        "Last Visit Time":1740204249272
+    },
+    {
+        "URL":"https:\/\/chatgpt.com\/c\/67b957cb-b778-800e-8888-452da2faaeda",
+        "Title":"Get Chrome History Python",
+        "Visit Count":2,
+        "Last Visit Time":1740204207017
+    },
+    {
+        "URL":"https:\/\/www.predicthq.com\/pricing",
+        "Title":"Pricing Plans - PredictHQ",
+        "Visit Count":1,
+        "Last Visit Time":1740201921842
+    },
+    {
+        "URL":"https:\/\/www.predicthq.com\/events\/local-events?utm_source=chatgpt.com",
+        "Title":"Local Events API - Ranked Data Feed - PredictHQ",
+        "Visit Count":2,
+        "Last Visit Time":1740201921838
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/settings?ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u",
+        "Title":"Settings",
+        "Visit Count":1,
+        "Last Visit Time":1740201841637
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/addressbook?ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u",
+        "Title":"Addresses",
+        "Visit Count":1,
+        "Last Visit Time":1740201839982
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments\/u\/1\/embedded_landing_page?cn=%24p_itiy5r793v9i10&eo=https%3A%2F%2Fpayments.google.com&hostOrigin=aHR0cHM6Ly9wYXltZW50cy5nb29nbGUuY29t&ipi=hzg1a1w7s2rf&hl=en-GB&mm=e&origin=https%3A%2F%2Fpayments.google.com&si=4548774199752595&style=%3Apc%3D%23fff%3Btn%3Dpc%3Bnav%3DPT%3Bm2_o&cst=1740201826310&wst=1740201744957&sri=-107&fms=true&xsrf=AJWlU2NUZIjhmwNZ1D5MXW2ndCQcLqJJFw%3A1740201826693&ebp=ALFTWs3G6PZ2h%2FmIGaCLhGvCJqnkIQMrcvVI6Todi%2BsHupM1Zz6eMIqvVYz5KXP97bubi2%2BC3KpfBUoknBNtjs%2Bl3cZ3RjMU5%2Ff7vb9yg5J4JQtFozehkFY%3D&spul=597&cori=https%3A%2F%2Fpayments.google.com",
+        "Title":"",
+        "Visit Count":1,
+        "Last Visit Time":1740201837529
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/accountdetail?ebaid=AJ9oCCwQRVNjicpdJmxuWWHUn2uBzAew7yDj4VTMuC2zbs3aqxBUHwm8P7a0lSX7FbX2hm6ZwJqw&ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u",
+        "Title":"Account details",
+        "Visit Count":1,
+        "Last Visit Time":1740201826167
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/subscriptionsandservices?ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u",
+        "Title":"Subscriptions and services",
+        "Visit Count":1,
+        "Last Visit Time":1740201823807
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments\/u\/1\/payment_methods?cn=%24p_rl0hwmylfxtf4&eo=https%3A%2F%2Fpayments.google.com&hostOrigin=aHR0cHM6Ly9wYXltZW50cy5nb29nbGUuY29t&ipi=hzg1a1w7s2rf&hl=en-GB&mm=e&origin=https%3A%2F%2Fpayments.google.com&si=4176752449210421&style=%3Apc%3D%23fff%3Btn%3Dpc%3Bnav%3DPT%3Bm2_o&cst=1740201782494&wst=1740201744957",
+        "Title":"",
+        "Visit Count":3,
+        "Last Visit Time":1740201823221
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/paymentmethods?ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u",
+        "Title":"Payment methods",
+        "Visit Count":1,
+        "Last Visit Time":1740201782176
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/activity?ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u",
+        "Title":"Activity",
+        "Visit Count":1,
+        "Last Visit Time":1740201779324
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments\/u\/1\/timelineview?tc=96%2C87&wst=1740201744957&cst=1740201770885&si=4651559516507173&pet&sri=2&hmi=false&ipi=hzg1a1w7s2rf&hostOrigin=aHR0cHM6Ly9wYXltZW50cy5nb29nbGUuY29t&eo=https%3A%2F%2Fpayments.google.com&origin=https%3A%2F%2Fpayments.google.com&ancori=https%3A%2F%2Fpayments.google.com&mm=e&hl=en-GB&style=%3Apc%3D%23fff%3Btn%3Dpc%3Bnav%3DPT%3Bm2_o&cn=%24p_8pdce3n1bnl2&fms=true&ebp=ALFTWs3G%2F95ujahmA%2BxOL2TekxYPSWjtMvV2wTuMja8JXgBw3Vf3%2B0ygxRqTXLmpPBWnkX06icP1oKqWtHh987AYPbouJqmTfmRoCat%2BGQ%2BwF%2ByKqZXyeZEtNBMuS0D31DTST6ZG1lrCirHMuC%2FUKPYr7hHnZhh2Eg%3D%3D&spul=643&cori=https%3A%2F%2Fpayments.google.com",
+        "Title":"",
+        "Visit Count":1,
+        "Last Visit Time":1740201771258
+    },
+    {
+        "URL":"https:\/\/colab.research.google.com\/signup?utm_source=resource_tab&utm_medium=link&utm_campaign=want_more_resources",
+        "Title":"Colab paid services pricing",
+        "Visit Count":2,
+        "Last Visit Time":1740201752918
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/gp\/w\/u\/1\/home\/accountdetail?ec=AJ9oCCy22Qd3o3DgBYa366CkxJe4OZXjz9qAfa81W8mdUJjqVdb4C99Q2omR3px4S3zGqA8IC6zni06dZOwIwUh5AL87VTXtBqrqPsY4H9uKiKxDELRyw2GHorbgJ99VuW0BBQJWTJ8u&ebaid=AJ9oCCxHfE%2BT%2FCri2teecmmWnWpD3qxYvQbCjKBZ1556jMpLkeropVV3tWFGKjv5zqNUJT4O3mVm&sctid=5207893732367",
+        "Title":"Account details",
+        "Visit Count":1,
+        "Last Visit Time":1740201744625
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments\/u\/1?esp=AJ9oCCwLEHaZ47I5%2BVv30rkdJ9DRWZa0XFgQ0WE%2BVTCvX%2BF8EJpJo1%2B3Suzw\/DWw2BHmUfWfcgRakOfgJuysVHOG5Z2ncD6VbjVlUdlCDIrZYdFLIBgzvW3kzpLVM04yj3yO4sX80SrtYUdKWdUsXs3x%2BRrQFHFDN\/jLOIn3AwmItvplXOBUhhg%3D#",
+        "Title":"Account details",
+        "Visit Count":1,
+        "Last Visit Time":1740201744322
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments\/u\/1\/home?esp=AJ9oCCwLEHaZ47I5%2BVv30rkdJ9DRWZa0XFgQ0WE%2BVTCvX%2BF8EJpJo1%2B3Suzw\/DWw2BHmUfWfcgRakOfgJuysVHOG5Z2ncD6VbjVlUdlCDIrZYdFLIBgzvW3kzpLVM04yj3yO4sX80SrtYUdKWdUsXs3x%2BRrQFHFDN\/jLOIn3AwmItvplXOBUhhg%3D",
+        "Title":"Account details",
+        "Visit Count":1,
+        "Last Visit Time":1740201744322
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments\/u\/1?esp=AJ9oCCwLEHaZ47I5%2BVv30rkdJ9DRWZa0XFgQ0WE%2BVTCvX%2BF8EJpJo1%2B3Suzw\/DWw2BHmUfWfcgRakOfgJuysVHOG5Z2ncD6VbjVlUdlCDIrZYdFLIBgzvW3kzpLVM04yj3yO4sX80SrtYUdKWdUsXs3x%2BRrQFHFDN\/jLOIn3AwmItvplXOBUhhg%3D&authuser=1#",
+        "Title":"Account details",
+        "Visit Count":1,
+        "Last Visit Time":1740201743950
+    },
+    {
+        "URL":"https:\/\/payments.google.com\/payments?esp=AJ9oCCwLEHaZ47I5%2BVv30rkdJ9DRWZa0XFgQ0WE%2BVTCvX%2BF8EJpJo1%2B3Suzw%2FDWw2BHmUfWfcgRakOfgJuysVHOG5Z2ncD6VbjVlUdlCDIrZYdFLIBgzvW3kzpLVM04yj3yO4sX80SrtYUdKWdUsXs3x%2BRrQFHFDN%2FjLOIn3AwmItvplXOBUhhg%3D&authuser=1",
+        "Title":"Account details",
+        "Visit Count":1,
+        "Last Visit Time":1740201743890
+    },
+    {
+        "URL":"https:\/\/colab.research.google.com\/signup?utm_source=resource_tab&utm_medium=link&utm_campaign=want_more_resources&authuser=1",
+        "Title":"Colab paid services pricing",
+        "Visit Count":1,
+        "Last Visit Time":1740201723929
+    },
+    {
+        "URL":"https:\/\/colab.research.google.com\/",
+        "Title":"Welcome to Colaboratory - Colab",
+        "Visit Count":1,
+        "Last Visit Time":1740201664704
+    },
+    {
+        "URL":"https:\/\/www.google.com\/search?q=collab&oq=collab&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABixAxiABDIKCAIQABixAxiABDIKCAMQABixAxiABDIJCAQQABgKGIAEMgoIBRAAGLEDGIAEMgoIBhAAGLEDGIAEMhAIBxAuGMcBGLEDGNEDGIAEMgoICBAAGLEDGIAEMhMICRAuGIMBGMcBGLEDGNEDGIAE0gEIMjQ1NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+        "Title":"collab - Google Search",
+        "Visit Count":1,
+        "Last Visit Time":1740201662337
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/locations-api",
+        "Title":"Supported Locations API - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740201286869
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1216858580360233030",
+        "Title":"(28) Discord | #announcements | Tech Tree Root",
+        "Visit Count":7,
+        "Last Visit Time":1740200159483
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1216858854709526628",
+        "Title":"(26) Discord | #live-ai-general | Tech Tree Root",
+        "Visit Count":3,
+        "Last Visit Time":1740200155853
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1216860099499393107",
+        "Title":"(26) Discord | #welcome | Tech Tree Root",
+        "Visit Count":3,
+        "Last Visit Time":1740200150686
+    },
+    {
+        "URL":"https:\/\/shib.oit.duke.edu\/cgi-bin\/logout.pl?&SAMLRequest=fZNRk5owFIX%2FCsM%2BdiAYEIFBOnR0V7quRVDX%2BtIJEDRdSFwSivLrC9rOdqezvuThzncy55zcuHO2Z7WI8GuNuZAm3UEoEoTRsXwQ4sgdAPiBJCojQs3qF6zirAbpnigJoaC4iNVj8VmWgslYjjGyrMROcmU4QpliWBAqyE5Txc51c5jjdJBosEM5r3FAuUBUjGWowaGiQQXClWY4BnTgSNV1aydLG1zxixOoarJ0KgvKx3JdUYchTrhDUYm5I1In9p%2FmTsc4x4oJlrLiD%2BxQDm8LEOe46tO%2BKYxr8C530zRqo6us2gOoaQOgGaCDME3v3mj9A1oDmt3TGSf7O9lzOyfOJXbl%2Fa21YdXLu1pd8A91USw6w8FEumdVicTtJP2EZEp%2BQR1RIcoJpkKW%2BjuWNSpITnB161H7ScIKLA4KyY6yFIcfSP8zLnu%2Bf2x3z4vzbrtsF6u13m7uv5%2FMg%2FXFJ0s9gmFgfH2c2kgL62gZTqJNyYrG3vp5s00%2FsRk3tsZPf9dOK%2FGczOKnXcx4U%2BZLukkezuC8j1ZssYbTOKAR1rJD2JB2tp%2FG1sO30N%2FMwLo0Xk1joLfNPPy1Mq81Xqvz3BjzfocCmuGT9yM1cnNodBuaDExbR7aV5aORnujDUT6EeoJd8I53wbvv4f0G&RelayState=ouckuauwwraw&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=Duq%2BPe%2FvU05edm9i9rwbj9SSdUXPN6A6kXOE4BYQEbNExwB6qhnIHHLlnpcAgcxlpwejkA1QdAGvHBaaMe0t0sJn%2FHkwhzJ%2FsWR8nJFW7g6%2BPh8XsihD0tpcPOkYIR6HOOlkOlJkpsCSmQA9VuxJbPuAKZ3R1M86E06ot4cUPl70pVI72ENuXK31VXCBLd43uBk49cLFFytpW7aWGnQ36JG%2BK3Um1pIv0DAmKLMT5G0Yc%2BDoN6Zmxh4%2BfVCyPxeXOXQSi9un%2FmhrfmlMBg1FW6P5cK4qhkWGTThzSELsr4%2BUNnbVpsBVl2y6FqlTRKT7To2zL7%2B4Y7%2Bxb%2FP8JoQVIQ%3D%3D",
+        "Title":"Duke | Log Out",
+        "Visit Count":1,
+        "Last Visit Time":1740199347621
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/irj\/servlet\/prt\/portal\/prtroot\/com.sap.portal.dsm.Terminator?ParamMapCmd=LOAD&ParamMapKey=comsapportaldsmParamMapGx1740199260438x02xWID17401986169991740199347328",
+        "Title":"SAP NetWeaver Portal",
+        "Visit Count":1,
+        "Last Visit Time":1740199347400
+    },
+    {
+        "URL":"https:\/\/www.google.com\/search?q=calculator&oq=calc&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyCggBEAAYsQMYgAQyDQgCEAAYgwEYsQMYgAQyCggDEAAYsQMYgAQyCggEEAAYsQMYgAQyCggFEAAYsQMYgAQyCggGEAAYsQMYgAQyCggHEAAYsQMYgAQyBwgIEAAYgAQyBwgJEAAYjwLSAQgxMzcyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8",
+        "Title":"calculator - Google Search",
+        "Visit Count":1,
+        "Last Visit Time":1740199301819
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zwd_webcard_standard?DOESITWORK=TRUE&URL_FORPABRJ=2025&URL_FORPABRP=05&URL_PABRJ=2025&URL_PABRP=05&URL_PERNR=01368794&URL_STAR=&URL_INTENT=EMPC#",
+        "Title":"Timecard",
+        "Visit Count":2,
+        "Last Visit Time":1740199271558
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zwd_webcard_standard?DOESITWORK=TRUE&URL_FORPABRJ=2025&URL_FORPABRP=05&URL_PABRJ=2025&URL_PABRP=05&URL_PERNR=01368794&URL_STAR=&URL_INTENT=EMPC#...",
+        "Title":"Timecard",
+        "Visit Count":2,
+        "Last Visit Time":1740199271553
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zwd_webcard_standard?DOESITWORK=TRUE&URL_FORPABRJ=2025&URL_FORPABRP=05&URL_PABRJ=2025&URL_PABRP=05&URL_PERNR=01368794&URL_STAR=&URL_INTENT=EMPC",
+        "Title":"Timecard",
+        "Visit Count":2,
+        "Last Visit Time":1740199271512
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--gbE7NLlwAODjX4iuCAyRAg--#",
+        "Title":"Enter My Current Period Timecard - 02\/10\/2025-02\/23\/2025 - Duke@Work",
+        "Visit Count":2,
+        "Last Visit Time":1740199266208
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--gbE7NLlwAODjX4iuCAyRAg--#...",
+        "Title":"Enter My Current Period Timecard - 02\/10\/2025-02\/23\/2025 - Duke@Work",
+        "Visit Count":2,
+        "Last Visit Time":1740199266206
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--gbE7NLlwAODjX4iuCAyRAg--",
+        "Title":"",
+        "Visit Count":2,
+        "Last Visit Time":1740199266180
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/irj\/servlet\/prt\/portal\/prteventname\/Navigate\/prtroot\/pcd!3aportal_content!2fevery_user!2fgeneral!2fdefaultAjaxframeworkContent!2fcom.sap.portal.contentarea?ApplicationParameter=ORGVIEWGRP%3DZ_TC_SECGRID_GR&System=SAP_R3_HumanResources&WebDynproApplication=zhtmc_teamviewer&WebDynproConfiguration=ZHRTMC_TEAMVIEWER_01&WebDynproNamespace=sap&sapDocumentRenderingMode=Edge&HistoryMode=1&TarTitle=Enter%20My%20Current%20Period%20Timecard%20-%2002%2F10%2F2025-02%2F23%2F2025&windowId=WID1740198616999&NavMode=0&PrevNavTarget=navurl%3A%2F%2F519328b542875e1a34b47bdcec0461be",
+        "Title":"",
+        "Visit Count":2,
+        "Last Visit Time":1740199266068
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/HRESS_A_MENU;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--2G63WaBUqNd*1Zm*n*65vg--#",
+        "Title":"MyInfo New - Duke@Work",
+        "Visit Count":2,
+        "Last Visit Time":1740199260703
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/HRESS_A_MENU;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--2G63WaBUqNd*1Zm*n*65vg--#...",
+        "Title":"MyInfo New - Duke@Work",
+        "Visit Count":2,
+        "Last Visit Time":1740199260701
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/HRESS_A_MENU;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--2G63WaBUqNd*1Zm*n*65vg--",
+        "Title":"",
+        "Visit Count":2,
+        "Last Visit Time":1740199260651
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/irj\/servlet\/prt\/portal\/prteventname\/Navigate\/prtroot\/pcd!3aportal_content!2fevery_user!2fgeneral!2fdefaultAjaxframeworkContent!2fcom.sap.portal.contentarea?windowId=WID1740198616999&supportInitialNavNodesFilter=true",
+        "Title":"",
+        "Visit Count":2,
+        "Last Visit Time":1740199260572
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/irj\/portal\/MyInfo",
+        "Title":"MyInfo New - Duke@Work",
+        "Visit Count":8,
+        "Last Visit Time":1740199260426
+    },
+    {
+        "URL":"https:\/\/work.duke.edu\/irj\/portal\/MyInfo",
+        "Title":"MyInfo New - Duke@Work",
+        "Visit Count":5,
+        "Last Visit Time":1740198616880
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer?sap-language=EN&sap-accessibility=&sap-accessibility-std=&sap-cache-buster=CFFA0BE858C4C8CC9EABB8323F134B53&sap-theme=&WDUIGUIDELINE=GL20&dvc=standards&version=20220517-151840&sap-wd-configid=ZHRTMC_TEAMVIEWER_01&sap-wd-loadOnDemand=false&sap-ie=EDGE&sap-browserhistory=DISABLED&%7eLOADING_TEMPLATE=POPUP_PAGE&sap-wd-popupWindowID=WDWL1#",
+        "Title":"Enter My Current Period Timecard - 02\/10\/2025-02\/23\/2025 - Duke@Work",
+        "Visit Count":2,
+        "Last Visit Time":1740198511021
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer?sap-language=EN&sap-accessibility=&sap-accessibility-std=&sap-cache-buster=CFFA0BE858C4C8CC9EABB8323F134B53&sap-theme=&WDUIGUIDELINE=GL20&dvc=standards&version=20220517-151840&sap-wd-configid=ZHRTMC_TEAMVIEWER_01&sap-wd-loadOnDemand=false&sap-ie=EDGE&sap-browserhistory=DISABLED&%7eLOADING_TEMPLATE=POPUP_PAGE&sap-wd-popupWindowID=WDWL1#...",
+        "Title":"Enter My Current Period Timecard - 02\/10\/2025-02\/23\/2025 - Duke@Work",
+        "Visit Count":2,
+        "Last Visit Time":1740198511019
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--SwgjZdHX5rQEH8Zm4zCUFA--#",
+        "Title":"Enter My Current Period Timecard - 02\/10\/2025-02\/23\/2025 - Duke@Work",
+        "Visit Count":1,
+        "Last Visit Time":1740198478825
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--SwgjZdHX5rQEH8Zm4zCUFA--#...",
+        "Title":"Enter My Current Period Timecard - 02\/10\/2025-02\/23\/2025 - Duke@Work",
+        "Visit Count":1,
+        "Last Visit Time":1740198478823
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/zhtmc_teamviewer;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--SwgjZdHX5rQEH8Zm4zCUFA--",
+        "Title":"",
+        "Visit Count":1,
+        "Last Visit Time":1740198478763
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/irj\/servlet\/prt\/portal\/prteventname\/Navigate\/prtroot\/pcd!3aportal_content!2fevery_user!2fgeneral!2fdefaultAjaxframeworkContent!2fcom.sap.portal.contentarea?ApplicationParameter=ORGVIEWGRP%3DZ_TC_SECGRID_GR&System=SAP_R3_HumanResources&WebDynproApplication=zhtmc_teamviewer&WebDynproConfiguration=ZHRTMC_TEAMVIEWER_01&WebDynproNamespace=sap&sapDocumentRenderingMode=Edge&HistoryMode=1&TarTitle=Enter%20My%20Current%20Period%20Timecard%20-%2002%2F10%2F2025-02%2F23%2F2025&windowId=WID1740198473781&NavMode=0&PrevNavTarget=navurl%3A%2F%2F519328b542875e1a34b47bdcec0461be",
+        "Title":"",
+        "Visit Count":1,
+        "Last Visit Time":1740198478657
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/HRESS_A_MENU;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--0z76lQXbbFUUoy10QAVWVg--#",
+        "Title":"MyInfo New - Duke@Work",
+        "Visit Count":1,
+        "Last Visit Time":1740198474160
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/HRESS_A_MENU;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--0z76lQXbbFUUoy10QAVWVg--#...",
+        "Title":"MyInfo New - Duke@Work",
+        "Visit Count":1,
+        "Last Visit Time":1740198474158
+    },
+    {
+        "URL":"https:\/\/sweb.oit.duke.edu:8081\/sap\/bc\/webdynpro\/sap\/HRESS_A_MENU;sap-ext-sid=mQRaLvD0joXnz8g4Rlwbjw--0z76lQXbbFUUoy10QAVWVg--",
+        "Title":"",
+        "Visit Count":1,
+        "Last Visit Time":1740198473979
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/irj\/servlet\/prt\/portal\/prteventname\/Navigate\/prtroot\/pcd!3aportal_content!2fevery_user!2fgeneral!2fdefaultAjaxframeworkContent!2fcom.sap.portal.contentarea?windowId=WID1740198473781&supportInitialNavNodesFilter=true",
+        "Title":"",
+        "Visit Count":1,
+        "Last Visit Time":1740198473837
+    },
+    {
+        "URL":"https:\/\/work.oit.duke.edu\/saml2\/sp\/acs",
+        "Title":"",
+        "Visit Count":3,
+        "Last Visit Time":1740198473529
+    },
+    {
+        "URL":"https:\/\/shib.oit.duke.edu\/idp\/profile\/SAML2\/Redirect\/SSO?execution=e1s1&_eventId_proceed=1",
+        "Title":"",
+        "Visit Count":28,
+        "Last Visit Time":1740198473499
+    },
+    {
+        "URL":"https:\/\/shib.oit.duke.edu\/idp\/profile\/SAML2\/Redirect\/SSO?execution=e1s1",
+        "Title":"Duke | Log In",
+        "Visit Count":30,
+        "Last Visit Time":1740198462849
+    },
+    {
+        "URL":"https:\/\/shib.oit.duke.edu\/idp\/authn\/external?conversation=e1s1",
+        "Title":"Duke | Log In",
+        "Visit Count":42,
+        "Last Visit Time":1740198462849
+    },
+    {
+        "URL":"https:\/\/shib.oit.duke.edu\/idp\/profile\/SAML2\/Redirect\/SSO?SAMLRequest=fZLLbsIwEEV%2FJTLrxMYJDVhJJFRUCakvkaqL7kw8AYtgU4%2BjtH9fQ1tBF2Uzi9EZ6dyrKea935oVvPeAPlqEoY302pqSbL0%2FoKAUt3qdWO0T1e8gAdVTrQ704GyrO6D1%2FOGe0xUo7aDxtK6fSLRclKTOlZLZmI9jludpnLF2GstpO4vzdL1OVQPQ3KiAIvawNOil8SXhjE9ixmPOX1gmeC4ynkxy%2FkaiV3B4suIJI9HHvjNYkt4ZYSVqFEbuAYVvxFFHBEYEP28b2%2F3AwiC%2FfiARwR2Tny%2By7xJCB8MwJEOaWLehnLExZRkNEJhmdKbTf2hG2exIK9SbEamKYCJOsV31W%2FFg3e5PxQW9oIrHILtcPNtON5%2FRvOvscOtAeihJKzsEEt1Zt5f%2Ber7jRqu4PaHCO2lQg%2FGEVgW9fILqCw%3D%3D&RelayState=oucpmmuufww",
+        "Title":"Duke | Log In",
+        "Visit Count":1,
+        "Last Visit Time":1740198462849
+    },
+    {
+        "URL":"https:\/\/chatgpt.com\/c\/67b94694-da8c-800e-8125-c467ae21dc99",
+        "Title":"Save API Results JSON",
+        "Visit Count":1,
+        "Last Visit Time":1740195477856
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/manage-api-key",
+        "Title":"Manage API Key - SerpApi",
+        "Visit Count":2,
+        "Last Visit Time":1740195168942
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/dashboard",
+        "Title":"Dashboard - SerpApi",
+        "Visit Count":4,
+        "Last Visit Time":1740195153365
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/welcome",
+        "Title":"Welcome - SerpApi",
+        "Visit Count":4,
+        "Last Visit Time":1740195150513
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/phone_confirmation",
+        "Title":"Phone confirmation - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740195133240
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/phone_verification",
+        "Title":"Phone verification - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740195121701
+    },
+    {
+        "URL":"https:\/\/www.google.com\/url?q=https:\/\/serpapi.com\/users\/confirmation?confirmation_token%3D7YD1Xx6dRM98DjSzSWzS&source=gmail&ust=1740281501660000&usg=AOvVaw1LOVEZM98qO030YO9IYk64",
+        "Title":"Welcome - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740195108808
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/confirmation?confirmation_token=7YD1Xx6dRM98DjSzSWzS",
+        "Title":"Welcome - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740195108808
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/1\/?ogbl#inbox\/FMfcgzQZTMRbfnJKdGjlKmJdshtXcDfm",
+        "Title":"Confirmation instructions - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195107035
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/1\/?ogbl#inbox",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195104548
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/?authuser=1&ogbl",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/0\/?authuser=1&ogbl",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https:\/\/mail.google.com\/mail\/u\/0\/?authuser%3D1%26ogbl&followup=https:\/\/mail.google.com\/mail\/u\/0\/?authuser%3D1%26ogbl&emr=1&authuser=1",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/accounts\/SetOSID?authuser=1&continue=https:\/\/mail.google.com\/mail\/u\/0\/?authuser%3D1%26ogbl%26pli%3D1&osidt=ALWU2cv9otLamdQO93TvxgQ0MX-3rPsJ3OsvpJbJL0i8xgYZCzSe2zRPn9xGWxxaOJToPyc5DTU3GBaKIgbOl6qLMMBMDzXMjAJue7L0FDPU4PBPR4JBzvoDlOU_JsmHvCWo26L4lUEbSErnZiWboLg3ByEwgl6YuDWM1-jmE1KMr93VyxVc2fhK13Cc7eftWJ23pDaPKFmegP06sMr-sre9qg2MVPpXQCEMO_EroXaBoAAV1K3uH5QIcYTbm2FFKmrVzTbH6juabWF7Ck0k0ObDlF0aJXNe2IC7kXB-urzURYqB_JLtFl1ex2VeEE2qJ-0A4V-kQ8Rj-g3r-ezvJi99m_9Gym-PM_P1PhqE4NScTN7J_k77r9IP768Htg9sYrVbib4YSFG3Ud7CLaMz7hNtwn9YIdJIdRTU_x4-5Bu-154eUcwRtN1J1jITapT0zTQ98iuBpifZ2WEWRw0EzA0eyRevBfZFrErgy8nOEB-73qTRKnWAjL0&ifkv=ASSHykqpM76DpEFqnS6noXsE7-DGZewwIvXmqVM1EwVglS0yE-_5uxHE-9I2XftNUEgWjPZtzpgqcA",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/0\/?authuser=1&ogbl&pli=1",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/1\/?authuser=1&ogbl&pli=1",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/1\/?ogbl&pli=1",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/mail.google.com\/mail\/u\/1\/?ogbl",
+        "Title":"Inbox (266) - mobasser.haque04@gmail.com - Gmail",
+        "Visit Count":1,
+        "Last Visit Time":1740195101525
+    },
+    {
+        "URL":"https:\/\/www.google.com\/webhp?authuser=1",
+        "Title":"Google",
+        "Visit Count":6,
+        "Last Visit Time":1740195097250
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/signin\/oauth\/consent?as=S-1758810872:1740195009698835&authuser=1&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&flowName=GeneralOAuthFlow&part=AJi8hAOXs2opD0ZWrmN9lvIHgMXXNOstcWUS_dbq3P2gseGrZCou2oI613l2CXHYY6S4T6xLT-pI2_Ta4hxUld926EIn8mwp6-SN3e-dFa5bWpqNpltrHBEF3kXeTuHo-KjUG6-vY8OiXu6rH4gumJmaF9sEH_WnyYtv5QnDXBsaZruLEPNmHVik6oX8ow-tHAGsLw_tf8zcW6tRoHvnU1wcyhS_HixwWH0cLFRreK8J_fkG5ktA-KX6bjyFabqYmnuRmmeVqmoM8BWtWjdHlvztEeI_I3Dm7agkiyu9qwKO-vXdnFO4qOm5O94re9r_m6HS20FjoQq31F-85f83DoER8d061NiH0W4WMdM0Dx-zRJXAMDkp7kl1bEsm9Y0qcxo1zqqP6F9LQ1PHse0Q1Uk9OalclrOlAazCVjljyqeBfoC6mjbrE1SANZ46OPdIzvWLCtIQLFFnsV4ka3q1nAzd2nRKLrxvL61yjJVQ8NAII9srd8fhH3mSHtuZdYzzo_UmKKVyFyMf2AJ8g3_2zwemDxRHvDHiXHcJQCfe2Q7rNJKZwJkhAy9nY_fKLq1vhUPTxQOe6r--OenStabdZ-AYQ0VFbN-Q9SJAoGLQJOqj4MnxaVxdslWtzb4_oclE1jH_9CBDFtTZoaGimOYuDodkoEibTSb9KnpJueut8zCFYuCDkokswKmXmlhCaWOsNfHej5oXZNnT_lIB2tu4Bdg5i-HlUOJte6svq1OjERi6P6D2VmU-b49BrVSKOGk90UZ_cnVungL0WErt_UBTCMqx19JHc5t4LoRHXpulQznQWU5tQgtz4tOk0Vxh7_lFUW_0b2DxGZeM-aMRhvfjEZwv0cRCGTWrIw&rapt=AEjHL4OdNrX_sLY84yoJKT4ccfvGSHOAhwt2-dGhOWcqq9naaDO0A_E5VkonISfOctml4YCqO7Vab8jaq4maZQfWKsVmUFR1GA",
+        "Title":"Welcome - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740195082870
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/auth\/google_oauth2\/callback?state=48ac9b454419a52f3e9647811f011426390ff757dff6ef6e&code=4%2F0ASVgi3L8FIXC-8MDBEYd2WjI55EpPT7IJR9IlDgnRNlouMaVUHZid-GQg40fcbriUk_bgg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=1&prompt=consent",
+        "Title":"Welcome - SerpApi",
+        "Visit Count":1,
+        "Last Visit Time":1740195082870
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/signin\/oauth\/consent?authuser=1&part=AJi8hAO1J4v4nVTf1zRQKQDmyxsEwYmSxBHnSchvu4P_fmOFmeg_WBp6_mkKCJgbpTfxzjy2A6biCSPU9hSUwYS-oqLsC9BUv50ugUVDeiY9pYouNKa54X_rvlk0Pz3oYCjNQVnZZu1I18cexrvnni_gmuQfe5_PS_T-ZSufMmmSBAsJ1DS0kaegAT-c8sCZnb1jtC5bdHm0itvu71rNIMjuOyJeRtTgZnXGbV8XdeLIdJiIg_nria5GcqsZU58WVSbD7UCBAJt_ItFJIbYg0TEp2c-HVS_qj4bv7qTD15aMAnTtAP_YahH2MWiTDJzi4fKhQADY18_qq2uYQheeUMjEbGaMhtLvj6RyolmIBKhGACMMaZPA1eD93nJNL5XC0hogsMwfFeT_XL2fL3aOvO07J-IULgP-gO2uVea_IOutvPnfrQ_0PDk_9kFO2ENAf4FSR0uoi-rcsR74VIcceyKU-yDvLCJzzA&flowName=GeneralOAuthFlow&as=S-1758810872%3A1740195009698835&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&pli=1&rapt=AEjHL4OdNrX_sLY84yoJKT4ccfvGSHOAhwt2-dGhOWcqq9naaDO0A_E5VkonISfOctml4YCqO7Vab8jaq4maZQfWKsVmUFR1GA#",
+        "Title":"Sign in \u2013 Google accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740195012723
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/signin\/oauth\/id?authuser=1&part=AJi8hAM2Y2LsQin9rihf6IQI0WBKwlur7uls4Jc2qH7VskBbZiVd-zoY0wLK-6V8eQItFRwWIucw-_PZm5pAqy9tlFfHamWYQhzUne6ldboP1QAESV3myluVLzfMbmf500lf6pnzRiGAxm8B4XbkhhXvPASgBnwxVUhrUNELZv_aJy3C1AKb_mu5KalsniTO48NxYRUPE_43VETq1nXStD_xmOxntwNUg0lqpUln_iq3pFT4PNE2JiqpK8taSsOG_puqoiu1mlnXN6E2bmjYfoXpasW3O_JUXVdGQIVoEw9-96AECpbVi94ftMsBwe-UVtZcme3vetNnNUYhAeUiIdCpGlGZuUDnSxJaI6WcSW3xCSQRDzkRqclRCodDeccSfnZoPpsnRsaOL10itKXOBa01fylw-UKZwsMiIVklzwB54cATSEK4hj8TR0QqilqVcRZEAXP9TgQWBdkyERnWWBA_xFXdrskdCDSMfx-KwYVyQxHNnHiW067RrbN9N-pn-Ma2Phsq4tWNhu13_kX19lZNYoHnK9o6vQa0w4BvAUdvXXbsurqDzF2RdFDWQJnwHnAzlLQWrQCcDK9pb2o5eaQznlXx_f0htKe7o4vCo5Y6a-Gn5Ka2A1Eri4BB9ivnADLlwXqohHhKq8wlMwUzzH3gTsTH91xvmZ6M9j5qftTDv7nZ0ign7y-aiAsS7779j8UujsjgpgC_j84z13fXrpDh3UQ9VzF26ltnkmAciefqRmNnE_RXX8a64R_H6DCYMhm-izD7x2UE2IUPT-Hzhz28a5cODneafkFJIJAhUzTu93HrwgSqaBW4cziMr7jgXMC5X7w39nhKjjabXSb4zCLmX9pGa6aBlQ&flowName=GeneralOAuthFlow&as=S-1758810872%3A1740195009698835&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&rapt=AEjHL4OdNrX_sLY84yoJKT4ccfvGSHOAhwt2-dGhOWcqq9naaDO0A_E5VkonISfOctml4YCqO7Vab8jaq4maZQfWKsVmUFR1GA#",
+        "Title":"Sign in \u2013 Google accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740195012723
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/o\/oauth2\/auth\/oauthchooseaccount?access_type=offline&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email%20profile&state=48ac9b454419a52f3e9647811f011426390ff757dff6ef6e&service=lso&o2v=1&ddm=1&flowName=GeneralOAuthFlow",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740195010991
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/o\/oauth2\/auth?access_type=offline&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email%20profile&state=48ac9b454419a52f3e9647811f011426390ff757dff6ef6e&service=lso&o2v=1&ddm=1",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740195010958
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/auth\/google_oauth2",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":2,
+        "Last Visit Time":1740195010062
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/o\/oauth2\/auth?access_type=offline&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=48ac9b454419a52f3e9647811f011426390ff757dff6ef6e",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740195010062
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/sign_up",
+        "Title":"Sign Up - SerpApi",
+        "Visit Count":3,
+        "Last Visit Time":1740194998280
+    },
+    {
+        "URL":"https:\/\/serpapi.com\/users\/auth\/github",
+        "Title":"Authorize application",
+        "Visit Count":1,
+        "Last Visit Time":1740194992994
+    },
+    {
+        "URL":"https:\/\/github.com\/login\/oauth\/authorize?client_id=b4886732c9c1080dfe28&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgithub%2Fcallback&response_type=code&scope=user%3Aemail%2Cread%3Auser&state=73e9872481d1993f3a2e7d606ed6db769f074a78cf7d9c1d",
+        "Title":"Authorize application",
+        "Visit Count":1,
+        "Last Visit Time":1740194992994
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/o\/oauth2\/auth\/oauthchooseaccount?access_type=offline&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email%20profile&state=fa96a01cdf2830b39a9be4bffffa4b69a4351bea3728801a&service=lso&o2v=1&ddm=1&flowName=GeneralOAuthFlow",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740194987672
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/o\/oauth2\/auth?access_type=offline&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email%20profile&state=fa96a01cdf2830b39a9be4bffffa4b69a4351bea3728801a&service=lso&o2v=1&ddm=1",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740194987634
+    },
+    {
+        "URL":"https:\/\/accounts.google.com\/o\/oauth2\/auth?access_type=offline&client_id=480442025273-3u2ltn7591sgmqenv3h923pok1ca0705.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fserpapi.com%2Fusers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email+profile&state=fa96a01cdf2830b39a9be4bffffa4b69a4351bea3728801a",
+        "Title":"Sign in - Google Accounts",
+        "Visit Count":1,
+        "Last Visit Time":1740194986755
+    },
+    {
+        "URL":"https:\/\/pypi.org\/project\/google-search-results\/#how-to-set-serp-api-key",
+        "Title":"google-search-results \u00b7 PyPI",
+        "Visit Count":2,
+        "Last Visit Time":1740194974797
+    },
+    {
+        "URL":"https:\/\/pypi.org\/project\/google-search-results",
+        "Title":"google-search-results \u00b7 PyPI",
+        "Visit Count":3,
+        "Last Visit Time":1740194234807
+    },
+    {
+        "URL":"https:\/\/pypi.org\/project\/google-search-results\/",
+        "Title":"google-search-results \u00b7 PyPI",
+        "Visit Count":2,
+        "Last Visit Time":1740194234807
+    },
+    {
+        "URL":"https:\/\/github.com\/serpapi\/google-search-results-python",
+        "Title":"serpapi\/google-search-results-python: Google Search Results via SERP API pip Python Package",
+        "Visit Count":1,
+        "Last Visit Time":1740194233923
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1216859129918783548",
+        "Title":"(27) Discord | #introductions-and-team-finding | Tech Tree Root",
+        "Visit Count":4,
+        "Last Visit Time":1740194127059
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1341611261120745523",
+        "Title":"(26) Discord | #ask-questions | Tech Tree Root",
+        "Visit Count":5,
+        "Last Visit Time":1740194114549
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1342641322724687933",
+        "Title":"(26) Discord | #onsite-duke-harvard | Tech Tree Root",
+        "Visit Count":2,
+        "Last Visit Time":1740194109849
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1216859998609604788",
+        "Title":"(26) Discord | #fun-and-games | Tech Tree Root",
+        "Visit Count":1,
+        "Last Visit Time":1740194100844
+    },
+    {
+        "URL":"https:\/\/discord.com\/channels\/1120940612032667650\/1342641296162164806",
+        "Title":"(26) Discord | #onsite-duke-general | Tech Tree Root",
+        "Visit Count":2,
+        "Last Visit Time":1740194098727
+    }
+]
