@@ -1,9 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl/mapbox';
-import AIButton from '../assets/AI_Button.svg';
-import ControlButton from '../assets/Control_Button.svg';
-import MusicPin from '../assets/pins/music.svg'
 import styled from 'styled-components';
+import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl/mapbox';
+
+import AIButtonUnselected from '../assets/ai_button_unselected.svg';
+import AIButtonSelected from '../assets/ai_button_selected.svg';
+import ControlButtonUnselected from '../assets/control_button_unselected.svg';
+import ControlButtonSelected from '../assets/control_button_selected.svg';
+
+import MusicPin from '../assets/pins/music.svg'
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
@@ -98,7 +102,7 @@ const MapBoxComp: React.FC = () => {
   }, []);
 
 
-  
+
   // Possible types: music, TBA...
   const typeToImgConverter = (type: string) => {
     switch (type) {
@@ -119,6 +123,15 @@ const MapBoxComp: React.FC = () => {
     },
     //  other pins
   ]
+
+  const [aiButtonSelected, setAiButtonSelected] = useState(false);
+  const [controlButtonSelected, setControlButtonSelected] = useState(true);
+  const handleAIButtonClick = () => {
+    setAiButtonSelected(!aiButtonSelected);
+  }
+  const handleControlButtonClick = () => {
+    setControlButtonSelected(!controlButtonSelected);
+  }
 
   return (
     <div>
@@ -163,11 +176,11 @@ const MapBoxComp: React.FC = () => {
 
       {/* Functionality Icons */}
       <IconGroup>
-        <UserButton>
-          <img src={AIButton} alt="AI Button" style={{ width: '70px', height: '70px' }} />
+        <UserButton onClick={handleControlButtonClick}>
+          <img src={controlButtonSelected ? ControlButtonSelected : ControlButtonUnselected} alt="control Button" style={{ width: '70px', height: '70px' }} />
         </UserButton>
-        <UserButton>
-          <img src={ControlButton} alt="control Button" style={{ width: '70px', height: '70px' }} />
+        <UserButton onClick={handleAIButtonClick}>
+          <img src={aiButtonSelected ? AIButtonSelected : AIButtonUnselected} alt="AI Button" style={{ width: '70px', height: '70px' }} />
         </UserButton>
       </IconGroup>
     </div>
