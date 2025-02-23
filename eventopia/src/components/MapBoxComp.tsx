@@ -56,7 +56,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         console.log("Fetching events for:", address, latitude, longitude);
   
         const response = await fetch(
-          `http://localhost:5000/get-events?address=${encodeURIComponent(address)}`
+          `http://127.0.0.1:5000/get-events?address=${encodeURIComponent(address)}`
         );
   
         if (!response.ok) {
@@ -102,7 +102,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
             hasSimulatedClick.current = true;
             geoControlButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
             try {
-              fetch("http://localhost:5000/get-events")
+              fetch("http://127.0.0.1:5000/get-events")
                 .then((response) => response.json())
                 .then((data) => {
                   console.log("Event data:", data);
@@ -164,7 +164,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         hasSimulatedClick.current = true;
         geoControlButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
         try {
-          fetch("http://localhost:5000/get-events")
+          fetch("http://127.0.0.1:5000/get-events")
             .then((response) => response.json())
             .then((data) => {
               console.log("Event data:", data);

@@ -180,7 +180,7 @@ function App() {
                 }
 
                 try {
-                  const response = await fetch(`http://localhost:5000/get-coordinates?address=${encodeURIComponent(query)}`);
+                  const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(query)}`);
                   console.log("Fetching coordinates for:", query);
 
                   if (!response.ok) {
