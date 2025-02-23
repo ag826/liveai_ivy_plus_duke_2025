@@ -15,7 +15,13 @@ Eventopia is a smart event-planning app that provides a personalized solution fo
 ## Features
 
 * **Event Discovery:** Curates and recommends events based on user interests and geolocation, eliminating manual searching.
+
+![Event_Discovery](img1.jpeg)
+
 * **Itinerary Planning:** Designs efficient schedules by grouping nearby events within a user’s available time window and budget, maximizing their experience.
+
+![Itinery](img2.jpeg)
+
 
 ## Tech Stack
 
