@@ -182,11 +182,21 @@ const MapBoxComp: React.FC = () => {
       default:
         return DefaultPin;
     }
-  };
+  }
+
+  // The batch of pins of events/activities to show on the map
+  const centerToShow = [
+    {
+      latitude: center.latitude,
+      longitude: center.longitude,
+      img: typeToImgConverter('music')
+    },
+    //  other pins
+  ]
 
   return (
-    <div>
-      {error && <p style={{ color: "red" }}>{error}</p>}
+    <>
+      {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <Map
         ref={mapRef}
@@ -196,21 +206,43 @@ const MapBoxComp: React.FC = () => {
           latitude: userLocation?.latitude ?? 37.8,
           zoom: 14,
         }}
-        style={{ width: "95vw", height: "100vh" }}
+        style={{ width: '100vw', height: '100vh' }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
         onMove={(evt) => setCenter(evt.viewState)}
       >
-        <GeolocateControl position="top-left" showUserLocation={true} trackUserLocation={true} />
-        <NavigationControl position="top-right" />
-        <FullscreenControl position="top-right" />
-        <ScaleControl position="top-right" />
+        {/* -------------- Mapbox Configs -------------- */}
+        
 
-        {pinsToShow.length > 0 &&
-          pinsToShow.map((pin, index) => (
-            <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom"></Marker>
-          ))}
+        {/* Navigation Controls */}
+        <NavigationControl position="bottom-right" />
+
+        {/* Fullscreen Controls */}
+        <FullscreenControl position="bottom-right" />
+
+        {/* Scale Controls */}
+        <ScaleControl position="bottom-left" />
+
+        {/* Geolocation Control */}
+        <GeolocateControl position="bottom-left" showUserLocation={true} trackUserLocation={true} />
+
+        {/* Marker that reflects the geographic center of the map */}
+        {pinsToShow.length > 0 ? (
+          pinsToShow.map((pin, index) => {
+            console.log("Rendering Marker:", pin);
+            return (
+              <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
+                {/* <img
+                  src={pin.img}
+                  alt="Center Marker"
+                  style={{ width: '30px', height: '30px' }}
+                /> */}
+              </Marker>
+            );
+          })
+        ) : (null)}
+
       </Map>
-    </div>
+    </>
   );
 };
 
