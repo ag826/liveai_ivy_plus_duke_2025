@@ -12,6 +12,8 @@ Too many events happening around your city leads to information overload, choice
 
 Eventopia is a smart event-planning app that provides a personalized solution for discovering and planning events.  It personalizes event recommendations, optimizes itineraries based on budget and time, and leverages user preferences (including optional browsing history analysis) to ensure a seamless and enjoyable experience.
 
+Product Demo: https://youtu.be/0TjdkZcX_Mw
+
 ## Features
 
 * **Event Discovery:** Curates and recommends events based on user interests and geolocation, eliminating manual searching.
