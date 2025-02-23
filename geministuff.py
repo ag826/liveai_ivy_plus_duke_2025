@@ -26,8 +26,10 @@ def generate_itenary(
     time,
     start_time,
     current_location,  # mention this as either 'current' or the actual custom location needed
-    date,  # mention this as either 'today' or the actual custom date (in mm/dd/yyyy format)
+    start_date,  # mention this as either 'today' or the actual custom date (in mm/dd/yyyy format)
+    end_date,
     cost,
+    use_feature,
     mode_of_transport,  # mention this as either public/private
     model=genai.GenerativeModel("gemini-1.5-flash"),
 ):
@@ -46,20 +48,42 @@ def generate_itenary(
     with open(json_file_path, "r", encoding="utf-8") as file:
         features = json.load(file)
 
-    # Construct the content string
-    query = (
-        f"Based on all the events that are happening around my location which is {current_location}, create a comprehensive itinerary about things I can do in a defined time period. "
-        f"You should ensure that the entire trip (including transport and event duration) should be exactly equal to {time} hours and the total budget of the trip should be exactly equal to {cost} dollars. The itenary should start at {start_time}"
-        f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. The events are: {json.dumps(events)}. "
-        "Generate most of the itenary from events which wasy uploaded in the file above."
-        f"Try to choose events which the user will be interested in, their interests are listed here: {json.dumps(features)} "
-        f"Ensure that you also design the entire itinerary using {mode_of_transport} transport and include that in your output. "
-        f"The start and end location should be {current_location}. Create this itenary for {date}"
-        "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thw events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
-        "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost (in rounded US dollars) and time of the entire journey (in hours) in the output geojson."
-    )
+    if use_feature == True:
+        s = f"Try to choose events which the user will be interested in, their interests are listed here: {json.dumps(features)} "
+        user_browser_history()
+        user_features_browsing_history()
+    else:
+        s = ""
 
-    # Pass the content as a single string to the model
+    if start_date == end_date:
+        # Construct the content string
+        # For single day itenary
+        query = (
+            f"Based on all the events that are happening around my location which is {current_location}, create a comprehensive itinerary about things I can do in a defined time period. "
+            f"You should ensure that the entire trip (including transport and event duration) should be exactly equal to {time} hours and the total budget of the trip should be exactly equal to {cost} dollars. The itenary should start at {start_time}"
+            f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. The events are: {json.dumps(events)}. "
+            "Generate most of the itenary from events which wasy uploaded in the file above."
+            + s
+            + f"Ensure that you also design the entire itinerary using {mode_of_transport} transport and include that in your output. "
+            f"The start and end location should be {current_location}. Create this itenary for {start_date}"
+            "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thw events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
+            "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost (in rounded US dollars) and time of the entire journey (in hours) in the output geojson."
+        )
+    else:
+        # For multiday itenary
+        query = (
+            f"Based on all the events that are happening around my location which is {current_location}, create a comprehensive multi-day itinerary about things I can do. "
+            f"You should ensure that the entire trip total budget of the trip should be exactly equal to {cost} dollars."
+            f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. Be spekcific with the name of restaurants if you are recommending. The events are: {json.dumps(events)}. "
+            "Generate most of the itenary from events which wasy uploaded in the file above."
+            + s
+            + f"Ensure that you also design the entire itinerary using {mode_of_transport} transport and include that in your output. "
+            f"The start and end location should be {current_location}. Create this itenary from {start_date} to {end_date} only. Ensure each day has a comprehensive itenary"
+            "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thw events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
+            "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost (in rounded US dollars) and time of the entire journey (in hours) in the output geojson."
+        )
+
+        # Pass the content as a single string to the model
     response = model.generate_content(query)
 
     # Assuming response is a dictionary and contains the generated text in 'text' key
@@ -180,11 +204,13 @@ def user_browser_history():
 
 if __name__ == "__main__":
     test = generate_itenary(
-        "5",
+        "72",
         "4 pm",
         "current",
         "march 15 2025",
-        "200",
+        "march 17 2025",
+        "300",
+        False,
         "private",
     )
 

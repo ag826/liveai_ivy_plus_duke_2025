@@ -2,6 +2,7 @@
 serpapi
 google-serp-api
 google-search-results
+geopy
 
 # for geministuff.py
 google

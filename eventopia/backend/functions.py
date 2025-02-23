@@ -3,8 +3,31 @@ from flask import Flask, jsonify
 from serpapi import GoogleSearch
 from dotenv import load_dotenv
 import geocoder  
+from flask_cors import CORS
+from geopy.geocoders import Nominatim
+import time
 
 app = Flask(__name__)
+CORS(app)
+
+
+def get_lat_long(address):
+    params = {
+        "engine": "google_maps",
+        "type": "search",
+        "q": address,
+        "google_domain": "google.com",
+        "api_key": os.getenv("SERPAPI_TOKEN") # https://docs.python.org/3/library/os.html#os.getenv
+    }
+
+    search = GoogleSearch(params)
+    results = search.get_dict()
+    coordinates = results["place_results"]["gps_coordinates"]
+    lat = coordinates['latitude']
+    long = coordinates['longitude']
+
+    return lat,long
+    
 
 @app.route('/get-curlocation-events', methods=['GET'])
 def get_curlocation_events():
@@ -32,6 +55,18 @@ def get_curlocation_events():
     search = GoogleSearch(params)
     results = search.get_dict()
     events_results = results.get("events_results", [])
+
+    for event in events_results:
+        address = ", ".join(event.get("address", []))  # Convert address list to string
+        if address:
+            lat,long = get_lat_long(address)
+            if lat and long:
+                event["latitude"], event["longitude"] = lat,long
+            else:
+                event["latitude"], event["longitude"] = None, None
+        else:
+            event["latitude"], event["longitude"] = None, None
+        time.sleep(1)
     
     return jsonify(events_results)
 
