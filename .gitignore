@@ -1,4 +1,6 @@
 chrome_history_temp.db
-/.env
+.env
+/images
+location_event.ipynb
 
 backend/json_output/*

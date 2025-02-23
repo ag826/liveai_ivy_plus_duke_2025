@@ -1,107 +1,37 @@
-# Steps to Run
-```
-cd eventopia
-npm install
-npm run dev
-```
+# Eventopia
 
-# Links
-Figma: https://www.figma.com/design/G6tce7lOO85AtAWaGxJaSd/Eventopia?node-id=0-1&t=ZoQzRhDi63pl8rHm-1
+*[LIVE AI Ivy Plus] Harvard-Duke Hackathon 2025*
+* Adil Gazder (adil.gazder@duke.edu)
+* Mobasserul Haque (mohammedmobasserul.haque@duke.edu)
+* Neha Senthil (neha.senthil@duke.edu)
+* Selina Zhan (Selina.zhan@duke.edu)
 
-# Dev Notes
-```ts
-    // Souce has to use together with Layer (the documentation eliminates the Layer which is wrong)
+## Overview
 
-    // Example 1: self-defined geojson data
-    import Map, { Source, Layer } from 'react-map-gl';
+Too many events happening around your city leads to information overload, choice paradox, lack of personalization, generic recommendations, disorganized information, budget and time constraints, and the need for additional planning and scheduling.
 
-    // define data to be plotted
-    const geojson = {
-      type: 'FeatureCollection',
-      features: [
-        {
-          type: 'Feature',
-          geometry: { type: 'Point', coordinates: [-122.4, 37.8] },
-          properties: { name: 'San Francisco' },
-        },
-      ],
-    };
+Eventopia is a smart event-planning app that provides a personalized solution for discovering and planning events.  It personalizes event recommendations, optimizes itineraries based on budget and time, and leverages user preferences (including optional browsing history analysis) to ensure a seamless and enjoyable experience.
 
-    // how the data is styled
-    const circleLayer = {
-      id: 'my-circle-layer',
-      type: 'circle',
-      source: 'my-data',
-      paint: {
-        'circle-radius': 10,
-        'circle-color': 'red',
-      },
-    };
+## Features
 
-    <Map
-          initialViewState={{
-            longitude: -122.4,
-            latitude: 37.8,
-            zoom: 10,
-          }}
-          style={{ width: '100%', height: '400px' }}
-          mapStyle="mapbox://styles/mapbox/streets-v11"
-          mapboxAccessToken={mapboxAccessToken}
-        >
-          <Source id="my-data" type="geojson" data={geojson}>
-            <Layer {...circleLayer} />
-          </Source>
-    </Map>
+* **Event Discovery:** Curates and recommends events based on user interests and geolocation, eliminating manual searching.
+* **Itinerary Planning:** Designs efficient schedules by grouping nearby events within a user’s available time window and budget, maximizing their experience.
 
-```
+## Tech Stack
 
-# React + TypeScript + Vite
+* **Front End:** React, Typescript, HTML, CSS
+* **Back End:** Gemini 2.0 flash (Multimodal), Flask, Python, SearchAPI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Future Plans
 
-Currently, two official plugins are available:
+* Real-time integration across groups and calendars to coordinate schedules
+* Post-event feedback and recommendations
+* Real-time updates and notifications
+* Robust user history from social media platforms
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Team
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+* Selina Zhan (Selina.zhan@duke.edu)
+* Adil Gazder (adil.gazder@duke.edu)
+* Mobasserul Haque (mohammedmobasserul.haque@duke.edu)
+* Neha Senthil (neha.senthil@duke.edu)
