@@ -88,11 +88,13 @@ def categorize_events(model=genai.GenerativeModel("gemini-1.5-flash")):
     query = (
         "Read all the events in this JSON file and categorize each event as one of the following categories: Concerts and live music, theater and performing arts, movie screenings, theme park events, sports and fitness, food and drink, social and networking, technology and innovation, education and learningm, arts and creativity, outdoor autoddr hiking and camping, outdoor water sports activities, family and kids, nightlife and party "
         f"The file is {json.dumps(events)}"
-        "Your output must be in the same json format with the additional information. Create a new column called 'category' for this."
+        "Your output must be in the same json dictionary format with the additional information. Create a new column called 'category' for this."
+        "Return the response strictly as a JSON object with no Markdown formatting, explanations, or extra text. "
+        "Ensure it  is valid JSON without wrapping it in triple backticks."
     )
 
     response = model.generate_content(query)
-    categorized_events = response.text
+    categorized_events = json.loads(response.text)
 
     print(categorized_events)
 
@@ -173,5 +175,6 @@ def fix_lat_long():
 
 if __name__ == "__main__":
     # /print(get_events("current", "March 15 2025"))
-    get_events("current", "March 15 2025", "March 15 2025")
+    # get_events("current", "March 15 2025", "March 15 2025")
     # categorize_events()
+    fix_lat_long()

@@ -1,1 +1,349 @@
-"```json\n[\n  {\n    \"title\": \"Durham NC Parkrun\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 8 AM\"\n    },\n    \"address\": [\n      \"Southern Boundaries Park, 100 3rd Fork Rd\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://local.aarp.org/event/durham-nc-parkrun-2025-03-15-durham-nc.html\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d0922a64c5:0x4c38b56c2c6b569c?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIARAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d0922a64c5%3A0x4c38b56c2c6b569c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"A free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate \\u2013 it's up to you! We all take part for our own enjoyment. Please come along and join in whatever your...\",\n    \"ticket_info\": [\n      {\n        \"source\": \"AARP Local\",\n        \"link\": \"https://local.aarp.org/event/durham-nc-parkrun-2025-03-15-durham-nc.html\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Southern Boundaries Park\",\n      \"rating\": 4.5,\n      \"reviews\": 282,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Southern+Boundaries+Park&ludocid=5492339221784647324&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U\",\n    \"category\": \"Sports and fitness\"\n  },\n  {\n    \"title\": \"Fabio Rojas\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 7:30 \\u2013 11:30 PM\"\n    },\n    \"address\": [\n      \"Sharp 9 Gallery, 4608 Industry Ln\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106473454n-david-bixler-trio-incognito\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=pvqKX-swxM00OpKOF7ALERDKnCy2XZoItCBMTP4GEhaewocyeliLbZt9AWwNWf3vRwxS4SGTH9Z1XF_ECQlZwV3oZBCOVWt6nN_-az3GYG1DtmiI9ks\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace595eaad686f:0x400681aef5792bcf?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQICRAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace595eaad686f%3A0x400681aef5792bcf&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"SPRING TRAINING TOUR 2025! After moving to NYC thirty years ago, saxophonist, composer, and educator David Bixler cut his teeth touring the world with the big bands of Lionel Hampton and Toshiko...\",\n    \"ticket_info\": [\n      {\n        \"source\": \"The Warren Record\",\n        \"link\": \"https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106473454n-david-bixler-trio-incognito\",\n        \"link_type\": \"more info\"\n      },\n      {\n        \"source\": \"Chatham Star-Tribune\",\n        \"link\": \"https://www.chathamstartribune.com/local-events/?_evDiscoveryPath=/event/106414918n-fabio-rojas-david-bixler-s-trio-incognito\",\n        \"link_type\": \"more info\"\n      },\n      {\n        \"source\": \"Shazam\",\n        \"link\": \"https://www.shazam.com/event/64cbfcba-8fba-451f-8b02-4bbfd87dae41\",\n        \"link_type\": \"more info\"\n      },\n      {\n        \"source\": \"Lake Gaston Gazette\",\n        \"link\": \"https://www.lakegastongazette-observer.com/local-events/?_evDiscoveryPath=/event/106414918n-fabio-rojas-david-bixler-s-trio-incognito\",\n        \"link_type\": \"more info\"\n      },\n      {\n        \"source\": \"Dan River Sports\",\n        \"link\": \"https://www.danriversports.com/local-events/?_evDiscoveryPath=/event/106414918n-fabio-rojas-david-bixler-s-trio-incognito\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Sharp 9 Gallery\",\n      \"rating\": 4.9,\n      \"reviews\": 181,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Sharp+9+Gallery&ludocid=4613517456730303439&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AMyzBC0J3E2l4NE0t0WWCW58qZ2th8rUNg_ALF0&s\",\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZcSziccxfe3R2fXhVWfs7oZdS0N1PMJYhvpa0a1ldqw&s=10\",\n    \"category\": \"Concerts and live music\"\n  },\n  {\n    \"title\": \"Durham Creek Week 2025 \\u2014 Keep Durham Beautiful\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Mar 15, 8 AM \\u2013 Mar 23, 5 PM\"\n    },\n    \"address\": [\n      \"Keep Durham Beautiful, 2011 Fay St\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://www.keepdurhambeautiful.org/events/creek-week-2025\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=_Grp99KbAke82Bkkkxtn8EZjEUbdWABIevaYRYghL_8dVtirZhtmBF_TvdnL9aRaI4KvvyrQ9bcs-fnJ7M98etvIBqitJZitLuV5CKXiIhVQ7xYwTyM\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace37d9164cfa7:0xf332cfb430bf448b?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIERAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace37d9164cfa7%3A0xf332cfb430bf448b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"Creek Week is a time to discover and clean up our local streams. It has been celebrated in Durham since 2009. To date, we have collected 210,989 pounds of litter with 4,808 volunteers. Want to...\",\n    \"ticket_info\": [\n      {\n        \"source\": \"Keep Durham Beautiful\",\n        \"link\": \"https://www.keepdurhambeautiful.org/events/creek-week-2025\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Keep Durham Beautiful\",\n      \"rating\": 4.8,\n      \"reviews\": 6,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Keep+Durham+Beautiful&ludocid=17524297472870925451&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODTd9uV3ChnKn6FF6Ed4HeoUfbPguITEmj4skXiCeqLy0Nxvb5V-urLE&s\",\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZPEn6Sq-Mo-mPdfc55_xoICj9i0rccW0CnvviUMAUQ&s=10\",\n    \"category\": \"Outdoor autoddr hiking and camping\"\n  },\n  {\n    \"title\": \"Durham Singles Event | Ages 45-65\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 2 \\u2013 4 PM\"\n    },\n    \"address\": [\n      \"Weldon Mills Distillery Durham, 300 E Main St suite 001\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=JkLGE_NK4Ebh5raK8BXMDx9CpFD_zQWMqpswghrSbobYyw-M0zGnxS_dB0xdJOktBBfYafJ0MgbTLmFnHyN8KxT7WzHH0ALZ4R58a444nahDRjSPQqE\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46e57900001:0x5c5889b452e1bf0b?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIGRAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46e57900001%3A0x5c5889b452e1bf0b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!\",\n    \"ticket_info\": [\n      {\n        \"source\": \"Eventbrite.com\",\n        \"link\": \"https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509\",\n        \"link_type\": \"tickets\"\n      },\n      {\n        \"source\": \"AllEvents\",\n        \"link\": \"https://allevents.in/durham/durham-singles-event-%7C-ages-45-65/100001238122761509\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Weldon Mills Distillery Durham\",\n      \"rating\": 4.9,\n      \"reviews\": 101,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Weldon+Mills+Distillery+Durham&ludocid=6654219857017552651&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSwqvPgYYk1oLyXvXu8o5Eq4U4RwQl_Dp5n10a1gYilBtm1MGrSetzI8&s\",\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_aRKpk4nuRze-23iN_a8oUMn3HitDl3riIiI8WK3CJlupNhezsEUSVcGPA&s\",\n    \"category\": \"Social and networking\"\n  },\n  {\n    \"title\": \"Durham Farmers\\u2019 Market\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 8 AM \\u2013 12 PM\"\n    },\n    \"address\": [\n      \"Durham Farmers' Market, 501 Foster St\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=yuYsQ9-A2ztgQI5uul8-GFQDDvKZz05XWm119WSbNxhGUTDY1uNop2zWaCxHX1hPEkUuEixCFzkOeqj6cDF4F2NFueOfnLR3dVl958y4fXWzWrSKHeo\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c32184fb:0x84d02a5097ba9ad8?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIIRAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c32184fb%3A0x84d02a5097ba9ad8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"The Durham Farmers\\u2019 Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the [\\u2026]\",\n    \"ticket_info\": [\n      {\n        \"source\": \"Durham Farmers' Market - Downtown Durham Inc\",\n        \"link\": \"https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Durham Farmers' Market\",\n      \"rating\": 4.8,\n      \"reviews\": 677,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Durham+Farmers%27+Market&ludocid=9570195733793643224&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvlOD3VoNUgstan8tsDCcko5_A5QGL6wI8ie-QxDYbiFsPskMEA1gg_w&s\",\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zR9G1Fr58mo3vzkQhMDwCjoGN79hvo08xBm1dzh33xAzXfz-NZDa1mv9Gw&s=10\",\n    \"category\": \"Food and drink\"\n  },\n  {\n    \"title\": \"2025 Official Raleigh St Patricks Day Bar Crawl 2 Dates By Bar Crawl LIVE\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 2 \\u2013 9 PM\"\n    },\n    \"address\": [\n      \"Whiskey Rose Raleigh, 401 N West St\",\n      \"Raleigh, NC\"\n    ],\n    \"link\": \"https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=Q7EMVX1pgwbtEmK54hMbeHIzpQWz_J4bhYdNI_d2ui0Sg2NXAg9AR-OZK-9pf12s__QsqR_-XmHwbJ2rk0P6DlcFwzLG74HmUfvC1Z8IaIvDTb7iLxc\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ac5f3f925f0bc7:0x52fd3a67f03af09e?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIKRAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ac5f3f925f0bc7%3A0x52fd3a67f03af09e&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"Raleigh's #1 St Pats Pub Crawl: The Raleigh St Patrick's Day Pub Crawl returns March 2025! Secure your spot for the best Raleigh Pub Crawl!\",\n    \"ticket_info\": [\n      {\n        \"source\": \"Evvnt.com\",\n        \"link\": \"https://go.evvnt.com/2581509-0?pid=8899\",\n        \"link_type\": \"tickets\"\n      },\n      {\n        \"source\": \"Eventbrite.com\",\n        \"link\": \"https://www.eventbrite.com/e/951501595887\",\n        \"link_type\": \"tickets\"\n      },\n      {\n        \"source\": \"Times Virginian\",\n        \"link\": \"https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live\",\n        \"link_type\": \"more info\"\n      },\n      {\n        \"source\": \"Dinwiddie Monitor\",\n        \"link\": \"https://www.thedinwiddiemonitor.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live\",\n        \"link_type\": \"more info\"\n      },\n      {\n        \"source\": \"technicianonline\",\n        \"link\": \"https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/2581509-2025-official-raleigh-st-patricks-day-bar-crawl-2-dates-by-bar-crawl-live\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Whiskey Rose Raleigh\",\n      \"rating\": 4.0,\n      \"reviews\": 75,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Whiskey+Rose+Raleigh&ludocid=5980000098304323742&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24imTo6ylSlWBQDuR2BX1mT-CF0TUsXa0HMYimvL69Gyb-0OmwYqfjNM&s\",\n    \"image\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZifHHazYQmzh4Ur7TffgJVYeY9vTn1Ro3AnOm4GB1Aw&s=10\",\n    \"category\": \"Nightlife and party\"\n  },\n  {\n    \"title\": \"North Carolina State Championship- Durham, NC; USAJPA-sanctioned event; hosted by SpeedPuzzling.com \\u2014 USA Jigsaw Puzzle Association\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 11:45 AM \\u2013 7:30 PM\"\n    },\n    \"address\": [\n      \"Irwin R. Holmes Sr. Recreation Center at Campus Hills, 2000 S Alston Ave\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://www.usajigsaw.org/usajpa-events/gebmnkk1xrjhhhqj0f4h4fv714ltnq-57r7t-nf98m-px5px-s94t9-3l5jf\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=fIP41FKGiNEiDRmypFySCviKxuDxtuB1A0bdaEVyqIj1mhvDKVpySNMrTnqklmMl7fZZuYY73fgTWT5Ut4t5wcQI5I1d2anZtZ7x83biKucMVpxgcSg\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace50d658f631b:0xd71a350de454e9b5?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIMRAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace50d658f631b%3A0xd71a350de454e9b5&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"NC2025 --North Carolina Speed Puzzling Championship--is coming soon! You'll be able to test out your puzzling skills --solo, with a partner, and on a team of 4. We're also adding our Pairs Relay...\",\n    \"ticket_info\": [\n      {\n        \"source\": \"USA Jigsaw Puzzle Association\",\n        \"link\": \"https://www.usajigsaw.org/usajpa-events/gebmnkk1xrjhhhqj0f4h4fv714ltnq-57r7t-nf98m-px5px-s94t9-3l5jf\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Irwin R. Holmes Sr. Recreation Center at Campus Hills\",\n      \"rating\": 4.8,\n      \"reviews\": 12,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Irwin+R.+Holmes+Sr.+Recreation+Center+at+Campus+Hills&ludocid=15499759401330600373&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://www.google.com/maps/vt/data=fIP41FKGiNEiDRmypFySCviKxuDxtuB1A0bdaEVyqIj1mhvDKVpySNMrTnqklmMl7fZZuYY73fgTWT5Ut4t5wcQI5I1d2anZtZ7x83biKucMVpxgcSg\",\n    \"category\": \"Arts and creativity\"\n  },\n  {\n    \"title\": \"Advanced Study Class Show: Narrative Improv \\u2014 Live Calendar\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 9:30 \\u2013 10:30 PM\"\n    },\n    \"address\": [\n      \"Mettlesome, 800 Taylor St Suite 9-156\",\n      \"Durham, NC\"\n    ],\n    \"link\": \"https://thisismettlesome.com/live/2024/3/15/narrative-improv\",\n    \"event_location_map\": {\n      \"image\": \"https://www.google.com/maps/vt/data=I6L0Ewu5lfciZNufUSb8dO5MxzrnptHODjBHpISoHKlZyNLMSaZKqxDFhY4hpMUAEKlQ2Sr_RytgFuL1TAKOJbv2eNeEfvCwArDQBD9_I0rm5NG5hbk\",\n      \"link\": \"https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5df51bb44bd:0xc623fd38bc9b70eb?sa=X&ved=2ahUKEwjjuby1wNiLAxVKGRAIHVBKIhAQ9eIBegQIORAA&hl=en&gl=us\",\n      \"serpapi_link\": \"https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5df51bb44bd%3A0xc623fd38bc9b70eb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place\"\n    },\n    \"description\": \"The students of Aditya Pabba\\u2019s Advanced Study: Narrative Improv class will create two completely improvised plays opening and closing on the same day. Tickets $5 at the door\",\n    \"ticket_info\": [\n      {\n        \"source\": \"mettlesome\",\n        \"link\": \"https://thisismettlesome.com/live/2024/3/15/narrative-improv\",\n        \"link_type\": \"more info\"\n      }\n    ],\n    \"venue\": {\n      \"name\": \"Mettlesome\",\n      \"rating\": 4.9,\n      \"reviews\": 36,\n      \"link\": \"https://www.google.com/search?sca_esv=8fd1ed7eb01c4b5e&gl=us&hl=en&q=Mettlesome&ludocid=14277533663818903787&ibp=gwp%3B0,7\"\n    },\n    \"thumbnail\": \"https://www.google.com/maps/vt/data=I6L0Ewu5lfciZNufUSb8dO5MxzrnptHODjBHpISoHKlZyNLMSaZKqxDFhY4hpMUAEKlQ2Sr_RytgFuL1TAKOJbv2eNeEfvCwArDQBD9_I0rm5NG5hbk\",\n    \"category\": \"Theater and performing arts\"\n  },\n  {\n    \"title\": \"9th Annual Charity All Black Affair\",\n    \"date\": {\n      \"start_date\": \"Mar 15\",\n      \"when\": \"Sat, Mar 15, 9 PM \\u2013 Sun, Mar 16, 1 AM\"\n    },\n    \"address\": [\n      \"Durham Armory, 212 Foster St\",\n      \"Durham"
+{
+    "events": [
+        {
+            "title": "Durham NC Parkrun",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 8 AM"
+            },
+            "address": [
+                "Southern Boundaries Park, 100 3rd Fork Rd",
+                "Durham, NC"
+            ],
+            "link": "https://local.aarp.org/event/durham-nc-parkrun-2025-03-15-durham-nc.html",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d0922a64c5:0x4c38b56c2c6b569c?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIARAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d0922a64c5%3A0x4c38b56c2c6b569c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "A free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate – it's up to you! We all take part for our own enjoyment. Please come along and join in whatever your...",
+            "ticket_info": [
+                {
+                    "source": "AARP Local",
+                    "link": "https://local.aarp.org/event/durham-nc-parkrun-2025-03-15-durham-nc.html",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Southern Boundaries Park",
+                "rating": 4.5,
+                "reviews": 282,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Southern+Boundaries+Park&ludocid=5492339221784647324&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U",
+            "category": "Sports and fitness"
+        },
+        {
+            "title": "Durham Creek Week 2025 — Keep Durham Beautiful",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Mar 15, 8 AM – Mar 23, 5 PM"
+            },
+            "address": [
+                "Keep Durham Beautiful, 2011 Fay St",
+                "Durham, NC"
+            ],
+            "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=_Grp99KbAke82Bkkkxtn8EZjEUbdWABIevaYRYghL_8dVtirZhtmBF_TvdnL9aRaI4KvvyrQ9bcs-fnJ7M98etvIBqitJZitLuV5CKXiIhVQ7xYwTyM",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace37d9164cfa7:0xf332cfb430bf448b?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQICRAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace37d9164cfa7%3A0xf332cfb430bf448b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "Creek Week is a time to discover and clean up our local streams. It has been celebrated in Durham since 2009. To date, we have collected 210,989 pounds of litter with 4,808 volunteers. Want to...",
+            "ticket_info": [
+                {
+                    "source": "Keep Durham Beautiful",
+                    "link": "https://www.keepdurhambeautiful.org/events/creek-week-2025",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Keep Durham Beautiful",
+                "rating": 4.8,
+                "reviews": 6,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Keep+Durham+Beautiful&ludocid=17524297472870925451&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODTd9uV3ChnKn6FF6Ed4HeoUfbPguITEmj4skXiCeqLy0Nxvb5V-urLE&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZPEn6Sq-Mo-mPdfc55_xoICj9i0rccW0CnvviUMAUQ&s=10",
+            "category": "Outdoor autoddr hiking and camping"
+        },
+        {
+            "title": "Durham Singles Event | Ages 45-65",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 2 – 4 PM"
+            },
+            "address": [
+                "Weldon Mills Distillery Durham, 300 E Main St suite 001",
+                "Durham, NC"
+            ],
+            "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=JkLGE_NK4Ebh5raK8BXMDx9CpFD_zQWMqpswghrSbobYyw-M0zGnxS_dB0xdJOktBBfYafJ0MgbTLmFnHyN8KxT7WzHH0ALZ4R58a444nahDRjSPQqE",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46e57900001:0x5c5889b452e1bf0b?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIERAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46e57900001%3A0x5c5889b452e1bf0b&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!",
+            "ticket_info": [
+                {
+                    "source": "Eventbrite.com",
+                    "link": "https://www.eventbrite.com/e/durham-singles-event-ages-45-65-tickets-1238122761509",
+                    "link_type": "tickets"
+                },
+                {
+                    "source": "AllEvents",
+                    "link": "https://allevents.in/durham/durham-singles-event-%7C-ages-45-65/100001238122761509",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Weldon Mills Distillery Durham",
+                "rating": 4.9,
+                "reviews": 101,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Weldon+Mills+Distillery+Durham&ludocid=6654219857017552651&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSwqvPgYYk1oLyXvXu8o5Eq4U4RwQl_Dp5n10a1gYilBtm1MGrSetzI8&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_aRKpk4nuRze-23iN_a8oUMn3HitDl3riIiI8WK3CJlupNhezsEUSVcGPA&s",
+            "category": "Social and networking"
+        },
+        {
+            "title": "Durham Farmers’ Market",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 8 AM – 12 PM"
+            },
+            "address": [
+                "Durham Farmers' Market, 501 Foster St",
+                "Durham, NC"
+            ],
+            "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=yuYsQ9-A2ztgQI5uul8-GFQDDvKZz05XWm119WSbNxhGUTDY1uNop2zWaCxHX1hPEkUuEixCFzkOeqj6cDF4F2NFueOfnLR3dVl958y4fXWzWrSKHeo",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace473c32184fb:0x84d02a5097ba9ad8?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIGRAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace473c32184fb%3A0x84d02a5097ba9ad8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the [...]",
+            "ticket_info": [
+                {
+                    "source": "Durham Farmers' Market - Downtown Durham Inc",
+                    "link": "https://downtowndurham.com/event/durham-farmers-market-2/2025-03-15/",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Durham Farmers' Market",
+                "rating": 4.8,
+                "reviews": 677,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Durham+Farmers%27+Market&ludocid=9570195733793643224&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvlOD3VoNUgstan8tsDCcko5_A5QGL6wI8ie-QxDYbiFsPskMEA1gg_w&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zR9G1Fr58mo3vzkQhMDwCjoGN79hvo08xBm1dzh33xAzXfz-NZDa1mv9Gw&s=10",
+            "category": "Food and drink"
+        },
+        {
+            "title": "TOUR: A Closer Look at the Collection",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 1:00 – 1:30 PM"
+            },
+            "address": [
+                "Ackland Art Museum, 101 S Columbia St",
+                "Chapel Hill, NC"
+            ],
+            "link": "https://calendar.unc.edu/calendar/day/2025/3/15",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=tUkYltR8KDcgRhusA_r7NLtNkhAXZ-AhGQRpc46AYvuT1yHFFVE16KOurrch9hvqoEwzPW98TBWPphfdRtVVm2B2-KDsCMGesdAyetJh4yQUbvSUKmY",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2e7b6f847df:0xd5afb8f628bbbe26?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIIRAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2e7b6f847df%3A0xd5afb8f628bbbe26&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "Join Ackland educators for a lively half-hour look at small handful of artworks. These engaging conversational tours offer a closer look at and new perspectives on works on view at the Museum.",
+            "ticket_info": [
+                {
+                    "source": "The University of North Carolina at Chapel Hill Events Calendar",
+                    "link": "https://calendar.unc.edu/calendar/day/2025/3/15",
+                    "link_type": "more info"
+                },
+                {
+                    "source": "The Triangle Weekender",
+                    "link": "https://thetriangleweekender.com/event/ackland-art-museum-tour-a-closer-look-at-the-collection/2025-03-15/",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Ackland Art Museum",
+                "rating": 4.7,
+                "reviews": 424,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Ackland+Art+Museum&ludocid=15397729018387873318&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PueQalIjHA4rbd3-6sykqdLVCJgCBq0QWr9_tH9j4l1tITzXG0pV_K4&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8mMIL9wWYXSIRJMVkXgGfvwyGo47YT2Gd1D_7WV-64A&s=10",
+            "category": "Arts and creativity"
+        },
+        {
+            "title": "Taxicab Preacher",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 4 – 8 PM"
+            },
+            "address": [
+                "Durty Bull Brewing Company, 206 Broadway St #104",
+                "Durham, NC"
+            ],
+            "link": "https://open.spotify.com/concert/0Al7Z8n3OankastEoMtUgV",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=GTChuYUH5_OTA8nyiQ5FXVU9AfSl5jJmhDhFyGG3S_KzZ1PCCQK0ve7-HN45VA5Hc7F0COZTrG5HYRzgDRvGskEfF1ilKQOo2uyC8o85-1pbMcrUVR0",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4712da49f5b:0xf1daa19134acd7fb?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIKRAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4712da49f5b%3A0xf1daa19134acd7fb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "Find tickets for Taxicab Preacher at Durty Bull Brewing Company in Durham on 3/15/2025 at 4:00 PM",
+            "ticket_info": [
+                {
+                    "source": "Spotify.com",
+                    "link": "https://open.spotify.com/concert/0Al7Z8n3OankastEoMtUgV",
+                    "link_type": "tickets"
+                },
+                {
+                    "source": "The Warren Record",
+                    "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/106388687n-taxicab-preacher-durty-bull",
+                    "link_type": "more info"
+                },
+                {
+                    "source": "Chatham Star-Tribune",
+                    "link": "https://www.chathamstartribune.com/local-events/?_evDiscoveryPath=/event/106388687n-taxicab-preacher-durty-bull",
+                    "link_type": "more info"
+                },
+                {
+                    "source": "technicianonline",
+                    "link": "https://www.technicianonline.com/local-events/?_evDiscoveryPath=/event/106388687n-taxicab-preacher-durty-bull",
+                    "link_type": "more info"
+                },
+                {
+                    "source": "Shazam",
+                    "link": "https://www.shazam.com/event/012d2d3e-e8f1-4571-ae41-f273c599e898",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Durty Bull Brewing Company",
+                "rating": 4.6,
+                "reviews": 317,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Durty+Bull+Brewing+Company&ludocid=17427419353089628155&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTskx4mEVSoZ4WBr1uebjmuAxswjp1TSB4Z7SwZ1ORAIV0WVow_uEHguEA&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4DebiNG__sn7hyUR9F-FrsJVI4SoiJjfSxKmnVUOmwuXTseO66oTwlCZNdw&s=10",
+            "category": "Concerts and live music"
+        },
+        {
+            "title": "Ben Schwartz & Friends",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 3 – 10 AM"
+            },
+            "address": [
+                "Durham Performing Arts Center, 123 Vivian Street",
+                "Durham, NC"
+            ],
+            "link": "https://www.ticombo.com/en/theatre-tickets/theatre%20&%20comedy-tickets/ben-schwartz-and-friends?p=1",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=prVhRpZctv_efErW4PNLv4jjpZySuzMiV5Cs8pDmpJRvGVADnsA9aZndV3vJ7wHwRYFOX590zFDqC48MVVhbrauVC1K0Iw_QEYRSzJ6NNdoAS8pYj3U",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46c494ce6bb:0xc266ae4a60dc2ee7?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIMRAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46c494ce6bb%3A0xc266ae4a60dc2ee7&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "Ben Schwartz & Friends theatre & comedy tickets on sale now - Ticombo - the world's biggest marketplace for Ben Schwartz & Friends theatre & comedy Tickets in the world.",
+            "ticket_info": [
+                {
+                    "source": "Gametime.co",
+                    "link": "https://gametime.co/comedy/ben-schwartz-tickets/3-14-2025-durham-nc-durham-performing-arts-center/events/66e057f46f221a535df20f3b",
+                    "link_type": "tickets"
+                },
+                {
+                    "source": "Ticombo",
+                    "link": "https://www.ticombo.com/en/theatre-tickets/theatre%20&%20comedy-tickets/ben-schwartz-and-friends?p=1",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Durham Performing Arts Center",
+                "rating": 4.8,
+                "reviews": 7410,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Durham+Performing+Arts+Center&ludocid=14008075325458362087&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-S18qbg3KjAyXbGItGpEL1fXbelWLB1xx70JVes&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCGu5lzgQn7xOu0O9d64zTrKz1lqpVumUR7FYrdRgeqg&s=10",
+            "category": "Theater and performing arts"
+        },
+        {
+            "title": "Bikers & Smokes",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 2 – 6 PM"
+            },
+            "address": [
+                "Congress Social Bar, 471 S Driver St",
+                "Durham, NC"
+            ],
+            "link": "https://www.eventbrite.com/e/bikers-smokes-tickets-1215628009099",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=K5SGRF9HfTh9av_U_L-stMPsqP3lFhDiE4yUDbOzEj8_hVuiyWKWqFSm7LnQ9-vcx-vo3RPvrEqMtqC4Fv30tKOhc5jRpMzXfmDoGHoZYwj6mw11TLY",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d6e77959cb:0x2942670b9793631f?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eIBegQIORAA&hl=en&gl=us",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d6e77959cb%3A0x2942670b9793631f&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "Let’s Get Social Raleigh & Oak City Entertainment invite you to join us as we take over The Triangle Area with Bikers & Smokes Day Party. Get ready for a fun-filled Saturday at Congress Social Bar...",
+            "ticket_info": [
+                {
+                    "source": "Eventbrite.com",
+                    "link": "https://www.eventbrite.com/e/bikers-smokes-tickets-1215628009099",
+                    "link_type": "tickets"
+                },
+                {
+                    "source": "AllEvents",
+                    "link": "https://allevents.in/durham/bikers-and-smokes/200027785346000",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "Congress Social Bar",
+                "rating": 4.7,
+                "reviews": 43,
+                "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Congress+Social+Bar&ludocid=2973052003503268639&ibp=gwp%3B0,7"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfUXjXxOq1EkSvwuBwVfiSdlBABXELNU-TCxPS18k&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wbqjvGxiCw3oIdWdZTJlRyGl6z-Z1mX9o1njzk3FpA&s=10",
+            "category": "Nightlife and party"
+        },
+        {
+            "title": "South Durham Farmers' Market",
+            "date": {
+                "start_date": "Mar 15",
+                "when": "Sat, Mar 15, 9 AM – 12 PM"
+            },
+            "address": [
+                "South Durham Farmers' Market, 500 Park Offices Dr",
+                "Durham, NC"
+            ],
+            "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+            "event_location_map": {
+                "image": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho",
+                "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acef105d6347c5:0xe538f1e310e4b732?sa=X&ved=2ahUKEwjJg-_Wz9iLAxUrEFkFHRegEloQ9eI\\\\\\\\\\\\\\\"\\",
+                "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acef105d6347c5%3A0xe538f1e310e4b732&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+March+15+2025+to+March+15+2025&start=0&type=place"
+            },
+            "description": "The South Durham Farmers' Market offers a wide variety of fresh, locally grown produce, baked goods, and artisan crafts.",
+            "ticket_info": [
+                {
+                    "source": "AARP Local",
+                    "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-03-15-durham-nc.html",
+                    "link_type": "more info"
+                }
+            ],
+            "venue": {
+                "name": "South Durham Farmers' Market",
+                "rating": 4.6,
+                "reviews": 123,
+                "link": "https://www.google.com/search?q=South+Durham+Farmers%27+Market&ludocid=11315370244337125568"
+            },
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0y9_gM0wH-a36n0k_zX5i7H_fQvNqXvU3Yp5W-hM&s",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wbqjvGxiCw3oIdWdZTJlRyGl6z-Z1mX9o1njzk3FpA&s=10",
+            "category": "Food and drink"
+        }
+    ]
+}
