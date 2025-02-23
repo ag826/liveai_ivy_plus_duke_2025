@@ -11,6 +11,9 @@ import SearchButtonUnselected from './assets/search_button_unselected.svg';
 import SearchButtonSelected from './assets/search_button_selected.svg';
 import ItineraryButtonUnselected from './assets/itinerary_button_unselected.svg';
 import ItineraryButtonSelected from './assets/itinerary_button_selected.svg';
+import CancelButton from './assets/cancel-button.svg'
+
+import EventDetail from './components/EventDetail';
 
 
 function App() {
@@ -58,21 +61,31 @@ function App() {
       cost: 'Unknown/Free/Tiered/$25'
     },
     {
-      title: 'City Marathon 2015',
+      title: 'City Marathon 2025',
       location: 'Central Park, New York, NY',
       cost: 'Unknown/Free/Tiered/$25'
     },
-    {
-      title: 'City Marathon 2015',
-      location: 'Central Park, New York, NY',
-      cost: 'Unknown/Free/Tiered/$25'
-    },
-    {
-      title: 'City Marathon 2015',
-      location: 'Central Park, New York, NY',
-      cost: 'Unknown/Free/Tiered/$25'
-    },
+    // {
+    //   title: 'City Marathon 2015',
+    //   location: 'Central Park, New York, NY',
+    //   cost: 'Unknown/Free/Tiered/$25'
+    // },
+    // {
+    //   title: 'City Marathon 2015',
+    //   location: 'Central Park, New York, NY',
+    //   cost: 'Unknown/Free/Tiered/$25'
+    // },
   ]
+
+  const dummyEventDetailDataList =
+  {
+    img: '/example_event_picture.png',
+    title: 'Noise Pop Music Festival',
+    time: 'Feb 20 2015 - Mar 2 2015',
+    location: 'San Francisco Bay Area',
+    cost: 'Unknown/Free/Tiered/$25',
+    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width: '100%vw' }}>
@@ -155,7 +168,7 @@ function App() {
             </div>
 
             <ButtonGroup>
-            <LightModeButton onClick={async () => {
+              <LightModeButton onClick={async () => {
                 console.log("Button clicked! Query:", query); // Debugging log
 
                 if (!query.trim()) {
@@ -174,18 +187,18 @@ function App() {
 
                   const data = await response.json();
                   console.log("Fetched Coordinates:", data);
-                  setLongitude(data.longitude)  
+                  setLongitude(data.longitude)
                   setLatitude(data.latitude)
                   setAddress(query)
                   // If you need to update the map with new coordinates, store them in state
-                  
+
                 } catch (error) {
                   console.error("Error fetching coordinates:", error);
                   alert("Error fetching coordinates. Check console for details.");
                 }
               }}>
-              Search For Events
-            </LightModeButton>
+                Search For Events
+              </LightModeButton>
 
 
               <DarkModeButton>
@@ -203,10 +216,11 @@ function App() {
             <div>
               {dummyDataList.map((data, index) => (
                 <Itinerary key={index}>
+                  <Numbering><span>{index+1}</span></Numbering>
                   <ItineraryTitle>{data.title}</ItineraryTitle>
                   <ul style={{ fontSize: '15px' }}>
-                    <li><span style={{ fontWeight: 'bold' }}>Location:</span>{data.location}</li>
-                    <li><span style={{ fontWeight: 'bold' }}>Cost:</span>{data.cost}</li>
+                    <li><span style={{ fontWeight: 'bold' }}>Location: </span>{data.location}</li>
+                    <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{data.cost}</li>
                   </ul>
                 </Itinerary>
               ))}
@@ -214,6 +228,38 @@ function App() {
           </Frame>
         </ItinerarySection>
       )}
+
+      {/* EventDetail Section */}
+      {/* <EventDetail img={dummyEventDetailDataList.img} title={dummyEventDetailDataList.title} description={dummyEventDetailDataList.description} time={dummyEventDetailDataList.time} location={dummyEventDetailDataList.location} cost={dummyEventDetailDataList.cost} /> */}
+
+      {/* <EventDetailSection>
+        <UserButton style={{ top: 3, left: 3 }}>
+          <img src={CancelButton} alt="cancel button" style={{ height: '40px', width: '40px' }} />
+        </UserButton>
+        <img src="src/assets/example_event_picture.png" alt="images" style={{
+          height: '250px',
+          width: '100%',  // Maintain aspect ratio
+          objectFit: 'cover',  // Crop or stretch the image to fill the container
+        }}
+        />
+
+        <div style={{ height: '350px', display: 'flex', flexDirection: 'column', gap: '10px', width: '100%' }}>
+          <Frame style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <DetailTitle>Noise Pop Music Festival</DetailTitle>
+            <DetailDescription>This 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt, also industry summits and workshops for emerging artists...</DetailDescription>
+
+            <ul style={{ fontSize: '15px', alignSelf: 'flex-start' }}>
+              <li><span style={{ fontWeight: 'bold' }}>Time: </span>{'Feb 20 2025 - Mar 2 2025'}</li>
+              <li><span style={{ fontWeight: 'bold' }}>Location: </span>{'San Francisco Bay Area'}</li>
+              <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{'Unknown/Free/Tiered/$25'}</li>
+            </ul>
+          </Frame>
+
+          <DarkModeButton style={{ alignSelf: 'center' }}>
+            <span>Add to Itinerary</span>
+          </DarkModeButton>
+        </div>
+      </EventDetailSection> */}
     </div>
   );
 }
@@ -232,6 +278,7 @@ const UserButton = styled.div`
   cursor: pointer;
   position: absolute;
   z-index: 5;
+  border-radius: 50%;
 `;
 
 const ButtonImageUnselected = styled.img`
@@ -261,7 +308,7 @@ const Frame = styled.div`
   top: 10px;
   left: 10px;
   width: calc(100% - 44px);
-  height: 506px;
+  height: calc(100% - 44px);
   padding: 10px;
   border: 2px dotted grey;
   border-radius: 15px;
@@ -322,6 +369,7 @@ const DarkModeButton = styled.div`
   margin: 10px 0px 10px 0px;
   color: white;
   background-color: #AA0BFF;
+  width: fit-content;
 `
 
 const ItinerarySection = styled.div`
@@ -341,6 +389,7 @@ const Itinerary = styled.div`
   width: 100%;
   border: 2px solid #CCCCCC;
   border-radius: 20px;
+  position: relative;
 `
 
 const ItineraryTitle = styled.div`
@@ -349,5 +398,21 @@ const ItineraryTitle = styled.div`
   display: inline-block;
   font-weight: bold;
 `;
+
+const Numbering = styled.div`
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #AA0BFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+`;
+
+
 
 export default App
