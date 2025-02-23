@@ -1,5 +1,5 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { useState } from "react";
+import { useState, useEffect} from "react";
 import styled from 'styled-components';
 
 import MapBoxComp from './components/MapBoxComp';
@@ -17,9 +17,9 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const [query, setQuery] = useState("");
-  const [latitude, setLatitude] = useState(37.7749); // Default to San Francisco (SFO)
-  const [longitude, setLongitude] = useState(-122.4194);
-  const [address, setAddress] = useState("San Francisco, CA"); // Default location
+  const [latitude, setLatitude] = useState(null);  
+  const [longitude, setLongitude] = useState(null);
+  const [address, setAddress] = useState(""); 
 
   const fetchEvents = async (query: string) => {
     setLoading(true);
@@ -51,6 +51,7 @@ function App() {
 
   const [useRecommendation, setUseRecommendation] = useState(false)
 
+  
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width:'100%vw' }}>
       {/* header bar */}

@@ -1,825 +1,930 @@
 [
     {
-        "title": "East Carolina Baseball",
+        "title": "Clue - A New Comedy",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 12:30 – 4:30 PM"
+            "when": "Sun, Feb 23, 1:00 – 2:30 PM CST"
         },
         "address": [
-            "Durham Bulls Athletic Park, 409 Blackwell St",
-            "Durham, NC"
+            "CIBC Theatre, 18 W Monroe St",
+            "Chicago, IL"
         ],
-        "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/833247s-north-carolina-tar-heels-baseball-at-east-carolina-pirates-baseball",
+        "link": "https://www.choosechicago.com/event/clue-live-on-stage/2025-02-23/1/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=orAzAgZeMfCWJOY_a9jxkGJEx9T6VGvnaBY_SfoTIn2epaXO4gIO7_vNSG6RWnxYwwswIaQLzrt-A43cEVukFNMUBQ5q2a2Y-GsR9Fp82TeFgffphRU",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace46c9b224cef:0xe914be78d7e7e3d?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIARAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace46c9b224cef%3A0xe914be78d7e7e3d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
+            "image": "https://www.google.com/maps/vt/data=ZOOqcFUkBQ8O048y-HDZmOCzDgEGg6zaEqabOYyto6T--jZ8247Je1-M6MZcxJOK7y8F7YKrjZPOdHNVk0QXjOkTBUBYzPvvv1gFgCkkCtS5uB2fZcg",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2ca4de4ce125:0x9f016d6086243312?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIARAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2ca4de4ce125%3A0x9f016d6086243312&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
         },
-        "description": "warrenrecord.com 112 North Main St. Warrenton, NC 27589 Phone: 252-257-3341 Email: news@warrenrecord.com path Facebook path Twitter div © Copyright 2025 warrenrecord.com 112 North Main St...",
+        "description": "A mansion. A murder. A mystery. Murder and blackmail are on the menu when six mysterious guests assemble at Boddy Manor for a night they’ll never forget! Was it Mrs. Peacock in the study with the...",
+        "ticket_info": [
+            {
+                "source": "Chicago-theater.com",
+                "link": "https://www.chicago-theater.com/shows/cibc-theatre/clue/tickets/calendar",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Choose Chicago",
+                "link": "https://www.choosechicago.com/event/clue-live-on-stage/2025-02-23/1/",
+                "link_type": "more info"
+            },
+            {
+                "source": "WGN-TV",
+                "link": "https://wgntv.com/community-events/?_escaped_fragment_=/show/?start=2023-11-28#!/details/clue/14208601/2025-02-23T18",
+                "link_type": "more info"
+            },
+            {
+                "source": "Ticketmaster",
+                "link": "https://www.ticketmaster.com/clue-chicago-chicago-illinois-02-23-2025/event/07006147B48318DD",
+                "link_type": "more info"
+            },
+            {
+                "source": "AARP Local",
+                "link": "https://local.aarp.org/event/clue-chicago-2025-02-23-tm-chicago-il.html",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "CIBC Theatre",
+            "rating": 4.6,
+            "reviews": 5088,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=CIBC+Theatre&ludocid=11457559188342059794&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcg7umrBC0-89H3LpfRLzq4y69fVGfqmtzpO6oW6E&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8kiB9ls2IGjLNf7t5lwyrD-_ktGsKqxN_Stk9xvez8g&s=10",
+        "latitude": 41.8811752,
+        "longitude": -87.62859608488924
+    },
+    {
+        "title": "February 2025",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Feb 3, 2:30 PM – Feb 28, 6:00 PM CST"
+        },
+        "address": [
+            "Calumet Park, 9801 S Ave G",
+            "Chicago, IL"
+        ],
+        "link": "https://thelocaltourist.com/chicago-events-calendar/?_evDiscoveryPath=%2Fevent%2F35276912a-february-2025",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=K1tUCxw6Fp4bPC4CN_dwQDdX3nitO4Nqduvn-PHLLIdDkK9PSt_MynmcPyqy1Ywrv5ojghxvwuB-7sXQoWl8fYabBTxR3-1Tf3AdYMGEFcbXBWYNM8o",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x8811d80d810880dd:0xb14bc4fcc4892ae7?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQICRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x8811d80d810880dd%3A0xb14bc4fcc4892ae7&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
+        },
+        "description": "Jr. Explorers from 2:30pm-6:00pm Schedule From: Feb 3 2025 to Feb 28 2025 Every Monday, Tuesday, Wednesday, Thursday, Friday: 2:30pm to 6:00pm",
+        "ticket_info": [
+            {
+                "source": "Active.com",
+                "link": "http://www.active.com/calumet-park-il/camp/february-2025",
+                "link_type": "tickets"
+            },
+            {
+                "source": "The Local Tourist",
+                "link": "https://thelocaltourist.com/chicago-events-calendar/?_evDiscoveryPath=/event/35276912a-february-2025",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Calumet Park",
+            "rating": 4.4,
+            "reviews": 1610,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=Calumet+Park&ludocid=12775521357874670311&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZPsVvnzsdHVIGSRksb0PwwDoNJOzTMUOS9qULRrRfJ0ecxO4jZzxTrA&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSue1uWWjrJwvWC3VcbbA78_0N8VjaBUCpAvVvUYeXjMV-Q&s=10",
+        "latitude": 41.71758375,
+        "longitude": -87.5301963176882
+    },
+    {
+        "title": "DiamondBack",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Sun, Feb 23, 12 – 4 PM CST"
+        },
+        "address": [
+            "FitzGerald's, 6615 Roosevelt Rd",
+            "Berwyn, IL"
+        ],
+        "link": "https://open.spotify.com/concert/04Rl8pYQKkFZunMPJ7kTBB",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=cskG-gozF4IHo8UBG_PMmV3FJVRRMe8EMQcA1rXPlLYXxq2fx-nwPGZT9YCBWYgmGD7GpcHFP1AEaORtr3G76rc2JFd2dq_pmUuonuc7a5ksuLS2GAE",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e348eea6ebcbd:0xef7a3885dd10bfc8?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIERAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e348eea6ebcbd%3A0xef7a3885dd10bfc8&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
+        },
+        "description": "Find tickets for DiamondBack at Fitzgerald's in Berwyn on 2/23/2025 at 12:00 PM",
+        "ticket_info": [
+            {
+                "source": "Spotify.com",
+                "link": "https://open.spotify.com/concert/04Rl8pYQKkFZunMPJ7kTBB",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Axs.com",
+                "link": "https://www.axs.com/events/861369/diamondback-tickets",
+                "link_type": "tickets"
+            },
+            {
+                "source": "WGN-TV",
+                "link": "https://wgntv.com/community-events/?_escaped_fragment_=/show/?start=2023-11-24#!/details/country-brunch-in-the-club-w-diamondback/14708974/2025-02-23T00",
+                "link_type": "more info"
+            },
+            {
+                "source": "WGN Radio",
+                "link": "https://wgnradio.com/community-calendar/#!/details/country-brunch-in-the-club-w-diamondback/14708974/2025-02-23T00",
+                "link_type": "more info"
+            },
+            {
+                "source": "Shazam",
+                "link": "https://www.shazam.com/event/d935c559-d11c-4e59-8ac7-e65c04c8426b",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "FitzGerald's",
+            "rating": 4.7,
+            "reviews": 949,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=FitzGerald%27s&ludocid=17256167069814144968&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNoS24bWiXTzXtMV2uJXVnDriIoXSu7PKb4cWl2j-O4ppucDQvzlxlbP0&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2koQ0KzY7by9tDuK0yypNFSodxqBBt50ZHp-M0as1zHwqVTID0YNSCC4fTw&s=10",
+        "latitude": 41.865025900000006,
+        "longitude": -87.7899017740871
+    },
+    {
+        "title": "A Winter Escape",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Sun, Feb 23, 1:00 – 3:30 PM CST"
+        },
+        "address": [
+            "Bottle & Bottega by Painting with a Twist, 1241 S Michigan Ave",
+            "Chicago, IL"
+        ],
+        "link": "https://www.paintingwithatwist.com/studio/chicago-downtown/event/3905348/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=AzXzRF_wlVz2VMZhiTfCphBBv5m4mlh4LF6ypFz1HfxPQlkmwTFLtA0OTGQ8XQU242Rbpm9FPLENtullqLuER2a6oQ3_IRCVFHw5Cm_j9OV6AMjFZ1k",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2c9b5cc13189:0x4261cb94a035bd86?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIGRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2c9b5cc13189%3A0x4261cb94a035bd86&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
+        },
+        "description": "PRE-REGISTRATION REQUIRED This is FUN art, not fine art, so relax, have fun and enjoy a carefree escape! Add a DIY candle to the your experience! Try something NEW and create your own...",
+        "ticket_info": [
+            {
+                "source": "Paintingwithatwist.com",
+                "link": "https://www.paintingwithatwist.com/studio/chicago-downtown/event/3905348/",
+                "link_type": "tickets"
+            },
+            {
+                "source": "UNATION",
+                "link": "https://www.unation.com/event/a-winter-escape-56939205/",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Bottle & Bottega by Painting with a Twist",
+            "rating": 4.9,
+            "reviews": 666,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=Bottle+%26+Bottega+by+Painting+with+a+Twist&ludocid=4783328118447652230&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQRpxqCAZ03cs06z2BHQKec6z9Er1IBDnrbpO5GpzWYgJPKGt8oLHUw&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1Wu5vuq_FksKWdWlN2NbZVLxciyFLYQmuq_Q2ow5A6pTPYhTiLqsHrD_UDc&s=10",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
+    },
+    {
+        "title": "Rockford IceHogs at Chicago Wolves",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Sun, Feb 23, 3 – 7 PM CST"
+        },
+        "address": [
+            "Allstate Arena, 6920 Mannheim Rd",
+            "Rosemont, IL"
+        ],
+        "link": "https://www.fubo.tv/welcome/matches/EP000439748335",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=QCeOXNx_rgu5xbGUnIjirGxDhHarMXuJQbOl1Vn4W4KFgfVnHIqV_4qwjkesDKRaeWtElfTGaUwOmHef4jNjzYUm1fc2ticXf1TozLHKtj1cFZb6mxg",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880fb65b8c2459ed:0xba81a6bfde0757fb?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIIRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880fb65b8c2459ed%3A0xba81a6bfde0757fb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
+        },
+        "description": "Watch the Rockford IceHogs at Chicago Wolves game on 2/23/2025 live. Start your free trial today! Watch your local teams with Regional Sports Networks. ...",
         "ticket_info": [
             {
                 "source": "Evvnt.com",
-                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/37305076t-east-carolina-baseball",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/35806688t-chicago-wolves-v-rockford-icehogs",
                 "link_type": "tickets"
-            },
-            {
-                "source": "Times Virginian",
-                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/37305076t-east-carolina-baseball",
-                "link_type": "more info"
-            },
-            {
-                "source": "FOX8 WGHP",
-                "link": "https://myfox8.com/calendar/?nxsparam=1#!/details/east-carolina-baseball/15007038/2025-02-22T12",
-                "link_type": "more info"
-            },
-            {
-                "source": "The Warren Record",
-                "link": "https://www.warrenrecord.com/local-events/?_evDiscoveryPath=/event/833247s-north-carolina-tar-heels-baseball-at-east-carolina-pirates-baseball",
-                "link_type": "more info"
             },
             {
                 "source": "Stars and Stripes",
-                "link": "https://www.stripes.com/living/events/?_evDiscoveryPath=/event/833247s-north-carolina-tar-heels-baseball-at-east-carolina-pirates-baseball",
+                "link": "https://www.stripes.com/living/events/?_evDiscoveryPath=/event/638776s-rockford-icehogs-at-chicago-wolves",
+                "link_type": "more info"
+            },
+            {
+                "source": "Fubo",
+                "link": "https://www.fubo.tv/welcome/matches/EP000439748335",
+                "link_type": "more info"
+            },
+            {
+                "source": "Daily Herald",
+                "link": "http://www.dailyherald.com/calendar#!/details/chicago-wolves-v-rockford-icehogs/14120578/2025-02-23T15",
+                "link_type": "more info"
+            },
+            {
+                "source": "The Beverly Review",
+                "link": "https://www.beverlyreview.net/local-events/?_evDiscoveryPath=/event/35806688t-chicago-wolves-v-rockford-icehogs",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Durham Bulls Athletic Park",
-            "rating": 4.8,
-            "reviews": 5141,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Durham+Bulls+Athletic+Park&ludocid=1049703646037442109&ibp=gwp%3B0,7"
+            "name": "Allstate Arena",
+            "rating": 4.4,
+            "reviews": 11623,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=Allstate+Arena&ludocid=13439206106044258299&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMBkhshlPcMZwI-j40TfOqyk93tRxO53l160iT6E3K929qTpFg_T7Kbs&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0vBzOHEWlkWHHAFNjT5i6wyTMWX5Mtr-Qrhi6l4fJMudK-2VN4F1Y3nRXMA&s=10",
-        "latitude": 35.991583899999995,
-        "longitude": -78.90391733102675
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXuvBJenBbyCetdm_Jcg4EVYmH8iSpatej2Uh9KABcZPtjSOmycWLDze0&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMIJcAYy-4FKC7ywvwPxW4avvd2lazH3EyoIoTabPoGQ&s=10",
+        "latitude": 42.00527665,
+        "longitude": -87.88777140346639
     },
     {
-        "title": "Durham NC Parkrun",
+        "title": "West Loop Contemporary Fine Art Expo EAC 2 23 Tickets,",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 8 AM"
+            "when": "Sun, Feb 23, 6 AM – 11 PM"
         },
         "address": [
-            "Southern Boundaries Park, 100 3rd Fork Rd",
-            "Durham, NC"
+            "1340 W Washington Blvd",
+            "Chicago, IL"
         ],
-        "link": "https://local.aarp.org/event/durham-nc-parkrun-2025-02-22-durham-nc.html",
+        "link": "https://www.trip.com/events/west-loop-contemporary-fine-art-expo-eac-223-tickets-20241224/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5d0922a64c5:0x4c38b56c2c6b569c?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQICRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5d0922a64c5%3A0x4c38b56c2c6b569c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
+            "image": "https://www.google.com/maps/vt/data=uoaM-m2OFbs_RfxfUk4f1KrhrrJic1kduo4dtQ8Cb36lME2cqj6qpnZpu9xnDCsHQ1z2t_CUICyr_kvFUWvEmqwRaJSPG09Zj4WhdH0ykSsA1Dm6UYI",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2d26f6a6c7fb:0xc45953a51dc0ec4c?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIKRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2d26f6a6c7fb%3A0xc45953a51dc0ec4c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
         },
-        "description": "A free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate – it's up to you! We all take part for our own enjoyment. Please come along and join in whatever your...",
+        "description": "Join us for the Inaugural West Loop Contemporary Fine Art Expo! This is a special opportunity open to EAC community members with limited tickets available. Featuring over 40 invitation-only...",
         "ticket_info": [
             {
-                "source": "AARP Local",
-                "link": "https://local.aarp.org/event/durham-nc-parkrun-2025-02-22-durham-nc.html",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Southern Boundaries Park",
-            "rating": 4.5,
-            "reviews": 282,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Southern+Boundaries+Park&ludocid=5492339221784647324&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
-    },
-    {
-        "title": "Healthy Heritage Lifestyle Sisters' Day of Wellness Durham",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 10 AM – 3 PM"
-        },
-        "address": [
-            "Durham Arts Council, 120 Morris St",
-            "Durham, NC"
-        ],
-        "link": "https://downtowndurham.com/event/healthy-heritage-lifestyle-sisters-day-of-wellness-durham-2024-2/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=_FzRRjnP6vk15FvDX-GjWtFD3yGM02HfCwX0n9NvWGLuflI3v57-9-YiMGteJ9mTVJViCjjpTOOQlW_d84kOT-K33BDQKcHntJHtTYyxUyFk2IISKSg",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4728ac6b04f:0xc088d6d08d67de91?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIERAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4728ac6b04f%3A0xc088d6d08d67de91&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
-        },
-        "description": "Ladies it’s time for a whoosah moment and time to take care of ourselves. Join us for Sisters’ Day of Wellness Durham. A day of healthy lifestyle conversations to promote […]",
-        "ticket_info": [
-            {
-                "source": "Downtowndurham.com",
-                "link": "https://downtowndurham.com/event/healthy-heritage-lifestyle-sisters-day-of-wellness-durham-2024-2/",
+                "source": "Unation.com",
+                "link": "https://www.unation.com/event/west-loop-contemporary-fine-art-expo-eac-2-23-tickets-56841553/",
                 "link_type": "tickets"
             },
             {
-                "source": "Eventbrite.com",
-                "link": "https://www.eventbrite.com/e/1127249135509",
-                "link_type": "tickets"
-            },
-            {
-                "source": "FOX8 WGHP",
-                "link": "https://myfox8.com/calendar/?nxsparam=7#!/details/healthy-heritage-lifestyle-sisters-day-of-wellness-durham/14124769/2025-02-22T10",
+                "source": "Trip.com",
+                "link": "https://www.trip.com/events/west-loop-contemporary-fine-art-expo-eac-223-tickets-20241224/",
                 "link_type": "more info"
             },
             {
                 "source": "AllEvents",
-                "link": "https://allevents.in/durham/healthy-heritage-lifestyle-sisters-day-of-wellness-re-boot/200027810158833",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Durham Arts Council",
-            "rating": 4.7,
-            "reviews": 316,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Durham+Arts+Council&ludocid=13873574843328749201&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKjD3clqOIEUIrnPsChyWC5EPIqWxWrWCQ4UK4EIRy5vbXe3-4QN1cdQc&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv4zLpRcPhD81gIj2nJunWJ5lo6Y-_jA9gdB0UdmvsO08Ob5pa_Q3cDPtR3w&s=10",
-        "latitude": 35.9978168,
-        "longitude": -78.9034441360254
-    },
-    {
-        "title": "Golden Age — Live Calendar",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 6 – 7 PM"
-        },
-        "address": [
-            "Mettlesome, 800 Taylor St Suite 9-156",
-            "Durham, NC"
-        ],
-        "link": "https://thisismettlesome.com/live/2024/2/22-101-showcase-charles-asher",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=I6L0Ewu5lfciZNufUSb8dO5MxzrnptHODjBHpISoHKlZyNLMSaZKqxDFhY4hpMUAEKlQ2Sr_RytgFuL1TAKOJbv2eNeEfvCwArDQBD9_I0rm5NG5hbk",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5df51bb44bd:0xc623fd38bc9b70eb?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIGRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5df51bb44bd%3A0xc623fd38bc9b70eb&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
-        },
-        "description": "See the student graduates of Mettlesome Instructors Charles’ and Asher’s Improv 101 class show off what they’ve learned the past six weeks! Tickets at the door: $5",
-        "ticket_info": [
-            {
-                "source": "mettlesome",
-                "link": "https://thisismettlesome.com/live/2025/2/23/bull-city-press-presents",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Mettlesome",
-            "rating": 4.9,
-            "reviews": 36,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Mettlesome&ludocid=14277533663818903787&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcwmD2D1TrUVJHs1FSFpg7nKmngJEQLGuSj1Gb98E&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AinfvvXSk53wx5-dR80gojwfNQmsD7DDRVUJc7n-Aw&s",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
-    },
-    {
-        "title": "Dinner Detective Raleigh – Durham, NC - February 22, 2025 @ 6:00 PM",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 6:00 – 8:30 PM"
-        },
-        "address": [
-            "Embassy Suites by Hilton Raleigh Crabtree, 4700 Creedmoor Rd",
-            "Raleigh, NC"
-        ],
-        "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-february-22nd-2025-raleigh-nc/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=4HO04HpGRFhtzXd_Y_BIvJePF3PAnltLEPwdYwT6LlN8dH_Sg-k-jJr31hSg0XAgljBuu6LdN3ExPjKoUztqqp0noCGK0n299qYlkB5aNmyYz2aZMgQ",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acf638747fa06b:0x1686a5eed107627d?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIIRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acf638747fa06b%3A0x1686a5eed107627d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
-        },
-        "description": "The Dinner Detective is America's largest murder mystery dinner show! Now playing in Raleigh – Durham, NC. Witness a hilarious mystery while you feast on a fantastic dinner.",
-        "ticket_info": [
-            {
-                "source": "Thedinnerdetective.com",
-                "link": "https://www.thedinnerdetective.com/raleigh-durham/event/saturday-february-22nd-2025-raleigh-nc/",
-                "link_type": "tickets"
-            },
-            {
-                "source": "WNCT",
-                "link": "https://www.wnct.com/calendar/1000/#!/details/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc/14755818/2025-02-22T18",
-                "link_type": "more info"
-            },
-            {
-                "source": "The Triangle Weekender",
-                "link": "https://thetriangleweekender.com/event/the-dinner-detective-comedy-mystery-dinner-show/2025-02-22/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Raleigh Magazine",
-                "link": "https://raleighmag.com/event/the-dinner-detective-comedy-mystery-dinner-show-raleigh-durham-nc-2/2025-02-22/",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Embassy Suites by Hilton Raleigh Crabtree",
-            "rating": 4.3,
-            "reviews": 1790,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Embassy+Suites+by+Hilton+Raleigh+Crabtree&ludocid=1623167160841364093&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LEb5FLhBXEsQlI-5qq8pSpBuOca8ZVTNrXXO6Tg&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjNg4euhF-e3lVCXrVglzrz-EStJYraSmvyHzcHQ6kQ&s=10",
-        "latitude": 35.84476885,
-        "longitude": -78.67925077388523
-    },
-    {
-        "title": "Soul Yoga Durham",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 9:15 – 10:15 AM"
-        },
-        "address": [
-            "Lakewood Social, 1920 Chapel Hill Rd",
-            "Durham, NC"
-        ],
-        "link": "https://www.eventbrite.com/e/soul-yoga-durham-tickets-1115126516429",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=KryZGwfaYcolo2gXDG7jzfLgELwXKauks2kIYDyouG-FJ-wOASDvK6x_LOtmxuYoQk1s3OfPv8avTBQ2X5gXa7Kx4hylSUK5dIjNi7_d__E1FxjP_jU",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace51bbf039fd5:0xa55c323d7b3afece?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIKRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace51bbf039fd5%3A0xa55c323d7b3afece&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
-        },
-        "description": "The Soul Yoga brand is committed to providing an accessible destination for wellness, revitalization and balance for people in our community",
-        "ticket_info": [
-            {
-                "source": "Eventbrite.com",
-                "link": "https://www.eventbrite.com/e/soul-yoga-durham-tickets-1115126516429",
-                "link_type": "tickets"
-            },
-            {
-                "source": "Yoga Monarch",
-                "link": "https://www.yogamonarch.com/events/soul-yoga-saturday-durham-2025-feb22",
-                "link_type": "more info"
-            },
-            {
-                "source": "AllEvents",
-                "link": "https://allevents.in/durham/soul-yoga-durham/100001115126516429",
+                "link": "https://allevents.in/chicago/west-loop-contemporary-fine-art-expo-eac-2-23-tickets/100001105664354849",
                 "link_type": "more info"
             },
             {
                 "source": "Eventsize",
-                "link": "https://eventsize.com/event/soul-yoga-durham-17390872186394",
-                "link_type": "more info"
-            },
-            {
-                "source": "Flowtious Soul Yoga",
-                "link": "https://flowtioussoulyoga.com/calendar/soul-yoga/",
+                "link": "https://eventsize.com/event/west-loop-contemporary-fine-art-17376162328557",
                 "link_type": "more info"
             }
         ],
-        "venue": {
-            "name": "Lakewood Social",
-            "rating": 4.7,
-            "reviews": 197,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Lakewood+Social&ludocid=11915453953757347534&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSPdpmUA4yZN-kGd09ErXTIXhaeJXEv7XK69AylCTArTMY7yfEE0lRxH4&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZPWXCgRk15U_iqStOY9zGcHrP3UUR-_sWHK4pkzwNA&s=10",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd6SfIcoSOD8YqnSh35HagSyWaJjp9ccTMQzQI_AHBONXFGWnEyJn-vks&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7GU1fKwmJJ2_cS7fVHZJjIutcFSZc75UsZiYg8z71w&s",
+        "latitude": 41.8833654,
+        "longitude": -87.66151827895789
     },
     {
-        "title": "TOUR: A Closer Look at the Collection",
+        "title": "The Decline of Western Civilization Parts 1 & 2 en Chicago Entradas - 02/23/2025 5:00 PM",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 1:00 – 1:30 PM"
+            "when": "Sun, Feb 23, 5 – 9 PM CST"
         },
         "address": [
-            "Ackland Art Museum, 101 S Columbia St",
-            "Chapel Hill, NC"
+            "Thalia Hall, 1807 S Allport St",
+            "Chicago, IL"
         ],
-        "link": "https://calendar.unc.edu/calendar/day/2025/2/22",
+        "link": "http://www.dailyherald.com/calendar#!/details/the-decline-of-western-civilization-parts-1-2/15008838/2025-02-23T16",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=tUkYltR8KDcgRhusA_r7NLtNkhAXZ-AhGQRpc46AYvuT1yHFFVE16KOurrch9hvqoEwzPW98TBWPphfdRtVVm2B2-KDsCMGesdAyetJh4yQUbvSUKmY",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2e7b6f847df:0xd5afb8f628bbbe26?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIMRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2e7b6f847df%3A0xd5afb8f628bbbe26&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
+            "image": "https://www.google.com/maps/vt/data=qNVN2OCXWaL0tfR4_zzncYIlAY_BcZcNzqoK8r2IH8ZUOH3A64B4SiMyf8XzxPFP6Sy0lBARqUwM8xOQi62fk8EaSDCU3bf0fHYgRG8-gNGbLFGs4k4",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2cffdb62b721:0x9a4a94db5d09cf36?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIMRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2cffdb62b721%3A0x9a4a94db5d09cf36&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
         },
-        "description": "Join Ackland educators for a lively half-hour look at small handful of artworks. These engaging conversational tours offer a closer look at and new perspectives on works on view at the Museum.",
+        "description": "The Decline of Western Civilization Parts 1 & 2 @ Thalia Hall Sunday, February 23, 2025 Doors: 4:00 PM | Show: 5:00 PM...",
         "ticket_info": [
             {
-                "source": "The University of North Carolina at Chapel Hill Events Calendar",
-                "link": "https://calendar.unc.edu/calendar/day/2025/2/22",
-                "link_type": "more info"
-            },
-            {
-                "source": "Ackland Events - Ackland Art Museum",
-                "link": "https://events.ackland.org/event/tour-022225/",
-                "link_type": "more info"
-            },
-            {
-                "source": "Orange County Arts Commission",
-                "link": "https://artsorange.org/event/ackland-art-museum-tour-a-closer-look-at-the-collection/2025-02-22/",
-                "link_type": "more info"
-            },
-            {
-                "source": "The Triangle Weekender",
-                "link": "https://thetriangleweekender.com/event/ackland-art-museum-tour-a-closer-look-at-the-collection/2025-02-22/",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Ackland Art Museum",
-            "rating": 4.7,
-            "reviews": 424,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Ackland+Art+Museum&ludocid=15397729018387873318&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PueQalIjHA4rbd3-6sykqdLVCJgCBq0QWr9_tH9j4l1tITzXG0pV_K4&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8mMIL9wWYXSIRJMVkXgGfvwyGo47YT2Gd1D_7WV-64A&s=10",
-        "latitude": 35.912567800000005,
-        "longitude": -79.0548896321919
-    },
-    {
-        "title": "Winter Boutique — Insights Boutique",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 2 – 6 PM"
-        },
-        "address": [
-            "Insights Boutique, 3409 University Dr",
-            "Durham, NC"
-        ],
-        "link": "https://www.insights.boutique/calendar/winter-boutique-february-22",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=fpPN1W7qSOBjzFP_X68Bih4A0HPxnxyoTlkrRxGfJDPMsW4oxbw5NZduKlHcNQcveLjyykVHjLamekPxjhWa3Az2KGqU2AmT6-jtQrwwSoTtQi2UjzA",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace72560e652ff:0x8bb44384a1e5b910?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIORAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace72560e652ff%3A0x8bb44384a1e5b910&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
-        },
-        "description": "Our witch-curated selection of rare, out of print and small press tarot cards, esoterica and handmade gifts features many items you won't find elsewhere in North Carolina. Sell and trade your...",
-        "ticket_info": [
-            {
-                "source": "Insights Boutique",
-                "link": "https://www.insights.boutique/calendar/winter-boutique-february-22",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Insights Boutique",
-            "rating": 5.0,
-            "reviews": 1,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Insights+Boutique&ludocid=10066745304010832144&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkcq1m7ak3KFujGkEM59jFGbWZvA-JH7LZXvUWjiRL17pyRzlvp6XwFMM&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT56Ot915NyJGH0rVRxNZ9g8CdpS7Og4rkJ0uGHsfYw1A&s=10",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
-    },
-    {
-        "title": "Men’s Basketball vs. Virginia",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 4 – 6 PM"
-        },
-        "address": [
-            "Dean E. Smith Center, 300 Skipper Bowles Dr",
-            "Chapel Hill, NC"
-        ],
-        "link": "https://www.nytimes.com/athletic/college-basketball/game/north-carolina-tar-heels-vs-virginia-cavaliers/y6ofIG0Igpo5dEL8/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=TT4aKYqJkgrfqHgCYjvIzUtM5cHtN08VygF9fd-jvnV-JgL7sUueGqIe8BUiF0Vi11HsUnmUHdikexIj-THfixQ1xSzcJtIYUoM4dDR4w2NWGpbLkDk",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc2f2e4836361:0x9927f586b02042ac?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQIQRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc2f2e4836361%3A0x9927f586b02042ac&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
-        },
-        "description": "Matchup between Virginia and North Carolina on Feb 22, 2025",
-        "ticket_info": [
-            {
-                "source": "Axs.com",
-                "link": "https://www.axs.com/events/700710/virginia-cavaliers-at-north-carolina-tar-heels-mens-basketball-tickets",
+                "source": "Ticketweb.com",
+                "link": "https://www.ticketweb.com/event/the-decline-of-western-civilization-thalia-hall-tickets/14167953",
                 "link_type": "tickets"
             },
             {
-                "source": "Transportation and Parking - The University of North Carolina at Chapel Hill",
-                "link": "https://move.unc.edu/calendar/mens-basketball-vs-virginia-2025/",
+                "source": "Evvnt.com",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/37294072t-the-decline-of-western-civilization-parts-1-2",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Ticketweb.com",
+                "link": "https://www.ticketweb.com/event/the-decline-of-western-civilization-thalia-hall-tickets/14167953",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Daily Herald",
+                "link": "http://www.dailyherald.com/calendar#!/details/the-decline-of-western-civilization-parts-1-2/15008838/2025-02-23T16",
                 "link_type": "more info"
             },
             {
-                "source": "Times Virginian",
-                "link": "https://www.timesvirginian.com/local-events/?_evDiscoveryPath=/event/36135679t-north-carolina-tar-heels-mens-basketball-vs-virginia-cavaliers-mens-basketball",
-                "link_type": "more info"
-            },
-            {
-                "source": "The New York Times",
-                "link": "https://www.nytimes.com/athletic/college-basketball/game/north-carolina-tar-heels-vs-virginia-cavaliers/y6ofIG0Igpo5dEL8/",
-                "link_type": "more info"
-            },
-            {
-                "source": "WNCT",
-                "link": "https://www.wnct.com/calendar/?_escaped_fragment_=/show/?start=2017-08-14#!/details/north-carolina-men-s-basketball-vs-virginia/14930306/2025-02-22T16",
+                "source": "Chicago Tribune",
+                "link": "https://www.chicagotribune.com/events/#!/details/the-decline-of-western-civilization-parts-1-2/15008838/2025-02-23T16",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Dean E. Smith Center",
-            "rating": 4.8,
-            "reviews": 2034,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Dean+E.+Smith+Center&ludocid=11036059370724016812&ibp=gwp%3B0,7"
+            "name": "Thalia Hall",
+            "rating": 4.7,
+            "reviews": 3312,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=Thalia+Hall&ludocid=11117862299997163318&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4yU1oF_gP6NXpeaX7dgLcQWo3aQ4cG6RWXc5N0xpxryv2ksszKQGkNI&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdQwUiK_WwjqrAE2wgyunnEP3CCt4ubW_ob8X1IoFRwA&s=10",
-        "latitude": 35.89948365,
-        "longitude": -79.04381186820281
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fh3bfDY65l6TjJeVkS6H1ymQkMezpNTgJU8OBKWm6_SwBvaSfRMSJng&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlcYemrq8j0dKpXZb710J2cuRvt02_D-ZuVrjZ7MBD6taUQvI6MyAtySh6GA&s=10",
+        "latitude": 41.85772215,
+        "longitude": -87.65728543808396
     },
     {
-        "title": "Saturday Volunteer Day — Urban Community AgriNomics (UCAN)",
+        "title": "Hustle Chicago Stair Climb",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 9 AM – 12 PM"
+            "when": "Sun, Feb 23, 10 AM – 3 PM CST"
         },
         "address": [
-            "Urban Community AgriNomics (UCAN), 2080 Sawmill Creek Pkwy",
-            "Durham, NC"
+            "875 North Michigan Avenue, 875 N Michigan Ave",
+            "Chicago, IL"
         ],
-        "link": "https://www.ucan.today/ucan-calendar-of-events/zpk4e9bd7t7jkat-eflzp-g7b5m-ckxfz-k4ltp-52b5s-4st2c-pef54-gwgs9-5t68k-jarcn-sn2zd-bnhbp-cetbx-h2g5w",
+        "link": "https://sponsormyevent.com/hustle-chicago-stair-climb-chicago",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=o0mrIP0epy122tLLIj0RAjEPAb3wL_ADTGz5j-h0c77ZHSzaQluLusD7Q5BFjbGng3qKgLuWG9go1WxgjOAUioGyfVmMbHdYhgBSJsVpinhqHCOcMPg",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ad1dd985c05557:0x13b696b3e1df9b39?sa=X&ved=2ahUKEwjXns7B89iLAxXErokEHbcnCScQ9eIBegQISRAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ad1dd985c05557%3A0x13b696b3e1df9b39&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=0&type=place"
+            "image": "https://www.google.com/maps/vt/data=UIlSQrpGxufWw4d39yuXpuqTayTZlnomOLzSmFkMR85bqMn5kWdBBVCmCtV0sPJVPstUL-zs4mNxn3HiWkRHeK6gYnb4C87iE0j-3IotRzNID-GU2cs",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880fd3541290b235:0x685dc775d28292d0?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIORAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880fd3541290b235%3A0x685dc775d28292d0&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
         },
-        "description": "Join us every Saturday, (*weather permitting) except the first Saturday of each month, from 9am to 12pm (Fall and Winter) or 8am to 11am (Spring and Summer) for a diversity of farm related...",
+        "description": "Hustle Chicago Stair Climb combines fun, fitness, and philanthropy by hosting thousands of participants for a climb to the top of 875 N. Michigan Avenue (the former Hancock Building). All event...",
         "ticket_info": [
             {
-                "source": "Saturday Volunteer Day — Urban Community AgriNomics (UCAN)",
-                "link": "https://www.ucan.today/ucan-calendar-of-events/zpk4e9bd7t7jkat-eflzp-g7b5m-ckxfz-k4ltp-52b5s-4st2c-pef54-gwgs9-5t68k-jarcn-sn2zd-bnhbp-cetbx-h2g5w",
-                "link_type": "more info"
-            }
-        ],
-        "venue": {
-            "name": "Urban Community AgriNomics (UCAN)",
-            "rating": 5.0,
-            "reviews": 7,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&gl=us&hl=en&q=Urban+Community+AgriNomics+(UCAN)&ludocid=1420488431814810425&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa5dto6Rx_xEfOOLkkDevVPuUzCvBa8n7CThjQOgQ&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5ntaDP5Mz_AuWR-bvQ7H38Fcd4sXtHvc0uNvnxAAbA&s=10",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
-    },
-    {
-        "title": "Carter G. Woodson, The Man Who Conceived Black History Week",
-        "date": {
-            "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 3:30 – 5:00 PM"
-        },
-        "address": [
-            "Durham County Library - Stanford L. Warren Branch Library, 1201 Fayetteville St",
-            "Durham, NC"
-        ],
-        "link": "https://www.meetup.com/durham-and-nc-history-meetup-group/",
-        "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=1jMe3nylCnDXxaTKihZjNnlF3zRywrjr8k4RWl6yTtF2tqVTSd_tesDHHIm_dvdk7KXqf4mKHU6JMBRlnHptUy8qbnDK7Hl3rirlcIHcwpbgoeFHkww",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4424c96022d:0x20b77b070204673?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAgBEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4424c96022d%3A0x20b77b070204673&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
-        },
-        "description": "Celebration of Black History Month at historic Stanford L. Warren Library. Greetings members and Happy Black History Month. The Father of Black History Month is quite astonishing given his...",
-        "ticket_info": [
+                "source": "Sponsormyevent.com",
+                "link": "https://www.sponsormyevent.com/hustle-chicago-stair-climb-chicago",
+                "link_type": "tickets"
+            },
             {
                 "source": "Meetup",
-                "link": "https://www.meetup.com/durham-and-nc-history-meetup-group/",
+                "link": "https://www.meetup.com/chicago-hiking/events/304166472/",
+                "link_type": "more info"
+            },
+            {
+                "source": "USA Running Races",
+                "link": "https://usarunningraces.com/event/hustle-chicago-stair-climb/",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Durham County Library - Stanford L. Warren Branch Library",
-            "rating": 3.9,
-            "reviews": 36,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=Durham+County+Library+-+Stanford+L.+Warren+Branch+Library&ludocid=147343012498785907&ibp=gwp%3B0,7"
+            "name": "875 North Michigan Avenue",
+            "rating": 4.7,
+            "reviews": 19470,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=875+North+Michigan+Avenue&ludocid=7520386261635470032&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://www.google.com/maps/vt/data=1jMe3nylCnDXxaTKihZjNnlF3zRywrjr8k4RWl6yTtF2tqVTSd_tesDHHIm_dvdk7KXqf4mKHU6JMBRlnHptUy8qbnDK7Hl3rirlcIHcwpbgoeFHkww",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1-vG6eRNRnMZBDgK18DIkOrcuA1vJ6rj1fCH45PIhci5oT5iRAdLO3M&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMJO8FBWIOkVcI1-EJUf7DRHGfDdKGdRKWRY-oSzmkCg&s=10",
+        "latitude": 41.8988813,
+        "longitude": -87.62309617847768
     },
     {
-        "title": "Jabberwock 2025 Scholarship Gala",
+        "title": "A Raisin in the Sun",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 5 – 9 PM"
+            "when": "Sun, Feb 23, 2 – 4 PM CST"
         },
         "address": [
-            "Hillside High School, 3727 Fayetteville Rd",
-            "Durham, NC"
+            "Court Theatre, 5535 S Ellis Ave",
+            "Chicago, IL"
         ],
-        "link": "https://www.eventbrite.com/e/jabberwock-2025-scholarship-gala-tickets-1253189817479",
+        "link": "https://www.choosechicago.com/event/a-raisin-in-the-sun/2025-02-23/1/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=yh1GjxZ56wdaENrjX4cteQjnVqQAo8FbDuDQ9T91rFmuyMPmRZCWLBWrLApvqNhqEio8BtACVvBSQeiJ5gjQWcKbx5rz0qEVyo28I_DQkgXAbmhFh_0",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace4462ccbfd2d:0xf3fa34716065171f?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAgJEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace4462ccbfd2d%3A0xf3fa34716065171f&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=uvecHjQUV3XemKcH-1vffU3eHtQRlaz95M_0FpsZLPShfNL-rbiC4mTznz3aT125D_eAfmglStjm9efa7aPW4OSB14gcbLueLyz_Br13Bjawh8IfKiw",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e293f9e1c074b:0x51ff13da186e0ebd?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQIQRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e293f9e1c074b%3A0x51ff13da186e0ebd&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
         },
-        "description": "The Durham Alumnae Chapter of Delta Sigma Theta Sorority, Inc. cordially invites you to the 2025 Jabberwock Scholarship Program Gala.",
+        "description": "New York Drama Critics Award winner, Tony Award nominee for Best Play, and the first play written by a Black woman to be produced on Broadway, Lorraine Hansberry's A Raisin in the Sun is a...",
+        "ticket_info": [
+            {
+                "source": "Got2go.com",
+                "link": "https://tickets.got2go.com/tickets/6974100",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Choose Chicago",
+                "link": "https://www.choosechicago.com/event/a-raisin-in-the-sun/2025-02-23/1/",
+                "link_type": "more info"
+            },
+            {
+                "source": "StubHub",
+                "link": "https://www.stubhub.com/a-raisin-in-the-sun-chicago-tickets-2-23-2025/event/156904748/",
+                "link_type": "more info"
+            },
+            {
+                "source": "Event Tickets Center",
+                "link": "https://www.eventticketscenter.com/a-raisin-in-the-sun-chicago-02-23-2025/6974100/t",
+                "link_type": "more info"
+            },
+            {
+                "source": "Immortal Seats",
+                "link": "https://www.immortalseats.com/tickets/6974116/a-raisin-in-the-sun-sun-feb-23-2025-court-theatre-chicago",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Court Theatre",
+            "rating": 4.7,
+            "reviews": 382,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=Court+Theatre&ludocid=5908463063567044285&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxgL8OjnWGiX3AGYwRHr-H58Gz4PRZMB7M67IOsgrfkbSX8EXrA7BYwc&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8KkegMSGAy5JUHJ7k_Rj7B7KHpDwtHpL48HHv4RTayAhxT_GhTFd6FVoIA&s=10",
+        "latitude": 41.7940272,
+        "longitude": -87.60086274481108
+    },
+    {
+        "title": "JUMP Serving Lesson Sun, February 23rd - Time: 9:30 am - 10:15 am,$25",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Sun, Feb 23, 9:30 – 10:15 AM CST"
+        },
+        "address": [
+            "Chicago High School for Agricultural Sciences, 3857 W 111th St",
+            "Chicago, IL"
+        ],
+        "link": "https://www.eventbrite.com/e/overhand-ground-serving-lesson-sun-feb-23rd-time-930-1015-am25-tickets-1252468158979",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=aqZHOFzK_DQyZe-Uwyi3Th3GFChZ2pqVm2Khjx3GnhVoSm7Fw_X5bzX1msZYJafpNgT6SWgHlftec1eJMsMRsY8hOEZri-SJmdUorisE62fu9awBocQ",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e3b17f7105c3f:0x9a6eae9b8ac4c4ea?sa=X&ved=2ahUKEwikiuuFjNmLAxWEF2IAHaMKGBAQ9eIBegQISRAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e3b17f7105c3f%3A0x9a6eae9b8ac4c4ea&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=0&type=place"
+        },
+        "description": "Overhand Ground Float Serving Lesson Sunday, February 23rd - Time: 9:30 am - 10:15 am, $25 Grades 4th - HS @ CHSAS",
         "ticket_info": [
             {
                 "source": "Eventbrite.com",
-                "link": "https://www.eventbrite.com/e/jabberwock-2025-scholarship-gala-tickets-1253189817479",
+                "link": "https://www.eventbrite.com/e/jump-serving-lesson-sun-february-23rd-time-930-am-1015-am25-tickets-1252473103769",
                 "link_type": "tickets"
-            },
-            {
-                "source": "Facebook",
-                "link": "https://m.facebook.com/events/1143659907172393/?acontext=%7B%22action_history%22%3A%22null%22%7D&ref_source=newsfeed&ref_mechanism=feed_attachment",
-                "link_type": "more info"
-            },
-            {
-                "source": "AllEvents",
-                "link": "https://allevents.in/durham/2025-jabberwock-scholarship-program-gala/200027844743335",
-                "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Hillside High School",
-            "rating": 3.9,
-            "reviews": 37,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=Hillside+High+School&ludocid=17580421756947339039&ibp=gwp%3B0,7"
+            "name": "Chicago High School for Agricultural Sciences",
+            "rating": 4.0,
+            "reviews": 11,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&hl=en&gl=us&q=Chicago+High+School+for+Agricultural+Sciences&ludocid=11128023712350389482&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonwslTXleB-AbaaF88PgPWvCWPymh7GFjNiROqdZpbub8two5jUzyJLw&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-hbDyIugPd36psYtX5OvvGGcS2hN3sftG9ACV4C6C_u0UxAmwtNXljJ23DQ&s",
-        "latitude": 35.9515327,
-        "longitude": -78.9045492
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8Z2kcj_Uj0-IK_HZ-ZoZSHb2PcYPA3qWzj__qhvvD-33p-ldQU-LO4s&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEceD0z7DaI31iEOZV5AYY6Uf0Y3IGjN20r3ioB2folw&s=10",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
     },
     {
-        "title": "South Durham Farmers' Market",
+        "title": "Flyover Chicago Kids Ride Free for February",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 9 AM – 12 PM"
+            "when": "Sun, Feb 23, 11 AM – 8 PM"
         },
         "address": [
-            "South Durham Farmers' Market, 500 Park Offices Dr",
-            "Durham, NC"
+            "Flyover, 600 E Grand Ave",
+            "Chicago, IL"
         ],
-        "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-02-22-durham-nc.html",
+        "link": "https://www.chicagotribune.com/events/#!/details/flyover-chicago-kids-ride-free-for-february/15087046/2025-02-23T11",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acef105d6347c5:0xe538f1e310e4b732?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAgREAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acef105d6347c5%3A0xe538f1e310e4b732&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=NbFvIDy4QbtG8xwSsKr8ROj_o0HWR1Z-y7VNZNAYp3cL1Mro1tVUOofVCXlbfihCc-Bcjhsj3LjiHdCMGdhRxbjnuETOajalgZPBhhdSm3qEohW1Zac",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2bf4dd84e1bf:0xffcf1173f46d85c5?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAgBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2bf4dd84e1bf%3A0xffcf1173f46d85c5&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "Season: Fall Market Hours: November, 2024 - March, 2025Saturdays, 9am - 12pm Location: Greenwood Commons Shopping Center - 5410 NC Highway 55",
+        "description": "In February 2025, at Flyover Chicago, kids can enjoy a complimentary experience of Believe Chicago or Legendary Iceland with the \"Kids Ride Free\" promotion, offering free entry for kids from...",
         "ticket_info": [
             {
-                "source": "AARP Local",
-                "link": "https://cdn-aarpsite.americantowns.com/event/south-durham-farmers-market-2025-02-22-durham-nc.html",
+                "source": "Chicago Tribune",
+                "link": "https://www.chicagotribune.com/events/#!/details/flyover-chicago-kids-ride-free-for-february/15087046/2025-02-23T11",
+                "link_type": "more info"
+            },
+            {
+                "source": "WGN-TV",
+                "link": "https://wgntv.com/community-events/?_escaped_fragment_=/show/?start=2023-04-12#!/details/flyover-chicago-kids-ride-free-for-february/15087046/2025-02-23T11",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "South Durham Farmers' Market",
-            "rating": 4.7,
-            "reviews": 123,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=South+Durham+Farmers%27+Market&ludocid=16517217590924588850&ibp=gwp%3B0,7"
+            "name": "Flyover",
+            "rating": 4.8,
+            "reviews": 1018,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Flyover&ludocid=18432970989570459077&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://www.google.com/maps/vt/data=LzpSNeqTPr9Pk-OqGfZC1A5qsXOZW8uErByfa0g-i0lObgz5Me-wQ8UEwgsu00SCJ8uUQcQZTfZYa6IsmBvGlzSq9tcHAsROWaZgVKXszWe6L3Rv6Ho",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEGsKFIo9lXDa8UCVgb1bMlzvpueto9WmtWpsnAb7-ka7UWw0mFrbuOhY&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJ3E8hY30hNG5FFugNao2Gec4ySQ7GJHIjNYuP8Qbl2IWSPCJOU2UYrqnpg&s=10",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
     },
     {
-        "title": "Downtown Durham True Crime Tour",
+        "title": "Color Factory Chicago (Multiple Dates and Times)",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 2 – 3 PM"
+            "when": "Sun, Feb 23, 3:30 – 7:30 AM"
         },
         "address": [
-            "Lucky Strike Tower, 334 Blackwell St",
-            "Durham, NC"
+            "Color Factory Chicago, 233 S Wacker Dr Lower Level 2",
+            "Chicago, IL"
         ],
-        "link": "https://downtowndurham.com/event/downtown-durham-historian-guided-walking-tour/2025-02-22/",
+        "link": "https://www.ticketsqueeze.com/tickets/6923482/color-factory-chicago-multiple-dates-and-times-2025-02-24-03-30-00-color-factory-chicago",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=OJ5VdntqanK2H0cgKQGIyz-djRYXyrv_Az8M-2zzyHqf4zy2-qVcfrSET_AbLBN18moAKPR3U-fUEDqCNW5fjJ9DYJsld4OJH9pgu_fFkgeaPKV5Bus",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace5cd3d608833:0xd18a6e17f033762d?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAgZEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace5cd3d608833%3A0xd18a6e17f033762d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=9K48pmfzyj8Fdy-zdZFKGM7ZHxlmEr2gMm6B02kKJaNrLahBiU9v5zXg9wbrkBKGP7FB33ubDPFZCwFz7-1enDcodAr7Vo6yRNT0vBD1Rd6zOpyOoJ0",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2dfedd000b07:0xba0d28922e52eacf?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAgJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2dfedd000b07%3A0xba0d28922e52eacf&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "Experience the history of downtown Durham, strolling between Durham’s historic sites. Learn about Durham’s pivotal role in the industrialization of the American South, how a Durham banking magnate...",
+        "description": "Tickets for Color Factory Chicago (Multiple Dates and Times) at Color Factory Chicago in Chicago, Illinois on Monday 24th February 2025, 3:30AM.",
         "ticket_info": [
             {
-                "source": "Downtowndurham.com",
-                "link": "https://downtowndurham.com/event/downtown-durham-historian-guided-walking-tour/2025-02-22/",
+                "source": "Eventticketscenter.com",
+                "link": "https://www.eventticketscenter.com/color-factory-chicago-multiple-dates-and-times-chicago-02-23-2025/6923481/t",
                 "link_type": "tickets"
             },
             {
-                "source": "Thetriangleweekender.com",
-                "link": "https://thetriangleweekender.com/event/downtown-durham-true-crime-tour/2025-02-22/",
-                "link_type": "tickets"
-            },
-            {
-                "source": "Allevents.in",
-                "link": "https://allevents.in/durham/downtown-durham-historian-guided-tour/80001434433097?slot=2025-02-22",
-                "link_type": "tickets"
-            },
-            {
-                "source": "Eventbrite",
-                "link": "https://www.eventbrite.com/e/historic-downtown-durham-guided-walking-tour-tickets-684461822737",
+                "source": "Ticket Squeeze",
+                "link": "https://www.ticketsqueeze.com/tickets/6923482/color-factory-chicago-multiple-dates-and-times-2025-02-24-03-30-00-color-factory-chicago",
                 "link_type": "more info"
             },
             {
-                "source": "FOX8 WGHP",
-                "link": "https://myfox8.com/calendar/?_escaped_fragment_=/show/?start=2023-10-23#!/details/historic-downtown-durham-guided-walking-tour/13778599/2025-02-22T14",
+                "source": "Box Office Ticket Sales",
+                "link": "https://www.boxofficeticketsales.com/6923481/color-factory-chicago-multiple-dates-and-times-tickets-sun-2-23-2025-color-factory-chicago",
+                "link_type": "more info"
+            },
+            {
+                "source": "Immortal Seats",
+                "link": "https://www.immortalseats.com/tickets/6923482/color-factory-chicago-multiple-dates-and-times-mon-feb-24-2025-color-factory-chicago",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Lucky Strike Tower",
-            "rating": 4.7,
-            "reviews": 60,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=Lucky+Strike+Tower&ludocid=15099001749806216749&ibp=gwp%3B0,7"
+            "name": "Color Factory Chicago",
+            "rating": 4.8,
+            "reviews": 1159,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Color+Factory+Chicago&ludocid=13406416274059356879&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlQi_8CSYDlNiYNoBxl1HGHryeGaotnl_DSiDuiGtGX72b8HhBcrTeJ4&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl8COcfyXQn9PDDe-hoyxdsytYXY66VfdACIxbo9FuS6d7B7nGgAiTj3L6_A&s=10",
-        "latitude": 35.993278200000006,
-        "longitude": -78.90489999136435
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUSkHsR2ayAgMo1hRmFTo-eYejD3mJkG_-tnRw7Eg&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LnlR_sIt8jtIfVzaSIse8sT8oYzWqyAVAHXUhfUYZg&s=10",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
     },
     {
-        "title": "Meet the Heroes 2025",
+        "title": "Heffer BBQ Brunch — Skylark",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 12 – 5 PM"
+            "when": "Sun, Feb 23, 11 AM – 3 PM"
         },
         "address": [
-            "Edison Johnson Recreation Center, 500 W Murray Ave",
-            "Durham, NC"
+            "Skylark, 2149 S Halsted St",
+            "Chicago, IL"
         ],
-        "link": "https://www.eventbrite.com/e/meet-the-heroes-2025-tickets-1108411180679",
+        "link": "https://www.skylarkchicago.com/events/heffer-bbq-brunch-feb",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=WBoA2SN_WHzQ7AmDzK_9bub3Y7zjZ7R0N5XOve5hoOwGD5qbIMfR32Iy97f94zrtGtxKlbKL4Jo15WNVeizDM7K6Md_Pj2ZoqoNcWrqcWrAL5cVZ1Zo",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace3be041d628b:0x5e4a03a0302fd9cc?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAghEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace3be041d628b%3A0x5e4a03a0302fd9cc&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=KGhiCUZ7gbM83zIuPujG2gKIenKc8Jw6tx_X7trHcWquMi83rrHcfc6jZD4AmDyp04g5IkhM_smdtqUZ5YhKHg8zioawSOFHbOc60o7STZTj0U9Nam8",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2c59b00d2cbb:0x8044823900cda87d?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAgREAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2c59b00d2cbb%3A0x8044823900cda87d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "Come hang out for free family fun and learn about the Heroes of Transportation in Black History and their inspiring stories in person!",
+        "description": "Our favorite HEFFER BBQ will be available here the last Sunday of every month from 11am-3pm at Skylark. THERE WILL BE WINGS AND BURGERS…!!!! Come early or go hungry…",
+        "ticket_info": [
+            {
+                "source": "Skylark",
+                "link": "https://www.skylarkchicago.com/events/heffer-bbq-brunch-feb",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Skylark",
+            "rating": 4.6,
+            "reviews": 766,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Skylark&ludocid=9242655516609325181&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuCoOMK7mCSUimbiP4WwsSHrgwv8zWyNntz70FvN8&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6kBynigiO5CeO8LtjqRJ4QjJmbQrt2OxVs9gNpbWXw&s",
+        "latitude": 41.8528159,
+        "longitude": -87.6462733
+    },
+    {
+        "title": "Bridal & Wedding Expo",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Sun, Feb 23, 11:00 AM – 3:30 PM"
+        },
+        "address": [
+            "Chicago Marriott Oak Brook, 1401 W 22nd St",
+            "Oak Brook, IL"
+        ],
+        "link": "https://www.eventbrite.com/e/bridal-expo-chicago-sun-february-23rd-marriott-hotel-oak-brook-11a-3p-tickets-1091175077029",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=68q_JTk6TEm0o5cOg2Cq-mT1lIyu44QI7veTjNTV5U0Y0VeVWN_h81jOMdG3QqzEtSANTTFHeZysXR87U-GTeYEnHT6nrBNP1AbuEZ8amAFpiYtlRI4",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e4c6a0b9b6429:0x7677fb4e6b2ec920?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAgZEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e4c6a0b9b6429%3A0x7677fb4e6b2ec920&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
+        },
+        "description": "Get 4 FREE tickets to our luxury bridal expo at the Marriott Hotel, Oak Brook on Sunday, February 23rd 2025 from 11 am to 3:00 pm. Shop & compare 50 exhibitors and invite your family and friends...",
         "ticket_info": [
             {
                 "source": "Eventbrite.com",
-                "link": "https://www.eventbrite.com/e/meet-the-heroes-2025-tickets-1108411180679",
+                "link": "https://www.eventbrite.com/e/bridal-expo-chicago-sun-february-23rd-marriott-hotel-oak-brook-11a-3p-tickets-1091175077029",
                 "link_type": "tickets"
             },
             {
+                "source": "UNATION",
+                "link": "https://www.unation.com/event/bridal-expo-chicago-sun-february-23rd-marriott-hotel-oak-brook-11a-3p-56633481/",
+                "link_type": "more info"
+            },
+            {
                 "source": "AllEvents",
-                "link": "https://allevents.in/durham/meet-the-heroes-2025/100001108411180679",
+                "link": "https://allevents.in/oak%20brook/fashion-show",
+                "link_type": "more info"
+            },
+            {
+                "source": "10Times",
+                "link": "https://10times.com/e1d4-x6g2-f7rx-x",
+                "link_type": "more info"
+            },
+            {
+                "source": "Wedding Shows",
+                "link": "https://weddingshows.net/wedding-show/marriott-hotel-oak-brook-bridal-show-in-illinois-23-february-2025",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Edison Johnson Recreation Center",
-            "rating": 4.7,
-            "reviews": 9,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=Edison+Johnson+Recreation+Center&ludocid=6794246974379907532&ibp=gwp%3B0,7"
+            "name": "Chicago Marriott Oak Brook",
+            "rating": 4.2,
+            "reviews": 1795,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Chicago+Marriott+Oak+Brook&ludocid=8536567932928313632&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg20hlzKM3rj50hRGZP4RWeHu4SMItUX7HPIBgMtUzp7cRWIbOUnnHilg&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKRIhmTYN9KIbIPlzBm3atiFv5ayp6XXoekVYjC3Lrw&s",
-        "latitude": 36.029862800000004,
-        "longitude": -78.90108101321105
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXkw4QKY31--hE8GCuKuTv07Sagi4O4EUZQpzlXiQIwLAYQY6zkoYioOE&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQArJu0MoEOdxwytdUlSLVjrWW1De5TFiYs-4P0dYtLsQ&s",
+        "latitude": 41.84586185,
+        "longitude": -87.95279715280776
     },
     {
-        "title": "I didn't do it by Jaime Lynn Hendricks",
+        "title": "Serve, Hit, Pass, Set & Drills Clinic, Sun. 2/23 - Time: 10:15-12:00pm",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 3 – 5 PM"
+            "when": "Sun, Feb 23, 10:15 AM – 12:00 PM"
         },
         "address": [
-            "Lakewood Social, 1920 Chapel Hill Rd",
-            "Durham, NC"
+            "Chicago High School for Agricultural Sciences, 3857 W 111th St",
+            "Chicago, IL"
         ],
-        "link": "https://www.meetup.com/raleigh-durham-mystery-and-true-crime-book-club-for-women/events/305260386/?eventOrigin=group_events_list",
+        "link": "https://www.eventbrite.com/e/serve-hit-pass-set-drills-clinic-sun-223-time-1015-1200pm-tickets-1252467446849",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=KryZGwfaYcolo2gXDG7jzfLgELwXKauks2kIYDyouG-FJ-wOASDvK6x_LOtmxuYoQk1s3OfPv8avTBQ2X5gXa7Kx4hylSUK5dIjNi7_d__E1FxjP_jU",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace51bbf039fd5:0xa55c323d7b3afece?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAgpEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace51bbf039fd5%3A0xa55c323d7b3afece&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=aqZHOFzK_DQyZe-Uwyi3Th3GFChZ2pqVm2Khjx3GnhVoSm7Fw_X5bzX1msZYJafpNgT6SWgHlftec1eJMsMRsY8hOEZri-SJmdUorisE62fu9awBocQ",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e3b17f7105c3f:0x9a6eae9b8ac4c4ea?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAghEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e3b17f7105c3f%3A0x9a6eae9b8ac4c4ea&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "Our mystery book for February is I didn't do it by Jaime Lynn Hendricks. A murder happens at Murderpalooza, the premier thriller writers conference in this send up of the publishing industry.",
+        "description": "Serve, Hit, Pass, Set & 3 Contact Competitive Drills Clinic, Sunday, February 23rd - Time: 10:15 am-12:00 pm, $35 Grades 4th - HS @ CHSAS",
         "ticket_info": [
             {
-                "source": "Meetup",
-                "link": "https://www.meetup.com/raleigh-durham-mystery-and-true-crime-book-club-for-women/events/305260386/?eventOrigin=group_events_list",
-                "link_type": "more info"
+                "source": "Eventbrite.com",
+                "link": "https://www.eventbrite.com/e/serve-hit-pass-set-drills-clinic-sun-223-time-1015-1200pm-tickets-1252467446849",
+                "link_type": "tickets"
             }
         ],
         "venue": {
-            "name": "Lakewood Social",
-            "rating": 4.7,
-            "reviews": 197,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=Lakewood+Social&ludocid=11915453953757347534&ibp=gwp%3B0,7"
+            "name": "Chicago High School for Agricultural Sciences",
+            "rating": 4.0,
+            "reviews": 11,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Chicago+High+School+for+Agricultural+Sciences&ludocid=11128023712350389482&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://www.google.com/maps/vt/data=KryZGwfaYcolo2gXDG7jzfLgELwXKauks2kIYDyouG-FJ-wOASDvK6x_LOtmxuYoQk1s3OfPv8avTBQ2X5gXa7Kx4hylSUK5dIjNi7_d__E1FxjP_jU",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8Z2kcj_Uj0-IK_HZ-ZoZSHb2PcYPA3qWzj__qhvvD-33p-ldQU-LO4s&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEceD0z7DaI31iEOZV5AYY6Uf0Y3IGjN20r3ioB2folw&s=10",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
     },
     {
-        "title": "Holidaze",
+        "title": "West Loop Contemporary Fine Art Expo EAC 2 23 Tickets,",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 2:00 – 10:30 PM"
+            "when": "Sun, Feb 23, 6 AM – 11 PM"
         },
         "address": [
-            "The Glass Jug Beer Lab - Downtown Durham, 545 Foster St Suite 10",
-            "Durham, NC"
+            "1340 W Washington Blvd",
+            "Chicago, IL"
         ],
-        "link": "https://thetriangleweekender.com/event/holidaze/2025-02-22/",
+        "link": "https://www.trip.com/events/west-loop-contemporary-fine-art-expo-eac-223-tickets-20241224/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=zjyswwY49F712X1-BaF7MOXi-iIzq_D-jq3h5kF5N6fvO3wXuHRBed8fB08OiVdqlaqUlnBO4kCgIJiIvtHJb6n6Iww8kKJq-HketYU0lsRbSqYatmk",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89ace584cb4f25d5:0xd30bde825ef62ccf?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAgxEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89ace584cb4f25d5%3A0xd30bde825ef62ccf&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=uoaM-m2OFbs_RfxfUk4f1KrhrrJic1kduo4dtQ8Cb36lME2cqj6qpnZpu9xnDCsHQ1z2t_CUICyr_kvFUWvEmqwRaJSPG09Zj4WhdH0ykSsA1Dm6UYI",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2d26f6a6c7fb:0xc45953a51dc0ec4c?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAgpEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2d26f6a6c7fb%3A0xc45953a51dc0ec4c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "The time between holidays feels like a daze. Between parties, meals, desserts and irregular work schedules it’s hard to know what to do with yourself! Come hang with us! Need […]",
+        "description": "Join us for the Inaugural West Loop Contemporary Fine Art Expo! This is a special opportunity open to EAC community members with limited tickets available. Featuring over 40 invitation-only...",
         "ticket_info": [
             {
-                "source": "Holidaze - The Triangle Weekender",
-                "link": "https://thetriangleweekender.com/event/holidaze/2025-02-22/",
+                "source": "Unation.com",
+                "link": "https://www.unation.com/event/west-loop-contemporary-fine-art-expo-eac-2-23-tickets-56841553/",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Trip.com",
+                "link": "https://www.trip.com/events/west-loop-contemporary-fine-art-expo-eac-223-tickets-20241224/",
+                "link_type": "more info"
+            },
+            {
+                "source": "AllEvents",
+                "link": "https://allevents.in/chicago/west-loop-contemporary-fine-art-expo-eac-2-23-tickets/100001105664354849",
+                "link_type": "more info"
+            },
+            {
+                "source": "Eventsize",
+                "link": "https://eventsize.com/event/west-loop-contemporary-fine-art-17376162328557",
                 "link_type": "more info"
             }
         ],
-        "venue": {
-            "name": "The Glass Jug Beer Lab - Downtown Durham",
-            "rating": 4.9,
-            "reviews": 83,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=The+Glass+Jug+Beer+Lab+-+Downtown+Durham&ludocid=15207493218266918095&ibp=gwp%3B0,7"
-        },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVrO69y4u96vKRnbHeJJjHYxCXXCLC6F-lGlF-aF5QK2nezq9SmH0Qwmw&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS54-LutVrPcMlixJ3oUsI4W1qTHzS0i5ECc0HZNKzLIPb_AOCAfwkT2g1Idg&s=10",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd6SfIcoSOD8YqnSh35HagSyWaJjp9ccTMQzQI_AHBONXFGWnEyJn-vks&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7GU1fKwmJJ2_cS7fVHZJjIutcFSZc75UsZiYg8z71w&s",
+        "latitude": 41.8833654,
+        "longitude": -87.66151827895789
     },
     {
-        "title": "Mystic Distillery Tour — Mystic Farm & Distillery",
+        "title": "The Teacher's Lounge",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 2 PM – Sun, Feb 23, 6 PM"
+            "when": "Sun, Feb 23, 3 – 7 PM"
         },
         "address": [
-            "Mystic Farm & Distilling Company, 1413 Stallings Rd",
-            "Durham, NC"
+            "Chicago Improv, 5 Woodfield Mall Store K120B",
+            "Schaumburg, IL"
         ],
-        "link": "https://www.whatismystic.com/events-2/fsys2b58nk49a6l-dd2mp-xnmzl-jj8r4-xhh6r-ff4c3-cdkmd-3bk9n-mde7j-e5zsw-cwjxx-rfxa6-gy4ha-f9wln-6me7a-dtcmz-la3l8-p8hrz",
+        "link": "https://www.chicagonorthwest.com/event/the-teachers-lounge%3A-a-comedy-show-with-rigor-with-gaspare-randazzo-philip-lindsay-and-andrea-forcum/25875/",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=oJPaFw7g9z0KyVGOgMXROEIl2ATHS65h-939nl4_Eur8IWadGzAPulUdBmZ1PTjyhcooBtXpQsH_7JHmW19P1yVcy0dpfCnLUjrDh6arpo7wmnPTXyk",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acfc82b0da25e9:0x335478fbc7bee348?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAg5EAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acfc82b0da25e9%3A0x335478fbc7bee348&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=dFAae_YA-wqbpLwKuXj_5bwA2yTz84_xCoWXv-kLMN5jcWAERuzIN4zzA__k1rSO3yjNcShzAEZXbOt7UbvswRREH-fJMgWh3z4ES1N1I8v97yzkKyE",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880faf96a2a84d19:0x4bbd938efebc1e97?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAgxEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880faf96a2a84d19%3A0x4bbd938efebc1e97&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "Tour the Triangle’s only farm distillery. Our winning tour has been featured in the New York Times! Explore how we create handmade small batch bourbon from the ground up. See the production...",
+        "description": "Join three seasoned educators— Gaspare Randazzo (Netflix, The Social Studies Podcast), Philip Lindsay (Social Media Sensation, The Today Show), and Andrea Forcum (Those Who Can't Do Podcast)—for a...",
         "ticket_info": [
             {
-                "source": "Mystic Farm & Distillery",
-                "link": "https://www.whatismystic.com/events-2/fsys2b58nk49a6l-dd2mp-xnmzl-jj8r4-xhh6r-ff4c3-cdkmd-3bk9n-mde7j-e5zsw-cwjxx-rfxa6-gy4ha-f9wln-6me7a-dtcmz-la3l8-p8hrz",
+                "source": "Evvnt.com",
+                "link": "https://evvnt.com/events/?_evDiscoveryPath=/event/36849416t-the-teacher-s-lounge-a-comedy-show-with-rigor-with-gaspare-randazzo-philip-lindsay-and-andrea-forcum",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Meet Chicago Northwest",
+                "link": "https://www.chicagonorthwest.com/event/the-teachers-lounge%3A-a-comedy-show-with-rigor-with-gaspare-randazzo-philip-lindsay-and-andrea-forcum/25875/",
+                "link_type": "more info"
+            },
+            {
+                "source": "Daily Herald",
+                "link": "http://www.dailyherald.com/calendar#!/details/the-teacher-s-lounge/14737054/2025-02-23T00",
+                "link_type": "more info"
+            },
+            {
+                "source": "The Beverly Review",
+                "link": "https://www.beverlyreview.net/local-events/?_evDiscoveryPath=/event/36849416t-the-teacher-s-lounge-a-comedy-show-with-rigor-with-gaspare-randazzo-philip-lindsay-and-andrea-forcum",
+                "link_type": "more info"
+            },
+            {
+                "source": "Chicago Tribune",
+                "link": "https://www.chicagotribune.com/events/?fbclid=IwZXh0bgNhZW0CMTAAAR0hTJVEIXaf4prKDj0Hgol2U_jJsFjoYsBsPJawPChht428cZOEAWnTt_w_aem_ADz_OLg8lulbZrzRh3TtCA#!/details/the-teacher-s-lounge/14737054/2025-02-23T00",
                 "link_type": "more info"
             }
         ],
         "venue": {
-            "name": "Mystic Farm & Distilling Company",
+            "name": "Chicago Improv",
+            "rating": 4.5,
+            "reviews": 1900,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Chicago+Improv&ludocid=5457680565811289751&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKxmcs5BFKtk5hvKrTfraOpRfa8fPicPXbMN14hvcjcaW7dXrelT7EwM&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbxft6S3oryBG6qAhonJisiXmOJOA3TyWLadpJU5q5IA&s=10",
+        "latitude": 42.0333608,
+        "longitude": -88.083406
+    },
+    {
+        "title": "Fat Ham",
+        "date": {
+            "start_date": "Feb 23",
+            "when": "Sun, Feb 23, 2 – 4 PM"
+        },
+        "address": [
+            "Goodman Theatre, 170 N Dearborn St",
+            "Chicago, IL"
+        ],
+        "link": "https://www.facebook.com/events/goodman-theatre/fat-ham-at-owen-bruner-goodman-theatre/1264596811439487/",
+        "event_location_map": {
+            "image": "https://www.google.com/maps/vt/data=XOjELJqYYhkKJv5OxqcaQNs8xbzlvGnwf7zqZihTobEYI-icXgkGtmCOinmn2nGzexMkms21dxpBMDnwDBdsjvMHvqEsFUIeX163AktA1uv0hmXWD5k",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2c191cc16809:0x1c1cd48561fe9a5e?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAg5EAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2c191cc16809%3A0x1c1cd48561fe9a5e&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
+        },
+        "description": "Join us for an unforgettable evening at Fat Ham! Enjoy delicious food while listening to live music at this amazing event. Get your tickets now at Ticketshelper and secure your spot for a night of...",
+        "ticket_info": [
+            {
+                "source": "Tix4cause.com",
+                "link": "https://www.tix4cause.com/event/fat-ham/6584464",
+                "link_type": "tickets"
+            },
+            {
+                "source": "Choose Chicago",
+                "link": "https://www.choosechicago.com/event/fat-ham/2025-02-23/",
+                "link_type": "more info"
+            },
+            {
+                "source": "Daily Herald",
+                "link": "https://www.dailyherald.com/calendar/?_escaped_fragment_=/show/?start=2021-12-08#!/details/fat-ham/14698538/2025-02-23T14",
+                "link_type": "more info"
+            },
+            {
+                "source": "WGN-TV",
+                "link": "https://wgntv.com/community-events/?_escaped_fragment_=/show/?start=2023-11-30#!/details/fat-ham/14698538/2025-02-23T14",
+                "link_type": "more info"
+            },
+            {
+                "source": "WGN Radio",
+                "link": "https://wgnradio.com/community-calendar/#!/details/fat-ham/14698538/2025-02-23T14",
+                "link_type": "more info"
+            }
+        ],
+        "venue": {
+            "name": "Goodman Theatre",
             "rating": 4.8,
-            "reviews": 164,
-            "link": "https://www.google.com/search?sca_esv=9fb8ac264fe7f23f&hl=en&gl=us&q=Mystic+Farm+%26+Distilling+Company&ludocid=3698714216761320264&ibp=gwp%3B0,7"
+            "reviews": 2362,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Goodman+Theatre&ludocid=2025727601749695070&ibp=gwp%3B0,7"
         },
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHzJDnFeagDPI4MiXtbgIpja7SG38T3YMltq-LK_0bvgDIPBbaaLyex-E&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0jv97uX4XaQ4VVWig92Z8iVL00MmwrnzNLKN4ZtRPD4PC6j8JvoKnmmBx1A&s",
-        "latitude": 35.996653,
-        "longitude": -78.9018053
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdajMYm6hj1uW_yU4cF796VR_eD6h6s4XvbxGo3aLgrhf77H3xE_ItqVg&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4K6SvlLePV5gIiKIBi0aF6zblFi_4Nd1Ad52mlTzxdu3b79oc8r6I-m8mdw&s=10",
+        "latitude": 41.88511155,
+        "longitude": -87.62988788181818
     },
     {
-        "title": "DURHAM ✨ Fairy Liz Studio",
+        "title": "Jackson Park Winter Walk — Chicago Ornithological Society",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 4 – 7 PM"
+            "when": "Sun, Feb 23, 9 – 11 AM"
         },
         "address": [
-            "5314 NC-55",
-            "Durham, NC"
+            "Jackson Park, 6401 S Stony Island Ave",
+            "Chicago, IL"
         ],
-        "link": "https://allevents.in/durham/durham-fairy-liz-studio/200027857523053",
+        "link": "https://www.chicagobirder.org/events/2025/2/23/jackson-park",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=D7LdUxUzsm3K1CYxJ9T9pWPOzU57j8yZ1VB1K2iEMTB6Qz8ssEPLMXOG_b2Z8AM9U0M2lsScu_Mh_fgfYyIHqR4fBbJ-Xdetug6aQucGbG9ZOkuDjrY",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acef11aa09a795:0x766f5a4292388a1d?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAhBEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acef11aa09a795%3A0x766f5a4292388a1d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=v-IkMkJVtyBkM_pb3u_cUEaV2OwvMD3BOq7iBB3XnzDpARKOZ9-pd0Mo4uiQg9DvpfWbrj28ql0fv6J0WhMzMGSByno07qE9Q_OdA8AzCG-0SKFJk8U",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e290746e8dfeb:0x8a23dfa4a74ca6c?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAhBEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e290746e8dfeb%3A0x8a23dfa4a74ca6c&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "🌟DURHAM 🌟 Don’t like the hustle & bustle of store events? Book a private sparkle appointment in one of our home studios ✨ Fairy Liz will be sparkling in her Durham Studio on Saturday, February...",
+        "description": "RSVP Required Join us as we explore Jackson Park and observe winter birds.",
         "ticket_info": [
             {
-                "source": "AllEvents",
-                "link": "https://allevents.in/durham/durham-fairy-liz-studio/200027857523053",
+                "source": "Chicago Ornithological Society",
+                "link": "https://www.chicagobirder.org/events/2025/2/23/jackson-park",
                 "link_type": "more info"
             }
         ],
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwED__puKvP8ez_u8-RvsNVPUtAlu49S7pyCV8cP5kG6j5HW_e-ydbTVI&s",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy51eJZE7BWn8prU5EMOK8JL2S6hmLC598k83-pSbEc8bYyVSYhVIFqZfdRw&s=10",
-        "latitude": 35.8913691,
-        "longitude": -78.8977054
+        "venue": {
+            "name": "Jackson Park",
+            "rating": 4.6,
+            "reviews": 7266,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=Jackson+Park&ludocid=622127843730836076&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZjlofIniFGwZU3iwnniO8CuReRx-li1NHEpw1ZQ&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB6RRNyAbvK-YOnNLvaAaTH-jNoflj_vnWBtO20Duzig&s",
+        "latitude": 41.787028,
+        "longitude": -87.5867937
     },
     {
-        "title": "A21, *8:55 am,* ~21 mph",
+        "title": "The Chicago Theatre Tour",
         "date": {
             "start_date": "Feb 23",
-            "when": "Sat, Feb 22, 1:55 – 6:00 PM"
+            "when": "Sun, Feb 23, 12 PM"
         },
         "address": [
-            "Charles Herman Wilson Park, 101 Williams St",
-            "Carrboro, NC"
+            "The Chicago Theatre, 175 N State St",
+            "Chicago, IL"
         ],
-        "link": "https://www.meetup.com/tarwheels/events/305809304/",
+        "link": "https://wgntv.com/community-events/?_escaped_fragment_=/show/?ser=Community%2520Park%2520District%2520of%2520La%2520Grange%2520Park#!/details/the-chicago-theatre-tour-experience/15005979/2025-02-23T00",
         "event_location_map": {
-            "image": "https://www.google.com/maps/vt/data=2laDj4MIN0-w-JIXMz8WYLc0Fg5fw0axutlCucUYk-6ov-yVPGz1k08IlVOIZFIzvzUHLHwEQi6iImhpEJBGCD3DYGb-GIq9lhMXTjDezbHSccfj8Zs",
-            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x89acc3234eb19003:0x223901a0e04a756d?sa=X&ved=2ahUKEwimldXF89iLAxU6XEEAHbzRCCI4ChD14gF6BAhJEAA&hl=en&gl=us",
-            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x89acc3234eb19003%3A0x223901a0e04a756d&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+Durham%2C+North+Carolina+between+February+22+2025+to+February+22+2025&start=10&type=place"
+            "image": "https://www.google.com/maps/vt/data=noxELMT4cF7jfc_73VWfzEP8io4TuYoevPJj_h-r1y_QG1rtuZ971qxufN0h3LJOtka_LQDB0iyHpvSK1GVvN6lXqzAf9yPQ3Ajb9iOZeN7NB9_8HEQ",
+            "link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x880e2ca55810a493:0x4700ddf60fcbfad6?sa=X&ved=2ahUKEwiOxNiGjNmLAxVrTTABHU9rIms4ChD14gF6BAhJEAA&hl=en&gl=us",
+            "serpapi_link": "https://serpapi.com/search.json?data=%214m2%213m1%211s0x880e2ca55810a493%3A0x4700ddf60fcbfad6&engine=google_maps&gl=us&google_domain=google.com&hl=en&q=Events+in+chicago+between+February+23+2025+to+February+23+2025&start=10&type=place"
         },
-        "description": "Ride between 60-75 miles. Route will be posted by Thursday evening. Our goal is to be safe, smooth, and fast with a mixture of double paceline and rotatio",
+        "description": "The event is held on February 23, 2025 at Chicago Theatre in Chicago, IL.The cost is 22.00",
         "ticket_info": [
             {
-                "source": "Meetup",
-                "link": "https://www.meetup.com/tarwheels/events/305809304/",
+                "source": "Stubhub.com",
+                "link": "https://www.stubhub.com/the-chicago-theatre-tour-chicago-tickets-2-23-2025/event/155249220/",
+                "link_type": "tickets"
+            },
+            {
+                "source": "WGN-TV",
+                "link": "https://wgntv.com/community-events/?_escaped_fragment_=/show/?start=2023-11-27#!/details/the-chicago-theatre-tour-experience/15005979/2025-02-23T00",
+                "link_type": "more info"
+            },
+            {
+                "source": "A view from my seat",
+                "link": "https://aviewfrommyseat.co.uk/venue/chicago+theatre/the+chicago+theatre+tour+experience+theater+tickets+feb+23/event/2549665/",
                 "link_type": "more info"
             }
         ],
-        "thumbnail": "https://www.google.com/maps/vt/data=2laDj4MIN0-w-JIXMz8WYLc0Fg5fw0axutlCucUYk-6ov-yVPGz1k08IlVOIZFIzvzUHLHwEQi6iImhpEJBGCD3DYGb-GIq9lhMXTjDezbHSccfj8Zs",
-        "latitude": 35.9099875,
-        "longitude": -79.0752876
+        "venue": {
+            "name": "The Chicago Theatre",
+            "rating": 4.7,
+            "reviews": 9365,
+            "link": "https://www.google.com/search?sca_esv=f4883a601af9ab8d&gl=us&hl=en&q=The+Chicago+Theatre&ludocid=5116333225589603030&ibp=gwp%3B0,7"
+        },
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTM0ferLmiJ6Xq-zh0AnP-zRZSyM029oIc2oKalFDjtoP27TnkrNOX_k&s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYnKB9mY4jz_HCxrz-w6LuksYcqXvZwsUcteAH4eniIDx629edXhVPkQ_VDA&s=10",
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
     }
 ]
