@@ -31,7 +31,9 @@
                 "link": "https://www.google.com/search?sca_esv=242a56ba7f06912b&gl=us&hl=en&q=Southern+Boundaries+Park&ludocid=5492339221784647324&ibp=gwp%3B0,7"
             },
             "thumbnail": "https://www.google.com/maps/vt/data=-vhRat38lkK1zHynXOudakXGLL34ez8Nhtcozw63pkm6LzpdiJ2XGxROv4sehQJQKsS9otNhq1CCwLRodLe15_Hd28iCabFMJTpd2FbLgF-iCxCoo_U",
-            "category": "Sports and fitness"
+            "category": "Sports and fitness",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "Durham Creek Week 2025 — Keep Durham Beautiful",
@@ -65,7 +67,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODTd9uV3ChnKn6FF6Ed4HeoUfbPguITEmj4skXiCeqLy0Nxvb5V-urLE&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZPEn6Sq-Mo-mPdfc55_xoICj9i0rccW0CnvviUMAUQ&s=10",
-            "category": "Outdoor autoddr hiking and camping"
+            "category": "Outdoor autoddr hiking and camping",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "Durham Singles Event | Ages 45-65",
@@ -104,7 +108,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSwqvPgYYk1oLyXvXu8o5Eq4U4RwQl_Dp5n10a1gYilBtm1MGrSetzI8&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_aRKpk4nuRze-23iN_a8oUMn3HitDl3riIiI8WK3CJlupNhezsEUSVcGPA&s",
-            "category": "Social and networking"
+            "category": "Social and networking",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "Durham Farmers’ Market",
@@ -138,7 +144,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMvlOD3VoNUgstan8tsDCcko5_A5QGL6wI8ie-QxDYbiFsPskMEA1gg_w&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3zR9G1Fr58mo3vzkQhMDwCjoGN79hvo08xBm1dzh33xAzXfz-NZDa1mv9Gw&s=10",
-            "category": "Food and drink"
+            "category": "Food and drink",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "TOUR: A Closer Look at the Collection",
@@ -177,7 +185,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6PueQalIjHA4rbd3-6sykqdLVCJgCBq0QWr9_tH9j4l1tITzXG0pV_K4&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8mMIL9wWYXSIRJMVkXgGfvwyGo47YT2Gd1D_7WV-64A&s=10",
-            "category": "Arts and creativity"
+            "category": "Arts and creativity",
+            "latitude": 35.912567800000005,
+            "longitude": -79.0548896321919
         },
         {
             "title": "Taxicab Preacher",
@@ -231,7 +241,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTskx4mEVSoZ4WBr1uebjmuAxswjp1TSB4Z7SwZ1ORAIV0WVow_uEHguEA&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4DebiNG__sn7hyUR9F-FrsJVI4SoiJjfSxKmnVUOmwuXTseO66oTwlCZNdw&s=10",
-            "category": "Concerts and live music"
+            "category": "Concerts and live music",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "Ben Schwartz & Friends",
@@ -270,7 +282,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-S18qbg3KjAyXbGItGpEL1fXbelWLB1xx70JVes&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCGu5lzgQn7xOu0O9d64zTrKz1lqpVumUR7FYrdRgeqg&s=10",
-            "category": "Theater and performing arts"
+            "category": "Theater and performing arts",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "Bikers & Smokes",
@@ -309,7 +323,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfUXjXxOq1EkSvwuBwVfiSdlBABXELNU-TCxPS18k&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wbqjvGxiCw3oIdWdZTJlRyGl6z-Z1mX9o1njzk3FpA&s=10",
-            "category": "Nightlife and party"
+            "category": "Nightlife and party",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         },
         {
             "title": "South Durham Farmers' Market",
@@ -343,7 +359,9 @@
             },
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0y9_gM0wH-a36n0k_zX5i7H_fQvNqXvU3Yp5W-hM&s",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wbqjvGxiCw3oIdWdZTJlRyGl6z-Z1mX9o1njzk3FpA&s=10",
-            "category": "Food and drink"
+            "category": "Food and drink",
+            "latitude": 35.996653,
+            "longitude": -78.9018053
         }
     ]
 }

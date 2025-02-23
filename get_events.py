@@ -125,7 +125,6 @@ def get_lat_long(address, retries=3):
 
 #######################################################################################################################
 
-
 def fix_lat_long():
     # Load JSON file
     file_path = "json_output/events_results.json"
@@ -136,38 +135,46 @@ def fix_lat_long():
     geolocator = Nominatim(user_agent="geocoding_app", timeout=10)
 
     # Process each event and get coordinates
-    for event in events_data:
-        original_address = ", ".join(event["address"])  # Full address
-        street_address = event["address"][0]  # Extract only street name
-        city_state = event["address"][-1]  # Extract city and state
+    for event in events_data.get("events", []):  # Ensure "events" exists in JSON
+        if "latitude" in event and event["latitude"] is not None:
+            continue  # Skip events that already have coordinates
 
-        # Try different formats for better results
+        # Ensure address is a list
+        if not isinstance(event.get("address"), list):
+            print(f"WARNING: Address format incorrect for event '{event.get('title', 'Unknown')}'. Skipping...")
+            continue  # Skip processing if address is not a list
+
+        # Extract address components safely
+        full_address = ", ".join(event["address"])  # Full address
+        street_address = event["address"][0] if len(event["address"]) > 0 else ""  # Street name
+        city_state = event["address"][-1] if len(event["address"]) > 1 else ""  # City & state
+
         possible_addresses = [
-            original_address,  # Full address
-            street_address + ", " + city_state,  # Street + City/State
-            city_state,  # City and state only
+            full_address,  # Full address
+            f"{street_address}, {city_state}".strip(", "),  # Street + City/State
+            city_state  # City and state only
         ]
 
         lat, lon = None, None
         for addr in possible_addresses:
-            lat, lon = get_lat_long(addr)
-            if lat and lon:
-                break  # Stop once a valid lat/lon is found
+            if addr:
+                lat, lon = get_lat_long(addr)
+                if lat and lon:
+                    break  # Stop if valid lat/lon found
 
-        # Save latitude & longitude
         event["latitude"] = lat
         event["longitude"] = lon
 
         print(f"Processed: {event['title']} -> ({lat}, {lon})")
 
-        time.sleep(2)  # Prevent hitting API rate limits
+        time.sleep(2)  # Prevent API rate limits
 
     # Save updated JSON with coordinates
-    output_file = "json_output/events_results.json"
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump(events_data, f, indent=4, ensure_ascii=False)
 
-    print(f"Updated file saved to: {output_file}")
+    print(f"Updated file saved to: {file_path}")
+
 
 
 #######################################################################################################################
