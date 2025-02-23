@@ -27,6 +27,7 @@ type EventData = {
 
 function App() {
   const [itineraryLoading, setItineraryLoading] = useState(false);
+  const [searchLoading, setSearchLoading] = useState(false);
 
   const [query, setQuery] = useState("");
   const [latitude, setLatitude] = useState(null);
@@ -50,6 +51,12 @@ function App() {
   const [cost, setCost] = useState(undefined);
   const [useUserData, setUseUserData] = useState<boolean>(false); // Default to `false`
   const [itinerary, setItinerary] = useState<null>(null);
+
+  const [eventDetailSelected, setEventDetailSelected] = useState<EventData | null>(null)
+  const [showEventDetail, setShowEventDetail] = useState(false)
+
+  const [useRecommendation, setUseRecommendation] = useState(false)
+
 
   const handleUserDataToggle = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const isChecked = event.target.checked;
@@ -76,52 +83,138 @@ function App() {
     }
   };
 
-  const [useRecommendation, setUseRecommendation] = useState(false)
+  const planTrip = async () => {
+    try {
+      setItineraryLoading(true)
+      const coordResponse = await fetch("http://127.0.0.1:5000/get-last-coordinates");
+      const lastCoords = await coordResponse.json();
+      console.log(query, "hi2")
+      const addressParam = query.trim() ? query : "current";
+      const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(addressParam)}`);
+      console.log(1)
+      console.log("Fetching coordinates for:", query);
 
-  const dummyEventDetailDataList =
-  {
-    img: '/example_event_picture.png',
-    title: 'Noise Pop Music Festival',
-    time: 'Feb 20 2015 - Mar 2 2015',
-    location: 'San Francisco Bay Area',
-    cost: 'Unknown/Free/Tiered/$25',
-    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
+      if (!response.ok) {
+        throw new Error("Failed to fetch coordinates");
+      }
+      const new_data = await response.json();
+      let useCachedEvents = false;
+      console.log(2)
+      // Step 2: Compare cached coordinates with current ones
+      if (lastCoords.latitude && lastCoords.longitude) {
+        console.log("Cached Coordinates:", lastCoords.latitude, lastCoords.longitude);
+
+        if (lastCoords.latitude === new_data.latitude && lastCoords.longitude === new_data.longitude) {
+          console.log("Coordinates match. Using cached event results.");
+          useCachedEvents = true;
+        } else {
+          console.log("Coordinates changed. Fetching new events.");
+        }
+      } else {
+        console.log("No cached coordinates found.");
+      }
+
+      // Step 3: Fetch events based on the check
+      let eventData;
+      if (useCachedEvents) {
+        // Fetch cached event results
+        const cachedResponse = await fetch("http://127.0.0.1:5000/get-saved-events");
+        eventData = await cachedResponse.json();
+        console.log("Loaded Cached Events:", eventData);
+      } else {
+        // Fetch new events
+        setLongitude(new_data.longitude)
+        setLatitude(new_data.latitude)
+        console.log("Coordinates:", new_data.latitude, new_data.longitude);
+
+        const fetchResponse = await fetch(`http://127.0.0.1:5000/get-events?address=${query}`);
+        if (!fetchResponse.ok) {
+          throw new Error("Failed to fetch events");
+        }
+        const eventData2 = await fetchResponse.json();
+        setEventDataChange(eventDataChange + 1)
+        console.log("Fetched New Events:", eventData2);
+        const durationInMinutes = Math.floor((endTime.getTime() - startTime.getTime()) / (1000 * 60));
+        const hours = Math.floor(durationInMinutes / 60);
+        const minutes = durationInMinutes % 60;
+        const formattedTime = `${hours}h ${minutes}m`;
+        if (useUserData) {
+          console.log("Generating recommendations...");
+
+          const response = await fetch("http://127.0.0.1:5000/user_history", {
+            method: "GET",
+            headers: { "Content-Type": "application/json" }
+          });
+
+          if (!response.ok) {
+            throw new Error("Failed to generate recommendations.");
+          }
+
+          console.log("Recommendations JSON file generated.");
+        } else {
+          console.log("User history not selected. Skipping recommendation generation.");
+        }
+        const fetchItinerary = await fetch(
+          `http://127.0.0.1:5000/get-itinerary?time=${encodeURIComponent(formattedTime)}&start_time=${encodeURIComponent(startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true }))}&current_location=${encodeURIComponent(query)}&start_date=${encodeURIComponent(startTime.toLocaleDateString("en-US"))}&end_date=${encodeURIComponent(endTime.toLocaleDateString("en-US"))}&use_data=${encodeURIComponent(useUserData)}&cost=${encodeURIComponent(cost)}`,
+          {
+            method: "GET",
+            headers: { "Content-Type": "application/json" }
+          }
+        );
+
+        if (!fetchItinerary.ok) {
+          throw new Error("Failed to fetch events");
+        }
+        const eventData = await fetchItinerary.json();
+        console.log("Fetched Itinerary:", eventData);
+        setItinerary(eventData);
+
+      }
+
+    } catch (error) {
+      console.error("Error fetching events:", error);
+    } finally {
+      setItineraryLoading(false);
+    }
   }
 
-  const [eventDetailSelected, setEventDetailSelected] = useState<{
-    img: string,
-    title: string,
-    description: string,
-    time: string,
-    location: string,
-    cost: string
-  } | null>(null)
-  const [showEventDetail, setShowEventDetail] = useState(false)
+  const findEvent = async () => {
+    console.log("Button clicked! Query:", query); // Debugging log
+    setSearchLoading(true)
 
-  const dummyDataList = [
-    {
-      title: 'Noise Pop Music Festival',
-      location: 'San Francisco Bay Area',
-      cost: 'Unknown/Free/Tiered/$25'
-    },
-    {
-      title: 'City Marathon 2025',
-      location: 'Central Park, New York, NY',
-      cost: 'Unknown/Free/Tiered/$25'
-    },
-    {
-      title: 'City Marathon 2015',
-      location: 'Central Park, New York, NY',
-      cost: 'Unknown/Free/Tiered/$25'
-    },
-    {
-      title: 'City Marathon 2015',
-      location: 'Central Park, New York, NY',
-      cost: 'Unknown/Free/Tiered/$25'
-    },
-  ]
+    if (!query.trim()) {
+      console.error("Please enter a valid location.");
+      alert("Please enter a valid location.");
+      return;
+    }
 
-  // img={eventDetailSelected?.img} title={eventDetailSelected!.title} description={eventDetailSelected!.description} time={eventDetailSelected!.time} location={eventDetailSelected!.location} cost={eventDetailSelected!.cost}
+    try {
+      console.log(query, "hi")
+      const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(query)}`);
+      console.log("Fetching coordinates for:", query);
+
+      if (!response.ok) {
+        throw new Error("Failed to fetch coordinates");
+      }
+
+      const data = await response.json();
+      console.log("Fetched Coordinates:", data);
+      setLongitude(data.longitude)
+      setLatitude(data.latitude)
+      const fetchResponse = await fetch(`http://127.0.0.1:5000/get-events?address=${query}`);
+      if (!fetchResponse.ok) {
+        throw new Error("Failed to fetch events");
+      }
+      // If you need to update the map with new coordinates, store them in state
+      const eventData2 = await fetchResponse.json();
+      setEventDataChange(eventDataChange + 1)
+      setSearchLoading(false)
+    } catch (error) {
+      console.error("Error fetching coordinates:", error);
+      alert("Error fetching coordinates. Check console for details.");
+      setSearchLoading(false)
+    }
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width: '100%vw' }}>
@@ -147,201 +240,79 @@ function App() {
       {/* Search Section */}
       {searchButtonSelected &&
         <SearchSection>
-          <Frame>
-            <Title>Location</Title>
-            <input
-              type="text"
-              placeholder="Enter query"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
-            />
+          {searchLoading && <CenteredDiv><Spinner /></CenteredDiv>}
+          {!searchLoading &&
+            <Frame>
 
-            <Title>Time</Title>
-            <StyledDatePickersContainer>
-              <p>Start Time:</p>
-              <StyledDatePicker
-                selectsStart
-                dateFormat="MMMM d, yyyy h:mm aa"
-                timeFormat="HH:mm"
-                selected={startTime}
-                onChange={(date: Date | null) => date && setStartTime(date)}
-                minDate={new Date()}
-                todayButton={"Today"}
-                showTimeSelect />
-            </StyledDatePickersContainer>
-            <StyledDatePickersContainer>
-              <p>End Time:</p>
-              <StyledDatePicker
-                selectsEnd
-                dateFormat="MMMM d, yyyy h:mm aa"
-                timeFormat="HH:mm"
-                selected={endTime}
-                onChange={(date: Date | null) => date && setEndTime(date)}
-                minDate={new Date()}
-                todayButton={"Today"}
-                showTimeSelect />
-            </StyledDatePickersContainer>
-
-
-            <Title>Cost</Title>
-            <input
-              type="number"
-              value={cost}
-              onChange={(event) => { setCost(event.target.value); }}
-              placeholder="Enter a number"
-              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
-              min="0"
-            />
-
-            <div style={{ margin: "30px 0px 0px 10px", display: 'flex', flexDirection: 'row' }}>
+              <Title>Location</Title>
               <input
-                type="checkbox"
-                checked={useUserData}
-                onChange={(event) => setUseUserData(event.target.checked)} // ✅ Handles updates
-
+                type="text"
+                placeholder="Enter query"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
               />
-              <label style={{ fontSize: '13px' }}>Select to tailor recommendations to search history</label>
-            </div>
 
-            <ButtonGroup>
-              <LightModeButton onClick={async () => {
-                console.log("Button clicked! Query:", query); // Debugging log
-
-                if (!query.trim()) {
-                  console.error("Please enter a valid location.");
-                  alert("Please enter a valid location.");
-                  return;
-                }
-
-                try {
-                  console.log(query, "hi")
-                  const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(query)}`);
-                  console.log("Fetching coordinates for:", query);
-
-                  if (!response.ok) {
-                    throw new Error("Failed to fetch coordinates");
-                  }
-
-                  const data = await response.json();
-                  console.log("Fetched Coordinates:", data);
-                  setLongitude(data.longitude)
-                  setLatitude(data.latitude)
-                  const fetchResponse = await fetch(`http://127.0.0.1:5000/get-events?address=${query}`);
-                  if (!fetchResponse.ok) {
-                    throw new Error("Failed to fetch events");
-                  }
-                  // If you need to update the map with new coordinates, store them in state
-                  const eventData2 = await fetchResponse.json();
-                  setEventDataChange(eventDataChange + 1)
-                } catch (error) {
-                  console.error("Error fetching coordinates:", error);
-                  alert("Error fetching coordinates. Check console for details.");
-                }
-              }}>
-                Search For Events
-              </LightModeButton>
+              <Title>Time</Title>
+              <StyledDatePickersContainer>
+                <p>Start Time:</p>
+                <StyledDatePicker
+                  selectsStart
+                  dateFormat="MMMM d, yyyy h:mm aa"
+                  timeFormat="HH:mm"
+                  selected={startTime}
+                  onChange={(date: Date | null) => date && setStartTime(date)}
+                  minDate={new Date()}
+                  todayButton={"Today"}
+                  showTimeSelect />
+              </StyledDatePickersContainer>
+              <StyledDatePickersContainer>
+                <p>End Time:</p>
+                <StyledDatePicker
+                  selectsEnd
+                  dateFormat="MMMM d, yyyy h:mm aa"
+                  timeFormat="HH:mm"
+                  selected={endTime}
+                  onChange={(date: Date | null) => date && setEndTime(date)}
+                  minDate={new Date()}
+                  todayButton={"Today"}
+                  showTimeSelect />
+              </StyledDatePickersContainer>
 
 
-              <DarkModeButton onClick={async () => {
-                try {
-                  setItineraryLoading(true)
-                  const coordResponse = await fetch("http://127.0.0.1:5000/get-last-coordinates");
-                  const lastCoords = await coordResponse.json();
-                  console.log(query, "hi2")
-                  const addressParam = query.trim() ? query : "current";
-                  const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(addressParam)}`);
-                  console.log(1)
-                  console.log("Fetching coordinates for:", query);
+              <Title>Cost</Title>
+              <input
+                type="number"
+                value={cost}
+                onChange={(event) => { setCost(event.target.value); }}
+                placeholder="Enter a number"
+                style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
+                min="0"
+              />
 
-                  if (!response.ok) {
-                    throw new Error("Failed to fetch coordinates");
-                  }
-                  const new_data = await response.json();
-                  let useCachedEvents = false;
-                  console.log(2)
-                  // Step 2: Compare cached coordinates with current ones
-                  if (lastCoords.latitude && lastCoords.longitude) {
-                    console.log("Cached Coordinates:", lastCoords.latitude, lastCoords.longitude);
+              <div style={{ margin: "30px 0px 0px 10px", display: 'flex', flexDirection: 'row' }}>
+                <input
+                  type="checkbox"
+                  checked={useUserData}
+                  onChange={(event) => setUseUserData(event.target.checked)} // ✅ Handles updates
 
-                    if (lastCoords.latitude === new_data.latitude && lastCoords.longitude === new_data.longitude) {
-                      console.log("Coordinates match. Using cached event results.");
-                      useCachedEvents = true;
-                    } else {
-                      console.log("Coordinates changed. Fetching new events.");
-                    }
-                  } else {
-                    console.log("No cached coordinates found.");
-                  }
+                />
+                <label style={{ fontSize: '13px' }}>Select to tailor recommendations to search history</label>
+              </div>
 
-                  // Step 3: Fetch events based on the check
-                  let eventData;
-                  if (useCachedEvents) {
-                    // Fetch cached event results
-                    const cachedResponse = await fetch("http://127.0.0.1:5000/get-saved-events");
-                    eventData = await cachedResponse.json();
-                    console.log("Loaded Cached Events:", eventData);
-                  } else {
-                    // Fetch new events
-                    setLongitude(new_data.longitude)
-                    setLatitude(new_data.latitude)
-                    console.log("Coordinates:", new_data.latitude, new_data.longitude);
+              <ButtonGroup>
+                <LightModeButton onClick={findEvent}>
+                  Search For Events
+                </LightModeButton>
 
-                    const fetchResponse = await fetch(`http://127.0.0.1:5000/get-events?address=${query}`);
-                    if (!fetchResponse.ok) {
-                      throw new Error("Failed to fetch events");
-                    }
-                    const eventData2 = await fetchResponse.json();
-                    setEventDataChange(eventDataChange + 1)
-                    console.log("Fetched New Events:", eventData2);
-                    const durationInMinutes = Math.floor((endTime.getTime() - startTime.getTime()) / (1000 * 60));
-                    const hours = Math.floor(durationInMinutes / 60);
-                    const minutes = durationInMinutes % 60;
-                    const formattedTime = `${hours}h ${minutes}m`;
-                    if (useUserData) {
-                      console.log("Generating recommendations...");
+                <DarkModeButton onClick={planTrip}>
+                  Plan My Trip!
+                </DarkModeButton>
 
-                      const response = await fetch("http://127.0.0.1:5000/user_history", {
-                        method: "GET",
-                        headers: { "Content-Type": "application/json" }
-                      });
+              </ButtonGroup>
+            </Frame>
+          }
 
-                      if (!response.ok) {
-                        throw new Error("Failed to generate recommendations.");
-                      }
-
-                      console.log("Recommendations JSON file generated.");
-                    } else {
-                      console.log("User history not selected. Skipping recommendation generation.");
-                    }
-                    const fetchItinerary = await fetch(
-                      `http://127.0.0.1:5000/get-itinerary?time=${encodeURIComponent(formattedTime)}&start_time=${encodeURIComponent(startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true }))}&current_location=${encodeURIComponent(query)}&start_date=${encodeURIComponent(startTime.toLocaleDateString("en-US"))}&end_date=${encodeURIComponent(endTime.toLocaleDateString("en-US"))}&use_data=${encodeURIComponent(useUserData)}&cost=${encodeURIComponent(cost)}`,
-                      {
-                        method: "GET",
-                        headers: { "Content-Type": "application/json" }
-                      }
-                    );
-
-                    if (!fetchItinerary.ok) {
-                      throw new Error("Failed to fetch events");
-                    }
-                    const eventData = await fetchItinerary.json();
-                    console.log("Fetched Itinerary:", eventData);
-                    setItinerary(eventData);
-
-                  }
-
-                } catch (error) {
-                  console.error("Error fetching events:", error);
-                } finally {
-                  setItineraryLoading(false);
-                }
-              }}>
-                Plan My Trip!
-              </DarkModeButton>
-
-            </ButtonGroup>
-          </Frame>
         </SearchSection>
       }
 
