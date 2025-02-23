@@ -20,7 +20,7 @@ import Itinerary from './components/Itinerary';
 function App() {
   const [loading, setLoading] = useState(false);
 
-  const [query, setQuery] = useState("current");
+  const [query, setQuery] = useState("");
   const [latitude, setLatitude] = useState(null);  
   const [longitude, setLongitude] = useState(null);
   const [address, setAddress] = useState(""); 
@@ -212,7 +212,7 @@ function App() {
                   console.log("Fetched Coordinates:", data);
                   setLongitude(data.longitude)
                   setLatitude(data.latitude)
-                  const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}&lat=${latitude}&lon=${longitude}`);
+                  const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}`);
                   if (!fetchResponse.ok) {
                     throw new Error("Failed to fetch events");
                   }
@@ -234,8 +234,8 @@ function App() {
                 const coordResponse = await fetch("http://localhost:5000/get-last-coordinates");
                 const lastCoords = await coordResponse.json();
                 console.log(query,"hi2")
-
-                const response = await fetch(`http://localhost:5000/get-coordinates?address=${query}`);
+                const addressParam = query.trim() ? query : "current";
+                const response = await fetch(`http://localhost:5000/get-coordinates?address=${encodeURIComponent(addressParam)}`);
                 console.log(1)
                 console.log("Fetching coordinates for:", query);
 
@@ -272,7 +272,7 @@ function App() {
                   setLatitude(new_data.latitude)                  
                   console.log("Coordinates:", new_data.latitude, new_data.longitude);
 
-                  const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}&lat=${latitude}&lon=${longitude}`);
+                  const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}`);
                   if (!fetchResponse.ok) {
                     throw new Error("Failed to fetch events");
                   }
@@ -332,22 +332,25 @@ function App() {
       {loading && <div>Loading...</div>}
 
       {/* Itinerary Section */}
-{itineraryButtonSelected && itinerary?.features && (
+      {itineraryButtonSelected && itinerary?.features && (
   <ItinerarySection>
-    <Frame>
+    <Frame style={{overflowY: 'auto'}}>
       <div>
         {itinerary.features.map((feature, index) => (
-          <Itinerary key={index}>
+          <SingleItinerary key={index}>
             <ItineraryTitle>{feature.properties.name}</ItineraryTitle>
             <ul style={{ fontSize: '15px' }}>
               <li>
                 <span style={{ fontWeight: 'bold' }}>Location:</span> {feature.properties.transport}
               </li>
               <li>
+                <span style={{ fontWeight: 'bold' }}>Time since start:</span> {feature.properties.time_since_start}
+              </li>
+              <li>
                 <span style={{ fontWeight: 'bold' }}>Cost:</span> {feature.properties.cost}
               </li>
             </ul>
-          </Itinerary>
+          </SingleItinerary>
         ))}
       </div>
     </Frame>
@@ -357,6 +360,37 @@ function App() {
     </div>
   );
 }
+
+const SingleItinerary = styled.div`
+  margin: 20px 10px 0px 10px;
+  width: 100%;
+  border: 2px solid #CCCCCC;
+  border-radius: 20px;
+  position: relative;
+`
+
+const ItineraryTitle = styled.div`
+  font-size: 20px;
+  margin: 20px 0px 0px 20px;
+  display: inline-block;
+  font-weight: bold;
+`;
+
+const Numbering = styled.div`
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #AA0BFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  font-weight: bold;
+`;
+
 
 const HeaderBar = styled.div`
   width: 100vw;
@@ -384,6 +418,7 @@ const ButtonImageSelected = styled.img`
   width: 80px; 
   height: 80px;
 `;
+
 
 const SearchSection = styled.div`
   position: absolute;

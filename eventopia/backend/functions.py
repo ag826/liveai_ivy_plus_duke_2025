@@ -7,11 +7,12 @@ from flask_cors import CORS
 import time
 import json
 import google.generativeai as genai
+from datetime import datetime as dt
+from datetime import timedelta
 import datetime
 import sqlite3
 import shutil
 import pandas as pd
-from datetime import timedelta
 import re
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
@@ -216,7 +217,7 @@ def generate_itenary():
     current_location = request.args.get("current_location", "current")
     start_date = request.args.get("start_date", "today")
     end_date = request.args.get("end_date", "today")
-    cost = request.args.get("cost", "no budget")
+    cost = request.args.get("cost", "unlimited")
     use_feature = request.args.get("use_feature", "false").lower() == "true"  # Convert to boolean
     mode_of_transport = request.args.get("mode_of_transport", "public")
     use_data = request.args.get("use_data", "false").lower() == "true"
@@ -349,7 +350,7 @@ def user_browser_history():
 
     # Convert Chrome's timestamp format to human-readable datetime
     def convert_chrome_timestamp(timestamp):
-        return datetime(1601, 1, 1) + timedelta(microseconds=timestamp)
+        return dt(1601, 1, 1) + timedelta(microseconds=timestamp)
 
     df = pd.DataFrame(history_data, columns=["URL", "Title", "Visit Count", "Last Visit Time"])
     df["Last Visit Time"] = df["Last Visit Time"].apply(convert_chrome_timestamp)
