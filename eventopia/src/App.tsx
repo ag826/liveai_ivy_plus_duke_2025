@@ -1,5 +1,5 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import styled from 'styled-components';
 
 import MapBoxComp from './components/MapBoxComp';
@@ -16,14 +16,22 @@ import CancelButton from './assets/cancel-button.svg'
 import EventDetail from './components/EventDetail';
 import Itinerary from './components/Itinerary';
 
+type EventData = {
+  img: string;
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  cost: string;
+};
 
 function App() {
   const [loading, setLoading] = useState(false);
 
   const [query, setQuery] = useState("");
-  const [latitude, setLatitude] = useState(null);  
+  const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
-  const [address, setAddress] = useState(""); 
+  const [address, setAddress] = useState("");
 
   const fetchEvents = async (query: string) => {
     setLoading(true);
@@ -55,7 +63,26 @@ function App() {
 
   const [useRecommendation, setUseRecommendation] = useState(false)
 
-  
+  const dummyEventDetailDataList =
+  {
+    img: '/example_event_picture.png',
+    title: 'Noise Pop Music Festival',
+    time: 'Feb 20 2015 - Mar 2 2015',
+    location: 'San Francisco Bay Area',
+    cost: 'Unknown/Free/Tiered/$25',
+    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
+  }
+
+  const [eventDetailSelected, setEventDetailSelected] = useState<{
+    img: string,
+    title: string,
+    description: string,
+    time: string,
+    location: string,
+    cost: string
+  } | null>(null)
+  const [showEventDetail, setShowEventDetail] = useState(false)
+
   const dummyDataList = [
     {
       title: 'Noise Pop Music Festival',
@@ -79,15 +106,7 @@ function App() {
     },
   ]
 
-  const dummyEventDetailDataList =
-  {
-    img: '/example_event_picture.png',
-    title: 'Noise Pop Music Festival',
-    time: 'Feb 20 2015 - Mar 2 2015',
-    location: 'San Francisco Bay Area',
-    cost: 'Unknown/Free/Tiered/$25',
-    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
-  }
+  // img={eventDetailSelected?.img} title={eventDetailSelected!.title} description={eventDetailSelected!.description} time={eventDetailSelected!.time} location={eventDetailSelected!.location} cost={eventDetailSelected!.cost}
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width: '100%vw' }}>
@@ -96,7 +115,7 @@ function App() {
         <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
       </HeaderBar>
 
-      <MapBoxComp latitude={latitude} longitude={longitude} address={address} />
+      <MapBoxComp latitude={latitude} longitude={longitude} address={address} onClickMarker={(eventDetail: EventData) => { setEventDetailSelected(eventDetail); setShowEventDetail(true) }} />
 
       {/* Functionality Icons */}
       <UserButton style={{ top: '90px', left: '20px' }} onClick={handleSearchButtonClick}>
@@ -120,7 +139,7 @@ function App() {
               placeholder="Enter query"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px' }}
+              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
             />
 
             <Title>Time</Title>
@@ -156,7 +175,7 @@ function App() {
               value={cost}
               onChange={(event) => { setCost(event.target.value); }}
               placeholder="Enter a number"
-              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px' }}
+              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
               min="0"
             />
 
@@ -214,7 +233,7 @@ function App() {
       {/* Itinerary Section */}
       {itineraryButtonSelected && (
         <ItinerarySection>
-          <Frame style={{overflowY: 'auto'}}>
+          <Frame style={{ overflowY: 'auto' }}>
             <div>
               {dummyDataList.map((data, index) => (
                 <Itinerary key={index} index={index} title={data.title} location={data.location} cost={data.cost} />
@@ -225,7 +244,9 @@ function App() {
       )}
 
       {/* EventDetail Section */}
-      {/* <EventDetail img={dummyEventDetailDataList.img} title={dummyEventDetailDataList.title} description={dummyEventDetailDataList.description} time={dummyEventDetailDataList.time} location={dummyEventDetailDataList.location} cost={dummyEventDetailDataList.cost} /> */}
+      {showEventDetail && (
+        <EventDetail img={eventDetailSelected?.img} title={eventDetailSelected!.title} description={eventDetailSelected!.description} time={eventDetailSelected!.time} location={eventDetailSelected!.location} cost={eventDetailSelected!.cost} onClose={() => setShowEventDetail(false)}/>
+      )}
     </div>
   );
 }
@@ -250,6 +271,7 @@ const UserButton = styled.div`
 const ButtonImageUnselected = styled.img`
   width: 80px; 
   height: 80px;
+  
 `;
 
 const ButtonImageSelected = styled.img`
@@ -324,6 +346,7 @@ const LightModeButton = styled.div`
   font-size: 16px;
   margin: 10px 0px 10px 0px;
   color: #AA0BFF;
+  cursor: pointer;
 `
 
 const DarkModeButton = styled.div`
@@ -335,6 +358,7 @@ const DarkModeButton = styled.div`
   color: white;
   background-color: #AA0BFF;
   width: fit-content;
+  cursor: pointer;
 `
 
 const ItinerarySection = styled.div`
