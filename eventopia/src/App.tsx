@@ -1,11 +1,16 @@
-import Map from 'react-map-gl/mapbox';
-// If using with mapbox-gl v1:
-// import Map from 'react-map-gl/mapbox-legacy';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import React, { useState } from "react";
+import { useState } from "react";
+import styled from 'styled-components';
 
 import MapBoxComp from './components/MapBoxComp';
-import SearchBar from './components/SearchBar';
+
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+
+import SearchButtonUnselected from './assets/search_button_unselected.svg';
+import SearchButtonSelected from './assets/search_button_selected.svg';
+import ItineraryButtonUnselected from './assets/itinerary_button_unselected.svg';
+import ItineraryButtonSelected from './assets/itinerary_button_selected.svg';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -23,35 +28,248 @@ function App() {
     setLoading(false);
   };
 
+
+  const [searchButtonSelected, setSearchButtonSelected] = useState(true);
+  const [itineraryButtonSelected, setItineraryButtonSelected] = useState(false);
+  const handleSearchButtonClick = () => {
+    setSearchButtonSelected(!searchButtonSelected);
+  }
+  const handleItineraryButtonClick = () => {
+    setItineraryButtonSelected(!itineraryButtonSelected);
+  }
+
+  const [query, setQuery] = useState("");
+  const [startTime, setStartTime] = useState<Date>(new Date());
+  const [endTime, setEndTime] = useState<Date>(new Date());
+
+  const [cost, setCost] = useState(undefined);
+
+  const [useRecommendation, setUseRecommendation] = useState(false)
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", padding: "10px" }}>
-      {/* SearchBar at the top with margin */}
-      <div style={{
-        height: "80px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        marginBottom: "80px", // Adds space below search bar
-        borderRadius: "8px",
-        padding: "10px" // Adds spacing inside the search bar container
-      }}>
-        <SearchBar onSearch={fetchEvents} loading={loading} />
+    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden" }}>
+      {/* header bar */}
+      <HeaderBar>
+        <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
+      </HeaderBar>
+
+      <div style={{ display: "flex", flexDirection: "column", overflow: "hidden", padding: "10px" }}>
+        {/* SearchBar at the top with margin */}
+
+
+        {/* MapBoxComp with margin */}
+        <div style={{
+          flexGrow: 1,
+          overflow: "hidden",
+          margin: "20px 20px 20px 20px",
+          borderRadius: "8px",
+        }}>
+          <MapBoxComp />
+        </div>
       </div>
-  
-      {/* MapBoxComp with margin */}
-      <div style={{
-        flexGrow: 1,
-        overflow: "hidden",
-        margin: "20px 20px 20px 20px",
-        borderRadius: "8px",
-      }}>
-        <MapBoxComp />
-      </div>
+
+
+      {/* Functionality Icons */}
+      <UserButton style={{ top: '90px', left: '20px' }} onClick={handleSearchButtonClick}>
+        {searchButtonSelected ? <ButtonImageSelected src={SearchButtonSelected} alt="Search Button Selected" />
+          : <ButtonImageUnselected src={SearchButtonUnselected} alt="Search Button Unselected" />
+        }
+      </UserButton>
+      <UserButton style={{ top: '90px', right: '20px' }} onClick={handleItineraryButtonClick}>
+        {itineraryButtonSelected ? <ButtonImageSelected src={ItineraryButtonSelected} alt="Search Button Selected" />
+          : <ButtonImageUnselected src={ItineraryButtonUnselected} alt="Search Button Unselected" />
+        }
+      </UserButton>
+
+      {searchButtonSelected &&
+        <FloatingSection>
+          <Frame>
+            <Title>Location</Title>
+            <input
+              type="text"
+              placeholder="Enter query"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px' }}
+            />
+
+            <Title>Time</Title>
+            <StyledDatePickersContainer>
+              <p>Start Time:</p>
+              <StyledDatePicker
+                selectsStart
+                dateFormat="MMMM d, yyyy h:mm aa"
+                timeFormat="HH:mm"
+                selected={startTime}
+                onChange={(date: Date | null) => date && setStartTime(date)}
+                minDate={new Date()}
+                todayButton={"Today"}
+                showTimeSelect />
+            </StyledDatePickersContainer>
+            <StyledDatePickersContainer>
+              <p>End Time:</p>
+              <StyledDatePicker
+                selectsEnd
+                dateFormat="MMMM d, yyyy h:mm aa"
+                timeFormat="HH:mm"
+                selected={endTime}
+                onChange={(date: Date | null) => date && setEndTime(date)}
+                minDate={new Date()}
+                todayButton={"Today"}
+                showTimeSelect />
+            </StyledDatePickersContainer>
+
+
+            <Title>Cost</Title>
+            <input
+              type="number"
+              value={cost}
+              onChange={(event) => { setCost(event.target.value); }}
+              placeholder="Enter a number"
+              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px' }}
+              min="0"
+            />
+
+            <div style={{ margin: "30px 0px 0px 10px", display: 'flex', flexDirection: 'row' }}>
+              <input
+                type="checkbox"
+                checked={useRecommendation}
+                onChange={(event) => { setUseRecommendation(event.target.checked); }}
+              />
+              <label style={{ fontSize: '13px' }}>Select to tailor recommendations to search history</label>
+            </div>
+
+            <ButtonGroup>
+              <LightModeButton>
+                <span>Search For Events</span>
+              </LightModeButton>
+
+              <DarkModeButton>
+                <span>Plan My Trip!</span>
+              </DarkModeButton>
+            </ButtonGroup>
+
+
+          </Frame>
+        </FloatingSection>}
+
     </div>
   );
-  
-  
-  
 }
+
+const HeaderBar = styled.div`
+  width: 100vw;
+  height: 70px;
+  background: #AA0BFF;
+  display: flex;
+  flex-firection: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const UserButton = styled.div`
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+`;
+
+const ButtonImageUnselected = styled.img`
+  width: 80px; 
+  height: 80px;
+`;
+
+const ButtonImageSelected = styled.img`
+  width: 80px; 
+  height: 80px;
+`;
+
+const FloatingSection = styled.div`
+  position: absolute;
+  background: #ffffff;
+  color: black;
+  top: 125px;
+  left: 55px;
+  width: 400px;
+  height: 550px;
+  border-radius: 15px;
+  z-index: 3;
+`;
+
+const Frame = styled.div`
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: calc(100% - 44px);
+  height: calc(100% - 44px);
+  padding: 10px;
+  border: 2px dotted grey;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+`;
+
+const Title = styled.span`
+  font-size: 20px;
+  margin: 20px 0px 0px 10px;
+  display: inline-block;
+`
+
+const StyledDatePickersContainer = styled.div`
+  margin: 10px 0px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+`
+
+const StyledDatePicker = styled(DatePicker)`
+  width: 230px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+`;
+
+const ButtonGroup = styled.div`
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 15px;
+`
+
+const LightModeButton = styled.div`
+  border-radius: 20px;
+  border: 2px solid #AA0BFF;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+  color: #AA0BFF;
+`
+
+const DarkModeButton = styled.div`
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  background-color: #AA0BFF;
+`
+
+const IconGroup = styled.div`
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  bottom: 50px;
+  right: ${(window.innerWidth - 160) / 2}px;
+  z-index: 5;
+`;
 
 export default App

@@ -11,8 +11,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, loading }) => {
   const [budget, setBudget] = useState("");
   const [date, setDate] = useState("");
   const [location, setLocation] = useState("");
-  const [locationName,setLocationName]=useState("");
-  const [locationMethod, setLocationMethod] = useState("current"); 
+  const [locationName, setLocationName] = useState("");
+  const [locationMethod, setLocationMethod] = useState("current");
+  const [query, setQuery] = useState(""); // 🔹 Fixed: `query` is now defined
 
   useEffect(() => {
     if (locationMethod === "current") {
@@ -66,86 +67,16 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, loading }) => {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "10vh", fontSize: "18px" }}>
-      <h2>Search Events</h2>
-      <div
-        style={{
-          display: "inline-block",
-          border: "1px solid #ccc",
-          padding: "10px",
-          borderRadius: "5px",
-        }}
-      >
-        I am free for{" "}
-        <input
-          type="text"
-          value={hours}
-          onChange={(e) => setHours(e.target.value)}
-          style={{ width: "80px", border: "none", fontSize: "18px", textAlign: "center", outline: "none" }}
-        />{" "}
-        hours with{" "}
-        <input
-          type="text"
-          value={budget}
-          onChange={(e) => setBudget(e.target.value)}
-          style={{ width: "80px", border: "none", fontSize: "18px", textAlign: "center", outline: "none" }}
-        />{" "}
-        budget on{" "}
-        <input
-          type="text"
-          value={date}
-          onChange={(e) => setDate(e.target.value)}
-          style={{ width: "120px", border: "none", fontSize: "18px", textAlign: "center", outline: "none" }}
-        />
-        . Show me things to do in{" "}
-        <select
-          value={locationMethod}
-          onChange={(e) => setLocationMethod(e.target.value)}
-          style={{
-            border: "none",
-            fontSize: "18px",
-            textAlign: "center",
-            outline: "none",
-            cursor: "pointer",
-          }}
-        >
-          <option value="current">Current Location</option>
-          <option value="map">Select on Map</option>
-          <option value="search">Search Location</option>
-        </select>{" "}
-        {locationMethod === "search" && (
-        <input
-            type="text"
-            placeholder="Enter location"
-            value={location}
-            onChange={(e) => {
-            setLocation(e.target.value);
-            setLocationName(e.target.value); // Correct way to update state
-            }}
-            onKeyDown={(e) => {
-            if (e.key === "Enter") {
-                console.log("Enter pressed! Location set:", location);
-                // Optionally trigger search or process the location
-            }
-            }}
-            style={{ width: "200px", border: "none", fontSize: "18px", textAlign: "center", outline: "none" }}
-        />
-        )}
-        {locationMethod === "map" && (
-          <button  style={{ cursor: "pointer", marginLeft: "10px" }}>
-            Select on Map
-          </button>
-        )}
-      </div>
-      <br />
-      <button onClick={handleSearch} disabled={loading} style={{ marginTop: "10px", padding: "10px", cursor: "pointer" }}>
-        {loading ? "Searching..." : "Search"}
-      </button>
-
-      
+    <div style={{ textAlign: "center" }}>
+      <input
+        type="text"
+        placeholder="Enter query"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        style={{ padding: "10px", width: "300px" }}
+      />
     </div>
   );
 };
-
 
 export default SearchBar;
