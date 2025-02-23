@@ -1,0 +1,367 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.62859608488924,
+                    41.8811752
+                ]
+            },
+            "properties": {
+                "name": "Clue - A New Comedy",
+                "description": "A mansion. A murder. A mystery. Murder and blackmail are on the menu when six mysterious guests assemble at Boddy Manor for a night they’ll never forget! Was it Mrs. Peacock in the study with the...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.5301963176882,
+                    41.71758375
+                ]
+            },
+            "properties": {
+                "name": "February 2025",
+                "description": "Jr. Explorers from 2:30pm-6:00pm Schedule From: Feb 3 2025 to Feb 28 2025 Every Monday, Tuesday, Wednesday, Thursday, Friday: 2:30pm to 6:00pm",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.7899017740871,
+                    41.865025900000006
+                ]
+            },
+            "properties": {
+                "name": "DiamondBack",
+                "description": "Find tickets for DiamondBack at Fitzgerald's in Berwyn on 2/23/2025 at 12:00 PM",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "name": "A Winter Escape",
+                "description": "PRE-REGISTRATION REQUIRED This is FUN art, not fine art, so relax, have fun and enjoy a carefree escape! Add a DIY candle to the your experience! Try something NEW and create your own...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.88777140346639,
+                    42.00527665
+                ]
+            },
+            "properties": {
+                "name": "Rockford IceHogs at Chicago Wolves",
+                "description": "Watch the Rockford IceHogs at Chicago Wolves game on 2/23/2025 live. Start your free trial today! Watch your local teams with Regional Sports Networks. ...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.66151827895789,
+                    41.8833654
+                ]
+            },
+            "properties": {
+                "name": "West Loop Contemporary Fine Art Expo EAC 2 23 Tickets,",
+                "description": "Join us for the Inaugural West Loop Contemporary Fine Art Expo! This is a special opportunity open to EAC community members with limited tickets available. Featuring over 40 invitation-only...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.65728543808396,
+                    41.85772215
+                ]
+            },
+            "properties": {
+                "name": "The Decline of Western Civilization Parts 1 & 2 en Chicago Entradas - 02/23/2025 5:00 PM",
+                "description": "The Decline of Western Civilization Parts 1 & 2 @ Thalia Hall Sunday, February 23, 2025 Doors: 4:00 PM | Show: 5:00 PM...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.62309617847768,
+                    41.8988813
+                ]
+            },
+            "properties": {
+                "name": "Hustle Chicago Stair Climb",
+                "description": "Hustle Chicago Stair Climb combines fun, fitness, and philanthropy by hosting thousands of participants for a climb to the top of 875 N. Michigan Avenue (the former Hancock Building). All event...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.60086274481108,
+                    41.7940272
+                ]
+            },
+            "properties": {
+                "name": "A Raisin in the Sun",
+                "description": "New York Drama Critics Award winner, Tony Award nominee for Best Play, and the first play written by a Black woman to be produced on Broadway, Lorraine Hansberry's A Raisin in the Sun is a...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6492146,
+                    41.928708
+                ]
+            },
+            "properties": {
+                "name": "TBA/TBA",
+                "description": "Come play at the KINGSTON MINES Blues Jam from 6PM to 9PMDoors open at 5:30PMNO COVER CHARGE for Jammers signing up between 6PM-8PM, $15 entry if not Jamming*Under 21, Must Be Accompanied By...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "name": "Color Factory Chicago (Multiple Dates and Times)",
+                "description": "Tickets for Color Factory Chicago (Multiple Dates and Times) at Color Factory Chicago in Chicago, Illinois on Monday 24th February 2025, 3:30AM.",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.62988788181818,
+                    41.88511155
+                ]
+            },
+            "properties": {
+                "name": "Fat Ham",
+                "description": "Join us for an unforgettable evening at Fat Ham! Enjoy delicious food while listening to live music at this amazing event. Get your tickets now at Ticketshelper and secure your spot for a night of...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.95276375476712,
+                    41.8591766
+                ]
+            },
+            "properties": {
+                "name": "Beautiful - The Carole King Musical",
+                "description": "Attend the Drury Lane Presents: Beautiful the Carole King Musical event in Villa Park, IL at the Drury Lane Theatre Oakbrook Terrace, in Villa Park located at 100 Drury Lane, Oakbrook Terrace, IL...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "name": "The Chicago Theatre Tour Experience",
+                "description": "The event is held on February 23, 2025 at Chicago Theatre in Chicago, IL.The cost is 22.00",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "name": "February 2025 Training — Chicago Center for Psychodrama",
+                "description": "IN PERSON TRAINING! Date & Time: Sunday, February 23rd from 9:00am - 5:15pm Facilitators : Brittany Lakin-Starr, Ph.D.,TEP, Kate Merkle , MPH, RDN, LCSW, PAT Location: Nourishment Works , 3921 N...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "name": "Joffrey Ballet - Golden Hour",
+                "description": "The Joffrey Ballet presents Golden Hour , a radiant mixed repertoire program of warmth and splendor. Dates: Thursday, February 20–Sunday, March 2, 2025",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6244212,
+                    41.8755616
+                ]
+            },
+            "properties": {
+                "name": "Chicago Craft Club Presents: Puzzle Exchange!",
+                "description": "Join the Chicago Craft Club for another Puzzle Exchange! Refresh your collection by bringing puzzles to swap—each puzzle earns you one ticket. When the exchange begins at Noon, use your tickets to...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.88714972864159,
+                    42.04182185
+                ]
+            },
+            "properties": {
+                "name": "Tab Benoit",
+                "description": "I Hear Thunder marks the long-awaited return of four-time Grammy-nominated artist Tab Benoit. Renowned for his distinctive guitar tone and Otis-Redding-esque voice, Benoit has been a captivating...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.66180347387726,
+                    41.88515055
+                ]
+            },
+            "properties": {
+                "name": "Sub-Radio, DOUBLECAMP",
+                "description": "Experience Sub-Radio, DOUBLECAMP live at Bottom Lounge on February 23, 2025, 08:00 PM CST. Book tickets from UNATION today & explore more such amazing events in Chicago.",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.8674157,
+                    41.9781779
+                ]
+            },
+            "properties": {
+                "name": "Rod Tuffcurls & the Bench Press",
+                "description": "Rod Tuffcurls and the Bench Press transform into Tuff Taylor for this all ages Taylor Swift tribute concert. Enjoy a full set of Taylor's biggest hits played live and make a friendship bracelet at...",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public transport",
+                "cost": 0
+            }
+        }
+    ],
+    "total_estimated_cost": 0,
+    "total_estimated_time": 0
+}
