@@ -4,6 +4,9 @@ import os
 import json
 import geocoder
 import google.generativeai as genai
+import time
+from geopy.geocoders import Nominatim
+from geopy.exc import GeocoderTimedOut
 
 load_dotenv()
 api_key = os.environ["API_KEY"]
@@ -13,6 +16,8 @@ gemini_client = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     system_instruction="You are a local travel planner who will create an itenary based on a list of events that are happening around and your own knowledge of things to do",
 )
+
+#######################################################################################################################
 
 
 def get_events(
@@ -67,6 +72,8 @@ def get_events(
 
     print(f"Results saved to {output_file}")
     print(events_results)
+    # Call categorized events
+    categorize_events()
 
 
 #######################################################################################################################
@@ -92,6 +99,76 @@ def categorize_events(model=genai.GenerativeModel("gemini-1.5-flash")):
     output_file = "json_output/events_results.json"
     with open(output_file, "w", encoding="utf-8") as json_file:
         json.dump(categorized_events, json_file, indent=4, ensure_ascii=False)
+
+    fix_lat_long()
+
+
+#######################################################################################################################
+
+
+def get_lat_long(address, retries=3):
+    geolocator = Nominatim(user_agent="geocoding_app", timeout=10)
+    for attempt in range(retries):
+        try:
+            location = geolocator.geocode(address)
+            if location:
+                return location.latitude, location.longitude
+        except GeocoderTimedOut:
+            print(
+                f"Geocoder timed out for '{address}', retrying ({attempt+1}/{retries})..."
+            )
+        time.sleep(2)  # Delay between retries to avoid rate limits
+    return None, None
+
+
+#######################################################################################################################
+
+
+def fix_lat_long():
+    # Load JSON file
+    file_path = "json_output/events_results.json"
+    with open(file_path, "r", encoding="utf-8") as f:
+        events_data = json.load(f)
+
+    # Initialize Geopy geocoder
+    geolocator = Nominatim(user_agent="geocoding_app", timeout=10)
+
+    # Process each event and get coordinates
+    for event in events_data:
+        original_address = ", ".join(event["address"])  # Full address
+        street_address = event["address"][0]  # Extract only street name
+        city_state = event["address"][-1]  # Extract city and state
+
+        # Try different formats for better results
+        possible_addresses = [
+            original_address,  # Full address
+            street_address + ", " + city_state,  # Street + City/State
+            city_state,  # City and state only
+        ]
+
+        lat, lon = None, None
+        for addr in possible_addresses:
+            lat, lon = get_lat_long(addr)
+            if lat and lon:
+                break  # Stop once a valid lat/lon is found
+
+        # Save latitude & longitude
+        event["latitude"] = lat
+        event["longitude"] = lon
+
+        print(f"Processed: {event['title']} -> ({lat}, {lon})")
+
+        time.sleep(2)  # Prevent hitting API rate limits
+
+    # Save updated JSON with coordinates
+    output_file = "json_output/events_results.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(events_data, f, indent=4, ensure_ascii=False)
+
+    print(f"Updated file saved to: {output_file}")
+
+
+#######################################################################################################################
 
 
 if __name__ == "__main__":
