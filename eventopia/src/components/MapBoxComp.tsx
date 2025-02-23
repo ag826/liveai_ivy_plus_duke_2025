@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import styled from 'styled-components';
+
 import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl/mapbox';
 
-import AIButtonUnselected from '../assets/ai_button_unselected.svg';
-import AIButtonSelected from '../assets/ai_button_selected.svg';
-import ControlButtonUnselected from '../assets/control_button_unselected.svg';
-import ControlButtonSelected from '../assets/control_button_selected.svg';
+// import AIButtonUnselected from '../assets/ai_button_unselected.svg';
+// import AIButtonSelected from '../assets/ai_button_selected.svg';
+// import ControlButtonUnselected from '../assets/control_button_unselected.svg';
+// import ControlButtonSelected from '../assets/control_button_selected.svg';
+
 
 import MusicPin from '../assets/pins/music.svg'
 import TheatrePin from '../assets/pins/theatre.svg'
@@ -30,7 +31,7 @@ const MapBoxComp: React.FC = () => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
-  const [pinsToShow, setPinsToShow] =  useState<any[]>([]); // 
+  const [pinsToShow, setPinsToShow] = useState<any[]>([]); // 
 
 
   // State for the map's center (used for the geographic marker)
@@ -65,24 +66,24 @@ const MapBoxComp: React.FC = () => {
           // Simulate the click only once using our ref
           console.log(hasSimulatedClick)
           const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-            if (geoControlButton) {
-                if (!hasSimulatedClick.current) {
-                    hasSimulatedClick.current = true;
-            
-                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
-                        .then(response => response.json())
-                        .then(data => {
-                            console.log('Event data:', data);
-                            // Update your component state or props with the data
-                        })
-                        .catch(error => console.error('Error fetching events:', error));;
-                  
-                        console.log("Events JSON Response:", response);
-                      } catch (error) {
-                        console.error("Error fetching events:", error);
-                      }
+          if (geoControlButton) {
+            if (!hasSimulatedClick.current) {
+              hasSimulatedClick.current = true;
+
+              geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+              try {
+                const response = fetch('localhost:5000/get-curlocation-events')
+                  .then(response => response.json())
+                  .then(data => {
+                    console.log('Event data:', data);
+                    // Update your component state or props with the data
+                  })
+                  .catch(error => console.error('Error fetching events:', error));;
+
+                console.log("Events JSON Response:", response);
+              } catch (error) {
+                console.error("Error fetching events:", error);
+              }
             }
           }
         },
@@ -103,24 +104,24 @@ const MapBoxComp: React.FC = () => {
           setError(null);
           trackLocation();
           const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-            if (geoControlButton) {
-                if (!hasSimulatedClick.current) {
-                    hasSimulatedClick.current = true;
-            
-                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
-                        .then(response => response.json())
-                        .then(data => {
-                            console.log('Event data:', data);
-                            // Update your component state or props with the data
-                        })
-                        .catch(error => console.error('Error fetching events:', error));;
-                  
-                        console.log("Events JSON Response:", response);
-                      } catch (error) {
-                        console.error("Error fetching events:", error);
-                      }
+          if (geoControlButton) {
+            if (!hasSimulatedClick.current) {
+              hasSimulatedClick.current = true;
+
+              geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+              try {
+                const response = fetch('localhost:5000/get-curlocation-events')
+                  .then(response => response.json())
+                  .then(data => {
+                    console.log('Event data:', data);
+                    // Update your component state or props with the data
+                  })
+                  .catch(error => console.error('Error fetching events:', error));;
+
+                console.log("Events JSON Response:", response);
+              } catch (error) {
+                console.error("Error fetching events:", error);
+              }
             }
           }
         } else if (permissionStatus.state === 'prompt') {
@@ -135,26 +136,26 @@ const MapBoxComp: React.FC = () => {
             trackLocation();
             const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
             if (geoControlButton) {
-                if (!hasSimulatedClick.current) {
-                    hasSimulatedClick.current = true;
-            
-                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
-                        .then(response => response.json())
-                        .then(data => {
-                            console.log('Event data:', data);
-                            // Update your component state or props with the data
-                        })
-                        .catch(error => console.error('Error fetching events:', error));;
-                  
-                        console.log("Events JSON Response:", response);
-                      } catch (error) {
-                        console.error("Error fetching events:", error);
-                      }
-                    
+              if (!hasSimulatedClick.current) {
+                hasSimulatedClick.current = true;
+
+                geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                try {
+                  const response = fetch('localhost:5000/get-curlocation-events')
+                    .then(response => response.json())
+                    .then(data => {
+                      console.log('Event data:', data);
+                      // Update your component state or props with the data
+                    })
+                    .catch(error => console.error('Error fetching events:', error));;
+
+                  console.log("Events JSON Response:", response);
+                } catch (error) {
+                  console.error("Error fetching events:", error);
+                }
+
+              }
             }
-          }
           } else if (permissionStatus.state === 'prompt') {
             setError(null);
             trackLocation();
@@ -166,26 +167,26 @@ const MapBoxComp: React.FC = () => {
     } else {
       trackLocation();
       const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-            if (geoControlButton) {
-                if (!hasSimulatedClick.current) {
-                    hasSimulatedClick.current = true;
-            
-                    geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                    try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
-                        .then(response => response.json())
-                        .then(data => {
-                            console.log('Event data:', data);
-                            // Update your component state or props with the data
-                        })
-                        .catch(error => console.error('Error fetching events:', error));;
-                  
-                        console.log("Events JSON Response:", response);
-                      } catch (error) {
-                        console.error("Error fetching events:", error);
-                      }
-            }
+      if (geoControlButton) {
+        if (!hasSimulatedClick.current) {
+          hasSimulatedClick.current = true;
+
+          geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+          try {
+            const response = fetch('localhost:5000/get-curlocation-events')
+              .then(response => response.json())
+              .then(data => {
+                console.log('Event data:', data);
+                // Update your component state or props with the data
+              })
+              .catch(error => console.error('Error fetching events:', error));;
+
+            console.log("Events JSON Response:", response);
+          } catch (error) {
+            console.error("Error fetching events:", error);
           }
+        }
+      }
     }
 
     return () => {
@@ -201,19 +202,19 @@ const MapBoxComp: React.FC = () => {
         hasSimulatedClick.current = true;
         geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
         try {
-            const response = fetch('http://localhost:5000/get-curlocation-events')
+          const response = fetch('http://localhost:5000/get-curlocation-events')
             .then(response => response.json())
             .then(data => {
-                console.log('Event data:', data);
-                // Update your component state or props with the data
-                setEventData(data)
+              console.log('Event data:', data);
+              // Update your component state or props with the data
+              setEventData(data)
             })
             .catch(error => console.error('Error fetching events:', error));;
-      
-            console.log("Events JSON Response:", response);
-          } catch (error) {
-            console.error("Error fetching events:", error);
-          }
+
+          console.log("Events JSON Response:", response);
+        } catch (error) {
+          console.error("Error fetching events:", error);
+        }
       }
     }, 1000);
   }, []);
@@ -225,18 +226,18 @@ const MapBoxComp: React.FC = () => {
         (event) => ({
           latitude: event.latitude,
           longitude: event.longitude,
-          img: event.thumbnail || event.image || MusicPin, 
+          img: event.thumbnail || event.image || MusicPin,
           title: event.title || "Untitled Event",
           link: event.link || "#",
         })
       );
-  
+
       setPinsToShow(newPins); // 
       console.log("New Pins from eventData:", newPins);
     }
   }, [eventData]);
-  
-  
+
+
 
   // Possible types: music, TBA...
   const typeToImgConverter = (type: string) => {
@@ -284,14 +285,7 @@ const MapBoxComp: React.FC = () => {
     //  other pins
   ]
 
-  const [aiButtonSelected, setAiButtonSelected] = useState(false);
-  const [controlButtonSelected, setControlButtonSelected] = useState(true);
-  const handleAIButtonClick = () => {
-    setAiButtonSelected(!aiButtonSelected);
-  }
-  const handleControlButtonClick = () => {
-    setControlButtonSelected(!controlButtonSelected);
-  }
+
 
   return (
     <div>
@@ -333,55 +327,39 @@ const MapBoxComp: React.FC = () => {
           </Marker>
         ))}
         {pinsToShow.length > 0 ? (
-  pinsToShow.map((pin, index) => {
-    console.log("Rendering Marker:", pin);
-    return (
-      <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
-        <div style={{ textAlign: "center" }}>
-          <img
-            src={pin.img}
-            alt={pin.title}
-            style={{ width: "30px", height: "30px", cursor: "pointer" }}
-            onClick={() => window.open(pin.link, "_blank")}
-          />
-          <p style={{ fontSize: "12px", margin: "5px 0" }}>{pin.title}</p>
-        </div>
-      </Marker>
-    );
-  })
-) : (null)}
+          pinsToShow.map((pin, index) => {
+            console.log("Rendering Marker:", pin);
+            return (
+              <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
+                <div style={{ textAlign: "center" }}>
+                  <img
+                    src={pin.img}
+                    alt={pin.title}
+                    style={{ width: "30px", height: "30px", cursor: "pointer" }}
+                    onClick={() => window.open(pin.link, "_blank")}
+                  />
+                  <p style={{ fontSize: "12px", margin: "5px 0" }}>{pin.title}</p>
+                </div>
+              </Marker>
+            );
+          })
+        ) : (null)}
 
       </Map>
 
-      {/* Functionality Icons */}
-      <IconGroup>
+
+      {/* <IconGroup>
         <UserButton onClick={handleControlButtonClick}>
           <img src={controlButtonSelected ? ControlButtonSelected : ControlButtonUnselected} alt="control Button" style={{ width: '70px', height: '70px' }} />
         </UserButton>
         <UserButton onClick={handleAIButtonClick}>
           <img src={aiButtonSelected ? AIButtonSelected : AIButtonUnselected} alt="AI Button" style={{ width: '70px', height: '70px' }} />
         </UserButton>
-      </IconGroup>
+      </IconGroup> */}
     </div>
   );
 };
 
-const IconGroup = styled.div`
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-  bottom: 50px;
-  right: ${(window.innerWidth - 160) / 2}px;
-  z-index: 5;
-`
 
-const UserButton = styled.div`
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
 
 export default MapBoxComp;
