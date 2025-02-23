@@ -347,11 +347,11 @@ function App() {
       {loading && <div>Loading...</div>}
 
       {/* Itinerary Section */}
-      {itineraryButtonSelected && (
+      {itineraryButtonSelected && itinerary?.features && (
         <ItinerarySection>
           <Frame style={{ overflowY: 'auto' }}>
             <div>
-              {dummyDataList.map((data, index) => (
+              {itinerary.features.map((data, index) => (
                 <Itinerary key={index} index={index} title={data.title} location={data.location} cost={data.cost} />
               ))}
             </div>
