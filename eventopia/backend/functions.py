@@ -62,12 +62,12 @@ def get_lat_long(address, retries=3):
 
 
 @app.route('/get-events', methods=['GET'])
-def get_events(
-    user_location="current",
-    start_date=datetime.date.today().strftime("%B %d %Y"),
-    end_date=datetime.date.today().strftime("%B %d %Y"),  # THIS HAS TO BE A STRING
-):  # mention this as either 'current' or the actual custom location needed
-    # Fetch user's location automatically based on IP
+def get_events():
+    # Get query parameters
+    user_location = request.args.get("address", "current")  # Default to "current" if no address is provided
+    start_date = request.args.get("start_date", datetime.date.today().strftime("%B %d %Y"))
+    end_date = request.args.get("end_date", datetime.date.today().strftime("%B %d %Y"))
+
     if user_location == "current":
         g = geocoder.ip("me")
         current_location = g.latlng

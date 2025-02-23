@@ -12,8 +12,14 @@ import SearchButtonSelected from './assets/search_button_selected.svg';
 import ItineraryButtonUnselected from './assets/itinerary_button_unselected.svg';
 import ItineraryButtonSelected from './assets/itinerary_button_selected.svg';
 
+
 function App() {
   const [loading, setLoading] = useState(false);
+
+  const [query, setQuery] = useState("");
+  const [latitude, setLatitude] = useState(37.7749); // Default to San Francisco (SFO)
+  const [longitude, setLongitude] = useState(-122.4194);
+  const [address, setAddress] = useState("San Francisco, CA"); // Default location
 
   const fetchEvents = async (query: string) => {
     setLoading(true);
@@ -38,7 +44,6 @@ function App() {
     setItineraryButtonSelected(!itineraryButtonSelected);
   }
 
-  const [query, setQuery] = useState("");
   const [startTime, setStartTime] = useState<Date>(new Date());
   const [endTime, setEndTime] = useState<Date>(new Date());
 
@@ -53,7 +58,7 @@ function App() {
         <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
       </HeaderBar>
 
-      <MapBoxComp />
+      <MapBoxComp latitude={latitude} longitude={longitude} address={address} />
 
       {/* Functionality Icons */}
       <UserButton style={{ top: '90px', left: '20px' }} onClick={handleSearchButtonClick}>
@@ -126,9 +131,38 @@ function App() {
             </div>
 
             <ButtonGroup>
-              <LightModeButton>
-                <span>Search For Events</span>
-              </LightModeButton>
+            <LightModeButton onClick={async () => {
+                console.log("Button clicked! Query:", query); // Debugging log
+
+                if (!query.trim()) {
+                  console.error("Please enter a valid location.");
+                  alert("Please enter a valid location.");
+                  return;
+                }
+
+                try {
+                  const response = await fetch(`http://localhost:5000/get-coordinates?address=${encodeURIComponent(query)}`);
+                  console.log("Fetching coordinates for:", query);
+
+                  if (!response.ok) {
+                    throw new Error("Failed to fetch coordinates");
+                  }
+
+                  const data = await response.json();
+                  console.log("Fetched Coordinates:", data);
+                  setLongitude(data.longitude)  
+                  setLatitude(data.latitude)
+                  setAddress(query)
+                  // If you need to update the map with new coordinates, store them in state
+                  
+                } catch (error) {
+                  console.error("Error fetching coordinates:", error);
+                  alert("Error fetching coordinates. Check console for details.");
+                }
+              }}>
+              Search For Events
+            </LightModeButton>
+
 
               <DarkModeButton>
                 <span>Plan My Trip!</span>

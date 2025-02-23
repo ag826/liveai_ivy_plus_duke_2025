@@ -20,7 +20,13 @@ import DefaultPin from "../assets/pins/default.svg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-const MapBoxComp: React.FC = () => {
+interface MapBoxCompProps {
+    address: string;
+    latitude: number;
+    longitude: number;
+  }
+  
+const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude }) => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
@@ -30,6 +36,40 @@ const MapBoxComp: React.FC = () => {
     latitude: 37.8,
     longitude: -122.4,
   });
+
+  useEffect(() => {
+    if (!latitude || !longitude) {
+      console.error("Latitude or Longitude missing. Skipping fetch.");
+      return;
+    }
+  
+    if (mapRef.current) {
+      mapRef.current.flyTo({
+        center: [longitude, latitude],
+        zoom: 12,
+        essential: true,
+      });
+    }
+  
+    const fetchEvents = async () => {
+      try {
+        const response = await fetch(`http://localhost:5000/get-events?address=${encodeURIComponent(address)}`);
+  
+        if (!response.ok) {
+          throw new Error("Failed to fetch events");
+        }
+  
+        const data = await response.json();
+        console.log("Event data:", data);
+        setEventData(data);
+      } catch (error) {
+        console.error("Error fetching events:", error);
+      }
+    };
+  
+    fetchEvents();
+  }, [latitude, longitude, address]);
+  
 
   const mapRef = useRef<any>(null);
   const hasSimulatedClick = useRef(false);
