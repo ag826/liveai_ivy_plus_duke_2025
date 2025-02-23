@@ -264,7 +264,7 @@ def generate_itenary():
                 "properties": {{
                     "name": "Event Name",
                     "description": "Event Description",
-                    "generated": false,
+                    "address": "Event Address",
                     "time_since_start": "30 minutes",
                     "transport": "Private transport",
                     "cost": 5

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
+import Map, { GeolocateControl, Marker, Popup,  NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
 
 import MusicPin from "../assets/pins/music.svg";
 import TheatrePin from "../assets/pins/theatre.svg";
@@ -31,6 +31,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataC
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
   const [pinsToShow, setPinsToShow] = useState<any[]>([{latitude: 36.001427, longitude: -78.938232}, {latitude: 36.000757, longitude: -78.919132},{latitude: 36.003757, longitude: -78.910132},{latitude: 36.005757, longitude: -78.930132}]);
+  const [selectedPin, setSelectedPin] = useState(null);
 
   const [center, setCenter] = useState({
     latitude: 37.8,
@@ -274,21 +275,41 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataC
         <GeolocateControl position="bottom-left" showUserLocation={true} trackUserLocation={true} />
 
         {/* Marker that reflects the geographic center of the map */}
-        {pinsToShow.length > 0 ? (
-          pinsToShow.map((pin, index) => {
-            /*console.log("Rendering Marker:", pin);*/
-            return (
-              <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
-                {/* <img
-                  src={pin.img}
-                  alt="Center Marker"
-                  style={{ width: '30px', height: '30px' }}
-                /> */}
-              </Marker>
-            );
-          })
-        ) : (null)}
+        {pinsToShow.length > 0 &&
+          pinsToShow.map((pin, index) => (
+            <Marker
+              key={index}
+              latitude={pin.latitude}
+              longitude={pin.longitude}
+              anchor="bottom"
+              onClick={(e) => {
+                // Prevent the map's onClick from immediately closing the popup
+                e.originalEvent.stopPropagation();
+                setSelectedPin(pin);
+              }}
+            >
+              {/* Optionally render your marker content here */}
+              {/* <img src={pin.img} alt="Marker" style={{ width: '30px', height: '30px' }} /> */}
+            </Marker>
+          ))
+        }
 
+        {/* Conditionally render the popup when a pin is selected */}
+        {selectedPin && (
+          <Popup
+            latitude={selectedPin.latitude}
+            longitude={selectedPin.longitude}
+            onClose={() => setSelectedPin(null)}
+            closeOnClick={false}
+            anchor="top"
+          >
+            <div style={{ minWidth: '300px', padding: '10px' }}>
+      <h3>{selectedPin.address}</h3>
+      <p>{selectedPin.description}</p>
+      {/* Additional content can be added here */}
+    </div>
+          </Popup>
+        )}
       </Map>
     </>
   );
