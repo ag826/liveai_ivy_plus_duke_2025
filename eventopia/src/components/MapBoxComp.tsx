@@ -56,7 +56,7 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
+                        const response = fetch('localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -94,7 +94,7 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
+                        const response = fetch('localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -125,7 +125,7 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
+                        const response = fetch('localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -157,7 +157,7 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-curlocation-events')
+                        const response = fetch('localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
@@ -186,7 +186,7 @@ const MapBoxComp: React.FC = () => {
         hasSimulatedClick.current = true;
         geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
         try {
-            const response = fetch('http://localhost:5000/get-curlocation-events')
+            const response = fetch('http://localhost:5000/get-events')
             .then(response => response.json())
             .then(data => {
                 console.log('Event data:', data);
@@ -283,7 +283,7 @@ const MapBoxComp: React.FC = () => {
         <ScaleControl position="top-right" />
 
         {/* Marker that reflects the geographic center of the map */}
-        {centerToShow.map((pin, index) => (
+        {/*centerToShow.map((pin, index) => (
           <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
             <img
               src={pin.img}
@@ -291,21 +291,13 @@ const MapBoxComp: React.FC = () => {
               style={{ width: '30px', height: '30px' }}
             />
           </Marker>
-        ))}
+        ))*/}
         {pinsToShow.length > 0 ? (
   pinsToShow.map((pin, index) => {
     console.log("Rendering Marker:", pin);
     return (
       <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
-        <div style={{ textAlign: "center" }}>
-          <img
-            src={pin.img}
-            alt={pin.title}
-            style={{ width: "30px", height: "30px", cursor: "pointer" }}
-            onClick={() => window.open(pin.link, "_blank")}
-          />
-          <p style={{ fontSize: "12px", margin: "5px 0" }}>{pin.title}</p>
-        </div>
+        
       </Marker>
     );
   })
