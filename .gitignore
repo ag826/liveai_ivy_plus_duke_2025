@@ -2,3 +2,5 @@ chrome_history_temp.db
 .env
 /images
 location_event.ipynb
+
+eventopia/backend/json_output/*

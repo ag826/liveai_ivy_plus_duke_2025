@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
+import Map, { GeolocateControl, Marker, Popup,  NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
 
 import MusicPin from "../assets/pins/music.svg";
 import TheatrePin from "../assets/pins/theatre.svg";
@@ -20,17 +20,28 @@ import DefaultPin from "../assets/pins/default.svg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
+type EventData = {
+  img: string;
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  cost: string;
+};
+
 interface MapBoxCompProps {
-    address: string;
-    latitude: number;
-    longitude: number;
-  }
+  address: string;
+  latitude: number;
+  longitude: number;
+  onClickMarker: (eventDetail: EventData) => void;
+  eventDataChange: number;
+}
   
-const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude }) => {
+const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, onClickMarker, eventDataChange }) => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
-  const [pinsToShow, setPinsToShow] = useState<any[]>([]);
+  const [pinsToShow, setPinsToShow] = useState<any[]>([{ latitude: 36.001427, longitude: -78.938232 }]);
 
   const [center, setCenter] = useState({
     latitude: 37.8,
@@ -42,7 +53,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
       console.error("Latitude or Longitude missing. Skipping fetch.");
       return;
     }
-  
+
     if (mapRef.current) {
       mapRef.current.flyTo({
         center: [longitude, latitude],
@@ -51,30 +62,31 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
       });
     }
   
-    const fetchEvents = async () => {
-      try {
-        console.log("Fetching events for:", address, latitude, longitude);
-  
-        const response = await fetch(
-          `http://localhost:5000/get-events?address=${encodeURIComponent(address)}`
-        );
-  
-        if (!response.ok) {
-          throw new Error("Failed to fetch events");
-        }
-  
-        const data = await response.json();
-        console.log("Event data:", data);
-        setEventData(data);
-      } catch (error) {
-        console.error("Error fetching events:", error);
-      }
-    };
-  
-    fetchEvents();
-  }, [latitude, longitude, address]); // 🔹 Dependencies updated
+  }, [latitude, longitude]); // 🔹 Dependencies updated
+
   
 
+  useEffect(() => {
+    // Debug the current location and resolved URL
+    console.log("Current location:", window.location.href);
+    const fileUrl = new URL('../backend/json_output/events_results.json', window.location.href);
+    console.log("Resolved file URL:", fileUrl.href);
+  
+    const loadEventData = async () => {
+      try {
+        const response = await fetch(fileUrl.href);
+        if (!response.ok) {
+          throw new Error('Failed to load events JSON');
+        }
+        const data = await response.json();
+        setEventData(data);
+      } catch (error) {
+        console.error('Error loading event data:', error);
+      }
+    };
+    loadEventData();
+  }, [eventDataChange]);
+  
   const mapRef = useRef<any>(null);
   const hasSimulatedClick = useRef(false);
 
@@ -102,7 +114,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
             hasSimulatedClick.current = true;
             geoControlButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
             try {
-              fetch("http://localhost:5000/get-events")
+              fetch("http://127.0.0.1:5000/get-events")
                 .then((response) => response.json())
                 .then((data) => {
                   console.log("Event data:", data);
@@ -164,7 +176,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         hasSimulatedClick.current = true;
         geoControlButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
         try {
-          fetch("http://localhost:5000/get-events")
+          fetch("http://127.0.0.1:5000/get-events")
             .then((response) => response.json())
             .then((data) => {
               console.log("Event data:", data);
@@ -186,6 +198,8 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         img: event.thumbnail || event.image || MusicPin,
         title: event.title || "Untitled Event",
         link: event.link || "#",
+        description: event.description || '',
+        time: event.date.when || ''
       }));
 
       setPinsToShow(newPins);
@@ -255,8 +269,6 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         onMove={(evt) => setCenter(evt.viewState)}
       >
         {/* -------------- Mapbox Configs -------------- */}
-        
-
         {/* Navigation Controls */}
         <NavigationControl position="bottom-right" />
 
@@ -270,21 +282,46 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         <GeolocateControl position="bottom-left" showUserLocation={true} trackUserLocation={true} />
 
         {/* Marker that reflects the geographic center of the map */}
+
+        {/* const newPins = eventData.map((event) => ({
+        latitude: event.latitude,
+        longitude: event.longitude,
+        img: event.thumbnail || event.image || MusicPin,
+        title: event.title || "Untitled Event",
+        link: event.link || "#",
+      })); */}
+
+      {/* type EventData = {
+  img: string;
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  cost: string;
+}; */}
+
         {pinsToShow.length > 0 ? (
           pinsToShow.map((pin, index) => {
-            console.log("Rendering Marker:", pin);
+            /*console.log("Rendering Marker:", pin);*/
             return (
-              <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
-                {/* <img
-                  src={pin.img}
-                  alt="Center Marker"
-                  style={{ width: '30px', height: '30px' }}
-                /> */}
+              <Marker key={index} latitude={pin.latitude} longitude={pin.longitude}>
+                <div onClick={() => {
+                    onClickMarker({img: pin.img, title: pin.title, description: pin.description, time: pin.time, location: latitude + longitude, cost: 'dummy cost'})
+                    console.log("Pin Info that Passed in:", pin)
+                    }}>
+                  <img
+                    src={DefaultPin}
+                    alt="Marker"
+                    style={{ width: '30px', height: '30px' }}
+                  />
+                </div>
               </Marker>
             );
           })
         ) : (null)}
 
+        {/* Conditionally render the popup when a pin is selected */}
+        
       </Map>
     </>
   );

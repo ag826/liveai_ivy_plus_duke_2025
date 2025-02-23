@@ -1,0 +1,79 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.94226690363465,
+                    35.997449599999996
+                ]
+            },
+            "properties": {
+                "name": "Syracuse Orange at Duke Blue Devils Womens Basketball",
+                "description": "Matchup between Syracuse and Duke on Feb 23, 2025",
+                "generated": false,
+                "time_since_start": "0 minutes",
+                "transport": "Public Transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.94028608526361,
+                    36.00186815
+                ]
+            },
+            "properties": {
+                "name": "University Worship",
+                "description": "Join us in worship that offers stirring preaching, inspiring sacred music, and faithful prayer. Held year-round amid the beautiful, soaring architecture of Duke Chapel, this interdenominational...",
+                "generated": false,
+                "time_since_start": "2 hours",
+                "transport": "Public Transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9364,
+                    36.0021
+                ]
+            },
+            "properties": {
+                "name": "The Loop",
+                "description": "Public space on Duke University Campus, good for a relaxed break.",
+                "generated": true,
+                "time_since_start": "2 hours 30 minutes",
+                "transport": "walking",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9382,
+                    36.0026
+                ]
+            },
+            "properties": {
+                "name": "Marketplace Restaurant",
+                "description": "Restaurant near Duke University, various cuisines.",
+                "generated": true,
+                "time_since_start": "3 hours",
+                "transport": "walking",
+                "cost": 25
+            }
+        }
+    ],
+    "total_estimated_cost": 25,
+    "total_estimated_time": 3
+}
