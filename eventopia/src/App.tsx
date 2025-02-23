@@ -14,6 +14,7 @@ import ItineraryButtonSelected from './assets/itinerary_button_selected.svg';
 import CancelButton from './assets/cancel-button.svg'
 
 import EventDetail from './components/EventDetail';
+import Itinerary from './components/Itinerary';
 
 
 function App() {
@@ -66,16 +67,16 @@ function App() {
       location: 'Central Park, New York, NY',
       cost: 'Unknown/Free/Tiered/$25'
     },
-    // {
-    //   title: 'City Marathon 2015',
-    //   location: 'Central Park, New York, NY',
-    //   cost: 'Unknown/Free/Tiered/$25'
-    // },
-    // {
-    //   title: 'City Marathon 2015',
-    //   location: 'Central Park, New York, NY',
-    //   cost: 'Unknown/Free/Tiered/$25'
-    // },
+    {
+      title: 'City Marathon 2015',
+      location: 'Central Park, New York, NY',
+      cost: 'Unknown/Free/Tiered/$25'
+    },
+    {
+      title: 'City Marathon 2015',
+      location: 'Central Park, New York, NY',
+      cost: 'Unknown/Free/Tiered/$25'
+    },
   ]
 
   const dummyEventDetailDataList =
@@ -213,17 +214,10 @@ function App() {
       {/* Itinerary Section */}
       {itineraryButtonSelected && (
         <ItinerarySection>
-          <Frame>
+          <Frame style={{overflowY: 'auto'}}>
             <div>
               {dummyDataList.map((data, index) => (
-                <Itinerary key={index}>
-                  <Numbering><span>{index+1}</span></Numbering>
-                  <ItineraryTitle>{data.title}</ItineraryTitle>
-                  <ul style={{ fontSize: '15px' }}>
-                    <li><span style={{ fontWeight: 'bold' }}>Location: </span>{data.location}</li>
-                    <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{data.cost}</li>
-                  </ul>
-                </Itinerary>
+                <Itinerary key={index} index={index} title={data.title} location={data.location} cost={data.cost} />
               ))}
             </div>
           </Frame>
@@ -232,35 +226,6 @@ function App() {
 
       {/* EventDetail Section */}
       {/* <EventDetail img={dummyEventDetailDataList.img} title={dummyEventDetailDataList.title} description={dummyEventDetailDataList.description} time={dummyEventDetailDataList.time} location={dummyEventDetailDataList.location} cost={dummyEventDetailDataList.cost} /> */}
-
-      {/* <EventDetailSection>
-        <UserButton style={{ top: 3, left: 3 }}>
-          <img src={CancelButton} alt="cancel button" style={{ height: '40px', width: '40px' }} />
-        </UserButton>
-        <img src="src/assets/example_event_picture.png" alt="images" style={{
-          height: '250px',
-          width: '100%',  // Maintain aspect ratio
-          objectFit: 'cover',  // Crop or stretch the image to fill the container
-        }}
-        />
-
-        <div style={{ height: '350px', display: 'flex', flexDirection: 'column', gap: '10px', width: '100%' }}>
-          <Frame style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <DetailTitle>Noise Pop Music Festival</DetailTitle>
-            <DetailDescription>This 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt, also industry summits and workshops for emerging artists...</DetailDescription>
-
-            <ul style={{ fontSize: '15px', alignSelf: 'flex-start' }}>
-              <li><span style={{ fontWeight: 'bold' }}>Time: </span>{'Feb 20 2025 - Mar 2 2025'}</li>
-              <li><span style={{ fontWeight: 'bold' }}>Location: </span>{'San Francisco Bay Area'}</li>
-              <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{'Unknown/Free/Tiered/$25'}</li>
-            </ul>
-          </Frame>
-
-          <DarkModeButton style={{ alignSelf: 'center' }}>
-            <span>Add to Itinerary</span>
-          </DarkModeButton>
-        </div>
-      </EventDetailSection> */}
     </div>
   );
 }
@@ -317,7 +282,6 @@ const Frame = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  overflow-y: auto;
 `;
 
 const Title = styled.span`
@@ -385,34 +349,6 @@ const ItinerarySection = styled.div`
   z-index: 3;
 `;
 
-const Itinerary = styled.div`
-  margin: 20px 10px 0px 10px;
-  width: 100%;
-  border: 2px solid #CCCCCC;
-  border-radius: 20px;
-  position: relative;
-`
-
-const ItineraryTitle = styled.div`
-  font-size: 20px;
-  margin: 20px 0px 0px 20px;
-  display: inline-block;
-  font-weight: bold;
-`;
-
-const Numbering = styled.div`
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #AA0BFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position: absolute;
-  left: -10px;
-  top: -10px;
-`;
 
 
 

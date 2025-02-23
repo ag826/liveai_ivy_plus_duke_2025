@@ -1,2 +1,4 @@
 chrome_history_temp.db
 /.env
+
+backend/json_output/*

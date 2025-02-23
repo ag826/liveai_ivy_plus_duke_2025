@@ -30,7 +30,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
-  const [pinsToShow, setPinsToShow] = useState<any[]>([]);
+  const [pinsToShow, setPinsToShow] = useState<any[]>([{latitude: 36.001427, longitude: -78.938232}, {latitude: 36.000757, longitude: -78.919132},{latitude: 36.003757, longitude: -78.910132},{latitude: 36.005757, longitude: -78.930132}]);
 
   const [center, setCenter] = useState({
     latitude: 37.8,
