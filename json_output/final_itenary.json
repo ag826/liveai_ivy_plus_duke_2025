@@ -1,1 +1,223 @@
-"```geojson\n{\n  \"type\": \"FeatureCollection\",\n  \"features\": [\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [ -78.8986, 35.994]\n      },\n      \"properties\": {\n        \"name\": \"Start Location\",\n        \"description\": \"Starting point of the itinerary\",\n        \"source\": \"Generated\",\n        \"time_since_start\": \"0 hours\",\n        \"mode_of_transport\": \"N/A\",\n        \"cost\": 0\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.933, 36.001]\n      },\n      \"properties\": {\n        \"name\": \"Durham Farmers' Market\",\n        \"description\": \"The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the...\",\n        \"source\": \"Collected\",\n        \"time_since_start\": \"30 minutes\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 10\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.933, 36.001]\n      },\n      \"properties\": {\n        \"name\": \"Southern Boundaries Park\",\n        \"description\": \"A free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate – it's up to you! We all take part for our own enjoyment. Please come along and join in whatever your...\",\n        \"source\": \"Collected\",\n        \"time_since_start\": \"1 hour 30 minutes\",\n        \"mode_of_transport\": \"N/A\",\n        \"cost\": 0\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.89, 36.003]\n      },\n      \"properties\": {\n        \"name\": \"Weldon Mills Distillery Durham\",\n        \"description\": \"Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!\",\n        \"source\": \"Collected\",\n        \"time_since_start\": \"3 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 10\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.8986, 35.994]\n      },\n      \"properties\": {\n        \"name\": \"Lunch at a local eatery\",\n        \"description\": \"Quick and affordable lunch near Weldon Mills Distillery. (Budget allocated)\",\n        \"source\": \"Generated\",\n        \"time_since_start\": \"4 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 15\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.902, 35.995]\n      },\n      \"properties\": {\n        \"name\": \"Durty Bull Brewing Company\",\n        \"description\": \"Find tickets for Taxicab Preacher at Durty Bull Brewing Company in Durham on 3/15/2025 at 4:00 PM\",\n        \"source\": \"Collected\",\n        \"time_since_start\": \"7 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 10\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.8986, 35.994]\n      },\n      \"properties\": {\n        \"name\": \"Dinner & Overnight Stay\",\n        \"description\": \"Dinner at a budget-friendly restaurant and overnight stay. (Budget allocated)\",\n        \"source\": \"Generated\",\n        \"time_since_start\": \"9 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 100\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.8986, 35.994]\n      },\n      \"properties\": {\n        \"name\": \"Day 2: Start Location\",\n        \"description\": \"Start of day 2 from overnight stay location\",\n        \"source\": \"Generated\",\n        \"time_since_start\": \"12 hours\",\n        \"mode_of_transport\": \"N/A\",\n        \"cost\": 0\n      }\n    },\n      {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-79.052, 35.905]\n      },\n      \"properties\": {\n        \"name\": \"Chapel Hill Farmers' Market\",\n        \"description\": \"Chapel Hill Farmers’ Market was started in April 2008 by Farmers of Orange, a state non-profit organization created for local farmers by local farmers. All of our farmers and artisans live within...\",\n        \"source\": \"Collected\",\n        \"time_since_start\": \"13 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 25\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-79.05, 35.91]\n      },\n      \"properties\": {\n        \"name\": \"Ackland Art Museum\",\n        \"description\": \"Join Ackland educators for a lively half-hour look at small handful of artworks. These engaging conversational tours offer a closer look at and new perspectives on works on view at the Museum.\",\n        \"source\": \"Collected\",\n        \"time_since_start\": \"14 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 10\n      }\n    },\n    {\n      \"type\": \"Feature\",\n      \"geometry\": {\n        \"type\": \"Point\",\n        \"coordinates\": [-78.8986, 35.994]\n      },\n      \"properties\": {\n        \"name\": \"Return & Day 3\",\n        \"description\": \"Return to starting location and end of itinerary\",\n        \"source\": \"Generated\",\n        \"time_since_start\": \"16 hours\",\n        \"mode_of_transport\": \"Private Transport\",\n        \"cost\": 25\n      }\n    }\n  ],\n  \"total_cost\": 185,\n  \"total_time\": 16\n}\n```\n"
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Durham NC Parkrun",
+                "description": "A free, fun, and friendly weekly 5k community event. Walk, jog, run, volunteer or spectate – it's up to you! We all take part for our own enjoyment. Please come along and join in whatever your...",
+                "generated": false,
+                "time_since_start": "30 minutes",
+                "transport": "Private transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Durham Creek Week 2025 — Keep Durham Beautiful",
+                "description": "Creek Week is a time to discover and clean up our local streams. It has been celebrated in Durham since 2009. To date, we have collected 210,989 pounds of litter with 4,808 volunteers. Want to...",
+                "generated": false,
+                "time_since_start": "8 hours",
+                "transport": "Private transport",
+                "cost": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Durham Singles Event | Ages 45-65",
+                "description": "Get ready to mingle at the Shipp Dating Mixer on March 6th, 2024 - an exciting in-person event for singles in their 40s, 50s, and 60s!",
+                "generated": false,
+                "time_since_start": "2 hours",
+                "transport": "Private transport",
+                "cost": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Durham Farmers’ Market",
+                "description": "The Durham Farmers’ Market is a community of farmers, growers and crafters. We are strongly committed to local products: every item you see at the market was produced by the [...]",
+                "generated": false,
+                "time_since_start": "4 hours",
+                "transport": "Private transport",
+                "cost": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0548896321919,
+                    35.912567800000005
+                ]
+            },
+            "properties": {
+                "name": "TOUR: A Closer Look at the Collection",
+                "description": "Join Ackland educators for a lively half-hour look at small handful of artworks. These engaging conversational tours offer a closer look at and new perspectives on works on view at the Museum.",
+                "generated": false,
+                "time_since_start": "30 minutes",
+                "transport": "Private transport",
+                "cost": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Taxicab Preacher",
+                "description": "Find tickets for Taxicab Preacher at Durty Bull Brewing Company in Durham on 3/15/2025 at 4:00 PM",
+                "generated": false,
+                "time_since_start": "4 hours",
+                "transport": "Private transport",
+                "cost": 40
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Ben Schwartz & Friends",
+                "description": "Ben Schwartz & Friends theatre & comedy tickets on sale now - Ticombo - the world's biggest marketplace for Ben Schwartz & Friends theatre & comedy Tickets in the world.",
+                "generated": false,
+                "time_since_start": "7 hours",
+                "transport": "Private transport",
+                "cost": 50
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "Bikers & Smokes",
+                "description": "Let’s Get Social Raleigh & Oak City Entertainment invite you to join us as we take over The Triangle Area with Bikers & Smokes Day Party. Get ready for a fun-filled Saturday at Congress Social Bar...",
+                "generated": false,
+                "time_since_start": "4 hours",
+                "transport": "Private transport",
+                "cost": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9018053,
+                    35.996653
+                ]
+            },
+            "properties": {
+                "name": "South Durham Farmers' Market",
+                "description": "The South Durham Farmers' Market offers a wide variety of fresh, locally grown produce, baked goods, and artisan crafts.",
+                "generated": false,
+                "time_since_start": "3 hours",
+                "transport": "Private transport",
+                "cost": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8986,
+                    35.994
+                ]
+            },
+            "properties": {
+                "name": "Lunch at Beyù Caffè",
+                "description": "Enjoy delicious and authentic Italian cuisine.",
+                "generated": true,
+                "time_since_start": "1 hour",
+                "transport": "walking",
+                "cost": 25
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8986,
+                    35.994
+                ]
+            },
+            "properties": {
+                "name": "Dinner at Mateo Bar de Tapas",
+                "description": "Experience the vibrant flavors of Spain.",
+                "generated": true,
+                "time_since_start": "2 hours",
+                "transport": "walking",
+                "cost": 60
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8986,
+                    35.994
+                ]
+            },
+            "properties": {
+                "name": "Visit Durham Central Park",
+                "description": "Relax and enjoy the green space in the heart of Durham.",
+                "generated": true,
+                "time_since_start": "2 hours",
+                "transport": "walking",
+                "cost": 0
+            }
+        }
+    ],
+    "total_estimated_cost": 285,
+    "total_estimated_time": 32
+}
