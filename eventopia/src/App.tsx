@@ -26,7 +26,7 @@ type EventData = {
 };
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [itineraryLoading, setItineraryLoading] = useState(false);
 
   const [query, setQuery] = useState("");
   const [latitude, setLatitude] = useState(null);
@@ -244,8 +244,8 @@ function App() {
 
 
               <DarkModeButton onClick={async () => {
-
                 try {
+                  setItineraryLoading(true)
                   const coordResponse = await fetch("http://127.0.0.1:5000/get-last-coordinates");
                   const lastCoords = await coordResponse.json();
                   console.log(query, "hi2")
@@ -334,7 +334,7 @@ function App() {
                 } catch (error) {
                   console.error("Error fetching events:", error);
                 } finally {
-                  setLoading(false);
+                  setItineraryLoading(false);
                 }
               }}>
                 Plan My Trip!
@@ -344,19 +344,15 @@ function App() {
           </Frame>
         </SearchSection>
       }
-      {loading && <div>Loading...</div>}
 
       {/* Itinerary Section */}
       {itineraryButtonSelected && (
         <ItinerarySection>
           <Frame style={{ overflowY: 'auto' }}>
-            <div>
-              {itinerary?.features && itinerary.features.map((data, index) => {
-                console.log('Itinerary Data:', data)
-                return <Itinerary key={index} index={index} title={data.properties.name} location={data.properties.address} cost={data.properties.cost} />
-              }
-              )}
-            </div>
+            {itineraryLoading && <CenteredDiv><Spinner /></CenteredDiv>}
+            {!itineraryLoading && itinerary?.features && itinerary.features.map((data, index) => {
+              return <Itinerary key={index} index={index} title={data.properties.name} location={data.properties.address} cost={data.properties.cost} />
+            })}
           </Frame>
         </ItinerarySection>
       )}
@@ -369,36 +365,31 @@ function App() {
   );
 }
 
-const SingleItinerary = styled.div`
-  margin: 20px 10px 0px 10px;
-  width: 100%;
-  border: 2px solid #CCCCCC;
-  border-radius: 20px;
-  position: relative;
-`
-
-const ItineraryTitle = styled.div`
-  font-size: 20px;
-  margin: 20px 0px 0px 20px;
-  display: inline-block;
-  font-weight: bold;
-`;
-
-const Numbering = styled.div`
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #AA0BFF;
+const CenteredDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  position: absolute;
-  left: -10px;
-  top: -10px;
-  font-weight: bold;
-`;
+  height: 100%;
+  width: 100%;
+`
 
+const Spinner = styled.div`
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+`
 
 const HeaderBar = styled.div`
   width: 100vw;

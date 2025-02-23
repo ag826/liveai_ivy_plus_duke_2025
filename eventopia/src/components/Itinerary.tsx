@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import CancelButton from '../assets/cancel-button.svg'
-
 // Define the type for your component's props
 interface ItineraryProps {
     index: number,
@@ -16,10 +14,8 @@ const Itinerary: React.FC<ItineraryProps> = ({ index, title, location, cost }) =
         <SingleItinerary>
             <Numbering><span>{index + 1}</span></Numbering>
             <ItineraryTitle>{title}</ItineraryTitle>
-            <ul style={{ fontSize: '15px' }}>
-                <li><span style={{ fontWeight: 'bold' }}>Location: </span>{location}</li>
-                <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{cost}</li>
-            </ul>
+            <p style={{margin: '0px 15px'}}><span style={{ fontWeight: 'bold' }}>* Location: </span>{location}</p>
+            <p style={{margin: '0px 15px'}}><span style={{ fontWeight: 'bold' }}>* Cost: </span>{cost}</p>
         </SingleItinerary>
     );
 };
@@ -28,7 +24,7 @@ export default Itinerary;
 
 const SingleItinerary = styled.div`
   margin: 20px 10px 0px 10px;
-  width: 100%;
+  width: 330px;
   border: 2px solid #CCCCCC;
   border-radius: 20px;
   position: relative;
@@ -36,7 +32,7 @@ const SingleItinerary = styled.div`
 
 const ItineraryTitle = styled.div`
   font-size: 20px;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 15px 15px 15px;
   display: inline-block;
   font-weight: bold;
 `;
