@@ -10,10 +10,16 @@ import google.generativeai as genai
 from datetime import datetime as dt
 from datetime import timedelta
 import datetime
+<<<<<<< HEAD
+import re
+
+
+=======
 import sqlite3
 import shutil
 import pandas as pd
 import re
+>>>>>>> 8067be8fe7f21254b0f5698b85d4a77a46e993a7
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
@@ -76,8 +82,7 @@ def get_last_coordinates():
 
 @app.route('/get-events', methods=['GET'])
 def get_events():
-    # Get query parameters
-    user_location = request.args.get("address", "current")  # Default to "current" if no address is provided
+    user_location = request.args.get("address", "current")  
     start_date = request.args.get("start_date", datetime.date.today().strftime("%B %d %Y"))
     end_date = request.args.get("end_date", datetime.date.today().strftime("%B %d %Y"))
     latitude=request.args.get("lat", None)
@@ -85,6 +90,12 @@ def get_events():
 
     if user_location == "current":
         g = geocoder.ip("me")
+<<<<<<< HEAD
+        user_location = (
+            g.city + ", " + g.state if g.city and g.state else "USA"
+        )  
+
+=======
         current_location = g.latlng
         
         latitude = current_location[0]
@@ -93,64 +104,54 @@ def get_events():
         user_location = (
             g.city + ", " + g.state if g.city and g.state else "USA"
         )  # Fallback to "USA" if location fails
+>>>>>>> 8067be8fe7f21254b0f5698b85d4a77a46e993a7
     print(f"Detected location: {user_location}")
 
     all_results = {"events_results": []}
 
-    # Pagination loop
     for i in range(2):
-        print(i)
-
-        # Define search parameters
         params = {
             "engine": "google_events",
             "q": f"Events in {user_location} between {start_date} to {end_date}",
             "hl": "en",
             "gl": "us",
             "api_key": os.environ["SEARCH_API_KEY"],
-            "start": str(i * 10),  # Correct offset formatting
+            "start": str(i * 10),
         }
 
-        # Perform search
         search = GoogleSearch(params)
         results = search.get_dict()
 
-        # Merge "events_results" lists instead of using +=
         if "events_results" in results:
-            all_results["events_results"].extend(
-                results["events_results"]
-            )  # Append results properly
+            all_results["events_results"].extend(results["events_results"])
 
-    # Extract event results
     events_results = all_results.get("events_results", [])
-    for event in events_results:
-        original_address = ", ".join(event["address"])  # Full address
-        street_address = event["address"][0]  # Extract only street name
-        city_state = event["address"][-1]  # Extract city and state
 
-        # Try different formats for better results
+    for event in events_results:
+        original_address = ", ".join(event["address"])  
+        street_address = event["address"][0]  
+        city_state = event["address"][-1]  
+
         possible_addresses = [
-            original_address,  # Full address
-            street_address + ", " + city_state,  # Street + City/State
-            city_state,  # City and state only
+            original_address,
+            street_address + ", " + city_state,
+            city_state,
         ]
 
         lat, lon = None, None
         for addr in possible_addresses:
             lat, lon = get_lat_long(addr)
             if lat and lon:
-                break  # Stop once a valid lat/lon is found
+                break  
 
-        # Save latitude & longitude
         event["latitude"] = lat
         event["longitude"] = lon
 
         print(f"Processed: {event['title']} -> ({lat}, {lon})")
 
-        time.sleep(1)  # Prevent hitting API rate limits
-        
+        time.sleep(1)  
 
-    # Save results to a JSON file
+    # 🚀 Save raw event results before categorization
     output_file = "json_output/events_results.json"
     COORDS_FILE = "json_output/last_coordinates.json"
 
@@ -161,38 +162,140 @@ def get_events():
         json.dump({"latitude": latitude, "longitude": longitude}, f, indent=4)
 
     print(f"Results saved to {output_file}")
+<<<<<<< HEAD
+=======
     #final_events=categorize_events()
     #return jsonify(final_events)
     return jsonify(events_results)
+>>>>>>> 8067be8fe7f21254b0f5698b85d4a77a46e993a7
 
+    # 🚀 Call categorize_events() and get the updated JSON with categories
+    categorized_events = categorize_events()
+
+    # 🚀 Ensure it's a valid dictionary before saving
+    if isinstance(categorized_events, dict):  
+        with open(output_file, "w", encoding="utf-8") as json_file:
+            json.dump(categorized_events, json_file, indent=4, ensure_ascii=False)
+
+    # 🚀 Return Flask Response
+    return jsonify(categorized_events)
 
 #######################################################################################################################
 
-
 def categorize_events(model=genai.GenerativeModel("gemini-1.5-flash")):
     json_file_path = "json_output/events_results.json"
-    # Load the JSON file into a Python dictionary
+
+    # Load JSON file
     with open(json_file_path, "r", encoding="utf-8") as file:
         events = json.load(file)
 
     query = (
-        "Read all the events in this JSON file and categorize each event as one of the following categories: Concerts and live music, theater and performing arts, movie screenings, theme park events, sports and fitness, food and drink, social and networking, technology and innovation, education and learningm, arts and creativity, outdoor autoddr hiking and camping, outdoor water sports activities, family and kids, nightlife and party "
-        f"The file is {json.dumps(events)}"
-        "Your output must be in the same json dictionary format with the additional information. Create a new column called 'category' for this."
-        "Return the response strictly as a JSON object with no Markdown formatting, explanations, or extra text. "
-        "Ensure it  is valid JSON without wrapping it in triple backticks."
+        "Categorize each event in this JSON file into one of the following categories: "
+        "Concerts and live music, theater and performing arts, movie screenings, theme park events, "
+        "sports and fitness, food and drink, social and networking, technology and innovation, "
+        "education and learning, arts and creativity, outdoor activities, family and kids, nightlife and party. "
+        f"The file is {json.dumps(events)} "
+        "Output must be strictly in JSON format. No explanations, no Markdown formatting, no additional text."
+        "Each event must include a new field called 'category' with the assigned category."
+        "ENSURE valid JSON output. If an error occurs, return an empty list."
+        '''
+        [
+        {
+            "title": "Event Title",
+            "date": {
+            "start_date": "MMM DD",
+            "when": "Day, MMM DD, Time"
+            },
+            "address": [
+            "Street Address",
+            "City, State"
+            ],
+            "link": "https://event-url.com",
+            "event_location_map": {
+            "image": "https://maps.google.com/some-image-url",
+            "link": "https://www.google.com/maps/place/data=some-data",
+            "serpapi_link": "https://serpapi.com/search.json?data=some-data"
+            },
+            "description": "Event description goes here...",
+            "ticket_info": [
+            {
+                "source": "Ticket Provider Name",
+                "link": "https://ticket-url.com",
+                "link_type": "more info"
+            }
+            ],
+            "venue": {
+            "name": "Venue Name",
+            "rating": 4.6,
+            "reviews": 1566,
+            "link": "https://google.com/search?q=venue-name"
+            },
+            "thumbnail": "https://image-url.com",
+            "image": "https://image-url.com",
+            "latitude": 35.996653,
+            "longitude": -78.9018053,
+            "category": "Event Category"
+        }
+        ]
+        '''
+        "Ensure the JSON structure follows this exact format with correct key-value pairs. "
+        "DO NOT include any text before or after the JSON. Output must be valid JSON, without Markdown formatting (` ```json ` etc.)."
     )
 
     response = model.generate_content(query)
+<<<<<<< HEAD
+=======
     categorized_events = json.loads(response.text) 
 
+>>>>>>> 8067be8fe7f21254b0f5698b85d4a77a46e993a7
 
+    # Debugging: Print Raw Response
+    print("Raw Response from Gemini:", response.text)
+
+    # Check if response is empty
+    if not response or not response.text.strip():
+        print("ERROR: Empty response from Gemini API.")
+        return {}
+
+    cleaned_text = response.text.strip()
+
+    # Remove Markdown formatting if present
+    cleaned_text = re.sub(r"```(json)?\n", "", cleaned_text)  # Remove ```json
+    cleaned_text = re.sub(r"\n```", "", cleaned_text)  # Remove closing ```
+    cleaned_text = cleaned_text.replace("'", '"')
+    cleaned_text = re.sub(r",\s*([\]})])", r"\1", cleaned_text)
+    
     output_file = "json_output/events_results.json"
     with open(output_file, "w", encoding="utf-8") as json_file:
+<<<<<<< HEAD
+        json.dump(categorized_events, json_file, indent=4, ensure_ascii=False)
+
+
+    # # Ensure JSON parsing
+    # try:
+    #     categorized_events = (cleaned_text)
+    # except json.JSONDecodeError:
+    #     print("ERROR: Gemini returned invalid JSON.")
+    #     return {}
+
+    # # 🚀 Return Python Dictionary, NOT `jsonify()`
+    # return categorized_events
+
+@app.route('/get-curlocation-events', methods=['GET'])
+def get_curlocation_events():
+    # Load environment variables from the .env file
+    load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), 'eventopia/.env'))
+    
+    # Fetch user's location automatically based on IP
+    g = geocoder.ip('me')
+    user_location = f"{g.city}, {g.state}" if g.city and g.state else "USA"  # Fallback to "USA" if location fails
+    print(f"Detected location: {user_location}")
+=======
         json.dump(categorized_events, json_file, indent=4, ensure_ascii=False)  # Saves as structured JSON
     return categorized_events
 
 
+>>>>>>> 8067be8fe7f21254b0f5698b85d4a77a46e993a7
 
 
 @app.route('/get-coordinates', methods=['GET'])
