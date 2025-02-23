@@ -1,50 +1,85 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 
-import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from 'react-map-gl/mapbox';
+import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
 
-import MusicPin from '../assets/pins/music.svg'
-import TheatrePin from '../assets/pins/theatre.svg'
-import MoviePin from '../assets/pins/movie.svg'
-import ThemeParkPin from '../assets/pins/theme_park.svg'
-import SportsPin from '../assets/pins/sports.svg'
-import FoodDrinkPin from '../assets/pins/food&drink.svg'
-import SocialPin from '../assets/pins/social.svg'
-import TechPin from '../assets/pins/technology.svg'
-import EducationPin from '../assets/pins/education.svg'
-import ArtsPin from '../assets/pins/arts.svg'
-import MountainPin from '../assets/pins/mountain.svg'
-import WaterPin from '../assets/pins/water.svg'
-import FamilyPin from '../assets/pins/family.svg'
-import PartyPin from '../assets/pins/party.svg'
-import DefaultPin from '../assets/pins/default.svg'
-
+import MusicPin from "../assets/pins/music.svg";
+import TheatrePin from "../assets/pins/theatre.svg";
+import MoviePin from "../assets/pins/movie.svg";
+import ThemeParkPin from "../assets/pins/theme_park.svg";
+import SportsPin from "../assets/pins/sports.svg";
+import FoodDrinkPin from "../assets/pins/food&drink.svg";
+import SocialPin from "../assets/pins/social.svg";
+import TechPin from "../assets/pins/technology.svg";
+import EducationPin from "../assets/pins/education.svg";
+import ArtsPin from "../assets/pins/arts.svg";
+import MountainPin from "../assets/pins/mountain.svg";
+import WaterPin from "../assets/pins/water.svg";
+import FamilyPin from "../assets/pins/family.svg";
+import PartyPin from "../assets/pins/party.svg";
+import DefaultPin from "../assets/pins/default.svg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-const MapBoxComp: React.FC = () => {
+interface MapBoxCompProps {
+    address: string;
+    latitude: number;
+    longitude: number;
+  }
+  
+const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude }) => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
-  const [pinsToShow, setPinsToShow] = useState<any[]>([]); // 
+  const [pinsToShow, setPinsToShow] = useState<any[]>([]);
 
-
-  // State for the map's center (used for the geographic marker)
   const [center, setCenter] = useState({
     latitude: 37.8,
     longitude: -122.4,
   });
-  // Create a ref to access the Map instance
+
+  useEffect(() => {
+    if (!latitude || !longitude) {
+      console.error("Latitude or Longitude missing. Skipping fetch.");
+      return;
+    }
+  
+    if (mapRef.current) {
+      mapRef.current.flyTo({
+        center: [longitude, latitude],
+        zoom: 12,
+        essential: true,
+      });
+    }
+  
+    const fetchEvents = async () => {
+      try {
+        const response = await fetch(`http://localhost:5000/get-events?address=${encodeURIComponent(address)}`);
+  
+        if (!response.ok) {
+          throw new Error("Failed to fetch events");
+        }
+  
+        const data = await response.json();
+        console.log("Event data:", data);
+        setEventData(data);
+      } catch (error) {
+        console.error("Error fetching events:", error);
+      }
+    };
+  
+    fetchEvents();
+  }, [latitude, longitude, address]);
+  
+
   const mapRef = useRef<any>(null);
-  // Use a ref for our one-time click flag
   const hasSimulatedClick = useRef(false);
 
   useEffect(() => {
     let watchId: number;
 
-    // Function to get live location updates
     const trackLocation = () => {
-      if (!('geolocation' in navigator)) {
-        setError('Geolocation is not supported by this browser.');
+      if (!("geolocation" in navigator)) {
+        setError("Geolocation is not supported by this browser.");
         return;
       }
 
@@ -56,33 +91,27 @@ const MapBoxComp: React.FC = () => {
           };
           setUserLocation(coords);
           setCenter(coords);
-          console.log('Updated Location:', coords.latitude, coords.longitude);
-          // Simulate the click only once using our ref
-          console.log(hasSimulatedClick)
-          const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-          if (geoControlButton) {
-            if (!hasSimulatedClick.current) {
-              hasSimulatedClick.current = true;
+          console.log("Updated Location:", coords.latitude, coords.longitude);
 
-              geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-              try {
-                const response = fetch('localhost:5000/get-events')
-                  .then(response => response.json())
-                  .then(data => {
-                    console.log('Event data:', data);
-                    // Update your component state or props with the data
-                  })
-                  .catch(error => console.error('Error fetching events:', error));;
-
-                console.log("Events JSON Response:", response);
-              } catch (error) {
-                console.error("Error fetching events:", error);
-              }
+          const geoControlButton = document.querySelector(".mapboxgl-ctrl-geolocate");
+          if (geoControlButton && !hasSimulatedClick.current) {
+            hasSimulatedClick.current = true;
+            geoControlButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+            try {
+              fetch("http://localhost:5000/get-events")
+                .then((response) => response.json())
+                .then((data) => {
+                  console.log("Event data:", data);
+                  setEventData(data);
+                })
+                .catch((error) => console.error("Error fetching events:", error));
+            } catch (error) {
+              console.error("Error fetching events:", error);
             }
           }
         },
         (error) => {
-          console.error('Geolocation error:', error.message);
+          console.error("Geolocation error:", error.message);
           const fallback = { latitude: 37.8, longitude: -122.4 };
           setUserLocation(fallback);
           setCenter(fallback);
@@ -91,124 +120,53 @@ const MapBoxComp: React.FC = () => {
       );
     };
 
-    if ('permissions' in navigator) {
-      navigator.permissions.query({ name: 'geolocation' }).then((permissionStatus) => {
-        // On initial query, if granted, track location and simulate click if not already done
-        if (permissionStatus.state === 'granted') {
+    if ("permissions" in navigator) {
+      navigator.permissions.query({ name: "geolocation" }).then((permissionStatus) => {
+        if (permissionStatus.state === "granted") {
           setError(null);
           trackLocation();
-          const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-          if (geoControlButton) {
-            if (!hasSimulatedClick.current) {
-              hasSimulatedClick.current = true;
-
-              geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-              try {
-                const response = fetch('localhost:5000/get-events')
-                  .then(response => response.json())
-                  .then(data => {
-                    console.log('Event data:', data);
-                    // Update your component state or props with the data
-                  })
-                  .catch(error => console.error('Error fetching events:', error));;
-
-                console.log("Events JSON Response:", response);
-              } catch (error) {
-                console.error("Error fetching events:", error);
-              }
-            }
-          }
-        } else if (permissionStatus.state === 'prompt') {
+        } else if (permissionStatus.state === "prompt") {
           setError(null);
           trackLocation();
-        } else if (permissionStatus.state === 'denied') {
-          setError('Geolocation permission denied.');
+        } else if (permissionStatus.state === "denied") {
+          setError("Geolocation permission denied.");
         }
 
         permissionStatus.onchange = () => {
-          if (permissionStatus.state === 'granted') {
+          if (permissionStatus.state === "granted") {
             setError(null);
             trackLocation();
-            const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-            if (geoControlButton) {
-              if (!hasSimulatedClick.current) {
-                hasSimulatedClick.current = true;
-
-                geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-                try {
-                  const response = fetch('localhost:5000/get-events')
-                    .then(response => response.json())
-                    .then(data => {
-                      console.log('Event data:', data);
-                      // Update your component state or props with the data
-                    })
-                    .catch(error => console.error('Error fetching events:', error));;
-
-                  console.log("Events JSON Response:", response);
-                } catch (error) {
-                  console.error("Error fetching events:", error);
-                }
-
-              }
-            } else if (permissionStatus.state === 'prompt') {
-              setError(null);
-              trackLocation();
-            } else if (permissionStatus.state === 'denied') {
-              setError('Geolocation permission denied.');
-            }
-          };
+          } else if (permissionStatus.state === "prompt") {
+            setError(null);
+            trackLocation();
+          } else if (permissionStatus.state === "denied") {
+            setError("Geolocation permission denied.");
+          }
         };
-      })
+      });
     } else {
       trackLocation();
-      const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
-      if (geoControlButton) {
-        if (!hasSimulatedClick.current) {
-          hasSimulatedClick.current = true;
-
-          geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
-          try {
-            const response = fetch('localhost:5000/get-events')
-              .then(response => response.json())
-              .then(data => {
-                console.log('Event data:', data);
-                // Update your component state or props with the data
-              })
-              .catch(error => console.error('Error fetching events:', error));;
-
-            console.log("Events JSON Response:", response);
-          } catch (error) {
-            console.error("Error fetching events:", error);
-          }
-        }
-      }
     }
-
-
 
     return () => {
       if (watchId) navigator.geolocation.clearWatch(watchId);
     };
   }, []);
 
-  // This useEffect simulates a click after the control is rendered.
   useEffect(() => {
     setTimeout(() => {
-      const geoControlButton = document.querySelector('.mapboxgl-ctrl-geolocate');
+      const geoControlButton = document.querySelector(".mapboxgl-ctrl-geolocate");
       if (geoControlButton && !hasSimulatedClick.current) {
         hasSimulatedClick.current = true;
-        geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+        geoControlButton.dispatchEvent(new MouseEvent("click", { bubbles: true }));
         try {
-          const response = fetch('http://localhost:5000/get-events')
-            .then(response => response.json())
-            .then(data => {
-              console.log('Event data:', data);
-              // Update your component state or props with the data
-              setEventData(data)
+          fetch("http://localhost:5000/get-events")
+            .then((response) => response.json())
+            .then((data) => {
+              console.log("Event data:", data);
+              setEventData(data);
             })
-            .catch(error => console.error('Error fetching events:', error));;
-
-          console.log("Events JSON Response:", response);
+            .catch((error) => console.error("Error fetching events:", error));
         } catch (error) {
           console.error("Error fetching events:", error);
         }
@@ -216,56 +174,50 @@ const MapBoxComp: React.FC = () => {
     }, 1000);
   }, []);
 
-
   useEffect(() => {
     if (eventData.length > 0) {
-      const newPins: { latitude: number; longitude: number; title: string; link: string }[] = eventData.map(
-        (event) => ({
-          latitude: event.latitude,
-          longitude: event.longitude,
-          img: event.thumbnail || event.image || MusicPin,
-          title: event.title || "Untitled Event",
-          link: event.link || "#",
-        })
-      );
+      const newPins = eventData.map((event) => ({
+        latitude: event.latitude,
+        longitude: event.longitude,
+        img: event.thumbnail || event.image || MusicPin,
+        title: event.title || "Untitled Event",
+        link: event.link || "#",
+      }));
 
-      setPinsToShow(newPins); // 
+      setPinsToShow(newPins);
       console.log("New Pins from eventData:", newPins);
     }
   }, [eventData]);
 
-
-
-  // Possible types: music, TBA...
   const typeToImgConverter = (type: string) => {
     switch (type) {
-      case 'Concerts & Live Music':
+      case "Concerts & Live Music":
         return MusicPin;
-      case 'Theater & Performing Arts':
+      case "Theater & Performing Arts":
         return TheatrePin;
-      case 'Movie Screenings':
+      case "Movie Screenings":
         return MoviePin;
-      case 'Theme Park Events':
+      case "Theme Park Events":
         return ThemeParkPin;
-      case 'Sports & Fitness':
+      case "Sports & Fitness":
         return SportsPin;
-      case 'Food & Drink':
+      case "Food & Drink":
         return FoodDrinkPin;
-      case 'Social & Networking':
+      case "Social & Networking":
         return SocialPin;
-      case 'Technology & Innovation':
+      case "Technology & Innovation":
         return TechPin;
-      case 'Education & Learning':
+      case "Education & Learning":
         return EducationPin;
-      case 'Arts & Creativity':
+      case "Arts & Creativity":
         return ArtsPin;
-      case 'Outdoor Hiking & Camping':
+      case "Outdoor Hiking & Camping":
         return MountainPin;
-      case 'Outdoor Water Sports Activities':
+      case "Outdoor Water Sports Activities":
         return WaterPin;
-      case 'Family & Kids':
+      case "Family & Kids":
         return FamilyPin;
-      case 'Nightlife & Parties':
+      case "Nightlife & Parties":
         return PartyPin;
       default:
         return DefaultPin;
@@ -333,7 +285,5 @@ const MapBoxComp: React.FC = () => {
     </>
   );
 };
-
-
 
 export default MapBoxComp;
