@@ -52,8 +52,31 @@ function App() {
   const [useRecommendation, setUseRecommendation] = useState(false)
 
   
+  const dummyDataList = [
+    {
+      title: 'Noise Pop Music Festival',
+      location: 'San Francisco Bay Area',
+      cost: 'Unknown/Free/Tiered/$25'
+    },
+    {
+      title: 'City Marathon 2015',
+      location: 'Central Park, New York, NY',
+      cost: 'Unknown/Free/Tiered/$25'
+    },
+    {
+      title: 'City Marathon 2015',
+      location: 'Central Park, New York, NY',
+      cost: 'Unknown/Free/Tiered/$25'
+    },
+    {
+      title: 'City Marathon 2015',
+      location: 'Central Park, New York, NY',
+      cost: 'Unknown/Free/Tiered/$25'
+    },
+  ]
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width:'100%vw' }}>
+    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width: '100%vw' }}>
       {/* header bar */}
       <HeaderBar>
         <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
@@ -73,8 +96,9 @@ function App() {
         }
       </UserButton>
 
+      {/* Search Section */}
       {searchButtonSelected &&
-        <FloatingSection>
+        <SearchSection>
           <Frame>
             <Title>Location</Title>
             <input
@@ -169,11 +193,28 @@ function App() {
                 <span>Plan My Trip!</span>
               </DarkModeButton>
             </ButtonGroup>
-
-
           </Frame>
-        </FloatingSection>}
+        </SearchSection>
+      }
 
+      {/* Itinerary Section */}
+      {itineraryButtonSelected && (
+        <ItinerarySection>
+          <Frame>
+            <div>
+              {dummyDataList.map((data, index) => (
+                <Itinerary key={index}>
+                  <ItineraryTitle>{data.title}</ItineraryTitle>
+                  <ul style={{ fontSize: '15px' }}>
+                    <li><span style={{ fontWeight: 'bold' }}>Location:</span>{data.location}</li>
+                    <li><span style={{ fontWeight: 'bold' }}>Cost:</span>{data.cost}</li>
+                  </ul>
+                </Itinerary>
+              ))}
+            </div>
+          </Frame>
+        </ItinerarySection>
+      )}
     </div>
   );
 }
@@ -204,7 +245,7 @@ const ButtonImageSelected = styled.img`
   height: 80px;
 `;
 
-const FloatingSection = styled.div`
+const SearchSection = styled.div`
   position: absolute;
   background: #ffffff;
   color: black;
@@ -221,7 +262,7 @@ const Frame = styled.div`
   top: 10px;
   left: 10px;
   width: calc(100% - 44px);
-  height: calc(100% - 44px);
+  height: 506px;
   padding: 10px;
   border: 2px dotted grey;
   border-radius: 15px;
@@ -229,6 +270,7 @@ const Frame = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  overflow-y: auto;
 `;
 
 const Title = styled.span`
@@ -283,15 +325,30 @@ const DarkModeButton = styled.div`
   background-color: #AA0BFF;
 `
 
-const IconGroup = styled.div`
+const ItinerarySection = styled.div`
   position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
-  bottom: 50px;
-  right: ${(window.innerWidth - 160) / 2}px;
-  z-index: 5;
+  background: #ffffff;
+  color: black;
+  top: 125px;
+  right: 55px;
+  width: 400px;
+  height: 550px;
+  border-radius: 15px;
+  z-index: 3;
+`;
+
+const Itinerary = styled.div`
+  margin: 20px 10px 0px 10px;
+  width: 100%;
+  border: 2px solid #CCCCCC;
+  border-radius: 20px;
+`
+
+const ItineraryTitle = styled.div`
+  font-size: 20px;
+  margin: 20px 0px 0px 20px;
+  display: inline-block;
+  font-weight: bold;
 `;
 
 export default App
