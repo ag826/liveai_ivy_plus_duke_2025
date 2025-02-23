@@ -90,21 +90,10 @@ def get_events():
 
     if user_location == "current":
         g = geocoder.ip("me")
-<<<<<<< HEAD
         user_location = (
             g.city + ", " + g.state if g.city and g.state else "USA"
         )  
 
-=======
-        current_location = g.latlng
-        
-        latitude = current_location[0]
-        longitude = current_location[1]
-        g = geocoder.ip("me")
-        user_location = (
-            g.city + ", " + g.state if g.city and g.state else "USA"
-        )  # Fallback to "USA" if location fails
->>>>>>> 8067be8fe7f21254b0f5698b85d4a77a46e993a7
     print(f"Detected location: {user_location}")
 
     all_results = {"events_results": []}
