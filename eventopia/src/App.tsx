@@ -1,5 +1,5 @@
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 import styled from 'styled-components';
 
 import MapBoxComp from './components/MapBoxComp';
@@ -16,20 +16,24 @@ import CancelButton from './assets/cancel-button.svg'
 import EventDetail from './components/EventDetail';
 import Itinerary from './components/Itinerary';
 
+type EventData = {
+  img: string;
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  cost: string;
+};
 
 function App() {
   const [loading, setLoading] = useState(false);
 
   const [query, setQuery] = useState("");
-  const [latitude, setLatitude] = useState(null);  
+  const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
   const [address, setAddress] = useState(""); 
   const [eventData, setEventData] = useState<any[]>([]);
   
-
-  
-
-
   const [searchButtonSelected, setSearchButtonSelected] = useState(true);
   const [itineraryButtonSelected, setItineraryButtonSelected] = useState(false);
   const handleSearchButtonClick = () => {
@@ -54,7 +58,7 @@ function App() {
     if (isChecked) {
       try {
         console.log("Generating recommendations...");
-        const response = await fetch("http://localhost:5000/user_history", {
+        const response = await fetch("http://127.0.0.1:5000/user_history", {
           method: "GET",
           headers: { "Content-Type": "application/json" }
         });
@@ -74,7 +78,26 @@ function App() {
   
   const [useRecommendation, setUseRecommendation] = useState(false)
 
-  
+  const dummyEventDetailDataList =
+  {
+    img: '/example_event_picture.png',
+    title: 'Noise Pop Music Festival',
+    time: 'Feb 20 2015 - Mar 2 2015',
+    location: 'San Francisco Bay Area',
+    cost: 'Unknown/Free/Tiered/$25',
+    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
+  }
+
+  const [eventDetailSelected, setEventDetailSelected] = useState<{
+    img: string,
+    title: string,
+    description: string,
+    time: string,
+    location: string,
+    cost: string
+  } | null>(null)
+  const [showEventDetail, setShowEventDetail] = useState(false)
+
   const dummyDataList = [
     {
       title: 'Noise Pop Music Festival',
@@ -98,15 +121,7 @@ function App() {
     },
   ]
 
-  const dummyEventDetailDataList =
-  {
-    img: '/example_event_picture.png',
-    title: 'Noise Pop Music Festival',
-    time: 'Feb 20 2015 - Mar 2 2015',
-    location: 'San Francisco Bay Area',
-    cost: 'Unknown/Free/Tiered/$25',
-    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
-  }
+  // img={eventDetailSelected?.img} title={eventDetailSelected!.title} description={eventDetailSelected!.description} time={eventDetailSelected!.time} location={eventDetailSelected!.location} cost={eventDetailSelected!.cost}
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width: '100%vw' }}>
@@ -115,7 +130,7 @@ function App() {
         <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
       </HeaderBar>
 
-      <MapBoxComp latitude={latitude} longitude={longitude} eventDataChange={eventDataChange} />
+      <MapBoxComp latitude={latitude} longitude={longitude} address={address} onClickMarker={(eventDetail: EventData) => { setEventDetailSelected(eventDetail); setShowEventDetail(true) }} eventDataChange={eventDataChange}/>
 
       {/* Functionality Icons */}
       <UserButton style={{ top: '90px', left: '20px' }} onClick={handleSearchButtonClick}>
@@ -139,7 +154,7 @@ function App() {
               placeholder="Enter query"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px' }}
+              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
             />
 
             <Title>Time</Title>
@@ -175,7 +190,7 @@ function App() {
               value={cost}
               onChange={(event) => { setCost(event.target.value); }}
               placeholder="Enter a number"
-              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px' }}
+              style={{ margin: "10px 0px 0px 10px", padding: "10px", width: "300px", height: '25px', border: "1px solid #CCCCCC", borderRadius: '10px', fontSize: '16px' }}
               min="0"
             />
 
@@ -201,7 +216,7 @@ function App() {
 
                 try {
                   console.log(query,"hi")
-                  const response = await fetch(`http://localhost:5000/get-coordinates?address=${encodeURIComponent(query)}`);
+                  const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(query)}`);
                   console.log("Fetching coordinates for:", query);
 
                   if (!response.ok) {
@@ -212,7 +227,7 @@ function App() {
                   console.log("Fetched Coordinates:", data);
                   setLongitude(data.longitude)
                   setLatitude(data.latitude)
-                  const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}`);
+                  const fetchResponse = await fetch(`http://127.0.0.1:5000/get-events?address=${query}`);
                   if (!fetchResponse.ok) {
                     throw new Error("Failed to fetch events");
                   }
@@ -231,11 +246,11 @@ function App() {
             <DarkModeButton onClick={async () => {
 
               try {
-                const coordResponse = await fetch("http://localhost:5000/get-last-coordinates");
+                const coordResponse = await fetch("http://127.0.0.1:5000/get-last-coordinates");
                 const lastCoords = await coordResponse.json();
                 console.log(query,"hi2")
                 const addressParam = query.trim() ? query : "current";
-                const response = await fetch(`http://localhost:5000/get-coordinates?address=${encodeURIComponent(addressParam)}`);
+                const response = await fetch(`http://127.0.0.1:5000/get-coordinates?address=${encodeURIComponent(addressParam)}`);
                 console.log(1)
                 console.log("Fetching coordinates for:", query);
 
@@ -263,7 +278,7 @@ function App() {
                 let eventData;
                 if (useCachedEvents) {
                   // Fetch cached event results
-                  const cachedResponse = await fetch("http://localhost:5000/get-saved-events");
+                  const cachedResponse = await fetch("http://127.0.0.1:5000/get-saved-events");
                   eventData = await cachedResponse.json();
                   console.log("Loaded Cached Events:", eventData);
                 } else {
@@ -272,7 +287,7 @@ function App() {
                   setLatitude(new_data.latitude)                  
                   console.log("Coordinates:", new_data.latitude, new_data.longitude);
 
-                  const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}`);
+                  const fetchResponse = await fetch(`http://127.0.0.1:5000/get-events?address=${query}`);
                   if (!fetchResponse.ok) {
                     throw new Error("Failed to fetch events");
                   }
@@ -286,7 +301,7 @@ function App() {
                   if (useUserData) {
                     console.log("Generating recommendations...");
               
-                    const response = await fetch("http://localhost:5000/user_history", {
+                    const response = await fetch("http://127.0.0.1:5000/user_history", {
                       method: "GET",
                       headers: { "Content-Type": "application/json" }
                     });
@@ -300,7 +315,7 @@ function App() {
                     console.log("User history not selected. Skipping recommendation generation.");
                   }
                   const fetchItinerary = await fetch(
-                    `http://localhost:5000/get-itinerary?time=${encodeURIComponent(formattedTime)}&start_time=${encodeURIComponent(startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true }))}&current_location=${encodeURIComponent(query)}&start_date=${encodeURIComponent(startTime.toLocaleDateString("en-US"))}&end_date=${encodeURIComponent(endTime.toLocaleDateString("en-US"))}&use_data=${encodeURIComponent(useUserData)}&cost=${encodeURIComponent(cost)}`,
+                    `http://127.0.0.1:5000/get-itinerary?time=${encodeURIComponent(formattedTime)}&start_time=${encodeURIComponent(startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true }))}&current_location=${encodeURIComponent(query)}&start_date=${encodeURIComponent(startTime.toLocaleDateString("en-US"))}&end_date=${encodeURIComponent(endTime.toLocaleDateString("en-US"))}&use_data=${encodeURIComponent(useUserData)}&cost=${encodeURIComponent(cost)}`,
                     {
                       method: "GET",
                       headers: { "Content-Type": "application/json" }
@@ -333,30 +348,21 @@ function App() {
 
       {/* Itinerary Section */}
       {itineraryButtonSelected && itinerary?.features && (
-  <ItinerarySection>
-    <Frame style={{overflowY: 'auto'}}>
-      <div>
-        {itinerary.features.map((feature, index) => (
-          <SingleItinerary key={index}>
-            <ItineraryTitle>{feature.properties.name}</ItineraryTitle>
-            <ul style={{ fontSize: '15px' }}>
-              <li>
-                <span style={{ fontWeight: 'bold' }}>Location:</span> {feature.properties.transport}
-              </li>
-              <li>
-                <span style={{ fontWeight: 'bold' }}>Time since start:</span> {feature.properties.time_since_start}
-              </li>
-              <li>
-                <span style={{ fontWeight: 'bold' }}>Cost:</span> {feature.properties.cost}
-              </li>
-            </ul>
-          </SingleItinerary>
-        ))}
-      </div>
-    </Frame>
-  </ItinerarySection>
-)}
+        <ItinerarySection>
+          <Frame style={{ overflowY: 'auto' }}>
+            <div>
+              {itinerary.features.map((data, index) => (
+                <Itinerary key={index} index={index} title={data.title} location={data.location} cost={data.cost} />
+              ))}
+            </div>
+          </Frame>
+        </ItinerarySection>
+      )}
 
+      {/* EventDetail Section */}
+      {showEventDetail && (
+        <EventDetail img={eventDetailSelected?.img} title={eventDetailSelected!.title} description={eventDetailSelected!.description} time={eventDetailSelected!.time} location={eventDetailSelected!.location} cost={eventDetailSelected!.cost} onClose={() => setShowEventDetail(false)}/>
+      )}
     </div>
   );
 }
@@ -412,6 +418,7 @@ const UserButton = styled.div`
 const ButtonImageUnselected = styled.img`
   width: 80px; 
   height: 80px;
+  
 `;
 
 const ButtonImageSelected = styled.img`
@@ -487,6 +494,7 @@ const LightModeButton = styled.div`
   font-size: 16px;
   margin: 10px 0px 10px 0px;
   color: #AA0BFF;
+  cursor: pointer;
 `
 
 const DarkModeButton = styled.div`
@@ -498,6 +506,7 @@ const DarkModeButton = styled.div`
   color: white;
   background-color: #AA0BFF;
   width: fit-content;
+  cursor: pointer;
 `
 
 const ItinerarySection = styled.div`

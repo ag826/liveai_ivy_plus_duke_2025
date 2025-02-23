@@ -20,18 +20,28 @@ import DefaultPin from "../assets/pins/default.svg";
 
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
+type EventData = {
+  img: string;
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  cost: string;
+};
+
 interface MapBoxCompProps {
-    latitude: number;
-    longitude: number;
-    eventDataChange: number;
-  }
+  address: string;
+  latitude: number;
+  longitude: number;
+  onClickMarker: (eventDetail: EventData) => void;
+  eventDataChange: number;
+}
   
-const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataChange }) => {
+const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, onClickMarker, eventDataChange }) => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
-  const [pinsToShow, setPinsToShow] = useState<any[]>([{latitude: 36.001427, longitude: -78.938232}, {latitude: 36.000757, longitude: -78.919132},{latitude: 36.003757, longitude: -78.910132},{latitude: 36.005757, longitude: -78.930132}]);
-  const [selectedPin, setSelectedPin] = useState(null);
+  const [pinsToShow, setPinsToShow] = useState<any[]>([{ latitude: 36.001427, longitude: -78.938232 }]);
 
   const [center, setCenter] = useState({
     latitude: 37.8,
@@ -77,9 +87,6 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataC
     loadEventData();
   }, [eventDataChange]);
   
-  
-  
-
   const mapRef = useRef<any>(null);
   const hasSimulatedClick = useRef(false);
 
@@ -191,6 +198,8 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataC
         img: event.thumbnail || event.image || MusicPin,
         title: event.title || "Untitled Event",
         link: event.link || "#",
+        description: event.description || '',
+        time: event.date.when || ''
       }));
 
       setPinsToShow(newPins);
@@ -260,8 +269,6 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataC
         onMove={(evt) => setCenter(evt.viewState)}
       >
         {/* -------------- Mapbox Configs -------------- */}
-
-
         {/* Navigation Controls */}
         <NavigationControl position="bottom-right" />
 
@@ -275,41 +282,46 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataC
         <GeolocateControl position="bottom-left" showUserLocation={true} trackUserLocation={true} />
 
         {/* Marker that reflects the geographic center of the map */}
-        {pinsToShow.length > 0 &&
-          pinsToShow.map((pin, index) => (
-            <Marker
-              key={index}
-              latitude={pin.latitude}
-              longitude={pin.longitude}
-              anchor="bottom"
-              onClick={(e) => {
-                // Prevent the map's onClick from immediately closing the popup
-                e.originalEvent.stopPropagation();
-                setSelectedPin(pin);
-              }}
-            >
-              {/* Optionally render your marker content here */}
-              {/* <img src={pin.img} alt="Marker" style={{ width: '30px', height: '30px' }} /> */}
-            </Marker>
-          ))
-        }
+
+        {/* const newPins = eventData.map((event) => ({
+        latitude: event.latitude,
+        longitude: event.longitude,
+        img: event.thumbnail || event.image || MusicPin,
+        title: event.title || "Untitled Event",
+        link: event.link || "#",
+      })); */}
+
+      {/* type EventData = {
+  img: string;
+  title: string;
+  description: string;
+  time: string;
+  location: string;
+  cost: string;
+}; */}
+
+        {pinsToShow.length > 0 ? (
+          pinsToShow.map((pin, index) => {
+            /*console.log("Rendering Marker:", pin);*/
+            return (
+              <Marker key={index} latitude={pin.latitude} longitude={pin.longitude}>
+                <div onClick={() => {
+                    onClickMarker({img: pin.img, title: pin.title, description: pin.description, time: pin.time, location: latitude + longitude, cost: 'dummy cost'})
+                    console.log("Pin Info that Passed in:", pin)
+                    }}>
+                  <img
+                    src={DefaultPin}
+                    alt="Marker"
+                    style={{ width: '30px', height: '30px' }}
+                  />
+                </div>
+              </Marker>
+            );
+          })
+        ) : (null)}
 
         {/* Conditionally render the popup when a pin is selected */}
-        {selectedPin && (
-          <Popup
-            latitude={selectedPin.latitude}
-            longitude={selectedPin.longitude}
-            onClose={() => setSelectedPin(null)}
-            closeOnClick={false}
-            anchor="top"
-          >
-            <div style={{ minWidth: '300px', padding: '10px' }}>
-      <h3>{selectedPin.address}</h3>
-      <p>{selectedPin.description}</p>
-      {/* Additional content can be added here */}
-    </div>
-          </Popup>
-        )}
+        
       </Map>
     </>
   );

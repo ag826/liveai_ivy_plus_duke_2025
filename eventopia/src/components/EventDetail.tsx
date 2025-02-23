@@ -11,12 +11,14 @@ interface EventDetailProps {
     time: string;
     location: string;
     cost: string;
+    onClose: () => void;
 }
 
-const EventDetail: React.FC<EventDetailProps> = ({ img, title, description, time, location, cost }) => {
+const EventDetail: React.FC<EventDetailProps> = ({ img, title, description, time, location, cost, onClose }) => {
+    console.log("EventDetail: ", img, title, description, time, location, cost)
     return (
         <EventDetailSection>
-            <UserButton style={{ top: 3, left: 3 }}>
+            <UserButton style={{ top: 3, left: 3 }} onClick={onClose}>
                 <img src={CancelButton} alt="cancel button" style={{ height: '40px', width: '40px' }} />
             </UserButton>
             <img src={img} alt="event image" style={{
@@ -34,13 +36,9 @@ const EventDetail: React.FC<EventDetailProps> = ({ img, title, description, time
                     <ul style={{ fontSize: '15px', alignSelf: 'flex-start' }}>
                         <li><span style={{ fontWeight: 'bold' }}>Time: </span>{time}</li>
                         <li><span style={{ fontWeight: 'bold' }}>Location: </span>{location}</li>
-                        <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{cost}</li>
+                        {/* <li><span style={{ fontWeight: 'bold' }}>Cost: </span>{cost}</li> */}
                     </ul>
                 </Frame>
-
-                <DarkModeButton style={{ alignSelf: 'center' }}>
-                    <span>Add to Itinerary</span>
-                </DarkModeButton>
             </div>
         </EventDetailSection>
     );
@@ -77,6 +75,7 @@ const DetailTitle = styled.span`
   margin: 5px 0px 0px 0px;
   display: inline-block;
   font-weight: bold;
+  text-align: center;
 `
 
 const DetailDescription = styled.span`
