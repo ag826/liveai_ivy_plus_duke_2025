@@ -50,6 +50,8 @@ def generate_itenary(
 
     if use_feature == True:
         s = f"Try to choose events which the user will be interested in, their interests are listed here: {json.dumps(features)} "
+        user_browser_history()
+        user_features_browsing_history()
     else:
         s = ""
 
