@@ -21,12 +21,12 @@ import DefaultPin from "../assets/pins/default.svg";
 const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
 interface MapBoxCompProps {
-    address: string;
     latitude: number;
     longitude: number;
+    eventDataChange: number;
   }
   
-const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude }) => {
+const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, eventDataChange }) => {
   const [userLocation, setUserLocation] = useState<{ latitude: number; longitude: number } | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [eventData, setEventData] = useState<any[]>([]);
@@ -51,28 +51,32 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
       });
     }
   
-    const fetchEvents = async () => {
+  }, [latitude, longitude]); // 🔹 Dependencies updated
+
+  
+
+  useEffect(() => {
+    // Debug the current location and resolved URL
+    console.log("Current location:", window.location.href);
+    const fileUrl = new URL('../backend/json_output/events_results.json', window.location.href);
+    console.log("Resolved file URL:", fileUrl.href);
+  
+    const loadEventData = async () => {
       try {
-        console.log("Fetching events for:", address, latitude, longitude);
-  
-        const response = await fetch(
-          `http://localhost:5000/get-events?address=${encodeURIComponent(address)}`
-        );
-  
+        const response = await fetch(fileUrl.href);
         if (!response.ok) {
-          throw new Error("Failed to fetch events");
+          throw new Error('Failed to load events JSON');
         }
-  
         const data = await response.json();
-        console.log("Event data:", data);
         setEventData(data);
       } catch (error) {
-        console.error("Error fetching events:", error);
+        console.error('Error loading event data:', error);
       }
     };
+    loadEventData();
+  }, [eventDataChange]);
   
-    fetchEvents();
-  }, [latitude, longitude, address]); // 🔹 Dependencies updated
+  
   
 
   const mapRef = useRef<any>(null);
@@ -272,7 +276,7 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
         {/* Marker that reflects the geographic center of the map */}
         {pinsToShow.length > 0 ? (
           pinsToShow.map((pin, index) => {
-            console.log("Rendering Marker:", pin);
+            /*console.log("Rendering Marker:", pin);*/
             return (
               <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
                 {/* <img
