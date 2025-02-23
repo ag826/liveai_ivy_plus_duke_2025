@@ -71,11 +71,12 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-events')
+                        const response = fetch('http://localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
                             // Update your component state or props with the data
+                            setEventData(data)
                         })
                         .catch(error => console.error('Error fetching events:', error));;
                   
@@ -109,11 +110,12 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-events')
+                        const response = fetch('http://localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
                             // Update your component state or props with the data
+                            setEventData(data)
                         })
                         .catch(error => console.error('Error fetching events:', error));;
                   
@@ -140,11 +142,12 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-events')
+                        const response = fetch('http://localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
                             // Update your component state or props with the data
+                            setEventData(data)
                         })
                         .catch(error => console.error('Error fetching events:', error));;
                   
@@ -172,11 +175,12 @@ const MapBoxComp: React.FC = () => {
             
                     geoControlButton.dispatchEvent(new MouseEvent('click', { bubbles: true }));
                     try {
-                        const response = fetch('localhost:5000/get-events')
+                        const response = fetch('http://localhost:5000/get-events')
                         .then(response => response.json())
                         .then(data => {
                             console.log('Event data:', data);
                             // Update your component state or props with the data
+                            setEventData(data)
                         })
                         .catch(error => console.error('Error fetching events:', error));;
                   
@@ -225,7 +229,7 @@ const MapBoxComp: React.FC = () => {
         (event) => ({
           latitude: event.latitude,
           longitude: event.longitude,
-          img: event.thumbnail || event.image || MusicPin, 
+          img: MusicPin, 
           title: event.title || "Untitled Event",
           link: event.link || "#",
         })
