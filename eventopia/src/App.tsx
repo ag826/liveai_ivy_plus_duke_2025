@@ -11,6 +11,10 @@ import SearchButtonUnselected from './assets/search_button_unselected.svg';
 import SearchButtonSelected from './assets/search_button_selected.svg';
 import ItineraryButtonUnselected from './assets/itinerary_button_unselected.svg';
 import ItineraryButtonSelected from './assets/itinerary_button_selected.svg';
+import CancelButton from './assets/cancel-button.svg'
+
+import EventDetail from './components/EventDetail';
+import Itinerary from './components/Itinerary';
 
 
 function App() {
@@ -78,7 +82,7 @@ function App() {
       cost: 'Unknown/Free/Tiered/$25'
     },
     {
-      title: 'City Marathon 2015',
+      title: 'City Marathon 2025',
       location: 'Central Park, New York, NY',
       cost: 'Unknown/Free/Tiered/$25'
     },
@@ -93,6 +97,16 @@ function App() {
       cost: 'Unknown/Free/Tiered/$25'
     },
   ]
+
+  const dummyEventDetailDataList =
+  {
+    img: '/example_event_picture.png',
+    title: 'Noise Pop Music Festival',
+    time: 'Feb 20 2015 - Mar 2 2015',
+    location: 'San Francisco Bay Area',
+    cost: 'Unknown/Free/Tiered/$25',
+    description: "Scheduled from February 20 to March 2, 2025, this 11-day festival features over 160 bands across 25 venues. Headliners include St. Vincent, Benjamin Gibbard, Soccer Mommy, and Earl Sweatshirt. The festival also offers industry summits and workshops for emerging artists..."
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width: '100%vw' }}>
@@ -176,7 +190,7 @@ function App() {
             </div>
 
             <ButtonGroup>
-            <LightModeButton onClick={async () => {
+              <LightModeButton onClick={async () => {
                 console.log("Button clicked! Query:", query); // Debugging log
 
                 if (!query.trim()) {
@@ -196,7 +210,7 @@ function App() {
 
                   const data = await response.json();
                   console.log("Fetched Coordinates:", data);
-                  setLongitude(data.longitude)  
+                  setLongitude(data.longitude)
                   setLatitude(data.latitude)
                   const fetchResponse = await fetch(`http://localhost:5000/get-events?address=${query}&lat=${latitude}&lon=${longitude}`);
                   if (!fetchResponse.ok) {
@@ -210,8 +224,8 @@ function App() {
                   alert("Error fetching coordinates. Check console for details.");
                 }
               }}>
-              Search For Events
-            </LightModeButton>
+                Search For Events
+              </LightModeButton>
 
 
             <DarkModeButton onClick={async () => {
@@ -358,6 +372,7 @@ const UserButton = styled.div`
   cursor: pointer;
   position: absolute;
   z-index: 5;
+  border-radius: 50%;
 `;
 
 const ButtonImageUnselected = styled.img`
@@ -387,7 +402,7 @@ const Frame = styled.div`
   top: 10px;
   left: 10px;
   width: calc(100% - 44px);
-  height: 506px;
+  height: calc(100% - 44px);
   padding: 10px;
   border: 2px dotted grey;
   border-radius: 15px;
@@ -395,7 +410,6 @@ const Frame = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  overflow-y: auto;
 `;
 
 const Title = styled.span`
@@ -448,6 +462,7 @@ const DarkModeButton = styled.div`
   margin: 10px 0px 10px 0px;
   color: white;
   background-color: #AA0BFF;
+  width: fit-content;
 `
 
 const ItinerarySection = styled.div`
@@ -462,18 +477,7 @@ const ItinerarySection = styled.div`
   z-index: 3;
 `;
 
-const Itinerary = styled.div`
-  margin: 20px 10px 0px 10px;
-  width: 100%;
-  border: 2px solid #CCCCCC;
-  border-radius: 20px;
-`
 
-const ItineraryTitle = styled.div`
-  font-size: 20px;
-  margin: 20px 0px 0px 20px;
-  display: inline-block;
-  font-weight: bold;
-`;
+
 
 export default App
