@@ -399,6 +399,7 @@ const HeaderBar = styled.div`
   flex-firection: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Amarante', cursive;
 `;
 
 const UserButton = styled.div`
