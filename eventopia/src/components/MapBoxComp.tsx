@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import Map, { GeolocateControl, Marker, NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
+import Map, { GeolocateControl, Marker, Popup,  NavigationControl, FullscreenControl, ScaleControl } from "react-map-gl/mapbox";
 
 import MusicPin from "../assets/pins/music.svg";
 import TheatrePin from "../assets/pins/theatre.svg";
@@ -320,6 +320,8 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ latitude, longitude, onClickMar
           })
         ) : (null)}
 
+        {/* Conditionally render the popup when a pin is selected */}
+        
       </Map>
     </>
   );

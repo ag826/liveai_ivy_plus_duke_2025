@@ -130,7 +130,7 @@ function App() {
         <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
       </HeaderBar>
 
-      <MapBoxComp latitude={latitude} longitude={longitude} address={address} onClickMarker={(eventDetail: EventData) => { setEventDetailSelected(eventDetail); setShowEventDetail(true) }} />
+      <MapBoxComp latitude={latitude} longitude={longitude} address={address} onClickMarker={(eventDetail: EventData) => { setEventDetailSelected(eventDetail); setShowEventDetail(true) }} eventDataChange={eventDataChange}/>
 
       {/* Functionality Icons */}
       <UserButton style={{ top: '90px', left: '20px' }} onClick={handleSearchButtonClick}>
