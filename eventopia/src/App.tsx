@@ -47,27 +47,13 @@ function App() {
   const [useRecommendation, setUseRecommendation] = useState(false)
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden" }}>
+    <div style={{ display: "flex", flexDirection: "column", height: "100vh", overflow: "hidden", width:'100%vw' }}>
       {/* header bar */}
       <HeaderBar>
         <span style={{ fontSize: '30px' }}>EVENTOPIA</span>
       </HeaderBar>
 
-      <div style={{ display: "flex", flexDirection: "column", overflow: "hidden", padding: "10px" }}>
-        {/* SearchBar at the top with margin */}
-
-
-        {/* MapBoxComp with margin */}
-        <div style={{
-          flexGrow: 1,
-          overflow: "hidden",
-          margin: "20px 20px 20px 20px",
-          borderRadius: "8px",
-        }}>
-          <MapBoxComp />
-        </div>
-      </div>
-
+      <MapBoxComp />
 
       {/* Functionality Icons */}
       <UserButton style={{ top: '90px', left: '20px' }} onClick={handleSearchButtonClick}>
@@ -254,6 +240,7 @@ const LightModeButton = styled.div`
 
 const DarkModeButton = styled.div`
   border-radius: 20px;
+  border: 2px solid #AA0BFF;
   padding: 10px;
   font-size: 16px;
   margin: 10px 0px 10px 0px;

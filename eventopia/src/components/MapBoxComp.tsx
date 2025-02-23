@@ -282,10 +282,8 @@ const MapBoxComp: React.FC = () => {
     //  other pins
   ]
 
-
-
   return (
-    <div>
+    <>
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <Map
@@ -296,56 +294,43 @@ const MapBoxComp: React.FC = () => {
           latitude: userLocation?.latitude ?? 37.8,
           zoom: 14,
         }}
-        style={{ width: '95vw', height: '100vh' }}
+        style={{ width: '100vw', height: '100vh' }}
         mapStyle="mapbox://styles/mapbox/streets-v9"
         onMove={(evt) => setCenter(evt.viewState)}
       >
         {/* -------------- Mapbox Configs -------------- */}
-        {/* Geolocation Control */}
-        <GeolocateControl position="top-left" showUserLocation={true} trackUserLocation={true} />
+        
 
         {/* Navigation Controls */}
-        <NavigationControl position="top-right" />
+        <NavigationControl position="bottom-right" />
 
         {/* Fullscreen Controls */}
-        <FullscreenControl position="top-right" />
+        <FullscreenControl position="bottom-right" />
 
         {/* Scale Controls */}
-        <ScaleControl position="top-right" />
+        <ScaleControl position="bottom-left" />
+
+        {/* Geolocation Control */}
+        <GeolocateControl position="bottom-left" showUserLocation={true} trackUserLocation={true} />
 
         {/* Marker that reflects the geographic center of the map */}
-        {/*centerToShow.map((pin, index) => (
-          <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
-            <img
-              src={pin.img}
-              alt="Center Marker"
-              style={{ width: '30px', height: '30px' }}
-            />
-          </Marker>
-        ))*/}
         {pinsToShow.length > 0 ? (
           pinsToShow.map((pin, index) => {
             console.log("Rendering Marker:", pin);
             return (
               <Marker key={index} latitude={pin.latitude} longitude={pin.longitude} anchor="bottom">
-
+                {/* <img
+                  src={pin.img}
+                  alt="Center Marker"
+                  style={{ width: '30px', height: '30px' }}
+                /> */}
               </Marker>
             );
           })
         ) : (null)}
 
       </Map>
-
-
-      {/* <IconGroup>
-        <UserButton onClick={handleControlButtonClick}>
-          <img src={controlButtonSelected ? ControlButtonSelected : ControlButtonUnselected} alt="control Button" style={{ width: '70px', height: '70px' }} />
-        </UserButton>
-        <UserButton onClick={handleAIButtonClick}>
-          <img src={aiButtonSelected ? AIButtonSelected : AIButtonUnselected} alt="AI Button" style={{ width: '70px', height: '70px' }} />
-        </UserButton>
-      </IconGroup> */}
-    </div>
+    </>
   );
 };
 
