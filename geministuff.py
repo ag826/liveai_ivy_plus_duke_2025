@@ -1,154 +1,138 @@
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
-from google.generativeai import GenerativeModel
 import geocoder
 import json
 import sqlite3
 import shutil
 import pandas as pd
 from datetime import datetime, timedelta
+import re
 
-
+# Load environment variables
 load_dotenv()
 api_key = os.environ["API_KEY"]
 genai.configure(api_key=api_key)
 
+# Initialize Gemini Model
 gemini_client = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
-    system_instruction="You are a local travel planner who will create an itenary based on a list of events that are happening around and your own knowledge of things to do",
+    system_instruction="You are a local travel planner who will create an itinerary based on a list of events that are happening around and your own knowledge of things to do.",
 )
 
 #######################################################################################################################
 
-
 def generate_itenary(
     time,
     start_time,
-    current_location,  # mention this as either 'current' or the actual custom location needed
-    start_date,  # mention this as either 'today' or the actual custom date (in mm/dd/yyyy format)
+    current_location,
+    start_date,
     end_date,
     cost,
     use_feature,
-    mode_of_transport,  # mention this as either public/private
-    model=genai.GenerativeModel("gemini-1.5-flash"),
+    mode_of_transport,
+    model=gemini_client,
 ):
+    """Generates a travel itinerary using Gemini AI based on available events and user preferences."""
 
+    # Fetch user's current location
     if current_location == "current":
         g = geocoder.ip("me")
-        current_location = g.latlng
+        current_location = g.latlng if g.latlng else "Unknown Location"
 
-    json_file_path = "json_output/events_results.json"
-    # Load the JSON file into a Python dictionary
-    with open(json_file_path, "r", encoding="utf-8") as file:
+    # Load event data
+    events_file = "json_output/events_results.json"
+    with open(events_file, "r", encoding="utf-8") as file:
         events = json.load(file)
 
-    json_file_path = "json_output/user_preference.json"
-    # Load the JSON file into a Python dictionary
-    with open(json_file_path, "r", encoding="utf-8") as file:
-        features = json.load(file)
-
-    if use_feature == True:
-        s = f"Try to choose events which the user will be interested in, their interests are listed here: {json.dumps(features)} "
-        user_browser_history()
-        user_features_browsing_history()
+    # Load user preferences if applicable
+    if use_feature:
+        preferences_file = "json_output/user_preference.json"
+        try:
+            with open(preferences_file, "r", encoding="utf-8") as file:
+                features = json.load(file)
+            feature_text = f"User preferences: {json.dumps(features)}"
+        except FileNotFoundError:
+            feature_text = "User preferences not available."
     else:
-        s = ""
+        feature_text = ""
 
-    if start_date == end_date:
-        # Construct the content string
-        # For single day itenary
-        query = (
-            f"Based on all the events that are happening around my location which is {current_location}, create a comprehensive itinerary about things I can do in a defined time period. "
-            f"You should ensure that the entire trip (including transport and event duration) should be exactly equal to {time} hours and the total budget of the trip should be exactly equal to {cost} dollars. The itenary should start at {start_time}"
-            f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. The events are: {json.dumps(events)}. "
-            "Generate most of the itenary from events which wasy uploaded in the file above."
-            + s
-            + f"Ensure that you also design the entire itinerary using {mode_of_transport} transport and include that in your output. "
-            f"The start and end location should be {current_location}. Create this itenary for {start_date}"
-            "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thw events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
-            "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost (in rounded US dollars) and time of the entire journey (in hours) in the output geojson."
-        )
-    else:
-        # For multiday itenary
-        query = (
-            f"Based on all the events that are happening around my location which is {current_location}, create a comprehensive multi-day itinerary about things I can do. "
-            f"You should ensure that the entire trip total budget of the trip should be exactly equal to {cost} dollars."
-            f"In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. Be spekcific with the name of restaurants if you are recommending. The events are: {json.dumps(events)}. "
-            "Generate most of the itenary from events which wasy uploaded in the file above."
-            + s
-            + f"Ensure that you also design the entire itinerary using {mode_of_transport} transport and include that in your output. "
-            f"The start and end location should be {current_location}. Create this itenary from {start_date} to {end_date} only. Ensure each day has a comprehensive itenary"
-            "Your output must be in a geoJSON format, detailing the name of the place, location (coordinates), event_description, whether you generated or the event was collected from thw events uploaded above, time since start, mode of transport to get there from the previous location, cost for this segment. "
-            "Output only the geojson data and nothing else. Do not include any notes at the end. Include the total estimated cost (in rounded US dollars) and time of the entire journey (in hours) in the output geojson."
-        )
+    # Construct the query for Gemini
+    query = f"""
+    You are a structured travel planner. Create an itinerary based on the given events.
 
-        # Pass the content as a single string to the model
+    Instructions:
+    - Use only JSON format. Do **not** include explanations, Markdown (` ``` `), or additional text.
+    - The output must be **valid GeoJSON**, following this structure:
+
+    {{
+        "type": "FeatureCollection",
+        "features": [
+            {{
+                "type": "Feature",
+                "geometry": {{
+                    "type": "Point",
+                    "coordinates": [longitude, latitude]
+                }},
+                "properties": {{
+                    "name": "Event Name",
+                    "description": "Event Description",
+                    "generated": false,
+                    "time_since_start": "30 minutes",
+                    "transport": "Private transport",
+                    "cost": 5
+                }}
+            }}
+        ],
+        "total_estimated_cost": 100,
+        "total_estimated_time": 24
+    }}
+
+    In addition to the events we upload, include your knowledge of restaurant and public spaces if needed in your output. The events are: {json.dumps(events)}.
+    "Generate most of the itenary from events which wasy uploaded in the file above."
+    
+
+    Additional Details:
+    - Current location: {current_location}
+    - Start Date: {start_date}
+    - End Date: {end_date}
+    - Total trip time: {time} hours
+    - Budget: {cost} dollars
+    - Mode of transport: {mode_of_transport}
+    - {feature_text}
+    
+    "At the end of the output, include the following metadata:"
+            "total_cost: The total estimated cost (rounded to US dollars) for the entire journey."
+            "total_time: The total time of the entire journey in hours."
+
+    Ensure the response is **strictly valid JSON**, without Markdown, explanations, or extra text.
+    """
+
     response = model.generate_content(query)
+    itenary = response.text  # Get raw Gemini response
 
-    # Assuming response is a dictionary and contains the generated text in 'text' key
-    itenary = response.text
+    # Remove Markdown formatting if present
+    itenary = re.sub(r"```(geojson|json)\n", "", itenary)
+    itenary = re.sub(r"\n```", "", itenary)
 
+    # Convert JSON string to Python dictionary
+    try:
+        parsed_itenary = json.loads(itenary)
+    except json.JSONDecodeError:
+        print("ERROR: Gemini returned invalid JSON. Saving raw response instead.")
+        parsed_itenary = itenary  # Save as raw text if JSON parsing fails
+
+    # Save cleaned JSON
     output_file = "json_output/final_itenary.json"
     with open(output_file, "w", encoding="utf-8") as json_file:
-        json.dump(itenary, json_file, indent=4, ensure_ascii=False)
+        json.dump(parsed_itenary, json_file, indent=4, ensure_ascii=False)
 
-    return itenary
-
-
-#######################################################################################################################
-
-
-# def features_images(model=genai.GenerativeModel("gemini-2.0-flash")):
-#     images = [
-#         "images/download (1).jpeg",
-#         "images/download (2).jpeg",
-#         "images/download.jpeg",
-#     ]
-#     query = (
-#         f"Based on the images you see here, what do these images tell you about the person who posted them. Identify possible themes that this person would be most interested in."
-#         "return only a file of themes that the person would be interested in and no explanation at all. Return it as a json format"
-#         f"The images are {', '.join(images)}. Generate only the output"
-#     )
-#     response = model.generate_content(query)
-#     profile_features = response.text
-
-#     output_file = "json_output/user_preference.json"
-#     with open(output_file, "w", encoding="utf-8") as json_file:
-#         json.dump(profile_features, json_file, indent=4, ensure_ascii=False)
-
-#     return profile_features
+    return parsed_itenary
 
 #######################################################################################################################
-
-
-def user_features_browsing_history(model=genai.GenerativeModel("gemini-2.0-flash")):
-
-    json_file_path = "json_output/chrome_browsing_history.json"
-    # Load the JSON file into a Python dictionary
-    with open(json_file_path, "r", encoding="utf-8") as file:
-        history = json.load(file)
-
-    query = (
-        f"Based on this user's browsing history, you see here, what do these images tell you about the person who posted them. Identify possible themes that this person would be most interested in."
-        "return only a file of themes that the person would be interested in and no explanation at all. Return it as a json format"
-        f"The user's browsing history is {history}. Generate only the output"
-    )
-    response = model.generate_content(query)
-    profile_features = response.text
-
-    output_file = "json_output/user_preference.json"
-    with open(output_file, "w", encoding="utf-8") as json_file:
-        json.dump(profile_features, json_file, indent=4, ensure_ascii=False)
-
-    return profile_features
-
-
-#######################################################################################################################
-
 
 def user_browser_history():
-    # Detect OS and set the correct Chrome history path
+    """Fetches browsing history from Google Chrome and saves it as a JSON file."""
     if os.name == "nt":  # Windows
         history_db_path = os.path.expanduser(
             r"~\AppData\Local\Google\Chrome\User Data\Default\History"
@@ -156,9 +140,9 @@ def user_browser_history():
     elif os.name == "posix":  # Mac/Linux
         history_db_path = os.path.expanduser(
             "~/Library/Application Support/Google/Chrome/Default/History"
-        )  # Adjust for Linux if needed
+        )
 
-    # Create a temporary copy of the history database to avoid lock issues
+    # Create a temporary copy of the history database
     temp_db_path = "./chrome_history_temp.db"
     shutil.copy2(history_db_path, temp_db_path)
 
@@ -171,7 +155,7 @@ def user_browser_history():
     SELECT url, title, visit_count, last_visit_time 
     FROM urls
     ORDER BY last_visit_time DESC
-    LIMIT 100;  -- Adjust the limit as needed
+    LIMIT 100;
     """
 
     cursor.execute(query)
@@ -179,40 +163,65 @@ def user_browser_history():
 
     # Convert Chrome's timestamp format to human-readable datetime
     def convert_chrome_timestamp(timestamp):
-        """Convert Chrome's timestamp format to human-readable datetime."""
         return datetime(1601, 1, 1) + timedelta(microseconds=timestamp)
 
-    # Store history in a Pandas DataFrame
-    df = pd.DataFrame(
-        history_data, columns=["URL", "Title", "Visit Count", "Last Visit Time"]
-    )
+    df = pd.DataFrame(history_data, columns=["URL", "Title", "Visit Count", "Last Visit Time"])
     df["Last Visit Time"] = df["Last Visit Time"].apply(convert_chrome_timestamp)
 
-    # Close connection
     conn.close()
 
-    # Display results
-    from IPython.display import display
+    # Save history to JSON
+    df.to_json("json_output/chrome_browsing_history.json", orient="records", indent=4)
 
-    display(df)
+#######################################################################################################################
 
-    # Save history to JSON (optional)
-    df.to_json("chrome_browsing_history.json", orient="records", indent=4)
+def user_features_browsing_history(model=genai.GenerativeModel("gemini-2.0-flash")):
+    """Generates user preferences based on browsing history using Gemini AI."""
+    history_file = "json_output/chrome_browsing_history.json"
 
+    # Load browsing history
+    try:
+        with open(history_file, "r", encoding="utf-8") as file:
+            history = json.load(file)
+    except FileNotFoundError:
+        print("ERROR: Browsing history file not found.")
+        return {}
+
+    query = f"""
+    Analyze this user's browsing history and identify themes of interest.
+    Return the response strictly as a JSON object without explanations.
+
+    Browsing History:
+    {json.dumps(history, indent=4)}
+    """
+
+    response = model.generate_content(query)
+    profile_features = response.text
+
+    try:
+        parsed_features = json.loads(profile_features)
+    except json.JSONDecodeError:
+        print("ERROR: Gemini returned invalid JSON. Saving raw response instead.")
+        parsed_features = profile_features  # Save as raw text if JSON parsing fails
+
+    output_file = "json_output/user_preference.json"
+    with open(output_file, "w", encoding="utf-8") as json_file:
+        json.dump(parsed_features, json_file, indent=4, ensure_ascii=False)
+
+    return parsed_features
 
 #######################################################################################################################
 
 if __name__ == "__main__":
     test = generate_itenary(
-        "72",
-        "4 pm",
-        "current",
-        "march 15 2025",
-        "march 17 2025",
-        "300",
-        False,
-        "private",
+        time="72",
+        start_time="4 pm",
+        current_location="current",
+        start_date="march 15 2025",
+        end_date="march 17 2025",
+        cost="300",
+        use_feature=False,
+        mode_of_transport="private",
     )
 
-    # print(user_features_browsing_history())
     print(test)
