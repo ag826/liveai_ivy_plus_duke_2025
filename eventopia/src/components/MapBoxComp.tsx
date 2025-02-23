@@ -53,8 +53,12 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
 
     const fetchEvents = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/get-events?address=${encodeURIComponent(address)}`);
-
+        console.log("Fetching events for:", address, latitude, longitude);
+  
+        const response = await fetch(
+          `http://localhost:5000/get-events?address=${encodeURIComponent(address)}`
+        );
+  
         if (!response.ok) {
           throw new Error("Failed to fetch events");
         }
@@ -68,8 +72,8 @@ const MapBoxComp: React.FC<MapBoxCompProps> = ({ address, latitude, longitude })
     };
 
     fetchEvents();
-  }, [latitude, longitude, address]);
-
+  }, [latitude, longitude, address]); // 🔹 Dependencies updated
+  
 
   const mapRef = useRef<any>(null);
   const hasSimulatedClick = useRef(false);
